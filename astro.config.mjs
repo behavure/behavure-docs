@@ -2,6 +2,15 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+// Helper function to convert kebab-case to Title Case
+function toTitleCase(str) {
+	return str
+	  .split('-')
+	  .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+	  .join(' ');
+  }
+
+
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
@@ -14,11 +23,11 @@ export default defineConfig({
 
 				{
 					label: 'Edge IQ',
-					autogenerate: { directory: 'edge_iq' },
+					autogenerate: { directory: 'edge_iq', collapsed: true },
 				},
 				{
 					label: 'Measure IQ',
-					autogenerate: { directory: 'measure_iq' },
+					autogenerate: { directory: 'measure_iq', collapsed: true },
 				},
 			],
 		}),
