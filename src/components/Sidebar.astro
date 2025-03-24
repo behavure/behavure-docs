@@ -1,0 +1,9 @@
+---
+import type { Props } from "@astrojs/starlight/props";
+import Default from "@astrojs/starlight/components/Sidebar.astro";
+
+// This component extends the default Starlight Sidebar component
+// The actual customization of sidebar entries happens in SidebarEntry.astro
+---
+
+<Default {...Astro.props} />

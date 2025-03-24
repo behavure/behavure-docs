@@ -1,0 +1,205 @@
+---
+const { labels } = Astro.props;
+---
+
+<div class="header-wrapper">
+  <div class="header-container sl-flex">
+    <a href="https://behavure.ai" class="site-title sl-flex">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="150"
+        height="40"
+        viewBox="0 0 200 50"
+      >
+        <style>
+          .logo-text {
+            fill: #ffffff;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+          }
+          .logo-text-ai {
+            fill: #4fc2d7;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+          }
+        </style>
+        <text x="10" y="35" class="logo-text" font-size="28">ßehavure</text>
+        <text x="150" y="35" class="logo-text-ai" font-size="28">.ai</text>
+      </svg>
+    </a>
+    <div class="menu-actions sl-flex">
+      <a href="/" class="header-link">Home</a>
+      <a href="/products" class="header-link">Products</a>
+      <a href="/solutions" class="header-link">Solutions</a>
+      <a href="/about" class="header-link">About</a>
+      <a href="https://behavure.ai/free-trial" class="header-button"
+        >Free Trial</a
+      >
+    </div>
+
+    <!-- Mobile menu toggle (hidden for desktop) -->
+    <button
+      id="mobile-menu-toggle"
+      class="mobile-menu-toggle"
+      aria-label="Toggle Menu"
+    >
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M3 12H21M3 6H21M3 18H21"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"></path>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<!-- Mobile menu (hidden by default) -->
+<div id="mobile-menu" class="mobile-menu">
+  <div class="mobile-menu-container">
+    <a href="/" class="mobile-header-link">Home</a>
+    <a href="/products" class="mobile-header-link">Products</a>
+    <a href="/solutions" class="mobile-header-link">Solutions</a>
+    <a href="/about" class="mobile-header-link">About</a>
+    <a href="https://behavure.ai/free-trial" class="mobile-header-button"
+      >Free Trial</a
+    >
+  </div>
+</div>
+
+<style>
+  .header-wrapper {
+    background-color: #000000;
+    width: 100%;
+  }
+
+  .header-container {
+    max-width: var(--sl-content-width);
+    margin: 0 auto;
+    padding: 0.75rem var(--sl-content-pad-x);
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .site-title {
+    align-items: center;
+    gap: 0.5rem;
+    font-size: var(--sl-text-h4);
+    font-weight: 600;
+    color: var(--sl-color-white);
+    text-decoration: none;
+    margin-right: auto;
+  }
+
+  .menu-actions {
+    align-items: center;
+    gap: 1.5rem;
+    padding-inline-start: 1rem;
+  }
+
+  .header-link {
+    color: var(--sl-color-white);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: color 0.2s ease;
+  }
+
+  .header-link:hover {
+    color: var(--sl-color-accent-cyan);
+    text-decoration: none;
+  }
+
+  .header-button {
+    background-color: #009e73;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+
+  .header-button:hover {
+    background-color: #008a65;
+    text-decoration: none;
+  }
+
+  /* Mobile menu toggle button */
+  .mobile-menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  /* Mobile menu */
+  .mobile-menu {
+    display: none;
+    background-color: #000000;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .mobile-menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .mobile-header-link {
+    color: var(--sl-color-white);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+  }
+
+  .mobile-header-button {
+    background-color: #009e73;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 50rem) {
+    .menu-actions {
+      display: none;
+    }
+
+    .mobile-menu-toggle {
+      display: block;
+    }
+  }
+</style>
+
+<script>
+  // Toggle mobile menu
+  document.addEventListener("DOMContentLoaded", () => {
+    const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    if (mobileMenuToggle && mobileMenu) {
+      mobileMenuToggle.addEventListener("click", () => {
+        if (mobileMenu.style.display === "block") {
+          mobileMenu.style.display = "none";
+        } else {
+          mobileMenu.style.display = "block";
+        }
+      });
+    }
+  });
+</script>

@@ -1,0 +1,9 @@
+---
+// Force dark mode only ThemeProvider component
+// To re-enable light mode, delete this file and remove the component override in astro.config.mjs
+---
+
+<script is:inline>
+  // Force dark mode
+  document.documentElement.dataset.theme = "dark";
+</script>

@@ -7,4 +7,4 @@ Use the **Chart Options** menu to change the parameters of your query and adjust
 ## Related terms
 
 - [Explore](../explore)
-- [Query Builder](https://scuba.atlassian.net/wiki/spaces/LEXICON/pages/1302364771/Query+Builder+interactive)
+- [Query Builder](/measure_iq/glossary/query-builder)
