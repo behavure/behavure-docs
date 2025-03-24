@@ -1,0 +1,8 @@
+---
+import CustomHeader from "../components/Header.astro";
+---
+
+<StarlightLayout {...Astro.props}>
+  <CustomHeader slot="header" {...Astro.props} />
+  <slot />
+</StarlightLayout>

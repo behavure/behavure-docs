@@ -1,0 +1,22 @@
+---
+import Default from "@astrojs/starlight/components/PageTitle.astro";
+
+// Helper function to convert kebab-case to Title Case
+function toTitleCase(str: string): string {
+  if (!str || str.includes(" ")) return str;
+
+  return str
+    .split("-")
+    .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+const { entry } = Astro.props;
+
+// For auto-generated entries with default title, apply title case
+if (entry.slug && entry.data.title === entry.slug.split("/").pop()) {
+  entry.data.title = toTitleCase(entry.data.title);
+}
+---
+
+<Default {...Astro.props} />

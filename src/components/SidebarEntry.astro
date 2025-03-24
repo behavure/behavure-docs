@@ -1,0 +1,76 @@
+---
+// Helper function to convert kebab-case to Title Case
+function toTitleCase(str: string): string {
+  if (!str) return "";
+
+  return str
+    .split("-")
+    .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+// Clone the props to avoid mutating the original
+const props = { ...Astro.props };
+
+// Override the label with title case if it exists and doesn't have spaces already
+if (props.entry?.label && !props.entry.label.includes(" ")) {
+  props.entry.label = toTitleCase(props.entry.label);
+}
+---
+
+<li class={`sl-sidebar-entry ${props.isActive ? "active" : ""}`}>
+  {
+    props.entry?.type === "link" ? (
+      <a
+        href={props.entry.href}
+        aria-current={props.isActive ? "page" : undefined}
+      >
+        {props.entry.label || props.entry.title || ""}
+      </a>
+    ) : (
+      <details open={props.entry?.collapsed === false}>
+        <summary>{props.entry?.label || ""}</summary>
+        {props.entry?.entries && (
+          <ul>
+            {props.entry.entries.map((childEntry: any) => (
+              <Astro.self entry={childEntry} />
+            ))}
+          </ul>
+        )}
+      </details>
+    )
+  }
+</li>
+
+<style>
+  .sl-sidebar-entry {
+    list-style: none;
+    font-size: var(--sl-text-sm);
+  }
+
+  .sl-sidebar-entry a {
+    display: block;
+    padding: 0.3rem 0;
+    text-decoration: none;
+    color: var(--sl-color-gray-2);
+  }
+
+  .sl-sidebar-entry a:hover {
+    color: var(--sl-color-white);
+  }
+
+  .sl-sidebar-entry.active a {
+    color: var(--sl-color-white);
+    font-weight: 600;
+  }
+
+  details summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.3rem 0;
+  }
+
+  details ul {
+    padding-left: 1rem;
+  }
+</style>
