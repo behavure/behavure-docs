@@ -11,7 +11,7 @@ The query history can be found between the exploration and visualization panes. 
 
 Hover over each point to see a small thumbnail regarding the query. Click on the point to reveal the full query definition and visualization.
 
-![](<./attachments/2023-03-17_16-53-51%20(1).gif>)
+![](<./attachments/2023-03-17_16-53-51%20(1).webp>)
 
 From here you can refresh the data, [modify the query](../../../modify-a-query), and further explore the data.
 

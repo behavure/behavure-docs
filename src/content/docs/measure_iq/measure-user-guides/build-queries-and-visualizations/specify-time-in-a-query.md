@@ -16,7 +16,7 @@ This section outlines the various ways you can specify start and end times.
 
 - In the query definition, next to **Starting**, click the value and select from the drop-down menu, or type any value. Do the same for **Ending**.
 - In the query definition, on the end of the line with **Starting**, click the calendar icon. Select a day, then specify hours, minutes, and seconds by clicking the respective up and down arrows. Click **Apply** when finished to apply the time range to the query.  
-- ![](./attachments/v5SelectDate03.gif)
+- ![](./attachments/v5SelectDate03.webp)
 - At the bottom of the Explore window, use the [time scrubber](/measure_iq/glossary/time-scrubber) to pick a range. The time scrubber is a visual equivalent of the starting and ending times in the query definition, and as you adjust either the query definition or the time scrubber, the other updates to reflect the change. The time scrubber rounds the start and end values to the nearest 15 minutes, if the selected time range is less than 48 hours. If you scrub beyond 48 hours, the start and end values snap to the start and end of the selected days.
 
 ![](./attachments/v5TimeScrubber02.png)
@@ -30,7 +30,7 @@ You can specify the time resolution of the data points plotted on the Time view 
 ### To set the time resolution and trailing window, do the following:
 
 1. In the query definition, below the starting and ending times, click the plus sign next to **Time Options**. Default options, which are determined by your starting and ending time range, will display initially. Measure IQ chooses auto default time options for time resolution and trailing window based on the time range you choose. For longer time ranges, Measure IQ chooses larger units of time resolution.  
-![](./attachments/TimeOptions.gif)
+![](./attachments/TimeOptions.webp)
 2. To set the time resolution, click the first **auto** option and choose from the dropdown list. The trailing window changes to match your selection.
 3. To specify a different trailing window, choose from the **trailing** dropdown list, or type a new interval.
 4. Click **Run** to run the query and view the results.

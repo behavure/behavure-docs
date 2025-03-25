@@ -13,7 +13,7 @@ Before you can get to the fun part of interacting with your data, it's important
 
 Let's begin with a brief overview of Measure IQ's primary features found in the side navigation bar.
 
-![](<./attachments/2023-09-28_14-29-55%20(1).gif>)
+![](<./attachments/2023-09-28_14-29-55%20(1).webp>)
 
 ## About
 
@@ -51,7 +51,7 @@ Within each board, you'll find a menu bar positioned at the top. This menu bar d
 
 The pencil icon gives the ability to edit the name of the board, move panels around, resize, and delete them.
 
-![](<./attachments/2023-05-22_14-33-01%20(2).gif>)
+![](<./attachments/2023-05-22_14-33-01%20(2).webp>)
 
 Read more about managing your objects in [Change the visibility of properties](/measure_iq/measure-guides/measure-tutorials/manage-objects-and-queries/change-the-visibility-of-properties).
 
@@ -67,7 +67,7 @@ The Panel menu allows users the ability to edit the panel. Explore is available 
 
 You can open a panel in Explore by clicking **Explore** in the top right corner of the panel.
 
-![](<./attachments/2023-06-12_15-03-03%20(1).gif>)
+![](<./attachments/2023-06-12_15-03-03%20(1).webp>)
 
 ## Explore
 
@@ -87,7 +87,7 @@ When you make a selection in the query builder, valid options—from the data an
 
 Switch between query result visualizations by clicking the icons at the center-top of the Explore window: Time, Table, Sankey, Number, Bar, Pie or Line.
 
-![](./attachments/VIEWS.gif)
+![](./attachments/VIEWS.webp)
 
 Please note that initial query results are displayed in Time View by default. Not all query results apply to all formats.
 
@@ -95,11 +95,11 @@ Please note that initial query results are displayed in Time View by default. No
 
 You can save a query to make it accessible for monitoring and quick reference, by clicking **Save** on the far right of the query tool bar.
 
-![](./attachments/save.gif)
+![](./attachments/save.webp)
 
 Queries can also be added to an existing board as a panel by clicking **Clone to Dashboard** and then select the board to save the query to.
 
-![](<./attachments/2023-09-28_14-48-02%20(1).gif>)
+![](<./attachments/2023-09-28_14-48-02%20(1).webp>)
 
 For more information, see [Create a board and add a panel](/measure_iq/measure-guides/measure-tutorials/create-a-board-with-queries-panels) in the tutorial.
 
@@ -159,7 +159,7 @@ See [Signals](/measure_iq/docs/l/cp/fwoZqz5J) in the User's Guide for more infor
 
 The Data Dictionary tab provides a comprehensive view of your event data, including user-defined objects such as Event Properties, Actor Properties, Flows, Flow Properties, and Measures. This tab allows you to conveniently edit, view, and manage existing objects, as well as create new ones. All of these actions can be performed within the data drawer located in the right-hand corner of the dictionary.
 
-![Data dictionary nav.gif](./attachments/Data%20dictionary%20nav.gif)
+![Data dictionary nav](./attachments/Data%20dictionary%20nav.webp)
 
 #### Event properties
 
@@ -167,7 +167,7 @@ The Event properties tab displays a table of event properties you can use to con
 
 Click an event property in the table to view details for the property, as shown in the following example.
 
-![EP Drawer.gif](./attachments/EP%20Drawer.gif)
+![EP Drawer](./attachments/EP%20Drawer.webp)
 
 #### Actor properties
 
