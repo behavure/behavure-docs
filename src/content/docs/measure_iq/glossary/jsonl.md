@@ -10,4 +10,4 @@ description: Definition & use of JSONL
 
 ## More information
 
-- [Data types reference](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)
+- [Data types reference](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)

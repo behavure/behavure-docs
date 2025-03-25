@@ -7,5 +7,5 @@ description: Definition & use of Event
 ## Related terms
 
 - [Actor](../actor)
-- [Event data](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259058/What+is+Event+Data)
+- [Event data](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259058/What+is+Event+Data)
 - [Lookup table](../lookup-table)

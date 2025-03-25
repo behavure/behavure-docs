@@ -3,7 +3,7 @@ title: "How to Comply With GDPR "
 description: "Definition & use of How to Comply With GDPR "
 ---
 
-Scuba is a champion of individuals' privacy. Scuba's [privacy purge](../about-scuba-privacy-purges) feature was developed to protect individual privacy, and enable your company to comply with privacy regulations and voluntary policies your company may adhere to.
+Measure IQ is a champion of individuals' privacy. Measure IQ's [privacy purge](../about-scuba-privacy-purges) feature was developed to protect individual privacy, and enable your company to comply with privacy regulations and voluntary policies your company may adhere to.
 
 This article covers what your company must consider to comply with GDPR.
 
@@ -27,17 +27,17 @@ Under GDPR, individuals have the right to access their personal data, correct er
 - Sexual orientation
 
 > [!WARNING]
-> Values with spaces in the name are not supported by Scuba privacy purge.
+> Values with spaces in the name are not supported by Measure IQ privacy purge.
 
-## Personally Identifiable Information in Scuba 
+## Personally Identifiable Information in Measure IQ 
 
-Personally identifiable information (PII) is data that can potentially identify an individual. The following diagrams illustrate the types of PII data Scuba's Privacy Purge encompasses.
+Personally identifiable information (PII) is data that can potentially identify an individual. The following diagrams illustrate the types of PII data Measure IQ's Privacy Purge encompasses.
 
-**Behavioral information about your users—Scuba as the repository of privacy data.**
+**Behavioral information about your users—Measure IQ as the repository of privacy data.**
 
 ![](./attachments/GDPR_scenario1.png)
 
-**Information about Scuba users—Scuba as the producer of privacy data.**
+**Information about Measure IQ users—Measure IQ as the producer of privacy data.**
 
 ![](./attachments/GDPR_scenario2.png)
 

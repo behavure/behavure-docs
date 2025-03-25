@@ -19,14 +19,11 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: 'Getting Started',
-          items: [
-            { label: 'Introduction', link: '/introduction' },
-          ],
+          label: 'Home',
+          link: '/'
         },
         {
           label: 'Measure IQ',
-          collapsed: true,
           items: [
             {
               label: 'Overview',
@@ -34,12 +31,11 @@ export default defineConfig({
             },
             {
               label: 'Key Concepts',
-              collapsed: true,
               items: [
                 { label: 'Overview', link: '/measure_iq/key-concepts-and-terminology' },
                 { label: 'Event Data', link: '/measure_iq/key-concepts-and-terminology/what-is-event-data' },
                 { label: 'Actor Properties', link: '/measure_iq/key-concepts-and-terminology/actor-properties' },
-                { label: 'Data Sampling', link: '/measure_iq/key-concepts-and-terminology/how-does-scuba-perform-data-sampling' },
+                { label: 'Data Sampling', link: '/measure_iq/key-concepts-and-terminology/how-does-measure-iq-perform-data-sampling' },
                 {
                   label: 'Data Pipeline',
                   collapsed: true,
@@ -51,110 +47,178 @@ export default defineConfig({
               ],
             },
             {
-              label: 'Measure Guides',
+              label: 'Admin Guide',
               collapsed: true,
               items: [
-                { label: 'Overview', link: '/measure_iq/measure-guides' },
-                { label: 'String Resolution & Hash Collisions', link: '/measure_iq/measure-guides/string-resolution-and-hash-collisions' },
-              ],
-            },
-            {
-              label: 'SCUBA User Guides',
-              collapsed: true,
-              items: [
-                { label: 'Overview', link: '/measure_iq/scuba-user-guides' },
+                { label: 'Overview', link: '/measure_iq/admin-guides' },
                 {
-                  label: 'Learn About SCUBA Concepts',
+                  label: 'Managing Your Data',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/scuba-user-guides/learn-about-scuba-concepts',
-                    collapsed: true,
-                  },
+                    directory: 'measure_iq/admin-guides/managing-your-data',
+                    collapsed: true
+                  }
+                },
+                {
+                  label: 'Security & Compliance',
+                  collapsed: true,
+                  autogenerate: {
+                    directory: 'measure_iq/admin-guides/security-compliance',
+                    collapsed: true
+                  }
+                },
+                {
+                  label: 'Set Up Authentication Provider (SSO)',
+                  collapsed: true,
+                  autogenerate: {
+                    directory: 'measure_iq/admin-guides/set-up-an-authentication-provider-sso',
+                    collapsed: true
+                  }
+                },
+                {
+                  label: 'Configuring Azure for Clusters',
+                  collapsed: true,
+                  autogenerate: {
+                    directory: 'measure_iq/admin-guides/configuring-azure-for-scuba-clusters',
+                    collapsed: true
+                  }
+                }
+              ]
+            },
+            {
+              label: 'User Guide',
+              items: [
+                { label: 'Overview', link: '/measure_iq/measure-user-guides' },
+                {
+                  label: 'Learn About Measure IQ Concepts',
+                  collapsed: true,
+                  autogenerate: {
+                    directory: 'measure_iq/measure-user-guides/learn-about-scuba-concepts',
+                    collapsed: true
+                  }
                 },
                 {
                   label: 'Build Queries and Visualizations',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/scuba-user-guides/build-queries-and-visualizations',
-                    collapsed: true,
-                  },
+                    directory: 'measure_iq/measure-user-guides/build-queries-and-visualizations',
+                    collapsed: true
+                  }
                 },
                 {
                   label: 'Analyze User Paths with Flows',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/scuba-user-guides/analyze-user-paths-with-flows',
-                    collapsed: true,
-                  },
+                    directory: 'measure_iq/measure-user-guides/analyze-user-paths-with-flows',
+                    collapsed: true
+                  }
                 },
                 {
                   label: 'Enrich Your Data with Properties',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/scuba-user-guides/enrich-your-data-with-properties',
-                    collapsed: true,
-                  },
+                    directory: 'measure_iq/measure-user-guides/enrich-your-data-with-properties',
+                    collapsed: true
+                  }
                 },
                 {
                   label: 'Manage Your Created Objects',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/scuba-user-guides/manage-your-created-objects',
-                    collapsed: true,
-                  },
+                    directory: 'measure_iq/measure-user-guides/manage-your-created-objects',
+                    collapsed: true
+                  }
                 },
                 {
-                  label: 'Streamline Analysis with Additional Explorations',
+                  label: 'Queries',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/scuba-user-guides/streamline-analysis-with-additional-explorations',
-                    collapsed: true,
-                  },
+                    directory: 'measure_iq/measure-user-guides/queries',
+                    collapsed: true
+                  }
                 },
                 {
-                  label: 'API: Programmatically Querying SCUBA',
+                  label: 'Streamline Analysis',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/scuba-user-guides/api-programmatically-querying-scuba',
-                    collapsed: true,
-                  },
+                    directory: 'measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations',
+                    collapsed: true
+                  }
                 },
-              ],
+                {
+                  label: 'API: Programmatically Querying Measure IQ',
+                  collapsed: true,
+                  autogenerate: {
+                    directory: 'measure_iq/measure-user-guides/api-programmatically-querying-scuba',
+                    collapsed: true
+                  }
+                }
+              ]
             },
             {
-              label: 'SCUBA Tutorials',
-              collapsed: true,
-              autogenerate: {
-                directory: 'measure_iq/scuba-tutorials',
-                collapsed: true,
-              },
-            },
-            {
-              label: 'Admin Guides',
-              collapsed: true,
-              autogenerate: {
-                directory: 'measure_iq/admin-guides',
-                collapsed: true,
-              },
+              label: 'Tutorials',
+              items: [
+                { label: 'Overview', link: '/measure_iq/measure-tutorials' },
+                {
+                  label: 'Create a Board with Queries & Panels',
+                  link: '/measure_iq/measure-tutorials/create-a-board-with-queries-and-panels'
+                },
+                {
+                  label: 'Create an Actor Property',
+                  link: '/measure_iq/measure-tutorials/create-an-actor-property'
+                },
+                {
+                  label: 'Create an Event Property',
+                  link: '/measure_iq/measure-tutorials/create-an-event-property'
+                },
+                {
+                  label: 'Event Properties vs. Actor Properties',
+                  link: '/measure_iq/measure-tutorials/event-properties-vs-actor-properties'
+                },
+                {
+                  label: 'Manage Objects and Queries',
+                  collapsed: true,
+                  autogenerate: {
+                    directory: 'measure_iq/measure-tutorials/manage-objects-and-queries',
+                    collapsed: true
+                  }
+                },
+                {
+                  label: 'Work with Flows',
+                  collapsed: true,
+                  autogenerate: {
+                    directory: 'measure_iq/measure-tutorials/work-with-flows',
+                    collapsed: true
+                  }
+                },
+                {
+                  label: 'Work with Queries',
+                  collapsed: true,
+                  autogenerate: {
+                    directory: 'measure_iq/measure-tutorials/work-with-queries',
+                    collapsed: true
+                  }
+                }
+              ]
             },
             {
               label: 'Glossary',
               collapsed: true,
               autogenerate: {
                 directory: 'measure_iq/glossary',
-                collapsed: true,
-              },
+                collapsed: true
+              }
             }
           ]
         },
-        {
-          label: 'Edge IQ',
-          collapsed: true,
-          autogenerate: { 
-            directory: 'edge_iq', 
-            collapsed: true 
-          },
-        },
+        // {
+        //   label: 'Edge IQ',
+        //   collapsed: true,
+        //   autogenerate: { 
+        //     directory: 'edge_iq', 
+        //     collapsed: true 
+        //   },
+        // },
       ],
       plugins: [starlightComponents],
       

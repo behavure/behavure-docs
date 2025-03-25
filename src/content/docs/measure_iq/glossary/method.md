@@ -2,7 +2,7 @@
 title: Method 
 description: Definition & use of Method 
 ---
-When you create an actor property, event property, or flow property in Scuba, you are presented with some or all of the following **methods**. The definitions of the methods are as follows:
+When you create an actor property, event property, or flow property in Measure IQ, you are presented with some or all of the following **methods**. The definitions of the methods are as follows:
 
 - **Show**: Aggregate across events or flows to calculate some value per actor or per flow. This is only available for actor and flow properties.
 - **Filter**: Create a Boolean segment. For example, an "Is Registered" actor property, a "Did Reach Shopping Cart" flow property, or an "Is Product Info Page" event property. When analyzing Boolean properties, you can compare segments that are both in or out of the segment.
@@ -23,6 +23,6 @@ When you create an actor property, event property, or flow property in Scuba, yo
 
 ## For more information
 
-- [Create an Actor Property](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259462/Create+an+Actor+Property+v5)
-- [Create an Event Property](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259425/Create+an+Event+Property+v5)
-- [Create a Flow Property](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259375/Create+a+Flow+Property+v5)
+- [Create an Actor Property](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259462/Create+an+Actor+Property+v5)
+- [Create an Event Property](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259425/Create+an+Event+Property+v5)
+- [Create a Flow Property](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259375/Create+a+Flow+Property+v5)

@@ -6,7 +6,7 @@ Compared to JSON, Protocol Buffers come with a schema and the client libraries 
 
 The basic wire format is `[(tag, payload bytes)*]`. The tag identifies both the field "number", and the wire-type of the field. Wire types include fixed 32 and 64, length-delimited ranges, and, for protos, variable length integers. The parser knows how to skip fields of all wire types, so any unknown tags are skipped (and retained in memory) during parsing.
 
-Scuba strongly prefers JSON as a native format, so we provide the following reference for how to perform the conversion coming from ProtoBuf.
+Measure IQ strongly prefers JSON as a native format, so we provide the following reference for how to perform the conversion coming from ProtoBuf.
 
 ## Step #0: Install the ProtoBuf Machinery
 
@@ -33,7 +33,7 @@ message UserProto {
 
 ## Step #2: Generate Python Code from .proto 
 
-Protobufs comes with target code generators for most languages. Since Scuba uses Python for transformation, you'll want to compile the protobuf into our language as follows:
+Protobufs comes with target code generators for most languages. Since Measure IQ uses Python for transformation, you'll want to compile the protobuf into our language as follows:
 
 `protoc --proto_path=protos User.proto  --python_out=./Protos/build`
 
@@ -75,4 +75,4 @@ def Parse2Protobuf(file_contents_string, protobuf, ascii_text=None):
          return False
 ```
 
-That's it. After the above step you can convert the object to a dictionary and then JSON for ingestion into Scuba.
+That's it. After the above step you can convert the object to a dictionary and then JSON for ingestion into Measure IQ.

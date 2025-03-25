@@ -59,4 +59,4 @@ Need help? Our support team is here to assist you:
 
 ## Next Steps
 
-Ready to dive in? Check out our [Measure IQ documentation](/docs/measure_iq) or [Edge IQ documentation](/docs/edge_iq) to get started with your specific use case.
+Ready to dive in? Check out our [Measure IQ documentation](/measure_iq) or [Edge IQ documentation](/edge_iq) to get started with your specific use case.

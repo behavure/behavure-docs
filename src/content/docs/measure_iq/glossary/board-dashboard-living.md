@@ -14,5 +14,5 @@ Boards are also known as *dashboards*.
 
 ## More information
 
-- [Create a Board with Queries and Panels](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259159/Create+a+Board+with+Queries+Panels+v5)
-- [Intro to Boards](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259827/Boards+Dashboards+v5)
+- [Create a Board with Queries and Panels](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259159/Create+a+Board+with+Queries+Panels+v5)
+- [Intro to Boards](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259827/Boards+Dashboards+v5)

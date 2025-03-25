@@ -22,5 +22,5 @@ For example, to count the number of times a user searched, create an actor prope
 
 ## More information
 
-- [Create an Actor Property](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259462/Create+an+Actor+Property+v5)
-- [Calculate DAU and MAU](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139260423/Calculate+DAU+and+MAU+v5)
+- [Create an Actor Property](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259462/Create+an+Actor+Property+v5)
+- [Calculate DAU and MAU](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139260423/Calculate+DAU+and+MAU+v5)

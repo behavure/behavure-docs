@@ -2,7 +2,7 @@
 title: "Intro to Lookup Tables "
 description: "Definition & use of Intro to Lookup Tables "
 ---
-There are two types of tables you can create in Scuba: an event table and a lookup table. Generally, Scuba recommends storing all of your event data in a single event table (which is different than a relational database model). However, we support lookup tables, where your primary event table can refer to a separate lookup table to do static lookups of names and details based on a field in the primary event table.
+There are two types of tables you can create in Measure IQ: an event table and a lookup table. Generally, Measure IQ recommends storing all of your event data in a single event table (which is different than a relational database model). However, we support lookup tables, where your primary event table can refer to a separate lookup table to do static lookups of names and details based on a field in the primary event table.
 
 You can create a lookup table that contains information that you’re not collecting with your event data but that you want to associate with the shard key.
 
@@ -12,13 +12,13 @@ For example, let’s say you have a primary event table with a `userId` column.
 
 What happens if the user gets a new email address? You can update the lookup table value to have the user’s latest email address and because lookup tables are joined to event data at read time, all event data queries that reference `userId.email_address` will instantly display the updated email address.
 
-You can join a lookup table containing `userId`, `name`, and `birthday` where there is a one-to-one mapping between the `userId` values in the primary event table and the new lookup table. Then Scuba will show you a list of fields like `userId.name` and `userId.birthday` that you can use in your queries. 
+You can join a lookup table containing `userId`, `name`, and `birthday` where there is a one-to-one mapping between the `userId` values in the primary event table and the new lookup table. Then Measure IQ will show you a list of fields like `userId.name` and `userId.birthday` that you can use in your queries. 
 
 ## Accessing lookup table data in the user interface
 
 If you create a lookup table with columns `id` and `email` and attach it to an event data table based on the column `user`, the user interface will show a new set of virtual columns: `user.id` and `user.email`. These virtual columns can be referenced just like regular columns.
 
-You cannot query lookup table directly from the Scuba application. You can only access this data as a read-time join to an event data query.
+You cannot query lookup table directly from the Measure IQ application. You can only access this data as a read-time join to an event data query.
 
 ## Storage options for lookup tables
 
@@ -26,7 +26,7 @@ You can store the lookup data itself as either sharded (spread across data nodes
 
 If you store the lookup table as a sharded table, then the data must be joined to one of the shard keys, or actor fields, in your event dataset. Because of this, you need to reference that shard key when running a query that references any columns in the lookup table. 
 
-For example, let’s say you have two shard keys in your dataset: `userId` and `OrganizationId`. If you join your lookup table to `userId`, then all queries that reference columns in that lookup table must use the `userId` shard key. You can’t run any queries that use the `OrganizationId` shard key, since Scuba doesn’t support querying on more than one shard key. 
+For example, let’s say you have two shard keys in your dataset: `userId` and `OrganizationId`. If you join your lookup table to `userId`, then all queries that reference columns in that lookup table must use the `userId` shard key. You can’t run any queries that use the `OrganizationId` shard key, since Measure IQ doesn’t support querying on more than one shard key. 
 
 If you store the lookup table as unsharded data, a copy of the lookup table must be copied to every data node. However, you can join the lookup table to any column in your data (the column doesn’t need to be a shard key) and you can reference any of the lookup table columns in a query without using a specific shard key. 
 
@@ -49,14 +49,14 @@ For unsharded lookup tables, you must have a complete copy of the table on each 
 
 ## Ingesting additional data
 
-Once you’ve created lookup tables, you can import data via the standard Scuba pipeline service. There are two main reasons to import new data:
+Once you’ve created lookup tables, you can import data via the standard Measure IQ pipeline service. There are two main reasons to import new data:
 
 - Update existing data (for example, changing a manufacturer ID or SKU)
 - Add new data (adding lookup table data for new actors)
 
 You only need to provide us with the changed (or new) data; you do not need to provide the entire lookup table (although you can). So if you’re adding data to account for new users (and the existing data is remaining the same), just send us the new data to ingest. 
 
-Scuba updates lookup tables on a row-by-row basis. In addition, if a user starts a query during the update process, the update will stop and wait until the query is finished. When querying while a lookup table is being updated, the lookup data may be in an inconsistent state, where only some of rows have been updated.
+Measure IQ updates lookup tables on a row-by-row basis. In addition, if a user starts a query during the update process, the update will stop and wait until the query is finished. When querying while a lookup table is being updated, the lookup data may be in an inconsistent state, where only some of rows have been updated.
 
 ## Updating and overwriting lookup table information
 
@@ -79,7 +79,7 @@ When updating a row of an existing lookup table, you cannot reset a non-null val
 | --- | --- | --- | --- |
 | Foo | Bar | Zoo | Zoobar |
 
-You cannot update the Zoo value to be an empty null (if Scuba sees a null value, it will not update the entry). Instead, you can use a literal null value like NULL and set the value to:
+You cannot update the Zoo value to be an empty null (if Measure IQ sees a null value, it will not update the entry). Instead, you can use a literal null value like NULL and set the value to:
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -87,4 +87,4 @@ You cannot update the Zoo value to be an empty null (if Scuba sees a null value,
 
 ### Lookup tables and decimal values
 
-Decimal (float) values are not currently supported in lookup tables. Upon ingestion, decimal values will not be ingested, resulting in empty values for the corresponding column/rows. Please convert decimal values to integer (whole number) format so that they can be added and used in your lookup table, or reach out to the Scuba team at [help@scuba.io](../mailto:help@scuba.io) so we can update the column’s data type after ingestion.
+Decimal (float) values are not currently supported in lookup tables. Upon ingestion, decimal values will not be ingested, resulting in empty values for the corresponding column/rows. Please convert decimal values to integer (whole number) format so that they can be added and used in your lookup table, or reach out to the Measure IQ team at [help@behavure.ai](../mailto:help@behavure.ai) so we can update the column’s data type after ingestion.

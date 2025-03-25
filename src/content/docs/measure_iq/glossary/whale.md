@@ -10,7 +10,7 @@ A **whale** is an actor that creates a disproportionate number of events in re
 
 The imbalance that a whale creates can cause sampling errors, especially if the whale happens to be picked as a sampling shard. For unsampled queries, the whale shard impedes performance. If the whale continues to expand unchecked, the node runs out of disk space much faster than the other nodes in the cluster.
 
-Scuba dissipates the data of actors who are detected to be whales across all the other shards on the node. In effect, this *splashes* the actors across the other shards on the node. The act of *splashing* balances the distribution of data to ensure efficient sampling.
+Measure IQ dissipates the data of actors who are detected to be whales across all the other shards on the node. In effect, this *splashes* the actors across the other shards on the node. The act of *splashing* balances the distribution of data to ensure efficient sampling.
 
 ## Related terms
 
@@ -20,5 +20,5 @@ Scuba dissipates the data of actors who are detected to be whales across all th
 
 ## More information
 
-- [Balance Data for Efficient Sampling](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1304560298/Balance+data+for+efficient+sampling+-+Whale+actors)
-- [How Scuba Performs Data Sampling](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1302496843/How+Scuba+performs+data+sampling+population+sampling)
+- [Balance Data for Efficient Sampling](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1304560298/Balance+data+for+efficient+sampling+-+Whale+actors)
+- [How Measure IQ Performs Data Sampling](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302496843/How+Measure IQ+performs+data+sampling+population+sampling)

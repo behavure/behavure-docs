@@ -17,4 +17,4 @@ For example:
 
 ## More Information
 
-- [Determine a Ratio](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259504/Determine+a+Ratio+v5)
+- [Determine a Ratio](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259504/Determine+a+Ratio+v5)

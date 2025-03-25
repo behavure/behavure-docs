@@ -1,15 +1,15 @@
 ---
-title: Dataset (table) 
-description: Definition & use of Dataset (table) 
+title: Dataset (table)
+description: Definition & use of Dataset (table)
 ---
+
 A **dataset** refers to the contents of a database table, where each column represents a particular variable, and each row corresponds to a given member of the dataset. A dataset can be comprised of multiple data sources and [lookup tables](../lookup-table).
 
 ## Related terms
 
-- [Data store](../data-store)
-- [Lookup table](../lookup-table)
+- [Data store](./data-store)
+- [Lookup table](./lookup-table)
 
 ## More information
 
-- [Data types reference](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)
-- [https://scuba.atlassian.net/wiki/spaces/ADMIN/pages/1602027608](https://scuba.atlassian.net/wiki/spaces/ADMIN/pages/1602027608)
+- [Data types reference](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)

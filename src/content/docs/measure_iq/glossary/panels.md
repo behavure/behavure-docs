@@ -11,4 +11,4 @@ A **panel** is a visual component representing a query that has been pinned to a
 
 ## More information
 
-- [Create a board with queries and panels](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1234632768/Create+a+board+with+queries+and+panels)
+- [Create a board with queries and panels](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1234632768/Create+a+board+with+queries+and+panels)

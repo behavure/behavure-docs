@@ -6,8 +6,8 @@ description: Definition & use of JSON
 
 ## Related terms
 
-- [JSONL](https://interana.atlassian.net/l/cp/UcpC01k2)
+- [JSONL](https://behavure.ai/docs/l/cp/UcpC01k2)
 
 ## More information
 
-- [Data types reference](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)
+- [Data types reference](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)

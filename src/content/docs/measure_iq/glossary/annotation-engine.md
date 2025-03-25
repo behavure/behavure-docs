@@ -13,4 +13,4 @@ description: Definition & use of Annotation Engine
 
 ## More information
 
-- [Admin Guide](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139261269/Admin+Guides+v5)
+- [Admin Guide](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139261269/Admin+Guides+v5)

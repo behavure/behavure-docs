@@ -2,7 +2,7 @@
 title: Ingest 
 description: Definition & use of Ingest 
 ---
-**Ingest** is the process of uploading data into Scuba. Scuba supports the following methods of ingesting data:
+**Ingest** is the process of uploading data into Measure IQ. Measure IQ supports the following methods of ingesting data:
 
 - Streaming ingest: A dynamic flow of live data, a high volume of data received via HTTP from a web or cloud source. 
 - Continuous ingest: A cron job that pushes content into the cluster at a steady (data-in-motion) rate.
@@ -10,5 +10,5 @@ description: Definition & use of Ingest
 
 ## Related terms
 
-- [Import](https://interana.atlassian.net/l/cp/ZMo2XPM1)
-- [Shard key](https://interana.atlassian.net/l/cp/mn2H2WP8)
+- [Import](https://behavure.ai/docs/l/cp/ZMo2XPM1)
+- [Shard key](https://behavure.ai/docs/l/cp/mn2H2WP8)

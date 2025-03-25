@@ -16,5 +16,5 @@ For example, if your log data includes a start and end time, you could define a 
 
 #### More information
 
-- [Building an Event Property](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139260404/Build+an+Event+Property+v5)
-- [Create an Event Property](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259425/Create+an+Event+Property+v5)
+- [Building an Event Property](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139260404/Build+an+Event+Property+v5)
+- [Create an Event Property](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259425/Create+an+Event+Property+v5)

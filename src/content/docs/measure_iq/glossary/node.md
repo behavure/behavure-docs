@@ -4,7 +4,7 @@ description: Definition & use of Node
 ---
 A **node** is a component or server that is part of a cluster. A cluster consists of nodes that are connected and work together as a single system. 
 
-A Scuba [cluster](../cluster) consists of several nodes that can be installed on a single server (single-node cluster) or on multiple servers (multi-node cluster).
+A Measure IQ [cluster](../cluster) consists of several nodes that can be installed on a single server (single-node cluster) or on multiple servers (multi-node cluster).
 
 ## Related terms
 
@@ -16,4 +16,4 @@ A Scuba [cluster](../cluster) consists of several nodes that can be install
 
 ## More information
 
-- [Planning Your Scuba Deployment](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1561624586/Planning+your+Scuba+deployment)
+- [Planning Your Measure IQ Deployment](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1561624586/Planning+your+Measure IQ+deployment)

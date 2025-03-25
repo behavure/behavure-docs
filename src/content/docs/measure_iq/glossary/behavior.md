@@ -10,4 +10,4 @@ A **behavior** is a series of chronological events in relation to a particular 
 - [Behavior-on-Read](../behavior-on-read)
 - [Cohort](../cohort)
 - [Event](../event)
-- [Journey](https://interana.atlassian.net/wiki/spaces/SGV/pages/2160231388/v5-Journey+actor+user)
+- [Journey](https://behavure.ai/docs/wiki/spaces/SGV/pages/2160231388/v5-Journey+actor+user)

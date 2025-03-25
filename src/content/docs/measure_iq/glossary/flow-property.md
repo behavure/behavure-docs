@@ -22,4 +22,4 @@ When you create a flow property, you select a *method*. We can think about two 
 
 ### More information
 
-- [Create a Flow Property](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259375/Create+a+Flow+Property+v5)
+- [Create a Flow Property](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259375/Create+a+Flow+Property+v5)

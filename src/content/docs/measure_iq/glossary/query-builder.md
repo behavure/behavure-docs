@@ -13,4 +13,4 @@ Use the controls in the query builder to create and run your queries.
 
 ## More information
 
-- [Build Queries and Visualizations](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259899/Build+Queries+and+Visualizations+v5)
+- [Build Queries and Visualizations](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259899/Build+Queries+and+Visualizations+v5)

@@ -12,4 +12,4 @@ Semi-structured data is a type of [structured data](../structured-data) that d
 
 ## More information
 
-- [What You Should Know About Structuring Your Data](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139261689/What+You+Should+Know+About+Structuring+Your+Data+v5)
+- [What You Should Know About Structuring Your Data](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139261689/What+You+Should+Know+About+Structuring+Your+Data+v5)

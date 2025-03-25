@@ -14,7 +14,7 @@ Full-stack behavioral analytics solutions are designed for flexibility, allowing
 
 **Interactive behavioral analytics** is the ability to instantly answer any question about the behavior of people and things interacting with digital services. 
 
-Scuba continuously ingests event data produced by all of your applications, services, and data pipelines and makes it available for ad hoc exploration via an intuitive, visual interface. Scuba makes it fast and easy for product managers, marketers, customer support and other groups to do their own analysis independently with no limits to the questions they can ask.
+Measure IQ continuously ingests event data produced by all of your applications, services, and data pipelines and makes it available for ad hoc exploration via an intuitive, visual interface. Measure IQ makes it fast and easy for product managers, marketers, customer support and other groups to do their own analysis independently with no limits to the questions they can ask.
 
 ## Related terms
 

@@ -3,15 +3,15 @@ title: "Import Data Deduplication "
 description: "Definition & use of Import Data Deduplication "
 ---
 
-You’ve learned what happens behind the scenes when [Scuba ingests your data](../what-goes-on-behind-the-scenes-when-data-is-imported). This document explains what safeguards are in place to ensure that Scuba does not ingest duplicate records.
+You’ve learned what happens behind the scenes when [Scuba ingests your data](../what-goes-on-behind-the-scenes-when-data-is-imported). This document explains what safeguards are in place to ensure that Measure IQ does not ingest duplicate records.
 
 ## Deduplication
 
-Scuba has two layers of duplicate protection: file hashing and event checks.
+Measure IQ has two layers of duplicate protection: file hashing and event checks.
 
 ### File Hashing
 
-First, Scuba evaluates every file that arrives in your cloud storage solution for its upload time, size, name, and other information. It then assigns it a hash. Scuba then begins ingesting this file into your data tier.
+First, Measure IQ evaluates every file that arrives in your cloud storage solution for its upload time, size, name, and other information. It then assigns it a hash. Measure IQ then begins ingesting this file into your data tier.
 
 For ingest jobs that may revisit the same directory in your cloud storage solution over the course of days, your files are again evaluated and hashed. When a hash matches that of an existing file it is then ignored as a duplicate. If anything has changed about a previously downloaded file (upload time, size, arrangement of fields, column names etc.) a new hash will be generated. The file will be seen as new, and it will then be ingested.
 
@@ -23,7 +23,7 @@ For the second layer of deduplication, the data tier checks incoming events agai
 
 **File Hashing:**
 
-Scuba has a daily ingest job that has a 3-day look back, meaning it will scan its target directory structure for folders and files once a day for 3 days.
+Measure IQ has a daily ingest job that has a 3-day look back, meaning it will scan its target directory structure for folders and files once a day for 3 days.
 
 On Day one it encounters a file called muppets_6-23-2023.json that contains the following:
 
@@ -65,6 +65,6 @@ In this example, on the third day’s pass, only the new record will be ingested
 
 ## Resources
 
-- [What to Think About Before You Add Data](../what-to-think-about-before-you-add-data)
-- [Data Logging](../scuba-guides/key-concepts-and-terminology/data-pipeline/data-logging)
-- [Planning Your Scuba Deployment](../admin-guides/planning-your-scuba-deployment)
+- [What to Think About Before You Add Data](/measure_iq/admin-guides/managing-your-data/what-to-think-about-before-you-add-data)
+- [Data Logging](/measure_iq/key-concepts-and-terminology/data-pipeline/data-logging)
+- [Planning Your Measure IQ Deployment](/measure_iq/admin-guides/planning-your-measure-iq-deployment)

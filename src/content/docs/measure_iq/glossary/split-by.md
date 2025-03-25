@@ -8,4 +8,4 @@ description: Definition & use of Split by
 
 - [Event](#)
 - [Query Builder](#)
-- [BQL/BAQL](https://docs.scuba.io/glossary/bql-baql)
+- [BQL/BAQL](https://docs.behavure.ai/glossary/bql-baql)
