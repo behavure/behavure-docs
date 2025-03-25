@@ -1,8 +1,9 @@
 ---
-title: Signals 
-description: Definition & use of Signals 
+title: Signals
+description: Definition & use of Signals
 ---
-**Signals** is a feature of the Scuba platform that enables users to set up scheduled email delivery of boards.
+
+**Signals** are notifications that you can set up to alert you when a metric crosses a threshold.
 
 ## Related terms
 

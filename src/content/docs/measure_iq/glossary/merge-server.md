@@ -8,5 +8,5 @@ Each data node is responsible for a subset of actors. The query planner determi
 
 ## Related terms
 
-- [Adaptive Sampling](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139260766/Adaptive+Sampling+in+Scuba+v5)
+- [Adaptive Sampling](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139260766/Adaptive+Sampling+in+Measure IQ+v5)
 - [Shard Key](../shard-key-colocated-shard-key)

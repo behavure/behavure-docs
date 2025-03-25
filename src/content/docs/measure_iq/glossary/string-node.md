@@ -14,4 +14,4 @@ String nodes replicate their strings to a partner node for resiliency. In produc
 
 ## More information
 
-- [Planning Your Scuba Deployment](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1561624586/Planning+your+Scuba+deployment)
+- [Planning Your Measure IQ Deployment](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1561624586/Planning+your+Measure IQ+deployment)

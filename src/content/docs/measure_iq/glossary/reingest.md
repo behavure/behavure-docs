@@ -11,4 +11,4 @@ description: Definition & use of Reingest
 
 ## More information
 
-- [Managing your data](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139261677/Managing+Your+Data+v5)
+- [Managing your data](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139261677/Managing+Your+Data+v5)

@@ -8,4 +8,4 @@ The **Line View** displays your query results as a line. A line view requires 
 
 ## Related terms
 
-- [Bar View](https://interana.atlassian.net/wiki/spaces/SGV/pages/2160230673/Bar+View+v5)
+- [Bar View](https://behavure.ai/docs/wiki/spaces/SGV/pages/2160230673/Bar+View+v5)

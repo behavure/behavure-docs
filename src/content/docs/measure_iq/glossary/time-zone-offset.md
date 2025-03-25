@@ -6,4 +6,4 @@ A **time zone** **offset** (also known as UTC offset) is the interval of time
 
 ## More information
 
-- [Time zones in Scuba](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1601765526/Time+zones+in+Scuba)
+- [Time zones in Measure IQ](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1601765526/Time+zones+in+Measure IQ)

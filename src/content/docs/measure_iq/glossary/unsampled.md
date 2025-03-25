@@ -13,4 +13,4 @@ Sampling is the process of selecting a subset of data from within a [datase
 
 ## More information
 
-- [How does Scuba perform data sampling?](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259068/How+Does+Scuba+Perform+Data+Sampling)
+- [How does Measure IQ perform data sampling?](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259068/How+Does+Measure IQ+Perform+Data+Sampling)

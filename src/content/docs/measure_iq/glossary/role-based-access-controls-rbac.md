@@ -10,4 +10,4 @@ description: Definition & use of Role-Based Access Controls (RBAC)
 
 ## More information
 
-- [Manage users and roles with RBAC](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1302496595/Manage+users+and+roles+with+RBAC)
+- [Manage users and roles with RBAC](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302496595/Manage+users+and+roles+with+RBAC)

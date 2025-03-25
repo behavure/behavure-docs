@@ -2,11 +2,11 @@
 title: "Data Logging"
 description: "Definition & use of Data Logging"
 ---
-In this guide, you will find the most effective methods for configuring your logging to load your data into Scuba.
+In this guide, you will find the most effective methods for configuring your logging to load your data into Measure IQ.
 
 ## JSON format
 
-JSON is Scuba's preferred file format. It does not require a dedicated header row, and easily allows us to auto-detect new columns as logging changes over time.
+JSON is Measure IQ's preferred file format. It does not require a dedicated header row, and easily allows us to auto-detect new columns as logging changes over time.
 
 Create each row, or event, as a complete JSON object that lives on its own line of the file. Here's a multi-row example:
 
@@ -29,15 +29,15 @@ We recommend that each row has at least the following columns:
 
 ## Character encoding
 
-Your data must contain only ASCII characters. Scuba does not support data that includes non-ASCII characters.
+Your data must contain only ASCII characters. Measure IQ does not support data that includes non-ASCII characters.
 
 ## Case sensitivity
 
-Column names in Scuba are case sensitive. If you have two columns where the names are the same other than the case (for example, foo and Foo), Scuba will treat these as separate columns, and we treat them as case-sensitive in our stack. If the columns are supposed to be the same, edit the source data to use the same capitalization.
+Column names in Measure IQ are case sensitive. If you have two columns where the names are the same other than the case (for example, foo and Foo), Measure IQ will treat these as separate columns, and we treat them as case-sensitive in our stack. If the columns are supposed to be the same, edit the source data to use the same capitalization.
 
 ## Multiple-source file types
 
-If you want to import multiple event sources into a single Scuba table (and we recommend doing this), you must have alignment between the timestamp, actor, and event\_name fields: use the same column name, including case, and the same data type, including format. If your raw logging has different names/types/formats for any of these three, you must transform the data before loading into Scuba.
+If you want to import multiple event sources into a single Measure IQ table (and we recommend doing this), you must have alignment between the timestamp, actor, and event\_name fields: use the same column name, including case, and the same data type, including format. If your raw logging has different names/types/formats for any of these three, you must transform the data before loading into Measure IQ.
 
 If you're avoiding a separate join/lookup table, include all relevant dimensions/fields in both datasets.
 
@@ -45,7 +45,7 @@ For example, if there are fields in data set A called `language` or `platform` t
 
 ## File storage requirements
 
-Scuba can import data from the following file repositories:
+Measure IQ can import data from the following file repositories:
 
 - Amazon S3
 - Azure BLOB storage
@@ -63,13 +63,13 @@ Our data file size recommendations depend on how often you will be uploading fil
 
 We recommend that you format your timestamp data according to the [ISO-8601 standard](https://en.wikipedia.org/wiki/ISO_8601). For example, `2015-10-05T14:48:00.000Z`, which has a format string of `%Y-%m-%dT%H:%M:%S.%fZ`.
 
-If your timestamps do not follow the ISO-8601 standard or you cannot reformat your timestamps to follow the standard, Scuba also supports Unix time plus a variety of common `strptime()` time format strings. Note that for a given column in your data, the time format must remain consistent for every event.
+If your timestamps do not follow the ISO-8601 standard or you cannot reformat your timestamps to follow the standard, Measure IQ also supports Unix time plus a variety of common `strptime()` time format strings. Note that for a given column in your data, the time format must remain consistent for every event.
 
-Scuba does not support dates prior to January 1, 1970 (the beginning of [Unix epoch time](https://en.wikipedia.org/wiki/Unix_time)
+Measure IQ does not support dates prior to January 1, 1970 (the beginning of [Unix epoch time](https://en.wikipedia.org/wiki/Unix_time)
 
 ## Null values
 
-Scuba interprets the following as null when ingesting data:
+Measure IQ interprets the following as null when ingesting data:
 
 - an empty string: `{"foo": ""}`
 - the word "null": `{"foo": null}`
@@ -79,7 +79,7 @@ Scuba interprets the following as null when ingesting data:
 
 When you initially create your table, the only columns defined are the time column and shard key columns. A *shard key* is a column in your dataset that represents an important entity that the event is about. This is the data on which you want to perform your analysis.
 
-When you run your import pipeline, Scuba will automatically detect the rest of the columns and their types from your raw data.
+When you run your import pipeline, Measure IQ will automatically detect the rest of the columns and their types from your raw data.
 
 | **Type** | **Examples** | **Notes** |
 | --- | --- | --- |
@@ -103,7 +103,7 @@ It is possible to send very large chunks of string data into logs, which takes u
 
 Strings like URLs or GEOIP information tend to be long and have high-cardinality (they’re uncommon or even unique). They take up a lot of space and may not be useful for queries. String columns in Interana are stored in a string server that stores each unique string once. For most string columns, this is an optimized storage approach, but for some string columns the cardinality is very high (meaning there is little duplication) and the storage cost becomes high. We recommend removing these columns before importing to Interana or splitting the column into more useful sub-columns that are lower cardinality.
 
-Contact [help@scuba.io](mailto:help@scuba.io) before sending new large string columns into the system.
+Contact [help@behavure.ai](mailto:help@behavure.ai) before sending new large string columns into the system.
 
 ## Columns containing a list of mixed data types
 

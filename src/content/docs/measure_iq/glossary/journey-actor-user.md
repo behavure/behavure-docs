@@ -13,5 +13,5 @@ A **journey** is the sequence of events that an actor can take represented in 
 
 ## More information
 
-- [Analyze user paths with flows](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1304560030/Analyze+user+paths+with+flows)
-- [Work with flows](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1234927671/Work+with+flows)
+- [Analyze user paths with flows](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1304560030/Analyze+user+paths+with+flows)
+- [Work with flows](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1234927671/Work+with+flows)

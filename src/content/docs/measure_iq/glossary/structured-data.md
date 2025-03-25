@@ -11,4 +11,4 @@ description: Definition & use of Structured Data
 
 ## More information
 
-- [Best Practices for Formatting Data for Ingest](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139261753/Best+Practices+for+Formatting+Data+for+Ingest+v5)
+- [Best Practices for Formatting Data for Ingest](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139261753/Best+Practices+for+Formatting+Data+for+Ingest+v5)

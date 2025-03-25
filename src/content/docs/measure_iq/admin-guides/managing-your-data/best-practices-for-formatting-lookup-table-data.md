@@ -135,7 +135,7 @@ But if I import `{"user_id": "2", "location": "RWC"}` and then `{"user_id": "
 
 We need to import the rows in the right order, or else the final table might get Khalid's location wrong!
 
-In order to get blazing-fast import speeds, rows are often imported into Scuba in an order that differs from the order they appear in the data store.  Don't worry, though - you can have both speedy import and consistent lookup tables as long as you follow some best practices!
+In order to get blazing-fast import speeds, rows are often imported into Measure IQ in an order that differs from the order they appear in the data store.  Don't worry, though - you can have both speedy import and consistent lookup tables as long as you follow some best practices!
 
 ## What should I do?
 
@@ -173,4 +173,4 @@ Which will give you this row in the lookup table:
 
 You could also use "null", "None", or some other string instead of "NULL", but it's best to be consistent. 
 
-You should follow all of the best practices above as much as is *feasible*. You should never have to sacrifice your analytical flexibility to follow the guidelines. The most important thing is for you to understand what's going on behind the scenes. As always, your technical customer success manager and the Scuba support team are here to help.
+You should follow all of the best practices above as much as is *feasible*. You should never have to sacrifice your analytical flexibility to follow the guidelines. The most important thing is for you to understand what's going on behind the scenes. As always, your technical customer success manager and the Measure IQ support team are here to help.

@@ -2,7 +2,7 @@
 title: Pre-Filters 
 description: Definition & use of Pre-Filters 
 ---
-Filters applied at the *query* level; also known as *For* in Scuba 5.x. **Pre-filters** are applied to both the *measures* themselves and any referenced knowledge objects.
+Filters applied at the *query* level; also known as *For* in Measure IQ 5.x. **Pre-filters** are applied to both the *measures* themselves and any referenced knowledge objects.
 
 ## Related terms
 
@@ -11,5 +11,5 @@ Filters applied at the *query* level; also known as *For* in Scuba 5.x. **Pre-
 
 ## More information
 
-- [Add a pre-filter to your query](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1302496296/Add+a+pre-filter+to+your+query)
-- [Create an advanced filter](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1302496314/Create+an+advanced+filter)
+- [Add a pre-filter to your query](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302496296/Add+a+pre-filter+to+your+query)
+- [Create an advanced filter](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302496314/Create+an+advanced+filter)

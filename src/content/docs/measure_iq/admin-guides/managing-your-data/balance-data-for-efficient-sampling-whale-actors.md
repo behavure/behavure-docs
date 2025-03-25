@@ -34,7 +34,7 @@ You *splash* the whale, of course.
 
 ### Splashing the whale
 
-Scuba dissipates the data of an actor detected as a whale. In effect, the whale actor data is *splashed* across the other shards in the dataset. The act of *splashing* balances the distribution of data to ensure efficient sampling. Splashing is accomplished with shard function exceptions. Later when behavioral queries are run on the dataset, whale actors are filtered out.
+Measure IQ dissipates the data of an actor detected as a whale. In effect, the whale actor data is *splashed* across the other shards in the dataset. The act of *splashing* balances the distribution of data to ensure efficient sampling. Splashing is accomplished with shard function exceptions. Later when behavioral queries are run on the dataset, whale actors are filtered out.
 
 Splashing results in efficient sampling, but also has the following effects:
 

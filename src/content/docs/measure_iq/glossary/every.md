@@ -8,4 +8,4 @@ An actor property that uses the **every** aggregation on a column produces a s
 
 ## More information
 
-- [Compare actor or flow properties on the fly with sets](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1304560121/Compare+actor+or+flow+properties+on+the+fly+with+sets)
+- [Compare actor or flow properties on the fly with sets](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1304560121/Compare+actor+or+flow+properties+on+the+fly+with+sets)

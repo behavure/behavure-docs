@@ -2,7 +2,7 @@
 title: Sampling 
 description: Definition & use of Sampling 
 ---
-**Sampling** is the process of selecting a subset of data from within a [dataset](https://docs.scuba.io/lexicon/dataset) for analysis. Sampling is a streamlined method for data collection and analysis.
+**Sampling** is the process of selecting a subset of data from within a [dataset](https://docs.behavure.ai/lexicon/dataset) for analysis. Sampling is a streamlined method for data collection and analysis.
 
 - **Read-time sampling** is the process of selecting a subset of read-time data—the time it takes to read a file. Sampling is a streamlined method for data collection and analysis.
 - **Sampling on ingest** takes a selection of a subset of data during the ingest process. This is particularly helpful when ingesting a live stream of data. Sampling provides a faster means for data collection and analysis.
@@ -16,5 +16,5 @@ description: Definition & use of Sampling
 
 ## More information
 
-- [Adaptive Sampling in Scuba](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1304559871/Adaptive+Sampling+in+Scuba)
-- [How does Scuba perform data sampling?](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1235091524/How+does+Scuba+perform+data+sampling)
+- [Adaptive Sampling in Measure IQ](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1304559871/Adaptive+Sampling+in+Measure IQ)
+- [How does Measure IQ perform data sampling?](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1235091524/How+does+Measure IQ+perform+data+sampling)

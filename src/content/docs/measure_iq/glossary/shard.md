@@ -6,7 +6,7 @@ A **shard** is a partition in a database table. Small data shards in a datab
 
 Horizontal partitioning is a design principle whereby rows of a database table are held separately, rather than split by columns (as for normalization). Each partition forms part of a shard, which may in turn be located on a separate database server or physical location. The advantage is that the number of rows in each table is reduced, which in turn reduces the index size and improves search performance.
 
-If the sharding is based on data where it's possible to infer the appropriate shard membership, such as European customers vs. American customers, then it is possible to only query the relevant shard. Scuba assigns each [actor](../actor) to a shard.
+If the sharding is based on data where it's possible to infer the appropriate shard membership, such as European customers vs. American customers, then it is possible to only query the relevant shard. Measure IQ assigns each [actor](../actor) to a shard.
 
 ## Related terms
 
@@ -17,5 +17,5 @@ If the sharding is based on data where it's possible to infer the appropriate s
 
 ## More information
 
-- [Best Practices for Formatting Data for Ingest](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139261753/Best+Practices+for+Formatting+Data+for+Ingest+v5)
-- [What You Should Know About Structuring Your Data](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139261689/What+You+Should+Know+About+Structuring+Your+Data+v5)
+- [Best Practices for Formatting Data for Ingest](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139261753/Best+Practices+for+Formatting+Data+for+Ingest+v5)
+- [What You Should Know About Structuring Your Data](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139261689/What+You+Should+Know+About+Structuring+Your+Data+v5)

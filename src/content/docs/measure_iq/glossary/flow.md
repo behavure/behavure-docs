@@ -1,29 +1,28 @@
 ---
-title: Flow 
-description: Definition & use of Flow 
+title: Flow
+description: Definition & use of Flow
 ---
-A **flow** is an object that a user can define to explore patterns of behavior or sequences of events.
 
-A flow expresses a sequence of statements or conditions that Scuba uses to identify users that engaged in actions that match the defined sequence. The flow definition includes one or more start conditions, one or more steps, transition rules between the steps, and an end.
+A **flow** is a sequence of events that an actor performs. Flows are a powerful way to analyze user behavior and understand how users move through your product or service. A flow can be as simple as two steps (for example, "View Product" followed by "Add to Cart") or as complex as needed to understand your users' behavior.
 
-In Scuba, the default visualization for a flow is a Sankey Diagram. This visualizes the flow instances transitioning between steps in the flow.
+Flows are similar to funnels, but more flexible. While funnels are typically used to measure conversion through a fixed set of steps, flows can be used to understand any sequence of events, including:
 
-Use a flow to define a sequence of milestones over a window of time for a particular actor. Then you can examine events between any of those milestones using the built-in event path capability. You can use the flow definition in a query to aggregate, filter, or group by properties of the flow.
+- Conversion through a fixed set of steps (like funnels)
+- Common paths that users take through your product
+- Paths that lead to a specific outcome
+- Paths that start from a specific event
 
-You can segment a flow using a *flow property*. You can also use a flow to segment the actors associated with the flow. For example, users that did not reach the "checkout" step. You can filter events using a flow.
-
-Sessions and funnels, from earlier versions of Scuba, were folded into Flows with additional functionality. 
+Each instance of a flow is called a [flow instance](flow-instance). Flow instances can be used to understand how many times a flow occurred, how long it took to complete, and what variations occurred in the sequence of events.
 
 ## Related terms
 
-- [Actor](../actor)
-- [Flow Instance](../flow-instance)
-- [Flow Property](../flow-property)
-- [Journey](../journey-actor-user)
-- [Sankey Diagram](../sankey-view-diagram)
+- [Actor](actor)
+- [Flow Instance](flow-instance)
+- [Flow Property](flow-property)
+- [Journey](journey-actor-user)
+- [Sankey Diagram](sankey-view-diagram)
 
 ## More information
 
-- [Create a Flow](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259296/Create+a+Flow+v5) 
-- [Analyze User Paths with Flows](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139260084/Analyze+User+Paths+With+Flows+v5)
-- [Understand Flow Definition Conditions](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139260124/Understand+Flow+Definition+Conditions+v5)
+- [What You Should Know About Flows](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302431464/What+you+should+know+about+flows)
+- [How to Create and Use Flows](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1561821201/How+to+create+and+use+flows)

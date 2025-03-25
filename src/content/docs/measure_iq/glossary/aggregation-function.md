@@ -16,4 +16,4 @@ Common aggregate functions include:
 
 ## More information
 
-- [Data Logging](https://scuba.atlassian.net/wiki/spaces/SGV/pages/2139259099/Data+Logging) — recommended practices for logging data for Scuba.
+- [Data Logging](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259099/Data+Logging) — recommended practices for logging data for Measure IQ.

@@ -17,4 +17,4 @@ You can set a trailing window for an actor property in addition to setting one
 
 ## More information
 
-See [Specify Relative Time in a Query](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1302431088/Specify+time+in+a+query) in the User Guide.
+See [Specify Relative Time in a Query](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302431088/Specify+time+in+a+query) in the User Guide.

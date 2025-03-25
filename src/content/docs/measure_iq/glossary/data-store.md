@@ -10,4 +10,4 @@ A **data store** is a repository for persistently storing and managing collect
 
 ## More information
 
-- [Data Types Reference](https://scuba.atlassian.net/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)
+- [Data Types Reference](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)
