@@ -13,7 +13,6 @@ Measure IQ is Behavure's advanced measurement and analytics platform that helps 
 
 - [Measure IQ Admin Guide](measure_iq/admin-guides) - Setup and administration documentation
 - [Key Concepts](measure_iq/key-concepts-and-terminology) - Essential concepts and terminology
-- [Measure IQ Guides](measure_iq/measure-guides) - Detailed guides for using Measure IQ
 - [Measure IQ Tutorials](measure_iq/measure-tutorials) - Step-by-step tutorials
 - [Measure IQ User Guide](measure_iq/measure-user-guides) - Comprehensive user documentation
 - [Glossary](measure_iq/glossary) - Definitions of key terms in Measure IQ
