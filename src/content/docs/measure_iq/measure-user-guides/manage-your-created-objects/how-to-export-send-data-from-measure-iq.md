@@ -18,7 +18,7 @@ Signals can be scheduled to send a snapshot of the entire dashboard to yourself 
 
 Simply navigate to the board you would like to schedule a Signal for, then click on the three dots in the upper right-hand corner. When you click on Signals, a pop-out will slide into view.
 
-![](./attachments/v5SignalsBoard.gif)
+![](./attachments/v5SignalsBoard.webp)
 
 Choose a descriptive name for your Signal, then select a schedule type by clicking on the **Select Schedule Type** dropdown menu.
 

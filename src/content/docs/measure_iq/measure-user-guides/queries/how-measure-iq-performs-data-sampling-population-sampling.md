@@ -5,7 +5,7 @@ description: "Definition & use of How Measure IQ Performs Data Sampling (Populat
 
 Every time you run a query in Measure IQ, you can choose to run it in **Fast** or **Complete** mode. Select these options with the drop-down Mode menu at the bottom left of the UI. Keep in mind using **Complete** mode can use significantly more resources and is usually not necessary unless your query filters to individual actors.
 
-![](./attachments/v5FastvsComplete.gif)
+![](./attachments/v5FastvsComplete.webp)
 
 This article explains how Measure IQ **population sampling** is determined. Read about adaptive sampling [here](../adaptive-sampling-in-scuba).
 
