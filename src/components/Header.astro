@@ -1,123 +1,114 @@
 ---
-const { labels } = Astro.props;
+import config from "virtual:starlight/user-config";
+import LanguageSelect from "virtual:starlight/components/LanguageSelect";
+import Search from "virtual:starlight/components/Search";
+import SocialIcons from "virtual:starlight/components/SocialIcons";
+import ThemeSelect from "virtual:starlight/components/ThemeSelect";
+import { Image } from "astro:assets";
+import logo from "../assets/behavure-logo.svg";
+
+/**
+ * Render the `Search` component if Pagefind is enabled or the default search component has been overridden.
+ */
+const shouldRenderSearch =
+  config.pagefind ||
+  config.components.Search !== "@astrojs/starlight/components/Search.astro";
 ---
 
-<div class="header-wrapper">
-  <div class="header-container sl-flex">
-    <a href="https://behavure.ai" class="site-title sl-flex">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="150"
-        height="40"
-        viewBox="0 0 200 50"
-      >
-        <style>
-          .logo-text {
-            fill: #ffffff;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-          }
-          .logo-text-ai {
-            fill: #4fc2d7;
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-          }
-        </style>
-        <text x="10" y="35" class="logo-text" font-size="28">ßehavure</text>
-        <text x="150" y="35" class="logo-text-ai" font-size="28">.ai</text>
-      </svg>
+<div class="header sl-flex">
+  <div class="title-wrapper sl-flex">
+    <a
+      href="https://behavure.ai"
+      class="site-logo sl-flex"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Image src={logo} alt="Behavure" />
     </a>
-    <div class="menu-actions sl-flex">
-      <a href="/" class="header-link">Home</a>
-      <a href="/products" class="header-link">Products</a>
-      <a href="/solutions" class="header-link">Solutions</a>
-      <a href="/about" class="header-link">About</a>
-      <a href="https://behavure.ai/free-trial" class="header-button"
-        >Free Trial</a
-      >
-    </div>
-
-    <!-- Mobile menu toggle (hidden for desktop) -->
-    <button
-      id="mobile-menu-toggle"
-      class="mobile-menu-toggle"
-      aria-label="Toggle Menu"
-    >
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3 12H21M3 6H21M3 18H21"
-          stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"></path>
-      </svg>
-    </button>
+    <a href="/" class="docs-link">
+      <span class="site-title">Docs</span>
+    </a>
   </div>
-</div>
-
-<!-- Mobile menu (hidden by default) -->
-<div id="mobile-menu" class="mobile-menu">
-  <div class="mobile-menu-container">
-    <a href="/" class="mobile-header-link">Home</a>
-    <a href="/products" class="mobile-header-link">Products</a>
-    <a href="/solutions" class="mobile-header-link">Solutions</a>
-    <a href="/about" class="mobile-header-link">About</a>
-    <a href="https://behavure.ai/free-trial" class="mobile-header-button"
-      >Free Trial</a
-    >
+  <div class="sl-flex print:hidden">
+    {shouldRenderSearch && <Search />}
+  </div>
+  <div class="sl-hidden md:sl-flex print:hidden right-group">
+    <div class="sl-flex social-icons">
+      <SocialIcons />
+    </div>
+    <ThemeSelect />
+    <LanguageSelect />
   </div>
 </div>
 
 <style>
-  .header-wrapper {
+  .header {
+    gap: var(--sl-nav-gap);
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
     background-color: #000000;
-    width: 100%;
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
 
-  .header-container {
-    max-width: var(--sl-content-width);
-    margin: 0 auto;
-    padding: 0.75rem var(--sl-content-pad-x);
+  .title-wrapper {
+    /* Prevent long titles overflowing and covering the search and menu buttons on narrow viewports. */
+    overflow: clip;
+    /* Avoid clipping focus ring around link inside title wrapper. */
+    padding: 0.25rem;
+    margin: -0.25rem;
+    min-width: 0;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .right-group,
+  .social-icons {
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .social-icons::after {
+    content: "";
+    height: 2rem;
+    border-inline-end: 1px solid var(--sl-color-gray-5);
+  }
+
+  .site-logo {
+    display: flex;
+    align-items: center;
+    color: var(--sl-color-text-accent);
+    text-decoration: none;
+    font: inherit;
+  }
+
+  /* Make logo larger to match original design */
+  .site-logo :global(img) {
+    max-height: 2.3rem;
+    width: auto;
   }
 
   .site-title {
-    align-items: center;
-    gap: 0.5rem;
-    font-size: var(--sl-text-h4);
     font-weight: 600;
-    color: var(--sl-color-white);
-    text-decoration: none;
-    margin-right: auto;
-  }
-
-  .menu-actions {
-    align-items: center;
-    gap: 1.5rem;
-    padding-inline-start: 1rem;
-  }
-
-  .header-link {
-    color: var(--sl-color-white);
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0.5rem;
+    font-size: 2.3rem;
+    color: #009e73 !important;
     transition: color 0.2s ease;
   }
 
-  .header-link:hover {
-    color: var(--sl-color-accent-cyan);
+  .docs-link {
     text-decoration: none;
   }
 
+  .docs-link:hover .site-title {
+    color: #4fc2d7 !important;
+    text-decoration: none;
+  }
+
+  /* Adding header-button from CSS file */
   .header-button {
     background-color: #009e73;
     color: white;
@@ -130,76 +121,59 @@ const { labels } = Astro.props;
 
   .header-button:hover {
     background-color: #008a65;
-    text-decoration: none;
   }
 
-  /* Mobile menu toggle button */
-  .mobile-menu-toggle {
-    display: none;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem;
+  @media (min-width: 50rem) {
+    :global(:root[data-has-sidebar]) {
+      --__sidebar-pad: calc(2 * var(--sl-nav-pad-x));
+    }
+    :global(:root:not([data-has-toc])) {
+      --__toc-width: 0rem;
+    }
+    .header {
+      --__sidebar-width: max(
+        0rem,
+        var(--sl-content-inline-start, 0rem) - var(--sl-nav-pad-x)
+      );
+      --__main-column-fr: calc(
+        (
+            100% + var(--__sidebar-pad, 0rem) -
+              var(--__toc-width, var(--sl-sidebar-width)) -
+              (2 * var(--__toc-width, var(--sl-nav-pad-x))) -
+              var(--sl-content-inline-start, 0rem) - var(--sl-content-width)
+          ) / 2
+      );
+      display: grid;
+      grid-template-columns:
+        minmax(
+          calc(
+            var(--__sidebar-width) +
+              max(0rem, var(--__main-column-fr) - var(--sl-nav-gap))
+          ),
+          auto
+        )
+        1fr
+        auto;
+      align-content: center;
+    }
   }
 
-  /* Mobile menu */
-  .mobile-menu {
-    display: none;
-    background-color: #000000;
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .mobile-menu-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .mobile-header-link {
-    color: var(--sl-color-white);
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 0.5rem;
-  }
-
-  .mobile-header-button {
-    background-color: #009e73;
-    color: white;
-    padding: 0.75rem 1rem;
-    border-radius: 0.25rem;
-    font-weight: 500;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 0.5rem;
-  }
-
+  /* Mobile responsiveness from CSS file */
   @media (max-width: 50rem) {
-    .menu-actions {
-      display: none;
+    :root {
+      --sl-content-pad-x: 1rem;
     }
 
-    .mobile-menu-toggle {
-      display: block;
+    .header {
+      padding: 0.5rem 1rem;
+    }
+
+    .site-title {
+      font-size: 1.8rem;
+    }
+
+    .site-logo :global(img) {
+      max-height: 1.8rem;
     }
   }
 </style>
-
-<script>
-  // Toggle mobile menu
-  document.addEventListener("DOMContentLoaded", () => {
-    const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
-    const mobileMenu = document.getElementById("mobile-menu");
-
-    if (mobileMenuToggle && mobileMenu) {
-      mobileMenuToggle.addEventListener("click", () => {
-        if (mobileMenu.style.display === "block") {
-          mobileMenu.style.display = "none";
-        } else {
-          mobileMenu.style.display = "block";
-        }
-      });
-    }
-  });
-</script>
