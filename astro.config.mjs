@@ -231,13 +231,12 @@ export default defineConfig({
       lastUpdated: true,
       
       // Theme configuration is now handled through component overrides
-      // See src/components/ThemeProvider.astro and src/components/ThemeSelect.astro
-      // To re-enable light mode, delete these component override files and remove the
-      // components configuration below
       components: {
         // Override the theme components to force dark mode
         ThemeProvider: './src/components/ThemeProvider.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
+        // Use custom Header component with external logo link
+        Header: './src/components/Header.astro',
       },
     }),
   ],
