@@ -5,15 +5,6 @@
     "install": {
       "nodejs": {
         "pkg-path": "nodejs"
-      },
-      "pip": {
-        "pkg-path": "python311Packages.pip"
-      },
-      "python311": {
-        "pkg-path": "python311"
-      },
-      "pyyaml": {
-        "pkg-path": "python311Packages.pyyaml"
       }
     },
     "hook": {
@@ -37,30 +28,28 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/s6vvykdlbdnvxmwd9vwqn0mrh0pcz56r-nodejs-20.18.1.drv",
+      "derivation": "/nix/store/4bl62dvqxj7m1c9jf0h6i7dj8kvmfph3-nodejs-22.14.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "nodejs-20.18.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+      "name": "nodejs-22.14.0",
       "pname": "nodejs",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
+      "rev": "5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+      "rev_count": 775060,
+      "rev_date": "2025-03-27T17:14:43Z",
+      "scrape_date": "2025-03-29T01:10:07.852948Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "20.18.1",
+      "version": "22.14.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "libv8": "/nix/store/l17919sgiw0i3awxlpic9z9a3g2d0rgv-nodejs-20.18.1-libv8",
-        "out": "/nix/store/f0lm95g31vpknr8jj9xw53cx2rqly2nm-nodejs-20.18.1"
+        "libv8": "/nix/store/4m6xhygkx74fsd5k99nihgr7vg85f553-nodejs-22.14.0-libv8",
+        "out": "/nix/store/i1v519j66jmvpqr5h382i9nanxwa5l6n-nodejs-22.14.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -69,30 +58,28 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/ms9gcppam2rwf9nj01864hqlz8qf15m9-nodejs-20.18.1.drv",
+      "derivation": "/nix/store/m8khc780w6kw2yrzfg4f6d53d8midsr2-nodejs-22.14.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "nodejs-20.18.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+      "name": "nodejs-22.14.0",
       "pname": "nodejs",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
+      "rev": "5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+      "rev_count": 775060,
+      "rev_date": "2025-03-27T17:14:43Z",
+      "scrape_date": "2025-03-29T01:27:38.442015Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "20.18.1",
+      "version": "22.14.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "libv8": "/nix/store/1pp9h9ma5ps2w3n7abkd3ipgjnmixwpm-nodejs-20.18.1-libv8",
-        "out": "/nix/store/vqv3dblqx76k185jg4ym5i3dz196lv19-nodejs-20.18.1"
+        "libv8": "/nix/store/s8407q9aa2mi2b60zk2mkjjdnv4qw87x-nodejs-22.14.0-libv8",
+        "out": "/nix/store/p6183qmkyfkz5sqlv4wbw6a2nnh1r8jf-nodejs-22.14.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -101,30 +88,28 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/ym3v3dr3lp9kz151xxhidm6pnghfgjwl-nodejs-20.18.1.drv",
+      "derivation": "/nix/store/196ab1kxhfzgd8vv2vspas0r7h4hxks8-nodejs-22.14.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "nodejs-20.18.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+      "name": "nodejs-22.14.0",
       "pname": "nodejs",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
+      "rev": "5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+      "rev_count": 775060,
+      "rev_date": "2025-03-27T17:14:43Z",
+      "scrape_date": "2025-03-29T01:42:42.637999Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "20.18.1",
+      "version": "22.14.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "libv8": "/nix/store/85x3jn8wf6n6ihr3ar70fhgc4p87znsq-nodejs-20.18.1-libv8",
-        "out": "/nix/store/gbrd92gjhi88lhj43bsa2y9zvcn4vsb8-nodejs-20.18.1"
+        "libv8": "/nix/store/sx5pbfq09qkl6bfxcljmhf5s1z049693-nodejs-22.14.0-libv8",
+        "out": "/nix/store/mxpq0x25ayiliy6938pflhqvfc1nznkl-nodejs-22.14.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -133,420 +118,28 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/vw6hibpv5jfhpgak9x8j6jsrsl753jj8-nodejs-20.18.1.drv",
+      "derivation": "/nix/store/krrkhhd5vs17c7mx5zrqivf0rrl8w8kq-nodejs-22.14.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "nodejs-20.18.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+      "name": "nodejs-22.14.0",
       "pname": "nodejs",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
+      "rev": "5e5402ecbcb27af32284d4a62553c019a3a49ea6",
+      "rev_count": 775060,
+      "rev_date": "2025-03-27T17:14:43Z",
+      "scrape_date": "2025-03-29T02:01:17.022125Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "20.18.1",
+      "version": "22.14.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "libv8": "/nix/store/6cpw80r57lyippnjl5knrvymcwalv1m2-nodejs-20.18.1-libv8",
-        "out": "/nix/store/wfxq6w9bkp5dcfr8yb6789b0w7128gnb-nodejs-20.18.1"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311Packages.pip",
-      "broken": false,
-      "derivation": "/nix/store/gx3cp6lqdijxky0hgcpzs0nkc0n2i0pm-python3.11-pip-24.0.drv",
-      "description": "PyPA recommended tool for installing Python packages",
-      "install_id": "pip",
-      "license": "[ MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3.11-pip-24.0",
-      "pname": "pip",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "24.0",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "dist": "/nix/store/qym844p07sk31c62yqj5b980rn9zjqp8-python3.11-pip-24.0-dist",
-        "man": "/nix/store/8c0k3zmqxmc790jnq0iy741f0r59skq0-python3.11-pip-24.0-man",
-        "out": "/nix/store/4rlmzs8imw8cnm7zxmb40qcg5zfilywm-python3.11-pip-24.0"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311Packages.pip",
-      "broken": false,
-      "derivation": "/nix/store/pyk770l29hhkpag7p2vww40gyq51lx0j-python3.11-pip-24.0.drv",
-      "description": "PyPA recommended tool for installing Python packages",
-      "install_id": "pip",
-      "license": "[ MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3.11-pip-24.0",
-      "pname": "pip",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "24.0",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "dist": "/nix/store/9ai3zc1ml1hpl6r5a0wz20j73jzqc19k-python3.11-pip-24.0-dist",
-        "man": "/nix/store/l6h3wn620pnsw00b3izh7qkh63v2h2mm-python3.11-pip-24.0-man",
-        "out": "/nix/store/n1878qvhhl7a1238h52syhpyn3vpr9ap-python3.11-pip-24.0"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311Packages.pip",
-      "broken": false,
-      "derivation": "/nix/store/m78wbwhxyj4shwrbpdkjfd14bnsscq1m-python3.11-pip-24.0.drv",
-      "description": "PyPA recommended tool for installing Python packages",
-      "install_id": "pip",
-      "license": "[ MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3.11-pip-24.0",
-      "pname": "pip",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "24.0",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "dist": "/nix/store/543xg541cyv8azjfr0d4iy1r56bzr7l0-python3.11-pip-24.0-dist",
-        "man": "/nix/store/v0m892bw1za9c84sdz7id7lsdqz5gn0m-python3.11-pip-24.0-man",
-        "out": "/nix/store/b4rc80klr5hfjnndmxmzkr2h1ipsc0lw-python3.11-pip-24.0"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311Packages.pip",
-      "broken": false,
-      "derivation": "/nix/store/14llrjh9jq8kfdj4mkgibp4gzprxrrcr-python3.11-pip-24.0.drv",
-      "description": "PyPA recommended tool for installing Python packages",
-      "install_id": "pip",
-      "license": "[ MIT ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3.11-pip-24.0",
-      "pname": "pip",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "24.0",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "dist": "/nix/store/ifs6g0gvihqkn6kbs91n88hxai1i3jcj-python3.11-pip-24.0-dist",
-        "man": "/nix/store/5qlaabn7jli0d2djawr8ld8l6bi8jwwi-python3.11-pip-24.0-man",
-        "out": "/nix/store/9hhh5rh3qihyrh0y0wid9xl20i0z5pfq-python3.11-pip-24.0"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311",
-      "broken": false,
-      "derivation": "/nix/store/4npqfdp8xqn9jrsrw9apyyh50g1snjml-python3-3.11.10.drv",
-      "description": "High-level dynamically-typed programming language",
-      "install_id": "python311",
-      "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3-3.11.10",
-      "pname": "python311",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "python3-3.11.10",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/vmlgjfqdflax5f2y5r0952fspjzd7npw-python3-3.11.10"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311",
-      "broken": false,
-      "derivation": "/nix/store/c6kbjl5n4w38kx22shs776zg6smryx4s-python3-3.11.10.drv",
-      "description": "High-level dynamically-typed programming language",
-      "install_id": "python311",
-      "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3-3.11.10",
-      "pname": "python311",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "python3-3.11.10",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "debug": "/nix/store/q6kq2z7l096v83i04s3klb8cpijkdc79-python3-3.11.10-debug",
-        "out": "/nix/store/hkfpyjwr9kkq3jljxv62drqfi2vndjqb-python3-3.11.10"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311",
-      "broken": false,
-      "derivation": "/nix/store/r01mfm02ppb5j1jm4kd07xa25ahaw5as-python3-3.11.10.drv",
-      "description": "High-level dynamically-typed programming language",
-      "install_id": "python311",
-      "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3-3.11.10",
-      "pname": "python311",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "python3-3.11.10",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/6hh041131z6hvk88nirx4rjmi6879sjc-python3-3.11.10"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311",
-      "broken": false,
-      "derivation": "/nix/store/mkvssckwgmrfv2wzlm8ym69rm1z4x8cr-python3-3.11.10.drv",
-      "description": "High-level dynamically-typed programming language",
-      "install_id": "python311",
-      "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3-3.11.10",
-      "pname": "python311",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "python3-3.11.10",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "debug": "/nix/store/jcnym3cicgb2h5dlypy5maaipjmmazw3-python3-3.11.10-debug",
-        "out": "/nix/store/nmqxyr00in2arwrq5qd1qipsanz1yrn5-python3-3.11.10"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311Packages.pyyaml",
-      "broken": false,
-      "derivation": "/nix/store/flcgr7n83fm183jknvk7r25qipgcjak1-python3.11-pyyaml-6.0.2.drv",
-      "description": "Next generation YAML parser and emitter for Python",
-      "install_id": "pyyaml",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3.11-pyyaml-6.0.2",
-      "pname": "pyyaml",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "6.0.2",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "dist": "/nix/store/wmk39d6dnq0s5qhisfim3kbwg0yjyjy0-python3.11-pyyaml-6.0.2-dist",
-        "out": "/nix/store/lb90xpkw4j58hnglfylmpspkhwb51vkk-python3.11-pyyaml-6.0.2"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311Packages.pyyaml",
-      "broken": false,
-      "derivation": "/nix/store/5km7g38crv44rl641g5zy1hynvyg9gdg-python3.11-pyyaml-6.0.2.drv",
-      "description": "Next generation YAML parser and emitter for Python",
-      "install_id": "pyyaml",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3.11-pyyaml-6.0.2",
-      "pname": "pyyaml",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "6.0.2",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "dist": "/nix/store/f888ga1a6m91wpja733wsl60l5xwz7yw-python3.11-pyyaml-6.0.2-dist",
-        "out": "/nix/store/7gw5f1vbcnq9fwf462xm3qmxxmvf4x9x-python3.11-pyyaml-6.0.2"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311Packages.pyyaml",
-      "broken": false,
-      "derivation": "/nix/store/5i3j405h1iqxs0v521ja07azsr4yf3b2-python3.11-pyyaml-6.0.2.drv",
-      "description": "Next generation YAML parser and emitter for Python",
-      "install_id": "pyyaml",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3.11-pyyaml-6.0.2",
-      "pname": "pyyaml",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "6.0.2",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "dist": "/nix/store/6544bpvcd7v8v1gr0g6117hva8jmmzns-python3.11-pyyaml-6.0.2-dist",
-        "out": "/nix/store/7hjycsm0v5kzc788s7bzh0s8qfs0d6bm-python3.11-pyyaml-6.0.2"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "python311Packages.pyyaml",
-      "broken": false,
-      "derivation": "/nix/store/1clvypjccgiq9ajif00chsgqy34md4cl-python3.11-pyyaml-6.0.2.drv",
-      "description": "Next generation YAML parser and emitter for Python",
-      "install_id": "pyyaml",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "name": "python3.11-pyyaml-6.0.2",
-      "pname": "pyyaml",
-      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
-      "rev_count": 724962,
-      "rev_date": "2024-12-19T23:01:11Z",
-      "scrape_date": "2024-12-23T03:54:12Z",
-      "stabilities": [
-        "stable",
-        "staging",
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "6.0.2",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "dist": "/nix/store/i12506fl6prvz04yvcsxq31dlxg15dsq-python3.11-pyyaml-6.0.2-dist",
-        "out": "/nix/store/1rjppp6jmm23c4i8r5iq5w6q1j81f67y-python3.11-pyyaml-6.0.2"
+        "libv8": "/nix/store/j4w6685rkqwwl03cc8phm8xiyb2xmbnq-nodejs-22.14.0-libv8",
+        "out": "/nix/store/bmakyv5ip1wc9jk155glzdw4vnnrym04-nodejs-22.14.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
