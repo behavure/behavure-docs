@@ -2,7 +2,7 @@
 title: "Example: Show Actor Paths Using Flows "
 description: "Definition & use of Example: Show Actor Paths Using Flows "
 ---
-A flow represents the path of actions taken by your actors. You can view the discovery paths of all actors simultaneously, and study the events of an individual path. You can also analyze a sequence of events for a particular [actor](/measure_iq/glossary/journey-actor-user) at a granular level. Flows let you track trends and project user behaviors over time.
+A flow represents the path of actions taken by your actors. You can view the discovery paths of all actors simultaneously, and study the events of an individual path. You can also analyze a sequence of events for a particular [actor](../../../../../measure_iq/glossary/journey-actor-user) at a granular level. Flows let you track trends and project user behaviors over time.
 
 This article shows how to use a previously-created flow to show actor paths and determine:
 
@@ -14,9 +14,9 @@ This article shows how to use a previously-created flow to show actor paths a
 
 If you haven’t already, please review the following articles:
 
-- [Create a flow](../../../measure-guides/measure-tutorials/work-with-flows/create-a-flow)
-- [Analyze a flow](../../../measure-guides/measure-tutorials/work-with-flows/analyze-a-flow)
-- [Create a flow property](../../../measure-guides/measure-tutorials/work-with-flows/create-a-flow-property)
+- [Create a flow](../../../measure_iq/measure-tutorials/work-with-flows/create-a-flow)
+- [Analyze a flow](../../../measure_iq/measure-tutorials/work-with-flows/analyze-a-flow)
+- [Create a flow property](../../../measure_iq/measure-tutorials/work-with-flows/create-a-flow-property)
 
 ## Showing paths leading to success
 

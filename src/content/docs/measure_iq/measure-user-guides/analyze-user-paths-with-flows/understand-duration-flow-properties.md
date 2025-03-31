@@ -2,11 +2,11 @@
 title: "Understand Duration Flow Properties "
 description: "Definition & use of Understand Duration Flow Properties "
 ---
-A duration flow property is a [flow property](/measure_iq/glossary/flow-property) that uses the flow time [method](/measure_iq/glossary/method).
+A duration flow property is a [flow property](../flow-property) that uses the flow time [method](../method).
 
 When working with flows, you can use default Measure IQ flow properties or create your own. Recall, you can use a property in a few ways:
 
-- Mark an [actor](/measure_iq/glossary/journey-actor-user), [event](/measure_iq/glossary/event), or [flow](/measure_iq/glossary/flow) as belonging to a segment you define (typically based on behavior).
+- Mark an [actor](../../../../../measure_iq/glossary/journey-actor-user), [event](../event), or [flow](../flow) as belonging to a segment you define (typically based on behavior).
 - Measure the value of an attribute that defines a behavior. You might use a time-based property for this.
 - Aggregate the previous property types into a metric that describes a population of actors, events, or flows. For example:
 -   Use a counting metric to answer questions like, how many users reached a particular step in your flow?
@@ -34,8 +34,8 @@ Use a duration flow property to:
 
 To create a duration flow property:
 
-1. [Create a flow](../../../measure-guides/measure-tutorials/work-with-flows/create-a-flow) that describes a relevant part of your experience.
-2. [Create a flow property](../../../measure-guides/measure-tutorials/work-with-flows/create-a-flow-property) using the “Flow Time” method.
+1. [Create a flow](../../../measure_iq/measure-tutorials/work-with-flows/create-a-flow) that describes a relevant part of your experience.
+2. [Create a flow property](../../../measure_iq/measure-tutorials/work-with-flows/create-a-flow-property) using the “Flow Time” method.
 
 ## Use a duration flow property
 

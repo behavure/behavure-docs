@@ -4,7 +4,7 @@ description: "Definition & use of Create a Flow "
 ---
 A flow helps you visualize the path of actions taken by a group of actors.
 
-You can view the discovery paths of all [actors](/measure_iq/glossary/journey-actor-user) simultaneously, investigate the events of all actors on an individual path, or use information from a flow as input in a top-level query. In this way, flows provide you with the tools to track trends and determine projected user behaviors over time.
+You can view the discovery paths of all [actors](../../../../../measure_iq/glossary/journey-actor-user) simultaneously, investigate the events of all actors on an individual path, or use information from a flow as input in a top-level query. In this way, flows provide you with the tools to track trends and determine projected user behaviors over time.
 
 ## Creating a basic flow
 
@@ -36,7 +36,7 @@ Among their many uses, flows help you analyze actor engagement, conversion, an
 
 6\. Enter a descriptive **name** for Step 1 and select a filter from the drop-down menu. We entered **Anything** for the name and accepted the default filter **all events**. 
 
-7\. Enter a descriptive name for Step 2 and select the appropriate filter options from the dropdown lists. We entered **Purchase Confirmed** and click on **all events** to select events with **action** that **matches purchase\_confirmed**. See [Understand Flow Definition Conditions](../../../measure-guides/measure-user-guides/analyze-user-paths-with-flows/understand-flow-definition-conditions) in the User's Guide for more information.
+7\. Enter a descriptive name for Step 2 and select the appropriate filter options from the dropdown lists. We entered **Purchase Confirmed** and click on **all events** to select events with **action** that **matches purchase\_confirmed**. See [Understand Flow Definition Conditions](../../../measure_iq/measure-user-guides/analyze-user-paths-with-flows/understand-flow-definition-conditions) in the User's Guide for more information.
 
 ![](./attachments/Flow.png)
 

@@ -14,8 +14,8 @@ When you create a flow property, you select a *method*. We can think about two 
 ### Related terms
 
 - [Actor Property](../actor-property)
-- [Flow](../flow)
-- [Flow Instance](../flow-instance)
+- [Flow](../../../glossary/flow)
+- [Flow Instance](../../../glossary/flow-instance)
 - [Knowledge Object (knob)](../knowledge-object-knob)
 - [Method](../method)
 - [Show](../show-actor-flow-property)

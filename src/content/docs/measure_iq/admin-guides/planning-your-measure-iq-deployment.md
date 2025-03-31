@@ -81,7 +81,7 @@ Measure IQ can ingest event data in a variety of ways:
 - Amazon Simple Storage Service (S3): [Cloud storage (Amazon Web Services, AWS)](https://aws.amazon.com/s3/)
 - Microsoft Azure: [Blob storage](https://azure.microsoft.com/en-us/services/storage/blobs/)
 - Google Cloud Platform: [Unified object storage](https://cloud.google.com/storage/)
-- Live data on an HTTP port: [Streaming ingest](/measure_iq/glossary/streaming-ingest)
+- Live data on an HTTP port: [Streaming ingest](../../../../measure_iq/glossary/streaming-ingest)
 - Local file systems: See the Ingest file types and formats reference
 
 ### Logging and Adding Data

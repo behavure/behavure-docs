@@ -2,7 +2,7 @@
 title: "Create Efficient Queries "
 description: "Definition & use of Create Efficient Queries "
 ---
-You can use various components to build a Measure IQ query, such as [knowledge objects](/measure_iq/glossary/knowledge-object-knob). The types and number of components you use to structure a query can affect how quickly you receive the results. This topic provides general guidelines for creating efficient queries that optimize performance. 
+You can use various components to build a Measure IQ query, such as [knowledge objects](../../../../../measure_iq/glossary/knowledge-object-knob). The types and number of components you use to structure a query can affect how quickly you receive the results. This topic provides general guidelines for creating efficient queries that optimize performance. 
 
 ## General guidelines for efficient queries 
 

@@ -25,7 +25,7 @@ To access flow information:
 
 ![](./attachments/FlowFilter.png)
 
-You can access flows in aggregations in a simple aggregation, in filter or group by, or in a nested flow. You cannot access flows in a [pre-filter](/measure_iq/glossary/pre-filters).
+You can access flows in aggregations in a simple aggregation, in filter or group by, or in a nested flow. You cannot access flows in a [pre-filter](../pre-filters).
 
 ## More information
 

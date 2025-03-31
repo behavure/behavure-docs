@@ -37,7 +37,7 @@ curl 'https://11.2.34.141/v1/query' \
 ```
 
 > [!INFO]
-> For more information on using the external query API, see [Use the Measure IQ external query API](./api-programmatically-querying-scuba).
+> For more information on using the external query API, see [Use the Measure IQ external query API](api-programmatically-querying-scuba).
 
 ### BQL building blocks
 
@@ -132,7 +132,7 @@ To correctly format your timezone, see the timezone database and the related
 
 ### Custom event properties
 
-An event property can be raw or custom (also called manual). A custom event property can be created using one of three [methods](/measure_iq/glossary/method): label, filter, or calculate. The syntax for filtering your query on a custom event property varies depending on the method used to create the property, as follows:
+An event property can be raw or custom (also called manual). A custom event property can be created using one of three [methods](../method): label, filter, or calculate. The syntax for filtering your query on a custom event property varies depending on the method used to create the property, as follows:
 
 |                           |                                                                  |
 | ------------------------- | ---------------------------------------------------------------- |

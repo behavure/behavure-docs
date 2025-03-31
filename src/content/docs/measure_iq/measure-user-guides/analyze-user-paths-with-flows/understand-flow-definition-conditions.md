@@ -3,7 +3,7 @@ title: "Understand Flow Definition Conditions "
 description: "Definition & use of Understand Flow Definition Conditions "
 ---
 
-After identifying the critical steps in your experience, it is important for accuracy that you impose some constraints on your [flow](/measure_iq/glossary/flow), including transitions between steps and ending the flow. The following table summarizes the flow definition conditions.
+After identifying the critical steps in your experience, it is important for accuracy that you impose some constraints on your [flow](../flow), including transitions between steps and ending the flow. The following table summarizes the flow definition conditions.
 
 | **Termination condition**    | **Description**                                                                                                                                                                                                                                                                                    | **Available in**             |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
@@ -20,7 +20,7 @@ After identifying the critical steps in your experience, it is important for acc
 
 Most experiences have a natural frequency, but that frequency can vary widely. For example, many people use social media apps daily, go shopping weekly, and lease cars every 3 years.
 
-Unless you define conditions for ending each actor's pass through your experience (called a [flow instance](/measure_iq/glossary/flow-instance) in Measure IQ), an actor might start a new session without you realizing it. For accurate results, be sure to define at least one condition to end your flow.
+Unless you define conditions for ending each actor's pass through your experience (called a [flow instance](../flow-instance) in Measure IQ), an actor might start a new session without you realizing it. For accurate results, be sure to define at least one condition to end your flow.
 
 While you can define conditions within your flow steps for exiting the flow instance, Measure IQ also lets you end a flow with the following global rules:
 

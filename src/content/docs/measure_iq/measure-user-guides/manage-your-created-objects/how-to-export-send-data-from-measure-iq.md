@@ -6,7 +6,7 @@ description: "Definition & use of How to Export & Send Data From Measure IQ "
 
 You can do this from any view by clicking the `Save As Image` icon to the right of the chart.
 
-![](./attachments/a5587366-3c13-4a81-a3d4-2d08c9e84998%23media-blob-url=true&id=b1ad19b7-53ff-4e1e-984e-ec4ffd363f86&contextId=75234&collection=)
+![](attachments/a5587366-3c13-4a81-a3d4-2d08c9e84998%23media-blob-url=true&id=b1ad19b7-53ff-4e1e-984e-ec4ffd363f86&contextId=75234&collection=)
 
 Clicking the icon will download just an image of the chart, as shown below:
 

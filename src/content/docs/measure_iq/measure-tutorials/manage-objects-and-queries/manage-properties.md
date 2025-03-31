@@ -13,7 +13,7 @@ This section demonstrates how to search for, and quickly locate, properties that
 1. In the left menu bar, click the **Data** icon, then click inside the **Search** field and enter the text or string to search for. The list updates dynamically as you type, displaying matching results either by name or by description.
 2. To refine your search, enter new parameters in the Search field based on the initial results.
 
-![](./attachments/2023-09-26%2013_33_48-.png)
+![](attachments/2023-09-26%2013_33_48-.png)
 
 You can also search in Explore by accessing the Query Menu.
 
@@ -21,7 +21,7 @@ You can also search in Explore by accessing the Query Menu.
 2. Click the hamburger menu to the left of the Default Exploration drop down.
 3. Enter the text or string to search for inside the **Search** field.
 
-![](./attachments/2023-09-26%2013_34_59-.png)
+![](attachments/2023-09-26%2013_34_59-.png)
 
 ## Deleting properties
 

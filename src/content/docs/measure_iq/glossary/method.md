@@ -19,7 +19,7 @@ When you create an actor property, event property, or flow property in Measure I
 
 - [Actor Property](../actor-property)
 - [Event Property](../event-property)
-- [Flow Property](../flow-property)
+- [Flow Property](../../../glossary/flow-property)
 
 ## For more information
 

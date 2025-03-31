@@ -13,4 +13,4 @@ To edit the name of a property:
 
 Your property's new name now displays in all lists in the UI. Be sure to add the renaming to any external data dictionary you maintain.
 
-![](./attachments/edit%20-%20EPS.png)
+![](attachments/edit%20-%20EPS.png)

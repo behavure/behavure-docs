@@ -13,17 +13,17 @@ Now you're ready to set up your Okta authentication application!
 
 1. Open the Okta Admin Portal.
 2. On the right side, click Applications, then Applications .  
-   ![](./attachments/Screenshot%202023-06-16%20125928.png)
+   ![](attachments/Screenshot%202023-06-16%20125928.png)
 3. Then click Create App Integration.  
-   ![](./attachments/Screenshot%202023-06-16%20130000.png)
+   ![](attachments/Screenshot%202023-06-16%20130000.png)
 4. Choose "SAML 2.0" and click Create.  
-   ![](./attachments/Screenshot%202023-06-16%20130024.png)
+   ![](attachments/Screenshot%202023-06-16%20130024.png)
 5. In the General Settings section, name your application and optionally add a logo. Click Next.  
-   ![](./attachments/Screenshot%202023-06-16%20130047.png)
+   ![](attachments/Screenshot%202023-06-16%20130047.png)
 6. You will be prompted to fill out the SAML settings for your application. Please leave everything as the default except the following fields:
 7. Single sign-on URL: enter the **Sign-On URL** from your TCSM. Make sure to select "Use this for Recipient URL and Destination URL."
 8. Audience URI: enter the **AppID** from your TCSM.
-9. Name ID format: select EmailAddress![](./attachments/Screenshot%202023-06-16%20130119.png)
+9. Name ID format: select EmailAddress![](attachments/Screenshot%202023-06-16%20130119.png)
 10. Click Next to finish editing the SAML settings. You may be prompted to take a short survey; at the end, click Finish. This should return you to the main screen.
 11. Click Applications.  
     ![](./attachments/Applications.png)

@@ -4,12 +4,12 @@ description: Definition & use of Session
 ---
 A **session** is a sequence of consecutive events associated with a single actor. A session is identified as all events that occur during a period of activity bounded by periods of inactivity. Sessions divide and filter actor journeys into sub-series of events. Measure IQ then computes statistics on session counts, durations, and numbers of events.
 
-In Measure IQ, *funnels* and *sessions* are folded into [flows](../flow), with additional functionality.
+In Measure IQ, *funnels* and *sessions* are folded into [flows](../../../glossary/flow), with additional functionality.
 
 ## Related terms
 
 - [Actor](../actor)
-- [Flow](../flow)
+- [Flow](../../../glossary/flow)
 - [Funnel](../funnel)
 
 ## More information

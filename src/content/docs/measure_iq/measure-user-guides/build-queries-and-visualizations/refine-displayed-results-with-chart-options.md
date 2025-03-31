@@ -31,7 +31,7 @@ This section shows you how to create and run a query with multiple measures, th
 2. Select **Chart Options** in the top right corner.
 3. Click a measure check box to deselect, then click **Apply**. The results change to show only the selected measures.
 
-![](./attachments/hide%20a%20measure.png)
+![](attachments/hide%20a%20measure.png)
 
 ## Stack bar charts
 
@@ -46,7 +46,7 @@ You can refactor **Bar View** display results, grouping items together with t
 5. Click **Apply**. We received the following results in our example.
 6. Optional: Make another **Stacked by** selection to regroup the results, or select **none** to return to the original display, then click **Apply**.
 
-![](./attachments/stacked%20bar%20options.png)
+![](attachments/stacked%20bar%20options.png)
 
 ## Display values on top of each bar
 
@@ -58,7 +58,7 @@ You can show and hide values on top of each bar in **Bar View**. For stacked ba
 2. In the top right corner of the query results window, click **Chart Options**.
 3. Click the **Display** value of each bar at the top check box, and then click **Apply**. Values are displayed at the top of each bar in **Bar View**, as shown in the following example. In a stacked bar chart, the number displayed at the top of each bar is the sum of all values in that bar.
 
-![](./attachments/stacked%20bar%20options%20-2.png)
+![](attachments/stacked%20bar%20options%20-2.png)
 
 ## Hide a line of results in Time View
 
@@ -70,4 +70,4 @@ When viewing query results in **Time View**, you might want to hide a single l
 2. In the legend on the right, select the line of results you want to hide. The line is highlighted in the graph display.
 3. Click on the value of the line you want to hide or restore. The graph display adjusts accordingly.
 
-![](./attachments/Screen%20Recording%202023-03-28%20at%2011.22.33%20AM.mov)
+![](attachments/Screen%20Recording%202023-03-28%20at%2011.22.33%20AM.mov)

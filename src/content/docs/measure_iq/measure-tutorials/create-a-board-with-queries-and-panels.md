@@ -12,7 +12,7 @@ Once you're familiar with any Boards or queries in your workspace when you first
 
 ## 1\. Creating a new Board
 
-This section shows you how to create a new Board that you can populate with your own query panels. New boards and panels are [private by default](../../measure-guides/measure-user-guides/manage-your-created-objects/share-an-object-with-other-users).
+This section shows you how to create a new Board that you can populate with your own query panels. New boards and panels are [private by default](../../measure_iq/measure-user-guides/manage-your-created-objects/share-an-object-with-other-users).
 
 #### To create a new Board, complete the following steps:
 
@@ -22,11 +22,11 @@ This section shows you how to create a new Board that you can populate with your
 
 2\. Click **\+ ADD BOARD** at the top right of the page. Give the Board a unique name, ideally including your Measure IQ username, and click Save. The description field is optional, but can add deeper context to a Board when needed.
 
-![](./attachments/Screenshot%202023-03-15%20at%205.15.41%20PM.png)
+![](attachments/Screenshot%202023-03-15%20at%205.15.41%20PM.png)
 
 3\. The Board will initially be empty. To begin building the Board, click **Go to Explore to Add a Panel**.
 
-![](./attachments/Screenshot%202023-03-15%20at%205.17.10%20PM.png)
+![](attachments/Screenshot%202023-03-15%20at%205.17.10%20PM.png)
 
 ## 2\. Constructing a query
 
@@ -62,7 +62,7 @@ To create a query that counts all events over the last seven days, complete the 
 
 ![](./attachments/2023-03-16_10-37-28.png)
 
-A [trailing window](/measure_iq/glossary/trailing-window) (the default is 1 day) specifies how far back from each data point's end time Measure IQ looks at when aggregating over events. It is common to set the time resolution equal to the trailing window. See [Specify Relative Time in a Query](../../measure-guides/measure-user-guides/build-queries-and-visualizations/specify-time-in-a-query) in the User's Guide.
+A [trailing window](../../../../measure_iq/glossary/trailing-window) (the default is 1 day) specifies how far back from each data point's end time Measure IQ looks at when aggregating over events. It is common to set the time resolution equal to the trailing window. See [Specify Relative Time in a Query](../../measure_iq/measure-user-guides/build-queries-and-visualizations/specify-time-in-a-query) in the User's Guide.
 
 5\. At the bottom of the query definition, select a **Mode** then click **RUN**. The query results appear on the right.
 
@@ -91,7 +91,7 @@ This task demonstrates the ways you can view query results, then pin the query t
 
 1. In the default **Time view**, hover the cursor over points on the line to view detail data, as shown in the example below.
 
-![](<./attachments/2023-03-16_11-29-38%20(1).webp>)
+![](<attachments/2023-03-16_11-29-38%20(1).webp>)
 
 To view query results in table format, click the **Table view** icon at the top of the window, as shown below.
 

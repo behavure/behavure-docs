@@ -5,7 +5,7 @@ description: "Definition & use of Create a Flow Property "
 
 This section demonstrates how to create a custom property for a flow. You must first [create a flow](../create-a-flow) before you can create a custom flow property.
 
-You can create a flow property using one of the following [methods](/measure_iq/glossary/method):
+You can create a flow property using one of the following [methods](../method):
 
 - **Show**: The most common properties aggregate events, such as counting the unique number of session IDs.
 - **Filter**: You can group and label one segment of your flows, for example, "Did reach shopping cart".
@@ -31,4 +31,4 @@ To create a flow property, do the following:
 
 For more information about flows, see the following information in the User's Guide:
 
-- [Analyze User Paths with Flows](../../../measure-guides/measure-user-guides/analyze-user-paths-with-flows)
+- [Analyze User Paths with Flows](../../../measure_iq/measure-user-guides/analyze-user-paths-with-flows)

@@ -33,7 +33,7 @@ In v5, Measure IQ offers you the choice of automatically optimizing the bins, so
 
 Note: When you change one slider, the other will automatically shift to match. If you want them to be specific values, you’ll have to change both sliders.
 
-Adjusting binning also lets you create interesting analyses. When investigating event properties, you can bin by either a count of all events, over a property, or over a [calculation of a property](/measure_iq/glossary/event-property).
+Adjusting binning also lets you create interesting analyses. When investigating event properties, you can bin by either a count of all events, over a property, or over a [calculation of a property](../event-property).
 
 #### Example: Find total spending per age bracket
 

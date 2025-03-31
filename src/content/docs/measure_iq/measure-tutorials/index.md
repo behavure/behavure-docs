@@ -9,27 +9,27 @@ You can perform this series of tasks sequentially to familiarize yourself with u
 
 ## Working with Queries and Panels
 
-- [Start working with queries and panels](/measure_iq/measure-tutorials/create-a-board-with-queries-panels) - Learn how to create a panel, create and modify a query, and create event and actor properties.
-- [Create a board and add a panel](/measure_iq/measure-tutorials/create-a-board-with-queries-panels) - Learn how to create your own custom board when you're familiar with the workspace.
-- [Modify a query](/measure_iq/measure-tutorials/modify-a-query) - Learn how to modify a query from Explore and from a panel.
-- [Create an event property](/measure_iq/measure-tutorials/create-an-event-property) - Learn how to define a new event property for summarizing, grouping, or filtering.
-- [Create an actor property](/measure_iq/measure-tutorials/create-an-actor-property) - Learn about actors and how to create actor properties.
+- [Start working with queries and panels](../../../../measure_iq/measure-tutorials/create-a-board-with-queries-panels) - Learn how to create a panel, create and modify a query, and create event and actor properties.
+- [Create a board and add a panel](../../../../measure_iq/measure-tutorials/create-a-board-with-queries-panels) - Learn how to create your own custom board when you're familiar with the workspace.
+- [Modify a query](../../../../measure_iq/measure-tutorials/modify-a-query) - Learn how to modify a query from Explore and from a panel.
+- [Create an event property](../../../../measure_iq/measure-tutorials/create-an-event-property) - Learn how to define a new event property for summarizing, grouping, or filtering.
+- [Create an actor property](../../../../measure_iq/measure-tutorials/create-an-actor-property) - Learn about actors and how to create actor properties.
 
 ## Working with Flows
 
-- [Work with flows](/measure_iq/measure-tutorials/work-with-flows) - Learn how to create, analyze, and modify a flow.
-- [Create a flow](/measure_iq/measure-tutorials/work-with-flows/create-a-flow) - Learn how to visualize the path of actions taken by actors.
-- [Analyze a flow](/measure_iq/measure-tutorials/work-with-flows/analyze-a-flow) - Discover ways to inspect and analyze results in the flow builder.
-- [Create a flow property](/measure_iq/measure-tutorials/work-with-flows/create-a-flow-property) - Learn how to create and work with custom flow properties.
+- [Work with flows](../../../../measure_iq/measure-tutorials/work-with-flows) - Learn how to create, analyze, and modify a flow.
+- [Create a flow](../../../../measure_iq/measure-tutorials/work-with-flows/create-a-flow) - Learn how to visualize the path of actions taken by actors.
+- [Analyze a flow](../../../../measure_iq/measure-tutorials/work-with-flows/analyze-a-flow) - Discover ways to inspect and analyze results in the flow builder.
+- [Create a flow property](../../../../measure_iq/measure-tutorials/work-with-flows/create-a-flow-property) - Learn how to create and work with custom flow properties.
 
 ## Working with Queries
 
-- [Calculate DAU and MAU](/measure_iq/measure-tutorials/work-with-queries/calculate-dau-and-mau) - Learn how to calculate daily and monthly active users.
-- [Determine a ratio](/measure_iq/measure-tutorials/work-with-queries/determine-a-ratio) - Learn how to construct queries using two measures and determine ratios.
+- [Calculate DAU and MAU](../../../../measure_iq/measure-tutorials/work-with-queries/calculate-dau-and-mau) - Learn how to calculate daily and monthly active users.
+- [Determine a ratio](../../../../measure_iq/measure-tutorials/work-with-queries/determine-a-ratio) - Learn how to construct queries using two measures and determine ratios.
 
 ## Managing Objects and Queries
 
-- [Change the visibility of properties](/measure_iq/measure-tutorials/manage-objects-and-queries/change-the-visibility-of-properties) - Learn how to manage the display of properties in your workspace.
-- [Manage properties](/measure_iq/measure-tutorials/manage-objects-and-queries/manage-properties) - Learn how to search for properties and manage your property lists.
-- [View query history](/measure_iq/measure-tutorials/manage-objects-and-queries/view-query-history) - Learn how to access and use your query history.
-- [Next steps](/measure_iq/measure-tutorials/manage-objects-and-queries/next-steps) - Discover resources for continuing your Measure IQ learning journey.
+- [Change the visibility of properties](../../../../measure_iq/measure-tutorials/manage-objects-and-queries/change-the-visibility-of-properties) - Learn how to manage the display of properties in your workspace.
+- [Manage properties](../../../../measure_iq/measure-tutorials/manage-objects-and-queries/manage-properties) - Learn how to search for properties and manage your property lists.
+- [View query history](../../../../measure_iq/measure-tutorials/manage-objects-and-queries/view-query-history) - Learn how to access and use your query history.
+- [Next steps](../../../../measure_iq/measure-tutorials/manage-objects-and-queries/next-steps) - Discover resources for continuing your Measure IQ learning journey.

@@ -3,7 +3,7 @@ title: "Create an Optional Flow Step "
 description: "Definition & use of Create an Optional Flow Step "
 ---
 
-When you define your [flow](/measure_iq/glossary/flow), you can identify one or more steps as optional.
+When you define your [flow](../flow), you can identify one or more steps as optional.
 
 For example, you might want to include users that had to log in before purchasing, in addition to users that were already logged in and went directly to purchasing. In this case, login is an optional step.
 

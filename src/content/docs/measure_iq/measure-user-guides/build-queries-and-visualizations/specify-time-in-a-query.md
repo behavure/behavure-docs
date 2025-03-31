@@ -17,7 +17,7 @@ This section outlines the various ways you can specify start and end times.
 - In the query definition, next to **Starting**, click the value and select from the drop-down menu, or type any value. Do the same for **Ending**.
 - In the query definition, on the end of the line with **Starting**, click the calendar icon. Select a day, then specify hours, minutes, and seconds by clicking the respective up and down arrows. Click **Apply** when finished to apply the time range to the query.  
 - ![](./attachments/v5SelectDate03.webp)
-- At the bottom of the Explore window, use the [time scrubber](/measure_iq/glossary/time-scrubber) to pick a range. The time scrubber is a visual equivalent of the starting and ending times in the query definition, and as you adjust either the query definition or the time scrubber, the other updates to reflect the change. The time scrubber rounds the start and end values to the nearest 15 minutes, if the selected time range is less than 48 hours. If you scrub beyond 48 hours, the start and end values snap to the start and end of the selected days.
+- At the bottom of the Explore window, use the [time scrubber](../../../../../measure_iq/glossary/time-scrubber) to pick a range. The time scrubber is a visual equivalent of the starting and ending times in the query definition, and as you adjust either the query definition or the time scrubber, the other updates to reflect the change. The time scrubber rounds the start and end values to the nearest 15 minutes, if the selected time range is less than 48 hours. If you scrub beyond 48 hours, the start and end values snap to the start and end of the selected days.
 
 ![](./attachments/v5TimeScrubber02.png)
 
@@ -25,7 +25,7 @@ This section outlines the various ways you can specify start and end times.
 
 ## Set the time resolution and trailing window
 
-You can specify the time resolution of the data points plotted on the Time view graph, as well as setting the [trailing window](/measure_iq/glossary/trailing-window) over which the data points are scanned. These settings determine the granularity of events for the query.
+You can specify the time resolution of the data points plotted on the Time view graph, as well as setting the [trailing window](../../../../../measure_iq/glossary/trailing-window) over which the data points are scanned. These settings determine the granularity of events for the query.
 
 ### To set the time resolution and trailing window, do the following:
 
@@ -88,5 +88,5 @@ For example, if your time range is specified as 4 weeks, by default Measure IQ s
 
 Now that you know how to create basic queries and flows, and how to specify relative time, try these procedures:
 
-- [Determine a ratio](../../../measure-guides/measure-tutorials/work-with-queries/determine-a-ratio)
+- [Determine a ratio](../../../measure_iq/measure-tutorials/work-with-queries/determine-a-ratio)
 - [Analyze user sessions with flows](../../measure-user-guides/analyze-user-paths-with-flows/example-analyze-user-sessions-with-flows)

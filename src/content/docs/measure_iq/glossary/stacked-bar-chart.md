@@ -6,7 +6,7 @@ The **Stacked Bar view** allows you to visualize the results of your query in
 
 In this example, results are grouped first by gender, and then for each gender, in stacks by location.
 
-![](./attachments/Screen%20Shot%202021-07-08%20at%202.52.22%20PM.png)
+![](attachments/Screen%20Shot%202021-07-08%20at%202.52.22%20PM.png)
 
 ## Related terms
 

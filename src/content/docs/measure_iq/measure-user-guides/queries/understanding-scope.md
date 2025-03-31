@@ -177,5 +177,5 @@ And then to produce our final result, we simply average(120s, 120s, 60s, 92s) to
 
 ### Related
 
-- [Event Properties vs. Actor Properties](../../../measure-guides/measure-tutorials/event-properties-vs-actor-properties)
+- [Event Properties vs. Actor Properties](../../../measure_iq/measure-tutorials/event-properties-vs-actor-properties)
 - [Resolving Scope Mismatch](./understanding-scope/resolving-scope-mismatch)

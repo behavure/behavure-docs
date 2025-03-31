@@ -65,6 +65,6 @@ In this example, on the third day’s pass, only the new record will be ingested
 
 ## Resources
 
-- [What to Think About Before You Add Data](/measure_iq/admin-guides/managing-your-data/what-to-think-about-before-you-add-data)
-- [Data Logging](/measure_iq/key-concepts-and-terminology/data-pipeline/data-logging)
-- [Planning Your Measure IQ Deployment](/measure_iq/admin-guides/planning-your-measure-iq-deployment)
+- [What to Think About Before You Add Data](../../../../../measure_iq/admin-guides/managing-your-data/what-to-think-about-before-you-add-data)
+- [Data Logging](../../../../../measure_iq/key-concepts-and-terminology/data-pipeline/data-logging)
+- [Planning Your Measure IQ Deployment](../../../../../measure_iq/admin-guides/planning-your-measure-iq-deployment)

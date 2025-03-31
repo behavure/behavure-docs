@@ -2,9 +2,9 @@
 title: "Example: Analyze paths to conversion using flows "
 description: "Definition & use of Example: Analyze paths to conversion using flows "
 ---
-You can use [flows](/measure_iq/glossary/flow) to analyze user actions or sequence of actions over time. You can create a flow using existing properties, or create your own custom properties. This article shows you how to create a flow and analyze the actor paths to a conversion state.
+You can use [flows](../flow) to analyze user actions or sequence of actions over time. You can create a flow using existing properties, or create your own custom properties. This article shows you how to create a flow and analyze the actor paths to a conversion state.
 
-This example uses a flow created with a sample dataset. For step-by-step instructions on creating a flow, see [Create a flow](../../../measure-guides/measure-tutorials/work-with-flows/create-a-flow) in the Tutorial.
+This example uses a flow created with a sample dataset. For step-by-step instructions on creating a flow, see [Create a flow](../../../measure_iq/measure-tutorials/work-with-flows/create-a-flow) in the Tutorial.
 
 ## Analyzing flow paths to conversion
 

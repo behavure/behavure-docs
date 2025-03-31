@@ -11,7 +11,7 @@ Managed Identities is a way to authenticate access to the Azure Cloud without us
 
 Let's say you need access from a Machine to a Storage Account or Blob/Container. In that case, you'll create a Managed Identity and provide it to both parties. Our Storage will be the contributor, while the Machine will know it as an assigned identity.
 
-![](./attachments/Managed%20Identities.jpg)
+![](attachments/Managed%20Identities.jpg)
 
 The identity creation and assignment are done through the Azure portal.
 

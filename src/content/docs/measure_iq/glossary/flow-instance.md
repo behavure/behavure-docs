@@ -7,5 +7,5 @@ A **flow instance** is an individual actor's path through a flow. For example, 
 #### Related terms:
 
 - [Actor](../actor)
-- [Flow](../flow)
-- [Flow Property](../flow-property)
+- [Flow](../../../glossary/flow)
+- [Flow Property](../../../glossary/flow-property)

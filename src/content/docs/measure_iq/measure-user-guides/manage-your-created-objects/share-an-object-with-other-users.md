@@ -2,7 +2,7 @@
 title: "Share an Object With Other Users "
 description: "Definition & use of Share an Object With Other Users "
 ---
-After you've created a few properties and boards, you can share them with other users. You can share an object with another user or an entire role, according to your [role definition](/measure_iq/glossary/user-roles).
+After you've created a few properties and boards, you can share them with other users. You can share an object with another user or an entire role, according to your [role definition](../../../../../measure_iq/glossary/user-roles).
 
 ## How sharing works
 
@@ -33,7 +33,7 @@ You can share with an individual user or with every user in a role. The roles y
 -   To share the board but not have it populate the other user's board lists, grant **query** access. 
 -   To allow the other user to share the board with additional users, grant **read** or **write** access.
 6. Click **Save**. Your board is now visible to the user or users you shared it with.  
-![](./attachments/share%20a%20board.mov)
+![](attachments/share%20a%20board.mov)
 
 ### **To share a property, flow, or measure**:
 
@@ -46,7 +46,7 @@ You can share with an individual user or with every user in a role. The roles y
 -   To allow the other user to share the property with additional users, grant **read** or **write** access.
 6. Click **Save**. Your object is now visible to the user or users you shared it with.
 
-![](./attachments/edit%20perms%20from%20DD.mov)
+![](attachments/edit%20perms%20from%20DD.mov)
 
 ### How access to an object is inherited
 
@@ -65,7 +65,7 @@ Without one of these, the recipient sees an error message.
 
 ### About adding and removing objects on boards
 
-Query permission is also inherited on objects that are created privately and then pinned to shared boards. For example, say you create a query but don't explicitly grant User B access to the query. Then you [pin](/measure_iq/glossary/navigation-bar) your query to a board that has already been shared with User B. Once you pin the query to the board, User B can view the query and its dependent objects. Whether the recipient is granted read or write access on the board, they are granted query permission on the dependent objects.
+Query permission is also inherited on objects that are created privately and then pinned to shared boards. For example, say you create a query but don't explicitly grant User B access to the query. Then you [pin](../../../../../measure_iq/glossary/navigation-bar) your query to a board that has already been shared with User B. Once you pin the query to the board, User B can view the query and its dependent objects. Whether the recipient is granted read or write access on the board, they are granted query permission on the dependent objects.
 
 If you remove a query from a board, the implicit permissions on its dependent objects are removed. Users with implicit permission to view that dependent object can no longer view it, unless they have also been explicitly granted permission to that object.
 
@@ -80,7 +80,7 @@ To inspect the permissions on an object:
 3. In the right panel, click the **Permissions** tab.
 4. A list displays the users and roles with read, write, or query permission on this object. You can view or modify permissions here.
 
-![](./attachments/Screen%20Recording%202023-03-30%20at%203.51.15%20PM.mov)
+![](attachments/Screen%20Recording%202023-03-30%20at%203.51.15%20PM.mov)
 
 ### About naming objects
 
@@ -90,7 +90,7 @@ For example, User A can create an actor property called "AP - young or old" and 
 
 User B can distinguish between the two properties by navigating to the object and inspecting the **Owner** column.
 
-![](./attachments/same%20name.mov)
+![](attachments/same%20name.mov)
 
 ### Share a query from Explore or an app
 
@@ -123,5 +123,5 @@ The following table helps you troubleshoot sharing issues.
 
 After you create and share properties, you might want to tidy up your Measure IQ workspace. Learn how in the following topics:
 
-- [Change the Visibility of Properties](../../../measure-guides/measure-tutorials/manage-objects-and-queries/change-the-visibility-of-properties)
-- [Manage Properties](../../../measure-guides/measure-tutorials/manage-objects-and-queries/manage-properties)
+- [Change the Visibility of Properties](../../../measure_iq/measure-tutorials/manage-objects-and-queries/change-the-visibility-of-properties)
+- [Manage Properties](../../../measure_iq/measure-tutorials/manage-objects-and-queries/manage-properties)

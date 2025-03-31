@@ -19,6 +19,7 @@ nodejs = { pkg-path = "nodejs" }
 python311.pkg-path = "python311"
 pip.pkg-path = "python311Packages.pip"
 pyyaml.pkg-path = "python311Packages.pyyaml"
+markuplinkchecker.pkg-path = "markuplinkchecker"
 
 
 ## Environment Variables ---------------------------------------------

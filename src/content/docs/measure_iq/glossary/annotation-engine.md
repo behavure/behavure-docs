@@ -9,7 +9,7 @@ description: Definition & use of Annotation Engine
 - [Actor](../actor)
 - [Dataset](../dataset-table)
 - [Event](../event)
-- [Flow](../flow)
+- [Flow](../../../glossary/flow)
 
 ## More information
 

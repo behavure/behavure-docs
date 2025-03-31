@@ -2,11 +2,11 @@
 title: "Create a Property in Explore With the Query Palette "
 description: "Definition & use of Create a Property in Explore With the Query Palette "
 ---
-The query palette is a quick way to create new [properties](/measure_iq/glossary/event-property) and [flows](/measure_iq/glossary/flow) in your queries. You can create an object inline while you are constructing a query, rather than navigating away to create the property in the **Data** section of the UI.
+The query palette is a quick way to create new [properties](../event-property) and [flows](../flow) in your queries. You can create an object inline while you are constructing a query, rather than navigating away to create the property in the **Data** section of the UI.
 
 Access the palette at the top right of the **Explore** view, as shown below.
 
-![](./attachments/query%20palete.png)
+![](attachments/query%20palete.png)
 
 **Tips for using the query palette:**
 

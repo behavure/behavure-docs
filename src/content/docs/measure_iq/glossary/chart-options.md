@@ -7,4 +7,4 @@ Use the **Chart Options** menu to change the parameters of your query and adjust
 ## Related terms
 
 - [Explore](../explore)
-- [Query Builder](/measure_iq/glossary/query-builder)
+- [Query Builder](../../../../measure_iq/glossary/query-builder)

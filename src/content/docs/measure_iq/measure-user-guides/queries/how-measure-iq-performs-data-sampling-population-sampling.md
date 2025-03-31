@@ -11,7 +11,7 @@ This article explains how Measure IQ **population sampling** is determined. Rea
 
 ## Cluster architecture
 
-A Measure IQ [cluster](/measure_iq/glossary/cluster) has multiple nodes (machines), and the number of nodes scales to match the demands of the data and concurrent users. Each machine has one or more jobs within the overall solution. The import nodes ingest event data from event logs, traces, and so on. The data nodes manage efficiently storing and scanning the event data. The string nodes compress and deduplicate all the strings in the event data, handling storage and lookup for query results so that all data operations can take place efficiently using compact integers. For smaller clusters, nodes can take on several of these roles as needed. These machines can be bare metal, virtualized, or securely running inside a public cloud service.
+A Measure IQ [cluster](../../../../../measure_iq/glossary/cluster) has multiple nodes (machines), and the number of nodes scales to match the demands of the data and concurrent users. Each machine has one or more jobs within the overall solution. The import nodes ingest event data from event logs, traces, and so on. The data nodes manage efficiently storing and scanning the event data. The string nodes compress and deduplicate all the strings in the event data, handling storage and lookup for query results so that all data operations can take place efficiently using compact integers. For smaller clusters, nodes can take on several of these roles as needed. These machines can be bare metal, virtualized, or securely running inside a public cloud service.
 
 ## Consistent organization and representative populations
 

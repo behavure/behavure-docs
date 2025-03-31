@@ -15,7 +15,7 @@ This section demonstrates how to explore user sessions for actor events, such
 
 ### To analyze user sessions with a flow, do the following:
 
-1. Create or use an existing flow that uses an inactivity timeout and the [actor](/measure_iq/glossary/journey-actor-user) with the data you want to analyze.
+1. Create or use an existing flow that uses an inactivity timeout and the [actor](../../../../../measure_iq/glossary/journey-actor-user) with the data you want to analyze.
 2. To create a flow property, open the **Data Drawer** in the right corner.
 3. When the drawer slides out, click the **Flow Property** tile. Enter a property name, specify property details, and click **Save** in the right corner.
 4. To use the flow property, click **Explore.**

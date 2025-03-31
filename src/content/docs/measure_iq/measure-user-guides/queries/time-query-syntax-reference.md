@@ -6,7 +6,7 @@ When working in the Measure IQ Explorer and dashboard view, you can select a tim
 
 The examples below are provided for a user whose timezone is PST.
 
-![](./attachments/relative%20date.png)
+![](attachments/relative%20date.png)
 
 Times are displayed in 24-hour format to be unambiguous.
 
@@ -21,7 +21,7 @@ You have two options for entering dates into the query builder or board filters:
 
 ### Using the date picker:
 
-![](./attachments/date%20picker.png)
+![](attachments/date%20picker.png)
 
 Click the calendar next to ‘Starting' and ‘Ending’ to fill in the time range of your query. The date picker allows you to set year, month, day, hour, minute, and second specifics to your dates.
 
@@ -31,7 +31,7 @@ Click the calendar next to ‘Starting' and ‘Ending’ to fill in the time ran
 
 You can type in a date using the YYYY-MM-DD. If you do not specify a time component, Measure IQ uses midnight, or the zeroth millisecond of the specified calendar date.
 
-![](./attachments/date-type%20in.png)
+![](attachments/date-type%20in.png)
 
 ### Times 
 
@@ -39,7 +39,7 @@ You can specify times up to second precision using the format HH:MM. However, th
 
 ## Relative time syntax 
 
-![](./attachments/relative%20date_time_article.png)
+![](attachments/relative%20date_time_article.png)
 
 Measure IQ also supports relative time syntax. These terms are "sticky," meaning that a query using them will roll forward in real time (versus a query based on literal time values whose results will not change with the passage of time).
 

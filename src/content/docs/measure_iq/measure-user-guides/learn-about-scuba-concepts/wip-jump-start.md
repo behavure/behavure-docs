@@ -13,7 +13,7 @@ Before you can get to the fun part of interacting with your data, it's important
 
 Let's begin with a brief overview of Measure IQ's primary features found in the side navigation bar.
 
-![](<./attachments/2023-09-28_14-29-55%20(1).webp>)
+![](<attachments/2023-09-28_14-29-55%20(1).webp>)
 
 ## About
 
@@ -51,9 +51,9 @@ Within each board, you'll find a menu bar positioned at the top. This menu bar d
 
 The pencil icon gives the ability to edit the name of the board, move panels around, resize, and delete them.
 
-![](<./attachments/2023-05-22_14-33-01%20(2).webp>)
+![](<attachments/2023-05-22_14-33-01%20(2).webp>)
 
-Read more about managing your objects in [Change the visibility of properties](/measure_iq/measure-guides/measure-tutorials/manage-objects-and-queries/change-the-visibility-of-properties).
+Read more about managing your objects in [Change the visibility of properties](/measure_iq/measure-tutorials/manage-objects-and-queries/change-the-visibility-of-properties).
 
 **Panel menu**
 
@@ -67,7 +67,7 @@ The Panel menu allows users the ability to edit the panel. Explore is available 
 
 You can open a panel in Explore by clicking **Explore** in the top right corner of the panel.
 
-![](<./attachments/2023-06-12_15-03-03%20(1).webp>)
+![](<attachments/2023-06-12_15-03-03%20(1).webp>)
 
 ## Explore
 
@@ -81,7 +81,7 @@ The sentence model query builder is on the left side of the Explore view window,
 
 ![](./attachments/measure.jpg)
 
-When you make a selection in the query builder, valid options—from the data and action dictionary—are shown from which you can choose. For more information, see the step-by-step instructions for creating a simple query in [Create a board and add a panel](/measure_iq/measure-guides/measure-tutorials/create-a-board-with-queries-panels).
+When you make a selection in the query builder, valid options—from the data and action dictionary—are shown from which you can choose. For more information, see the step-by-step instructions for creating a simple query in [Create a board and add a panel](/measure_iq/measure-tutorials/create-a-board-with-queries-panels).
 
 #### Viewing queries in different formats
 
@@ -99,9 +99,9 @@ You can save a query to make it accessible for monitoring and quick reference, b
 
 Queries can also be added to an existing board as a panel by clicking **Clone to Dashboard** and then select the board to save the query to.
 
-![](<./attachments/2023-09-28_14-48-02%20(1).webp>)
+![](<attachments/2023-09-28_14-48-02%20(1).webp>)
 
-For more information, see [Create a board and add a panel](/measure_iq/measure-guides/measure-tutorials/create-a-board-with-queries-panels) in the tutorial.
+For more information, see [Create a board and add a panel](/measure_iq/measure-tutorials/create-a-board-with-queries-panels) in the tutorial.
 
 ## Exploration templates
 
@@ -113,19 +113,19 @@ In additional to default exploration, additional templates are available to assi
 
 Retention analysis reveals how long a user is spending with your product or service, when the user stops using, and when the user re-engages. This helps you learn which features are sticky, which features turn away users, and the level of customer loyalty.
 
-See [Analyze user retention or engagement with the retention module](/measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations/analyze-user-retention-or-engagement-with-the-retention-module) in the User's Guide.
+See [Analyze user retention or engagement with the retention module](../../../../../measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations/analyze-user-retention-or-engagement-with-the-retention-module) in the User's Guide.
 
 #### A/B view
 
 A/B testing helps you measure iterations of your experience using metrics that matter to you.
 
-See [Analyze A/B testing results](/measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations/analyze-ab-testing-results) in the User's Guide.
+See [Analyze A/B testing results](../../../../../measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations/analyze-ab-testing-results) in the User's Guide.
 
 #### Distribution
 
 Distribution view shows the range of events represented in the data and the frequency with which each event occurs.
 
-See [Analyze a distribution](/measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations/analyze-a-distribution) in the User's Guide.
+See [Analyze a distribution](../../../../../measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations/analyze-a-distribution) in the User's Guide.
 
 ## Signals
 
@@ -139,7 +139,7 @@ To create a Signal from a query, select "Open Signals Drawer".
 
 To send a Signal from Board, navigate to the **Menu Board** and click "New Signal".
 
-![](./attachments/Screenshot%202023-09-28%20at%203.26.39%E2%80%AFPM.png)
+![](attachments/Screenshot%202023-09-28%20at%203.26.39%E2%80%AFPM.png)
 
 Be sure to include specific details such as a name, frequency, and recipients. Adding a name will help distinguish the Signal from others, while specifying the frequency will determine how often the Signal is transmitted. Identifying the recipients will ensure that the information reaches the intended audience. While not mandatory, including a description can be beneficial in providing additional context if needed. Once all the necessary details have been added, simply click on the "Save" button located on the left side to finalize the Signal.
 
@@ -153,27 +153,27 @@ The Signals tab lists all signals that have been created, and provides useful in
 
 ![image-20250205-195908.png](./attachments/image-20250205-195908.png)
 
-See [Signals](/measure_iq/docs/l/cp/fwoZqz5J) in the User's Guide for more information on how to create, modify and circulate Signals.
+See [Signals](../../../../../measure_iq/docs/l/cp/fwoZqz5J) in the User's Guide for more information on how to create, modify and circulate Signals.
 
 ## Data
 
 The Data Dictionary tab provides a comprehensive view of your event data, including user-defined objects such as Event Properties, Actor Properties, Flows, Flow Properties, and Measures. This tab allows you to conveniently edit, view, and manage existing objects, as well as create new ones. All of these actions can be performed within the data drawer located in the right-hand corner of the dictionary.
 
-![Data dictionary nav](./attachments/Data%20dictionary%20nav.webp)
+![Data dictionary nav](attachments/Data%20dictionary%20nav.webp)
 
 #### Event properties
 
-The Event properties tab displays a table of event properties you can use to construct queries. You can also create a new Event property by clicking the button in the top right corner of the window. For more information, see [Create an event property](/measure_iq/measure-guides/measure-tutorials/create-an-event-property).
+The Event properties tab displays a table of event properties you can use to construct queries. You can also create a new Event property by clicking the button in the top right corner of the window. For more information, see [Create an event property](/measure_iq/measure-tutorials/create-an-event-property).
 
 Click an event property in the table to view details for the property, as shown in the following example.
 
-![EP Drawer](./attachments/EP%20Drawer.webp)
+![EP Drawer](attachments/EP%20Drawer.webp)
 
 #### Actor properties
 
 The Actor properties tab displays a table of actor properties you can use to construct queries. For more information. Click an actor property in the table to view details of the property. You can modify the property by opening it in the drawer, as illustrated with Event Properties above.
 
-For more information, see [Create an actor property](/measure_iq/measure-guides/measure-tutorials/create-an-actor-property).
+For more information, see [Create an actor property](/measure_iq/measure-tutorials/create-an-actor-property).
 
 #### Flows
 
@@ -181,7 +181,7 @@ Use flows to take a sequence of events by a particular actor, then segment a chu
 
 Click a flow in the table to view the flow. You can modify the flow by changing the option selections in the panel on the left and then re-running the query.
 
-For information, see [Create a flow](/measure_iq/measure-guides/measure-tutorials/work-with-flows/create-a-flow) and [Modify a query](/measure_iq/measure-guides/measure-tutorials/modify-a-query).
+For information, see [Create a flow](/measure_iq/measure-tutorials/work-with-flows/create-a-flow) and [Modify a query](/measure_iq/measure-tutorials/modify-a-query).
 
 #### Flow Property
 
@@ -194,11 +194,11 @@ When creating a flow property, you have the option to choose a method. There are
 - The "show" method aggregates data from events belonging to each flow instance and generates a single value for each instance. When using the "show" method, you can select objects tied to the events (such as event properties, actor properties, and other flow properties).
 - The "label, filter, calculate, or flow time" methods allow for comparisons or arithmetic operations involving other flow properties, actor properties, and literal values. These methods also produce a single value for each flow instance. You can create a flow property using objects related to your flow and access actor properties, but event properties are not accessible in this case.
 
-Click [here to learn how to create a Flow Property](/measure_iq/docs/wiki/x/74GCfw).
+Click [here to learn how to create a Flow Property](../../../../../measure_iq/docs/wiki/x/74GCfw).
 
 #### Measures
 
-You can create a query using a Show or Calculate [method](/measure_iq/glossary/method) and use the new measure in a top-level query. For more information, see [Determine a ratio](/measure_iq/measure-guides/measure-tutorials/work-with-queries/determine-a-ratio) in the Tutorial.
+You can create a query using a Show or Calculate [method](../method) and use the new measure in a top-level query. For more information, see [Determine a ratio](/measure_iq/measure-tutorials/work-with-queries/determine-a-ratio) in the Tutorial.
 
 ## Help
 
@@ -206,4 +206,4 @@ Clicking the **Help** icon takes you to our documentation guide. If the document
 
 ## What's Next
 
-Now that you've gotten your bearings with the Measure IQ layout and functionality, you can jump in and [create a board and add a panel](/measure_iq/measure-guides/measure-tutorials/create-a-board-with-queries-panels).
+Now that you've gotten your bearings with the Measure IQ layout and functionality, you can jump in and [create a board and add a panel](/measure_iq/measure-tutorials/create-a-board-with-queries-panels).

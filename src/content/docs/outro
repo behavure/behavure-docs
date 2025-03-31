@@ -1,0 +1,803 @@
+.
+├── glossary
+│   └── index.md
+├── index.mdx
+├── introduction.md
+├── measure_iq
+│   ├── admin-guides
+│   │   ├── attachments
+│   │   │   ├── ClusterArchitecture.jpg
+│   │   │   └── ClusterConfig_single-node_sm.png
+│   │   ├── configuring-azure-for-scuba-clusters
+│   │   │   ├── attachments
+│   │   │   │   ├── Managed Identities.jpg
+│   │   │   │   ├── image-20210930-222644.png
+│   │   │   │   └── image-20210930-224349.png
+│   │   │   ├── index.md
+│   │   │   └── setting-up-azure-managed-identities-for-measure-iq.md
+│   │   ├── index.md
+│   │   ├── managing-your-data
+│   │   │   ├── attachments
+│   │   │   │   ├── WhaleDetector.png
+│   │   │   │   └── WhaleShard_simple_illo.png
+│   │   │   ├── balance-data-for-efficient-sampling-whale-actors.md
+│   │   │   ├── best-practices-for-formatting-data-for-ingest.md
+│   │   │   ├── best-practices-for-formatting-lookup-table-data.md
+│   │   │   ├── converting-protocol-buffers-protobuf-to-json-for-ingestion.md
+│   │   │   ├── data-types-reference.md
+│   │   │   ├── import-data-deduplication.md
+│   │   │   ├── index.md
+│   │   │   ├── intro-to-lookup-tables.md
+│   │   │   ├── string-resolution-and-hash-collisions.md
+│   │   │   ├── what-goes-on-behind-the-scenes-when-data-is-imported.md
+│   │   │   ├── what-to-think-about-before-you-add-data.md
+│   │   │   └── what-you-should-know-about-structuring-your-data.md
+│   │   ├── planning-your-measure-iq-deployment.md
+│   │   ├── security-compliance
+│   │   │   ├── about-measure-iq-privacy-purges.md
+│   │   │   ├── attachments
+│   │   │   │   ├── GDPR_scenario1.png
+│   │   │   │   └── GDPR_scenario2.png
+│   │   │   ├── how-to-comply-with-gdpr.md
+│   │   │   └── index.md
+│   │   ├── set-up-an-authentication-provider-sso
+│   │   │   ├── add-azure-ad-authentication-to-your-measure-iq-instance.md
+│   │   │   ├── add-google-saml-authentication-to-your-measure-iq-instance.md
+│   │   │   ├── add-okta-authentication-to-your-measure-iq-instance.md
+│   │   │   ├── add-onelogin-authentication-to-your-measure-iq-instance.md
+│   │   │   ├── attachments
+│   │   │   │   ├── AAD_SSO_icon.png
+│   │   │   │   ├── AAD_addEnterpriseApplication.png
+│   │   │   │   ├── AAD_azureActiveDirectory.png
+│   │   │   │   ├── Add apps.png
+│   │   │   │   ├── AddApplications.png
+│   │   │   │   ├── Applications.png
+│   │   │   │   ├── Create_New_App.png
+│   │   │   │   ├── General_Settings.png
+│   │   │   │   ├── Google Admin homepage.png
+│   │   │   │   ├── Google Apps.png
+│   │   │   │   ├── Identity_Provider_Metadata.png
+│   │   │   │   ├── SAML test connector.png
+│   │   │   │   ├── SAML_2.0.png
+│   │   │   │   ├── Screenshot 2023-06-16 125928.png
+│   │   │   │   ├── Screenshot 2023-06-16 130000.png
+│   │   │   │   ├── Screenshot 2023-06-16 130024.png
+│   │   │   │   ├── Screenshot 2023-06-16 130047.png
+│   │   │   │   ├── Screenshot 2023-06-16 130119.png
+│   │   │   │   ├── Screenshot_2023-06-16_130152.png
+│   │   │   │   ├── Sign%2BOn.png
+│   │   │   │   ├── add a SAML app.png
+│   │   │   │   ├── add.png
+│   │   │   │   ├── app details.png
+│   │   │   │   ├── app off.png
+│   │   │   │   ├── app on.png
+│   │   │   │   ├── apps.png
+│   │   │   │   ├── attributes.png
+│   │   │   │   ├── configuration.png
+│   │   │   │   ├── issuer.png
+│   │   │   │   ├── metadata_download.png
+│   │   │   │   ├── name your app.png
+│   │   │   │   ├── service provider details.png
+│   │   │   │   └── viewendpoints.png
+│   │   │   └── index.md
+│   │   └── string-resolution-and-hash-collisions.md
+│   ├── glossary
+│   │   ├── ab-view.md
+│   │   ├── actor-property.md
+│   │   ├── actor.md
+│   │   ├── advanced-filter.md
+│   │   ├── aggregation-engine.md
+│   │   ├── aggregation-function.md
+│   │   ├── annotation-engine.md
+│   │   ├── api-node.md
+│   │   ├── api.md
+│   │   ├── at-rest-data.md
+│   │   ├── attachments
+│   │   │   ├── Bar View.png
+│   │   │   ├── PieView.gif
+│   │   │   ├── PieView.webp
+│   │   │   ├── Screen Shot 2021-07-08 at 2.52.22 PM.png
+│   │   │   ├── sangkey.png
+│   │   │   ├── v5LineView.png
+│   │   │   └── v5Sidebar.png
+│   │   ├── backfill.md
+│   │   ├── bar-view.md
+│   │   ├── basic-filter.md
+│   │   ├── behavior-on-read.md
+│   │   ├── behavior.md
+│   │   ├── behavioral-analytics-full-stack-interactive.md
+│   │   ├── blended-data.md
+│   │   ├── board-dashboard-living.md
+│   │   ├── bqlbaql.md
+│   │   ├── cache-caching.md
+│   │   ├── character-set-encoding.md
+│   │   ├── chart-options.md
+│   │   ├── cluster.md
+│   │   ├── cohort.md
+│   │   ├── columnar-database.md
+│   │   ├── config-node.md
+│   │   ├── configdb.md
+│   │   ├── continuous-ingest.md
+│   │   ├── data-node.md
+│   │   ├── data-store.md
+│   │   ├── data-structure.md
+│   │   ├── data-tier.md
+│   │   ├── dataset-table.md
+│   │   ├── deduplication-dedupe.md
+│   │   ├── denormalized-data.md
+│   │   ├── distribution-view.md
+│   │   ├── event-data.md
+│   │   ├── event-property.md
+│   │   ├── event.md
+│   │   ├── every-x-trailing-y.md
+│   │   ├── every.md
+│   │   ├── explore.md
+│   │   ├── filters.md
+│   │   ├── flow-instance.md
+│   │   ├── flow-property.md
+│   │   ├── flow.md
+│   │   ├── funnel.md
+│   │   ├── import-node.md
+│   │   ├── in-motion-data.md
+│   │   ├── index.md
+│   │   ├── ingest.md
+│   │   ├── journey-actor-user.md
+│   │   ├── json.md
+│   │   ├── jsonl.md
+│   │   ├── knowledge-object-knob.md
+│   │   ├── line-view.md
+│   │   ├── log-data.md
+│   │   ├── lookup-table.md
+│   │   ├── measure.md
+│   │   ├── merge-server.md
+│   │   ├── method.md
+│   │   ├── metric.md
+│   │   ├── navigation-bar.md
+│   │   ├── node.md
+│   │   ├── number-view.md
+│   │   ├── operator.md
+│   │   ├── order-by.md
+│   │   ├── panels.md
+│   │   ├── per-actor-metric.md
+│   │   ├── pie-view.md
+│   │   ├── pipeline.md
+│   │   ├── pre-filters.md
+│   │   ├── query-api.md
+│   │   ├── query-builder.md
+│   │   ├── query-history.md
+│   │   ├── query-statistics.md
+│   │   ├── query.md
+│   │   ├── ratio-metrics.md
+│   │   ├── raw-data.md
+│   │   ├── rebalance.md
+│   │   ├── reingest.md
+│   │   ├── resize.md
+│   │   ├── resolution.md
+│   │   ├── rest.md
+│   │   ├── retention.md
+│   │   ├── role-based-access-controls-rbac.md
+│   │   ├── samples.md
+│   │   ├── sampling.md
+│   │   ├── sankey-view-diagram.md
+│   │   ├── scan-engines.md
+│   │   ├── segment.md
+│   │   ├── self-signed-certificate.md
+│   │   ├── semi-structured.md
+│   │   ├── session.md
+│   │   ├── shard-key-colocated-shard-key.md
+│   │   ├── shard.md
+│   │   ├── show-actor-flow-property.md
+│   │   ├── signals.md
+│   │   ├── sparse.md
+│   │   ├── split-by.md
+│   │   ├── stacked-bar-chart.md
+│   │   ├── streaming-ingest.md
+│   │   ├── string-node.md
+│   │   ├── structured-data.md
+│   │   ├── table-view.md
+│   │   ├── time-scrubber.md
+│   │   ├── time-zone-offset.md
+│   │   ├── timestamp.md
+│   │   ├── trailing-window.md
+│   │   ├── units.md
+│   │   ├── unsampled.md
+│   │   ├── unstructured.md
+│   │   ├── user-roles.md
+│   │   ├── views.md
+│   │   ├── virtual-columns.md
+│   │   ├── visualization-window.md
+│   │   ├── web-analytics.md
+│   │   ├── whale.md
+│   │   └── wildcard-steps.md
+│   ├── index.md
+│   ├── key-concepts-and-terminology
+│   │   ├── actor-properties.md
+│   │   ├── attachments
+│   │   │   ├── 3a848c4-Screen_Shot_2021-02-01_at_3.42.33_PM.png
+│   │   │   └── image-20230309-011210.png
+│   │   ├── data-pipeline
+│   │   │   ├── data-logging.md
+│   │   │   └── index.md
+│   │   ├── how-does-measure-iq-perform-data-sampling.md
+│   │   ├── index.md
+│   │   └── what-is-event-data.md
+│   ├── measure-tutorials
+│   │   ├── attachments
+│   │   │   ├── 2023-03-15_16-47-03.png
+│   │   │   ├── 2023-03-16_10-28-31.png
+│   │   │   ├── 2023-03-16_10-37-28.png
+│   │   │   ├── 2023-03-16_10-52-28.png
+│   │   │   ├── 2023-03-16_11-25-48.png
+│   │   │   ├── 2023-03-16_11-29-38 (1).gif
+│   │   │   ├── 2023-03-16_11-29-38 (1).webp
+│   │   │   ├── 2023-03-16_11-35-17.png
+│   │   │   ├── 2023-03-16_11-41-01.png
+│   │   │   ├── 2023-03-17_15-53-22.png
+│   │   │   ├── 2023-03-17_16-13-10.png
+│   │   │   ├── 2023-03-17_16-17-46.png
+│   │   │   ├── 2023-03-24_11-03-19.png
+│   │   │   ├── S1.png
+│   │   │   ├── Screen Shot 2022-09-21 at 4.13.02 PM.png
+│   │   │   ├── Screen Shot 2022-09-21 at 4.13.29 PM.png
+│   │   │   ├── Screen Shot 2022-09-21 at 4.13.41 PM.png
+│   │   │   ├── Screen Shot 2022-09-21 at 4.34.56 PM.png
+│   │   │   ├── Screen Shot 2022-09-21 at 4.36.45 PM.png
+│   │   │   ├── Screenshot 2021-07-15 092606.png
+│   │   │   ├── Screenshot 2021-07-15 092812.png
+│   │   │   ├── Screenshot 2021-07-15 092922.png
+│   │   │   ├── Screenshot 2021-07-15 093018.png
+│   │   │   ├── Screenshot 2021-07-15 093150.png
+│   │   │   ├── Screenshot 2021-07-15 093202.png
+│   │   │   ├── Screenshot 2021-07-15 093338.png
+│   │   │   ├── Screenshot 2021-07-15 093429.png
+│   │   │   ├── Screenshot 2021-07-15 093531.png
+│   │   │   ├── Screenshot 2021-07-15 093754.png
+│   │   │   ├── Screenshot 2023-03-15 at 5.15.41 PM.png
+│   │   │   ├── Screenshot 2023-03-15 at 5.17.10 PM.png
+│   │   │   ├── Screenshot 2023-03-16 at 4.01.32 PM.png
+│   │   │   ├── board_new-board-message.png
+│   │   │   ├── boards.png
+│   │   │   ├── boughtStocks.png
+│   │   │   ├── count_unique_users.png
+│   │   │   ├── date change.png
+│   │   │   ├── editiconedit.png
+│   │   │   ├── explore.png
+│   │   │   ├── explore_view_options.png
+│   │   │   ├── globalRules_options.png
+│   │   │   ├── hooli.png
+│   │   │   ├── image-20230316-141259.png
+│   │   │   ├── image-20230321-154106.png
+│   │   │   ├── image-20230321-154210.png
+│   │   │   ├── method_options.png
+│   │   │   ├── mouse over panel.png
+│   │   │   ├── newActorProperty.png
+│   │   │   ├── newFlow_addSteps.png
+│   │   │   ├── newFlow_preview.png
+│   │   │   ├── s1123.png
+│   │   │   ├── s12.png
+│   │   │   ├── saved_actor_property.png
+│   │   │   ├── soldStocks.png
+│   │   │   ├── ss23.png
+│   │   │   ├── stockActions.png
+│   │   │   ├── timeRangeOptions.png
+│   │   │   ├── users.png
+│   │   │   ├── v5ActorProp.png
+│   │   │   ├── v5ActorProperty.png
+│   │   │   ├── v5EventProperty.png
+│   │   │   ├── v5Filter.png
+│   │   │   ├── v5MethodAP.png
+│   │   │   ├── v5OpenDrawer.png
+│   │   │   └── v5SaveButtonAP.png
+│   │   ├── create-a-board-with-queries-and-panels.md
+│   │   ├── create-an-actor-property.md
+│   │   ├── create-an-event-property.md
+│   │   ├── event-properties-vs-actor-properties.md
+│   │   ├── index.md
+│   │   ├── manage-objects-and-queries
+│   │   │   ├── attachments
+│   │   │   │   ├── 2023-03-17_16-41-39.png
+│   │   │   │   ├── 2023-03-17_16-53-51 (1).gif
+│   │   │   │   ├── 2023-03-17_16-53-51 (1).webp
+│   │   │   │   ├── 2023-09-26 13_33_48-.png
+│   │   │   │   ├── 2023-09-26 13_34_59-.png
+│   │   │   │   ├── delete_rawError.png
+│   │   │   │   ├── delete_usedIn.png
+│   │   │   │   ├── image-20230320-173155.png
+│   │   │   │   └── image-20230320-173450.png
+│   │   │   ├── change-the-visibility-of-properties.md
+│   │   │   ├── manage-properties.md
+│   │   │   ├── next-steps.md
+│   │   │   └── view-query-history.md
+│   │   ├── manage-objects-and-queries.md
+│   │   ├── modify-a-query.md
+│   │   ├── work-with-flows
+│   │   │   ├── analyze-a-flow.md
+│   │   │   ├── attachments
+│   │   │   │   ├── AnalyzeFlow01.png
+│   │   │   │   ├── AnalyzeFlow02.png
+│   │   │   │   ├── CreateAFlow.gif
+│   │   │   │   ├── CreateAFlow.webp
+│   │   │   │   ├── DataDictionaryNewFlow.png
+│   │   │   │   ├── Flow.png
+│   │   │   │   ├── FlowProperty01.png
+│   │   │   │   ├── FlowProperty02.png
+│   │   │   │   ├── FlowProperty03.png
+│   │   │   │   ├── FlowProperty04.png
+│   │   │   │   ├── Flow_path.png
+│   │   │   │   ├── Flow_step_dropoff.png
+│   │   │   │   ├── NewButtonDD.png
+│   │   │   │   ├── NewDataDictionaryButton.png
+│   │   │   │   ├── Screenshot 2021-07-15 093754.png
+│   │   │   │   ├── Screenshot 2021-07-15 095652.png
+│   │   │   │   ├── Screenshot 2021-07-15 095813.png
+│   │   │   │   ├── globalRules_options.png
+│   │   │   │   ├── image-20210519-155940.png
+│   │   │   │   ├── image-20210519-160011.png
+│   │   │   │   ├── image-20210519-160107.png
+│   │   │   │   ├── image-20210519-160152.png
+│   │   │   │   ├── newFlow_addSteps.png
+│   │   │   │   ├── newFlow_preview.png
+│   │   │   │   ├── s1123.png
+│   │   │   │   ├── split_by_flow_path_and_action.png
+│   │   │   │   ├── v5Flow.png
+│   │   │   │   ├── v5FlowDeleteStep.png
+│   │   │   │   ├── v5FlowGlobalRul;es.png
+│   │   │   │   ├── v5FlowGlobalRules.png
+│   │   │   │   └── v5FlowName&Actor.png
+│   │   │   ├── create-a-flow-property.md
+│   │   │   └── create-a-flow.md
+│   │   ├── work-with-flows.md
+│   │   ├── work-with-queries
+│   │   │   ├── attachments
+│   │   │   │   ├── DAU : MAU.png
+│   │   │   │   ├── DAUMAU_measure.png
+│   │   │   │   ├── DAU_definition.png
+│   │   │   │   ├── DAU_measure.png
+│   │   │   │   ├── Data_-_Scuba_Analytics-3.png
+│   │   │   │   ├── Data_-_Scuba_Analytics-4.png
+│   │   │   │   ├── Data_-_Scuba_Analytics.png
+│   │   │   │   ├── Explore_-_Scuba_Analytics-2.png
+│   │   │   │   ├── Explore_-_Scuba_Analytics-3.png
+│   │   │   │   ├── Explore_-_Scuba_Analytics-4.png
+│   │   │   │   ├── Explore_-_Scuba_Analytics-5.png
+│   │   │   │   ├── Explore_-_Scuba_Analytics-6.png
+│   │   │   │   ├── Explore_-_Scuba_Analytics.png
+│   │   │   │   ├── MAU_definition.png
+│   │   │   │   ├── MAU_measure.png
+│   │   │   │   ├── explore_query.png
+│   │   │   │   ├── image-20210519-160415.png
+│   │   │   │   ├── measure1.png
+│   │   │   │   ├── measure2.png
+│   │   │   │   ├── measure3.png
+│   │   │   │   ├── measure3_options.png
+│   │   │   │   ├── results.png
+│   │   │   │   ├── v5Ratio1.png
+│   │   │   │   ├── v5Ratio2.png
+│   │   │   │   ├── v5Ratio3.png
+│   │   │   │   ├── v5Ratio4.png
+│   │   │   │   ├── v5RatioRedo.png
+│   │   │   │   ├── v5RatioResults.png
+│   │   │   │   └── v5gear.png
+│   │   │   ├── calculate-dau-and-mau.md
+│   │   │   └── determine-a-ratio.md
+│   │   └── work-with-queries.md
+│   └── measure-user-guides
+│       ├── analyze-user-paths-with-flows
+│       │   ├── attachments
+│       │   │   ├── 2023-03-30 13_31_13-https___test.scuba.engineering_explorer.png
+│       │   │   ├── Flow01.png
+│       │   │   ├── FlowFilter.png
+│       │   │   ├── FlowMeasure.png
+│       │   │   ├── FlowPath.png
+│       │   │   ├── FlowProperty05.png
+│       │   │   ├── FlowResults.png
+│       │   │   ├── FlowSteps.png
+│       │   │   ├── Flow_Step.png
+│       │   │   ├── Flow_path.png
+│       │   │   ├── Flow_step_dropoff.png
+│       │   │   ├── Global_Rules.png
+│       │   │   ├── Screen Shot 2021-10-06 at 4.28.08 PM.png
+│       │   │   ├── eventPath.png
+│       │   │   ├── eventPath_action.png
+│       │   │   ├── eventPath_dropoff.png
+│       │   │   ├── filterToState.png
+│       │   │   ├── flowAddedFilter.png
+│       │   │   ├── flowPathSegment.png
+│       │   │   ├── flowStages.png
+│       │   │   ├── flow_splitBy.png
+│       │   │   ├── splitByAction.png
+│       │   │   ├── v5DrawerFlow.png
+│       │   │   ├── v5DrawerFlow2.png
+│       │   │   ├── v5DrawerFlowData.png
+│       │   │   ├── v5OptFlowStep.png
+│       │   │   ├── v5OptionalFlowStep.png
+│       │   │   └── v5UserSession.png
+│       │   ├── create-an-optional-flow-step.md
+│       │   ├── define-a-user-session-using-a-flow.md
+│       │   ├── example-analyze-paths-to-conversion-using-flows.md
+│       │   ├── example-analyze-user-sessions-with-flows.md
+│       │   ├── example-show-actor-paths-using-flows.md
+│       │   ├── find-a-natural-frequency-of-your-experience.md
+│       │   ├── index.md
+│       │   ├── query-on-stages-in-a-flow.md
+│       │   ├── understand-duration-flow-properties.md
+│       │   └── understand-flow-definition-conditions.md
+│       ├── api-programmatically-querying-measure-iq.md
+│       ├── api-programmatically-querying-scuba
+│       │   ├── attachments
+│       │   │   ├── API_quickstart_1.png
+│       │   │   ├── API_quickstart_2.png
+│       │   │   ├── API_quickstart_3.png
+│       │   │   ├── Screen Shot 2021-08-18 at 3.08.08 PM.png
+│       │   │   ├── Screen Shot 2021-08-18 at 3.10.30 PM.png
+│       │   │   ├── Screen Shot 2021-08-18 at 3.12.13 PM.png
+│       │   │   ├── postmanv5.png
+│       │   │   ├── postmanv5update.png
+│       │   │   └── postmanv5update02.png
+│       │   ├── bql-syntax-and-usage.md
+│       │   ├── compare-bql-and-sql-commands.md
+│       │   ├── measure-iq-query-concepts-for-bql-users.md
+│       │   ├── quickstart-guide-using-measure-iqs-api-to-expand-on-ui-queries.md
+│       │   └── use-the-measure-iq-external-query-api.md
+│       ├── build-queries-and-visualizations
+│       │   ├── attachments
+│       │   │   ├── 3.0_TimeScrubber.png
+│       │   │   ├── 3c06a86c38.png
+│       │   │   ├── 446075c18c.png
+│       │   │   ├── 47B3F909-35E8-4DA8-B387-3A61587CB7AC_4_5005_c.jpeg
+│       │   │   ├── 4f6fdf1b93.png
+│       │   │   ├── 513cd333c6.png
+│       │   │   ├── 529B7F42-9821-43D0-8CBB-9DB07D9C90B6_4_5005_c.jpeg
+│       │   │   ├── 5b33b99910.png
+│       │   │   ├── 635ed6e9ac.png
+│       │   │   ├── 6477c4e48f.png
+│       │   │   ├── CountofUsers.png
+│       │   │   ├── HooliEvents.png
+│       │   │   ├── PieView_icon.png
+│       │   │   ├── PieView_measure1.png
+│       │   │   ├── PieView_measure2.png
+│       │   │   ├── PieView_results.png
+│       │   │   ├── Screen Recording 2023-03-28 at 11.22.33 AM.mov
+│       │   │   ├── Screen Shot 2021-10-06 at 1.36.48 PM.png
+│       │   │   ├── Screen%2BShot%2B2020-02-29%2Bat%2B5.01.29%2BAM.png
+│       │   │   ├── Screenshot 2021-07-14 064701.png
+│       │   │   ├── Screenshot 2021-07-14 083231.png
+│       │   │   ├── Screenshot 2021-07-14 083331.png
+│       │   │   ├── Screenshot 2021-07-14 083718.png
+│       │   │   ├── Screenshot 2021-07-14 085915.png
+│       │   │   ├── Screenshot 2021-07-14 090558.png
+│       │   │   ├── Screenshot 2021-07-14 090709.png
+│       │   │   ├── Sidebar.png
+│       │   │   ├── TimeOptions.gif
+│       │   │   ├── TimeOptions.webp
+│       │   │   ├── bc8479b515.png
+│       │   │   ├── c44302c60d.png
+│       │   │   ├── c87fb7f52c.png
+│       │   │   ├── calendar_popout.png
+│       │   │   ├── copy_paste.png
+│       │   │   ├── e2611ca1b9.png
+│       │   │   ├── f583c2383a.png
+│       │   │   ├── filter to.png
+│       │   │   ├── filtered to.png
+│       │   │   ├── group icon.png
+│       │   │   ├── hide a measure.png
+│       │   │   ├── image-20220720-220226.png
+│       │   │   ├── image-20220720-221322.png
+│       │   │   ├── image-20220721-175900.png
+│       │   │   ├── image-20230315-155718.png
+│       │   │   ├── image-20230315-182644.png
+│       │   │   ├── opeator.png
+│       │   │   ├── other_operators.png
+│       │   │   ├── select_artist.png
+│       │   │   ├── stacked bar options -2.png
+│       │   │   ├── stacked bar options.png
+│       │   │   ├── v5Measure1&2.png
+│       │   │   ├── v5Measure1.png
+│       │   │   ├── v5Measures&Splitby.png
+│       │   │   ├── v5PieChartResults.png
+│       │   │   ├── v5PieViewSelection.png
+│       │   │   ├── v5SelectDate01.png
+│       │   │   ├── v5SelectDate02.png
+│       │   │   ├── v5SelectDate03.gif
+│       │   │   ├── v5SelectDate03.webp
+│       │   │   ├── v5Time.png
+│       │   │   ├── v5TimeScrubber.png
+│       │   │   ├── v5TimeScrubber02.png
+│       │   │   └── v5VisualizationBar.png
+│       │   ├── calculate-measures-and-filters.md
+│       │   ├── refine-displayed-results-with-chart-options.md
+│       │   ├── show-a-count-of-actors.md
+│       │   ├── show-a-count-of-events.md
+│       │   ├── specify-time-in-a-query.md
+│       │   └── visualize-hierarchical-data-with-sunburst-charts-in-pie-view.md
+│       ├── build-queries-and-visualizations.md
+│       ├── enrich-your-data-with-properties
+│       │   ├── attachments
+│       │   │   ├── EventProperty01.png
+│       │   │   ├── EveryItemDef01.png
+│       │   │   ├── Screenshot 2021-07-14 100419.png
+│       │   │   ├── Screenshot 2021-07-14 102825.png
+│       │   │   ├── query palete.png
+│       │   │   └── query pallete.png
+│       │   ├── build-an-event-property.md
+│       │   ├── compare-actor-or-flow-properties-on-the-fly-with-sets.md
+│       │   └── create-a-property-in-explore-with-the-query-palette.md
+│       ├── enrich-your-data-with-properties.md
+│       ├── index.md
+│       ├── learn-about-scuba-concepts
+│       │   ├── attachments
+│       │   │   ├── 2023-03-06_16-45-04.png
+│       │   │   ├── 2023-03-06_17-07-42.png
+│       │   │   ├── 2023-03-06_17-46-12.png
+│       │   │   ├── 2023-03-06_17-47-45.png
+│       │   │   ├── 2023-03-06_17-54-33 (1).gif
+│       │   │   ├── 2023-03-06_17-54-33 (1).webp
+│       │   │   ├── 2023-05-22_13-41-35 (1).gif
+│       │   │   ├── 2023-05-22_13-41-35 (1).webp
+│       │   │   ├── 2023-05-22_13-51-48.jpg
+│       │   │   ├── 2023-05-22_14-00-42.jpg
+│       │   │   ├── 2023-05-22_14-26-08.jpg
+│       │   │   ├── 2023-05-22_14-26-08.snagx
+│       │   │   ├── 2023-05-22_14-29-02.jpg
+│       │   │   ├── 2023-05-22_14-33-01 (2).gif
+│       │   │   ├── 2023-05-22_14-33-01 (2).webp
+│       │   │   ├── 2023-05-22_15-17-30.jpg
+│       │   │   ├── 2023-06-12_15-03-03 (1).gif
+│       │   │   ├── 2023-06-12_15-03-03 (1).webp
+│       │   │   ├── 2023-07-10_09-32-59 (1).gif
+│       │   │   ├── 2023-07-10_09-32-59 (1).webp
+│       │   │   ├── 2023-07-10_09-48-40.snagx
+│       │   │   ├── 2023-09-28_13-52-45.jpg
+│       │   │   ├── 2023-09-28_13-55-04 (1).gif
+│       │   │   ├── 2023-09-28_13-55-04 (1).webp
+│       │   │   ├── 2023-09-28_14-28-42.jpg
+│       │   │   ├── 2023-09-28_14-29-55 (1).gif
+│       │   │   ├── 2023-09-28_14-29-55 (1).webp
+│       │   │   ├── 2023-09-28_14-48-02 (1).gif
+│       │   │   ├── 2023-09-28_14-48-02 (1).webp
+│       │   │   ├── 2023-09-28_15-09-04.jpg
+│       │   │   ├── 2023-09-28_15-21-24.jpg
+│       │   │   ├── Data dictionary nav.gif
+│       │   │   ├── Data dictionary nav.webp
+│       │   │   ├── EP Drawer.gif
+│       │   │   ├── EP Drawer.webp
+│       │   │   ├── Invalid file id - 5c9c9aee-c1c4-43fe-ad64-025413065dac
+│       │   │   ├── Screen Shot 2022-01-13 at 16.07.14 PM.png
+│       │   │   ├── Screenshot 2021-07-13 185633.png
+│       │   │   ├── Screenshot 2021-07-13 190233.png
+│       │   │   ├── Screenshot 2021-07-13 193014.png
+│       │   │   ├── Screenshot 2021-07-13 193500.png
+│       │   │   ├── Screenshot 2021-07-13 202147.png
+│       │   │   ├── Screenshot 2021-07-13 203142.png
+│       │   │   ├── Screenshot 2021-07-13 203335.png
+│       │   │   ├── Screenshot 2021-07-13 203529.png
+│       │   │   ├── Screenshot 2021-07-14 061728.png
+│       │   │   ├── Screenshot 2021-07-14 062303.png
+│       │   │   ├── Screenshot 2021-07-14 063843.png
+│       │   │   ├── Screenshot 2021-07-14 064008.png
+│       │   │   ├── Screenshot 2021-07-14 064353.png
+│       │   │   ├── Screenshot 2023-03-20 at 4.36.18 PM.png
+│       │   │   ├── Screenshot 2023-06-12 at 2.11.29 PM.jpg
+│       │   │   ├── Screenshot 2023-06-12 at 2.11.29 PM.png
+│       │   │   ├── Screenshot 2023-06-12 at 2.56.02 PM.png
+│       │   │   ├── Screenshot 2023-06-12 at 2.59.59 PM.png
+│       │   │   ├── Screenshot 2023-09-28 at 1.51.23 PM.png
+│       │   │   ├── Screenshot 2023-09-28 at 2.52.31 PM.png
+│       │   │   ├── Screenshot 2023-09-28 at 3.25.18 PM.png
+│       │   │   ├── Screenshot 2023-09-28 at 3.25.44 PM.png
+│       │   │   ├── Screenshot 2023-09-28 at 3.26.39 PM.png
+│       │   │   ├── VIEWS.gif
+│       │   │   ├── VIEWS.webp
+│       │   │   ├── actors by action.png
+│       │   │   ├── cont unique split by 2.png
+│       │   │   ├── count of actors.png
+│       │   │   ├── count of events.png
+│       │   │   ├── image-20220113-211201.png
+│       │   │   ├── image-20250205-194530.png
+│       │   │   ├── image-20250205-194557.png
+│       │   │   ├── image-20250205-195151.png
+│       │   │   ├── image-20250205-195828.png
+│       │   │   ├── image-20250205-195908.png
+│       │   │   ├── measure.jpg
+│       │   │   ├── refresh.png
+│       │   │   ├── save.gif
+│       │   │   ├── save.webp
+│       │   │   ├── templates.jpg
+│       │   │   └── version.jpg
+│       │   ├── boards-dashboards.md
+│       │   ├── building-blocks.md
+│       │   ├── index.md
+│       │   ├── roadmap-for-using-measure-iq.md
+│       │   ├── time-zones-in-measure-iq.md
+│       │   ├── using-measures-in-measure-iq.md
+│       │   └── wip-jump-start.md
+│       ├── manage-your-created-objects
+│       │   ├── attachments
+│       │   │   ├── Email Delivery.png
+│       │   │   ├── Explore_-_Scuba_Analytics.png
+│       │   │   ├── GPPERj_aEQERyF-EMyB2Fp5j1LrFJ4KoPRtEV3SgXxJr6aAZ80KlBAWcxujTLnic6qMqLeTffL_dCriVOerMJtgP3cZbjalrVVTJOzeqAeKsAhjA5A9V8Lx2wObe1QPeaqa3OUvg
+│       │   │   ├── Screen Recording 2023-03-30 at 3.51.15 PM.mov
+│       │   │   ├── Screen Shot 2021-04-23 at 3.26.13 PM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 3.38.21 PM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 3.38.46 PM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 3.41.10 PM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 3.41.35 PM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 3.57.21 PM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 3.58.42 PM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 9.45.38 AM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 9.47.00 AM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 9.50.42 AM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 9.56.25 AM.png
+│       │   │   ├── Screen Shot 2021-04-23 at 9.59.09 AM.png
+│       │   │   ├── Screenshot 2021-07-14 111050.png
+│       │   │   ├── Screenshot 2021-07-14 111210.png
+│       │   │   ├── Screenshot 2021-07-14 111404.png
+│       │   │   ├── ScubaSignals_condition.png
+│       │   │   ├── ScubaSignals_create.png
+│       │   │   ├── ScubaSignals_measure.png
+│       │   │   ├── ScubaSignals_signals.png
+│       │   │   ├── V5_Signals_-_Email_Notification.png
+│       │   │   ├── V5_Signals_-_Icon.png
+│       │   │   ├── V5_Signals_-_Name_and_Condition.png
+│       │   │   ├── V5_Signals_-_Query_Definition.png
+│       │   │   ├── a5587366-3c13-4a81-a3d4-2d08c9e84998#media-blob-url=true&id=b1ad19b7-53ff-4e1e-984e-ec4ffd363f86&contextId=75234&collection=
+│       │   │   ├── chrome_JkyO9qwrmM.png
+│       │   │   ├── downloadCSV.png
+│       │   │   ├── echarts-20230327-163435.png
+│       │   │   ├── edit - EP.png
+│       │   │   ├── edit - EPS.png
+│       │   │   ├── edit perms from DD.mov
+│       │   │   ├── image-20230329-203802.png
+│       │   │   ├── same name.mov
+│       │   │   ├── share a board.mov
+│       │   │   ├── share_icon.png
+│       │   │   ├── v5AddRecipient.png
+│       │   │   ├── v5CompleteSignal.png
+│       │   │   ├── v5Schedule.png
+│       │   │   ├── v5SignalInterval.png
+│       │   │   ├── v5SignalSchedule.png
+│       │   │   ├── v5SignalsBoard.gif
+│       │   │   ├── v5SignalsBoard.webp
+│       │   │   └── v5SignalsRecipients.png
+│       │   ├── edit-a-propertys-display-name.md
+│       │   ├── how-to-export-send-data-from-measure-iq.md
+│       │   ├── index.md
+│       │   ├── query-signals.md
+│       │   ├── share-an-object-with-other-users.md
+│       │   └── wip-board-signals.md
+│       ├── manage-your-created-objects.md
+│       ├── queries
+│       │   ├── adaptive-sampling-in-measure-iq.md
+│       │   ├── add-a-global-pre-filter-to-your-query.md
+│       │   ├── attachments
+│       │   │   ├── 2023-05-24_12-15-43 (1).gif
+│       │   │   ├── 2023-05-24_12-15-43 (1).webp
+│       │   │   ├── Screenshot 2021-07-14 111754.png
+│       │   │   ├── Screenshot 2021-07-14 111937.png
+│       │   │   ├── clipboard_e049d457f0bf3c6aa48159a80d1723e28.png
+│       │   │   ├── clipboard_e1743a6f29dd5ff16bad303fac58241ec.png
+│       │   │   ├── clipboard_e2dfefd70bda106bf262c4c3e793d22ea.png
+│       │   │   ├── clipboard_e30f5b1ec94e1a7522d7a3cd349dcb390.png
+│       │   │   ├── clipboard_e3d8e7d3a12ab92635611bc47e0166a64.png
+│       │   │   ├── clipboard_e45e90caf14b542ba7a8aa73072c8e30d.png
+│       │   │   ├── clipboard_e471508ab60e1922f6fa412685d54d011.png
+│       │   │   ├── clipboard_e4c82a3964e325dda82564aaee3e893b4.png
+│       │   │   ├── clipboard_e4eb8ec6e0d68d193cdde658f294ebf70.png
+│       │   │   ├── clipboard_e83619cac76f67dcd47637e87a632a79c.png
+│       │   │   ├── clipboard_e95b7664c224310ec5ae5029d7eca2356.png
+│       │   │   ├── clipboard_e9c5f34ff8d0b8c3b5f3edcb0ff89fa9b.png
+│       │   │   ├── clipboard_ec0db90fb075f6c2f46cca72d70083105.png
+│       │   │   ├── clipboard_eca009cc3c3643c7ff093d1abfc202a01.png
+│       │   │   ├── clipboard_ecd4081899b47c832df1ec0e26adbe4e0.png
+│       │   │   ├── clipboard_ecf89100f85b0c54354e47df8eb8b6aae.png
+│       │   │   ├── clipboard_ed010228ca1cf054f5b598cd15c6878e0.png
+│       │   │   ├── clipboard_ed8b370133d1b12eefe4e4e588caf6eae.png
+│       │   │   ├── clipboard_ef1aa884a1883d7a353b527be09071629.png
+│       │   │   ├── clipboard_ef1e16f9ee4743bab7eabf01e63fdbe30.png
+│       │   │   ├── create a function.png
+│       │   │   ├── date picker.png
+│       │   │   ├── date-type in.png
+│       │   │   ├── functions.png
+│       │   │   ├── image-20230330-150102.png
+│       │   │   ├── image-20230330-151413.png
+│       │   │   ├── image-20230330-151810.png
+│       │   │   ├── image-20230330-151958.png
+│       │   │   ├── image-20230330-152213.png
+│       │   │   ├── maths.png
+│       │   │   ├── relative date.png
+│       │   │   ├── relative date_time_article.png
+│       │   │   ├── select a function.png
+│       │   │   ├── strings match.png
+│       │   │   ├── v5ActorScope.png
+│       │   │   ├── v5ActortoEventScope.png
+│       │   │   ├── v5BoardFilter.png
+│       │   │   ├── v5CloneBoard.png
+│       │   │   ├── v5Copy&FiltersBoard.png
+│       │   │   ├── v5FastvsComplete.gif
+│       │   │   ├── v5FastvsComplete.webp
+│       │   │   ├── v5FlowPreview.png
+│       │   │   ├── v5PreFilter.png
+│       │   │   ├── v5Scope.png
+│       │   │   ├── v5Scope02.png
+│       │   │   ├── v5Scope03.png
+│       │   │   ├── v5Scope04.png
+│       │   │   ├── v5ScopeQuery1.png
+│       │   │   ├── v5ScopeQuery3.png
+│       │   │   └── v5ScopeQuery4.png
+│       │   ├── create-an-advanced-filter.md
+│       │   ├── create-efficient-queries.md
+│       │   ├── how-measure-iq-performs-data-sampling-population-sampling.md
+│       │   ├── index.md
+│       │   ├── save-variant-of-a-board-with-board-filters.md
+│       │   ├── time-query-syntax-reference.md
+│       │   ├── time-range-vs-trailing-windows-in-actor-properties.md
+│       │   ├── understanding-scope
+│       │   │   ├── attachments
+│       │   │   │   ├── ResolvingScope.png
+│       │   │   │   ├── clipboard_e049d457f0bf3c6aa48159a80d1723e28.png
+│       │   │   │   ├── clipboard_e1743a6f29dd5ff16bad303fac58241ec.png
+│       │   │   │   ├── clipboard_e3d8e7d3a12ab92635611bc47e0166a64.png
+│       │   │   │   ├── clipboard_e4eb8ec6e0d68d193cdde658f294ebf70.png
+│       │   │   │   ├── clipboard_e95b7664c224310ec5ae5029d7eca2356.png
+│       │   │   │   ├── clipboard_e9c5f34ff8d0b8c3b5f3edcb0ff89fa9b.png
+│       │   │   │   ├── clipboard_eca009cc3c3643c7ff093d1abfc202a01.png
+│       │   │   │   ├── clipboard_ed8b370133d1b12eefe4e4e588caf6eae.png
+│       │   │   │   ├── v5ActorScope.png
+│       │   │   │   ├── v5ActortoEventScope.png
+│       │   │   │   ├── v5FlowQuery.png
+│       │   │   │   ├── v5ResolveScope01.png
+│       │   │   │   ├── v5ResolveScope02.png
+│       │   │   │   ├── v5ResolveScope03.png
+│       │   │   │   ├── v5ResolveScope04.png
+│       │   │   │   ├── v5ResolveScope05.png
+│       │   │   │   ├── v5ResolveScope07.png
+│       │   │   │   ├── v5ResolveScope08.png
+│       │   │   │   ├── v5ResolveScope09.png
+│       │   │   │   ├── v5ResolveScope10.png
+│       │   │   │   ├── v5ResovScope01.png
+│       │   │   │   ├── v5ResovScope02.png
+│       │   │   │   ├── v5ScopeQuery1.png
+│       │   │   │   ├── v5ScopeQuery3.png
+│       │   │   │   └── v5ScopeQuery4.png
+│       │   │   └── resolving-scope-mismatch.md
+│       │   └── understanding-scope.md
+│       ├── queries.md
+│       ├── streamline-analysis-with-additional-explorations
+│       │   ├── analyze-a-distribution.md
+│       │   ├── analyze-ab-testing-results.md
+│       │   ├── analyze-user-retention-or-engagement-with-the-retention-module.md
+│       │   ├── attachments
+│       │   │   ├── AB 1.png
+│       │   │   ├── AB 2.png
+│       │   │   ├── ABtesting_p-value.png
+│       │   │   ├── Distribution01.png
+│       │   │   ├── Screen Shot 2021-09-20 at 9.28.44 AM.png
+│       │   │   ├── Screen%2BShot%2B2020-03-20%2Bat%2B2.04.09%2BPM.png
+│       │   │   ├── Screen%2BShot%2B2020-03-20%2Bat%2B2.47.00%2BPM.png
+│       │   │   ├── Screenshot 2021-07-14 061728.png
+│       │   │   ├── ab-A-b.png
+│       │   │   ├── bin_detail.png
+│       │   │   ├── bin_details.png
+│       │   │   ├── chart_options.png
+│       │   │   ├── defaultPrefilled.png
+│       │   │   ├── default_engagement.png
+│       │   │   ├── default_retention.png
+│       │   │   ├── moneySpent_perAge.png
+│       │   │   ├── prefilled_AB.png
+│       │   │   ├── retention_app.png
+│       │   │   ├── retention_results.png
+│       │   │   ├── sum(price)%2Bby%2Bage.png
+│       │   │   ├── v5DistFilter.png
+│       │   │   ├── v5Distribution.png
+│       │   │   ├── v5DistributionFilter.png
+│       │   │   ├── v5DistributionResult.png
+│       │   │   ├── v5Retention.png
+│       │   │   ├── v5Retention2.png
+│       │   │   ├── v5RetentionChartView.png
+│       │   │   ├── v5RetentionEngagement.png
+│       │   │   └── v5RetentionResults.png
+│       │   └── index.md
+│       └── streamline-analysis-with-additional-explorations.md
+└── outro
+
+45 directories, 756 files

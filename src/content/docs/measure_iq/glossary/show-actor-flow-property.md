@@ -8,6 +8,6 @@ In a Measure IQ actor or flow property, **Show** is the [method](https://behavu
 
 - [Actor Property](../actor-property)
 - [Builder](../query-builder)
-- [Flow Property](../flow-property)
+- [Flow Property](../../../glossary/flow-property)
 - [Measure](../measure)
 - [Query](../query)

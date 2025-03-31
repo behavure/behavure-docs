@@ -4,7 +4,7 @@ description: "Definition & use of Create an Actor Property "
 ---
 An actor is the someone or something that performs an event. In the context of an event, the actor refers to the entity responsible for its execution. This entity may take the form of a user, a physical object (such as a device), a digital object (like a service), or a bot.
 
-Actor columns are specified during the data onboarding process. An actor is one of the mandatory fields for every logged event, along with a timestamp. You can associate a property with an actor using one of the following [methods](/measure_iq/glossary/method):
+Actor columns are specified during the data onboarding process. An actor is one of the mandatory fields for every logged event, along with a timestamp. You can associate a property with an actor using one of the following [methods](../method):
 
 - **Show**: The most common actor properties aggregate events or flows. 
 -   For example, an actor property of count number of sessions for sessions with total time >5 minutes.
@@ -15,7 +15,7 @@ Actor columns are specified during the data onboarding process. An actor is o
 
 ## Defining an actor property
 
-This section demonstrates how to create an [actor property](/measure_iq/glossary/journey-actor-user) using the Show method. In our example, we create an actor property that determines the add\_to\_cart events by each user. You can apply the principles from this example to create your own actor property.
+This section demonstrates how to create an [actor property](../../../../measure_iq/glossary/journey-actor-user) using the Show method. In our example, we create an actor property that determines the add\_to\_cart events by each user. You can apply the principles from this example to create your own actor property.
 
 #### **To create an actor property, do the following:**
 
@@ -36,5 +36,5 @@ Next to **Filtered To**, click **All events** to access the dropdown options.
 
 You've successfully created an event property and actor property, now you'll want to learn how to:
 
-- [Share an object or property with another user](../../measure-guides/measure-user-guides/manage-your-created-objects/share-an-object-with-other-users)
+- [Share an object or property with another user](../../measure_iq/measure-user-guides/manage-your-created-objects/share-an-object-with-other-users)
 - [Create a flow](../measure-tutorials/work-with-flows/create-a-flow)

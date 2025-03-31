@@ -11,12 +11,12 @@ Measure IQ is Behavure's advanced measurement and analytics platform that helps 
 
 ## Quick Navigation
 
-- [Measure IQ Admin Guide](measure_iq/admin-guides) - Setup and administration documentation
-- [Key Concepts](measure_iq/key-concepts-and-terminology) - Essential concepts and terminology
-- [Measure IQ Tutorials](measure_iq/measure-tutorials) - Step-by-step tutorials
-- [Measure IQ User Guide](measure_iq/measure-user-guides) - Comprehensive user documentation
-- [Glossary](measure_iq/glossary) - Definitions of key terms in Measure IQ
+- [Measure IQ Admin Guide](../../../measure_iq/admin-guides) - Setup and administration documentation
+- [Key Concepts](../../../measure_iq/key-concepts-and-terminology) - Essential concepts and terminology
+- [Measure IQ Tutorials](../../../measure_iq/measure-tutorials) - Step-by-step tutorials
+- [Measure IQ User Guide](../../../measure_iq/measure-user-guides) - Comprehensive user documentation
+- [Glossary](../../../measure_iq/glossary) - Definitions of key terms in Measure IQ
 
 ## Getting Started
 
-To begin using Measure IQ, we recommend starting with our [Key Concepts and Terminology](measure_iq/key-concepts-and-terminology) section to familiarize yourself with the platform's core concepts.
+To begin using Measure IQ, we recommend starting with our [Key Concepts and Terminology](../../../measure_iq/key-concepts-and-terminology) section to familiarize yourself with the platform's core concepts.

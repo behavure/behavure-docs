@@ -4,7 +4,7 @@ description: "Definition & use of Build an Event Property "
 ---
 Event properties help "clean up" your data by transforming names and values post-ingest. In queries, event properties are reusable expressions on which you can sum, split by, or filter. An event property can be a direct reference to data columns (for example, the sum of two similar fields from different data sources), a reference to values derived from lookups, or a logical expression evaluating multiple data columns.
 
-This article demonstrates how to build an event property using one of the following [methods](/measure_iq/glossary/method):
+This article demonstrates how to build an event property using one of the following [methods](../method):
 
 - **Filter:** An event property with one specified value.
 - **Label:** An event property with more than one specified value.
@@ -23,7 +23,7 @@ To create an event property, do the following:
 
 1. In the **Data Drawer** window, enter a descriptive **Name** for the event property. Use a name that conveys the purpose of the event property, so that it will be easy to find in a list of event properties. 
 2. Optional: Click the **Description** tab and enter a description of the purpose and function of the property.
-3. Specify **Filter**, **Label**, or **Calculate**. Instructions for each [method](/measure_iq/glossary/method) follow.
+3. Specify **Filter**, **Label**, or **Calculate**. Instructions for each [method](../method) follow.
 
 ### For a filter event property:
 

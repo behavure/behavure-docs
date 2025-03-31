@@ -48,8 +48,8 @@ In **Chart Options**, uncheck **Count of Users** and **Searches**. You should on
 
 ## More information
 
-See [Calculate Measures and Filters](../../../measure-guides/measure-user-guides/build-queries-and-visualizations/calculate-measures-and-filters) for information about building expressions.
+See [Calculate Measures and Filters](../../../measure_iq/measure-user-guides/build-queries-and-visualizations/calculate-measures-and-filters) for information about building expressions.
 
 ## What's Next
 
-Now that you've created a query to determine a ratio, you can move on to [analyzing user sessions with flows](../../../measure-guides/measure-user-guides/analyze-user-paths-with-flows/example-analyze-user-sessions-with-flows).
+Now that you've created a query to determine a ratio, you can move on to [analyzing user sessions with flows](../../../measure_iq/measure-user-guides/analyze-user-paths-with-flows/example-analyze-user-sessions-with-flows).

@@ -8,7 +8,7 @@ The ratio of DAU/MAU represents your average daily active user count/monthly ac
 
 This article demonstrates the following:
 
-1. How to build custom [actor properties](/measure_iq/glossary/journey-actor-user) for daily active users and monthly active users.
+1. How to build custom [actor properties](../../../../../measure_iq/glossary/journey-actor-user) for daily active users and monthly active users.
 2. How to analyze the actor properties in Explore.
 
 This article uses the Measure IQ loopback usage data set.
@@ -33,11 +33,11 @@ You can create an actor property in one of two ways:
 2. Select **Actor Property** from the drop-down down.
 3. Enter a name for the property. We named our property **queries\_per\_user\_t1d** to help someone look at this query later to quickly see what criteria we use to measure daily activity (see step 7).
 4. In the definition pane, select an actor (or use the default). In our example, we selected **username**.
-5. Accept the default [method](/measure_iq/glossary/method), **Show**, and the default aggregation, **count** of **events**.
+5. Accept the default [method](../method), **Show**, and the default aggregation, **count** of **events**.
 6. At **Filtered to**, click **all events**. From the dropdown, select the event property or combination of event properties that define a user action. In our example we selected **event\_name**. 
 7. In the new dropdown, select the **event\_name** you want to filter to. For our example, we chose only one action, **query request**.  
 *For our usage loopback table data, we consider a user to be “active” if they run at least one query. This is why we filter our actor property to **event\_name** matches **query request**.*
-8. Click **\+ time options** and accept the default of “Trailing window: trailing 1 day”. See [Specify time in a query](../../../measure-guides/measure-user-guides/build-queries-and-visualizations/specify-time-in-a-query) for more information about trailing windows.
+8. Click **\+ time options** and accept the default of “Trailing window: trailing 1 day”. See [Specify time in a query](../../../measure_iq/measure-user-guides/build-queries-and-visualizations/specify-time-in-a-query) for more information about trailing windows.
 9. Set Permissions if you intend on sharing the property with others.![](./attachments/Data_-_Measure IQ_Analytics-4.png)
 10. Click the **Save icon** in the upper left-hand corner.
 

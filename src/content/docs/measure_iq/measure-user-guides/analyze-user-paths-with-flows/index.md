@@ -7,17 +7,17 @@ description: "Definition & use of Analyze User Paths With Flows "
 
 A flow is an object in Measure IQ that a user defines to study their user experience. A flow defines a sequence of conditions or milestones, that identifies users that performed actions matching the defined sequence. The flow definition includes one or more start conditions, one or more steps, and transition rules between the steps.
 
-In Measure IQ, the default visualization for a flow is a [Sankey diagram](/measure_iq/glossary/sankey-view-diagram). This visualizes the flow instances (that is, the actors' individual passes through the flow) as they transition between flow steps.
+In Measure IQ, the default visualization for a flow is a [Sankey diagram](../../../../../measure_iq/glossary/sankey-view-diagram). This visualizes the flow instances (that is, the actors' individual passes through the flow) as they transition between flow steps.
 
 Once you have defined a flow, you can use it in the following ways:
 
 - Examine events between any of the flow's milestones using the built-in event path capability.
-- Use the flow definition in a [query](/measure_iq/glossary/query) to aggregate, filter, or group by properties of the flow.
-- Segment a flow using a [flow property](/measure_iq/glossary/flow-property).
+- Use the flow definition in a [query](../../../../../measure_iq/glossary/query) to aggregate, filter, or group by properties of the flow.
+- Segment a flow using a [flow property](../flow-property).
 - Use a flow to segment the actors associated with the flow, for example, users that did not reach the "checkout" step.
 - Filter events using a flow.
 
-[Sessions](/measure_iq/glossary/session) and [funnels](/measure_iq/glossary/funnel) are part of Measure IQ [Flows](/measure_iq/glossary/flow), with additional functionality.
+[Sessions](../../../../../measure_iq/glossary/session) and [funnels](../../../../../measure_iq/glossary/funnel) are part of Measure IQ [Flows](../flow), with additional functionality.
 
 Common reasons for using flows:
 

@@ -19,15 +19,15 @@ Once you have these URLs, you are ready to configure Measure IQ in OneLogin.
 1. Open the OneLogin Admin Portal in a web browser.
 2. At the top of the screen, click "Apps", and then select "Add Apps".
 
-![](./attachments/Add%20apps.png)
+![](attachments/Add%20apps.png)
 
 3\. Use the search bar to find "SAML Test Connector (Advanced)", then click on its icon. 
 
-![](./attachments/SAML%20test%20connector.png)
+![](attachments/SAML%20test%20connector.png)
 
 4\. On the Configuration screen, give your OneLogin Measure IQ application any name you want then click Save.
 
-![](./attachments/name%20your%20app.png)
+![](attachments/name%20your%20app.png)
 
 5\. You will now see a new set of screens. Click the Configuration tab again.  
 

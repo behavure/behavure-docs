@@ -15,7 +15,7 @@ There are two global visibility settings for properties: *hidden* or *visible
 - **Visible properties**—can be viewed and searched for in the expression builder by all users. Properties can be selected to define other properties, as well as used in queries. Objects are visible by default.
 - **Hidden properties**—can help keep drop-down lists manageable, and discourage other users from using specific properties. Hidden properties are not shown in drop-down menus in the expression builder. Hidden properties are still visible in object lists.
 
-All Measure IQ users can toggle a property to be visible or hidden, provided they can view the property (that is, provided they have created the property or someone [shared it with them](../../../measure-guides/measure-user-guides/manage-your-created-objects/share-an-object-with-other-users)).
+All Measure IQ users can toggle a property to be visible or hidden, provided they can view the property (that is, provided they have created the property or someone [shared it with them](../../../measure_iq/measure-user-guides/manage-your-created-objects/share-an-object-with-other-users)).
 
 You might want to hide properties that other users don't rely on, or that they shouldn’t use in a query or object definition. The following are examples of when you would want to hide a property.
 

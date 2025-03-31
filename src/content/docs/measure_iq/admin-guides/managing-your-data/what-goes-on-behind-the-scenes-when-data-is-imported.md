@@ -67,6 +67,6 @@ Measure IQ processes thousands of lines of data per second. There are several c
 ## Resources
 
 - [What to Think About Before You Add Data](../what-to-think-about-before-you-add-data)
-- [Data Logging](../measure-guides/key-concepts-and-terminology/data-pipeline/data-logging)
+- [Data Logging](../measure_iq/key-concepts-and-terminology/data-pipeline/data-logging)
 - [Data Deduplication](../https://behavure.ai/docs/wiki/spaces/SGV/pages/2207940609/Import+Data+DeDuplication+v5)
 - [Planning Your Measure IQ Deployment](../admin-guides/planning-your-scuba-deployment)

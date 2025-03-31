@@ -9,7 +9,7 @@ A **journey** is the sequence of events that an actor can take represented in 
 - [Actor](../actor)
 - [Behavior](../behavior)
 - [Event data](../event-data)
-- [Flow](../flow)
+- [Flow](../../../glossary/flow)
 
 ## More information
 

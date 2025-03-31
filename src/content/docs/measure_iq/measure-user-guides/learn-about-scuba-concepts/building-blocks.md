@@ -29,7 +29,7 @@ In addition to custom actor properties that do *aggregations of events*, you c
 
 ## Flows
 
-A flow is a visual representation of a path of actions an actor takes, an intuitive graph plotting the actor's journey. You can view the paths of all actors simultaneously, and then take a sequence of events by a particular [actor](/measure_iq/glossary/journey-actor-user) to analyze with finer granularity.
+A flow is a visual representation of a path of actions an actor takes, an intuitive graph plotting the actor's journey. You can view the paths of all actors simultaneously, and then take a sequence of events by a particular [actor](../../../../../measure_iq/glossary/journey-actor-user) to analyze with finer granularity.
 
 Among their many uses, flows provide the ability to analyze actor engagement, conversion, and path discovery. For more information, see [Create a Flow](https://docs.behavure.ai/guides/create-a-flow) and [Create a Flow Property](https://docs.behavure.ai/guides/create-a-flow-property).
 
@@ -48,27 +48,27 @@ The following are examples of queries that provide information important to mo
 
 ##### Show count of events
 
-![](./attachments/count%20of%20events.png)
+![](attachments/count%20of%20events.png)
 
 See [Show a count of events](../../measure-user-guides/build-queries-and-visualizations/show-a-count-of-events) for more information.
 
 ##### Show count of actors
 
-![](./attachments/count%20of%20actors.png)
+![](attachments/count%20of%20actors.png)
 
 See [Show a count of actors](../../measure-user-guides/build-queries-and-visualizations/show-a-count-of-actors) for more information.
 
 ##### Show count unique split by action
 
-![](./attachments/actors%20by%20action.png)
+![](attachments/actors%20by%20action.png)
 
 ##### Show count unique split by two categories
 
-![](./attachments/cont%20unique%20split%20by%202.png)
+![](attachments/cont%20unique%20split%20by%202.png)
 
 ## What's Next
 
 - [Measures](../using-measures-in-scuba)
-- [Manage Objects and Concepts](../../../measure-guides/measure-tutorials/manage-objects-and-queries)
+- [Manage Objects and Concepts](../../../measure_iq/measure-tutorials/manage-objects-and-queries)
 - [Roadmap for Measure IQ](../roadmap-for-using-scuba)
-- [Tutorials](../../../measure-guides/measure-tutorials)
+- [Tutorials](../../../measure_iq/measure-tutorials)

@@ -4,7 +4,7 @@ description: Definition & use of Bar View
 ---
 The **Bar View** displays your query results as a color-coded bar chart.    
 
-![](./attachments/Bar%20View.png)
+![](attachments/Bar%20View.png)
 
 ## Related terms
 

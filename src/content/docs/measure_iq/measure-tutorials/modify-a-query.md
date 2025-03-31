@@ -15,10 +15,10 @@ This section demonstrates how to use **Explore** to modify the query you constr
 #### To modify a query in Explore, do the following:
 
 1. Navigate to the panel you wish to modify.
-2. Hover over the top right corner of the panel you want to modify, then click **Explore**. The details for the query you created appear on the left.![](./attachments/mouse%20over%20panel.png)
+2. Hover over the top right corner of the panel you want to modify, then click **Explore**. The details for the query you created appear on the left.![](attachments/mouse%20over%20panel.png)
 3. In the first line of the query, click **events** and select an actor from the drop-down list. In this example, our actor field is named `user`. **Count** becomes count unique, and **Filtered To** automatically changes to all user actors.![](./attachments/users.png)
 4. Leave the **Split by none** setting as is.
-5. Click the **Starting** text, enter **180 days ago,** and accept **Ending now**.![](./attachments/date%20change.png)
+5. Click the **Starting** text, enter **180 days ago,** and accept **Ending now**.![](attachments/date%20change.png)
 6. Click **RUN** to validate the query, then click the pin icon to pin the query to a board as a new panel.
 
 > [!INFO]

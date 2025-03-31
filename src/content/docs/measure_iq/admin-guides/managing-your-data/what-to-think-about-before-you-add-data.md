@@ -7,7 +7,7 @@ Measure IQ’s most powerful query patterns analyze the behavior of many actors 
 
 ## Events can be related only if they’re in the same table
 
-Every event is placed in one or more [event tables (datasets)](/measure_iq/glossary/dataset-table/) in your Measure IQ instance. Each property of the event goes in the table column corresponding to the name of the property. Typically, an event has several columns that describe the event itself, and several that allow it to be placed in the context of other events. For example, an event representing a click on a web page might have properties describing the click target and the state of the user’s interaction with the page, plus properties that identify the user account and server-side session that went into creating the web page.
+Every event is placed in one or more [event tables (datasets)](../../../../../measure_iq/glossary/dataset-table/) in your Measure IQ instance. Each property of the event goes in the table column corresponding to the name of the property. Typically, an event has several columns that describe the event itself, and several that allow it to be placed in the context of other events. For example, an event representing a click on a web page might have properties describing the click target and the state of the user’s interaction with the page, plus properties that identify the user account and server-side session that went into creating the web page.
 
 A table may contain events of very different kinds:
 
@@ -23,7 +23,7 @@ What matters is not the uniformity of the columns on the events, but combining p
 
 ## Every event must have a time stamp
 
-A [timestamp](/measure_iq/glossary/timestamp/) doesn’t always correspond to the exact time that the event is logged. It might be backdated to reflect an estimate of when the event “really happened,” or filled in based on data extracted from another source.
+A [timestamp](../../../../../measure_iq/glossary/timestamp/) doesn’t always correspond to the exact time that the event is logged. It might be backdated to reflect an estimate of when the event “really happened,” or filled in based on data extracted from another source.
 
 When thinking about what timestamp to put on an event, it’s a good idea to put it in sequence with related events, and to ensure that this sequence is consistent for each actor, even if the related events are logged by different systems. Events can only be related to one another efficiently if they are nearby in time, and some Measure IQ features are much easier and more efficient to use if the events they relate are reliably in a specific order.
 

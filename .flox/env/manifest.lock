@@ -3,6 +3,9 @@
   "manifest": {
     "version": 1,
     "install": {
+      "markuplinkchecker": {
+        "pkg-path": "markuplinkchecker"
+      },
       "nodejs": {
         "pkg-path": "nodejs"
       },
@@ -34,6 +37,130 @@
     }
   },
   "packages": [
+    {
+      "attr_path": "markuplinkchecker",
+      "broken": false,
+      "derivation": "/nix/store/j83rrpffpvh6jvlv4spb9jp6l3cj0b2z-markuplinkchecker-0.19.0.drv",
+      "description": "Check for broken links in markup files",
+      "install_id": "markuplinkchecker",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
+      "name": "markuplinkchecker-0.19.0",
+      "pname": "markuplinkchecker",
+      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
+      "rev_count": 724962,
+      "rev_date": "2024-12-19T23:01:11Z",
+      "scrape_date": "2024-12-23T03:54:12Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/d3bbk3aalv5vfgyywsvzpfn6y8vyhrrn-markuplinkchecker-0.19.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "markuplinkchecker",
+      "broken": false,
+      "derivation": "/nix/store/nw2ijcgc9pwz8ism72syq49f2ridb20h-markuplinkchecker-0.19.0.drv",
+      "description": "Check for broken links in markup files",
+      "install_id": "markuplinkchecker",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
+      "name": "markuplinkchecker-0.19.0",
+      "pname": "markuplinkchecker",
+      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
+      "rev_count": 724962,
+      "rev_date": "2024-12-19T23:01:11Z",
+      "scrape_date": "2024-12-23T03:54:12Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/minxs6rsxp5dbfc52dph703w6qa5jn6z-markuplinkchecker-0.19.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "markuplinkchecker",
+      "broken": false,
+      "derivation": "/nix/store/zra8i4yan1ykn52jl5gvbknld80h9jw4-markuplinkchecker-0.19.0.drv",
+      "description": "Check for broken links in markup files",
+      "install_id": "markuplinkchecker",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
+      "name": "markuplinkchecker-0.19.0",
+      "pname": "markuplinkchecker",
+      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
+      "rev_count": 724962,
+      "rev_date": "2024-12-19T23:01:11Z",
+      "scrape_date": "2024-12-23T03:54:12Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qfbkq11h2iavqn157i006hr9pdn101ax-markuplinkchecker-0.19.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "markuplinkchecker",
+      "broken": false,
+      "derivation": "/nix/store/h5ccwrb9c6l6d22grx84ds5pa4hhm61r-markuplinkchecker-0.19.0.drv",
+      "description": "Check for broken links in markup files",
+      "install_id": "markuplinkchecker",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
+      "name": "markuplinkchecker-0.19.0",
+      "pname": "markuplinkchecker",
+      "rev": "d70bd19e0a38ad4790d3913bf08fcbfc9eeca507",
+      "rev_count": 724962,
+      "rev_date": "2024-12-19T23:01:11Z",
+      "scrape_date": "2024-12-23T03:54:12Z",
+      "stabilities": [
+        "stable",
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/mflw7ckvgg7hy337rp557vfg2z0fi4fk-markuplinkchecker-0.19.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
     {
       "attr_path": "nodejs",
       "broken": false,

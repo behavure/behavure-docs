@@ -33,11 +33,11 @@ Lookup tables can be a good choice if your first query involves a separate scan
 
 To access A/B view, click **Default Exploration** in the menu bar above ‘Show’ in the explore view, then click **AB View**.
 
-![](./attachments/AB%201.png)
+![](attachments/AB%201.png)
 
 When you access A/B view, it automatically fills in fields to create a valid (if of dubious interest) experiment based on events in your data set. Use the drop-downs to create a more interesting experiment.
 
-![](./attachments/AB%202.png)
+![](attachments/AB%202.png)
 
 ### Creating an A/B test
 

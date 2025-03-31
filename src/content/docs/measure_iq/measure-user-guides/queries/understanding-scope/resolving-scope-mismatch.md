@@ -249,7 +249,7 @@ Average(1, 1, 0) = .67
 
 Bringing an event property into flow scope is similar to bringing an event property into actor scope. The event property can be integrated by either using the event property in a flow property, or altering the definition of the flow itself.
 
-For instance, to filter to [flow instances](/measure_iq/glossary/flow-instance) with at least one add to cart event, create a flow property that counts add\_to\_cart events per flow instance. This is what the query looks like in the Measure IQ UI:
+For instance, to filter to [flow instances](../flow-instance) with at least one add to cart event, create a flow property that counts add\_to\_cart events per flow instance. This is what the query looks like in the Measure IQ UI:
 
 ![](./attachments/v5ResolveScope08.png)
 

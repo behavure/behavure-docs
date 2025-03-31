@@ -5,7 +5,7 @@ description: "Definition & use of Queries"
 
 Learn about querying in Measure IQ and how to optimize your queries for better performance and insights.
 
-- [Adaptive Sampling in Measure IQ](./adaptive-sampling-in-scuba)  
+- [Adaptive Sampling in Measure IQ](adaptive-sampling-in-scuba)  
   Understand how Measure IQ uses adaptive sampling to provide fast query results.
 - [Create an Advanced Filter](./create-an-advanced-filter)  
   Learn how to create complex filters to refine your query results.
@@ -13,7 +13,7 @@ Learn about querying in Measure IQ and how to optimize your queries for better p
   Apply filters that affect all aspects of your query.
 - [Create Efficient Queries](./create-efficient-queries)  
   Best practices for writing performant queries in Measure IQ.
-- [How Measure IQ Performs Data Sampling](./how-scuba-performs-data-sampling-population-sampling)  
+- [How Measure IQ Performs Data Sampling](how-scuba-performs-data-sampling-population-sampling)  
   Deep dive into Measure IQ's data sampling methodology.
 - [Save Variant of a Board with Board Filters](./save-variant-of-a-board-with-board-filters)  
   Create variations of boards using different filter combinations.

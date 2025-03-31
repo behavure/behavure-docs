@@ -17,7 +17,7 @@ When building a Measure IQ query, instead of selecting a property or operator, 
 
 - In the filter section, you can also click the down arrow in the operator (i.e. count) to see the list of options. Select **‘Create a Function'**:
 
-![](./attachments/filtered%20to.png)
+![](attachments/filtered%20to.png)
 
 ## Function Editor
 
@@ -25,7 +25,7 @@ With the v5 function editor, you can create **knob-first functions** or **operat
 
 ### To create a knob-first function:
 
-1. Select a [knob](/measure_iq/glossary/knowledge-object-knob) from the dropdown.
+1. Select a [knob](../../../../../measure_iq/glossary/knowledge-object-knob) from the dropdown.
 2. Select the operator, then select the values to complete the function.
 
 #### Example 1:  
@@ -64,7 +64,7 @@ The last dropdown will allow you to:
 
 In order to group knobs or literals, click the 'grouping' icon:
 
-![](./attachments/group%20icon.png)
+![](attachments/group%20icon.png)
 
 To the right of a knob or a literal, and then you will be able to create a nested expression,
 

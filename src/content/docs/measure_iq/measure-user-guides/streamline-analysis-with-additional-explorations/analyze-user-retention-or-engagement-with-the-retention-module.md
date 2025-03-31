@@ -26,7 +26,7 @@ Examine the line view and dates. In our example, the line for “2023-01-15 7:00
 
 ![](./attachments/v5RetentionResults.png)
 
-The [time scrubber](/measure_iq/glossary/time-scrubber) sets the time range for the inclusion event (date) of each actor. To study all actors over the same amount of time, events that qualify as success in retention might occur after this time by the amount of time chosen in **days before**. Likewise, success events in engagement might occur before this time by the amount of time chosen in **days after**. 
+The [time scrubber](../../../../../measure_iq/glossary/time-scrubber) sets the time range for the inclusion event (date) of each actor. To study all actors over the same amount of time, events that qualify as success in retention might occur after this time by the amount of time chosen in **days before**. Likewise, success events in engagement might occur before this time by the amount of time chosen in **days after**. 
 
 ## Analyze user engagement
 

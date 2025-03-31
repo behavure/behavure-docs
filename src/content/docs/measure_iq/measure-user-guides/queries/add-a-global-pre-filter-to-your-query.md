@@ -9,7 +9,7 @@ A pre-filter differs from a measure filter in that a pre-filter completely disca
 
 From the query exploration pane, click the arrow next to **For** to expand the section. Select a property and its value(s).
 
-![](<./attachments/2023-05-24_12-15-43%20(1).webp>)
+![](<attachments/2023-05-24_12-15-43%20(1).webp>)
 
 #### What's the difference between a pre-filter and a measure filter?
 
