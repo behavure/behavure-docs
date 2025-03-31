@@ -1,7 +1,8 @@
 ---
-title: Ratio Metrics 
-description: Definition & use of Ratio Metrics 
+title: Ratio Metrics
+description: Definition & use of Ratio Metrics
 ---
+
 **Ratio metrics** are metrics that are defined as ratios. You can define ratio metrics for events occurring during a specified period time; when the numerator represents a subset of the denominator, the result is a percentage.
 
 For example:
@@ -17,4 +18,4 @@ For example:
 
 ## More Information
 
-- [Determine a Ratio](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259504/Determine+a+Ratio+v5)
+- [Determine a Ratio](/measure_iq/measure-user-guides/build-queries-and-visualizations/determine-a-ratio)

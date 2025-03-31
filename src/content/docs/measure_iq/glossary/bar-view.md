@@ -1,8 +1,9 @@
 ---
-title: Bar View 
-description: Definition & use of Bar View 
+title: Bar View
+description: Definition & use of Bar View
 ---
-The **Bar View** displays your query results as a color-coded bar chart.    
+
+The **Bar View** displays your query results as a color-coded bar chart.
 
 ![](./attachments/Bar%20View.png)
 
@@ -13,4 +14,4 @@ The **Bar View** displays your query results as a color-coded bar chart.    
 
 ## More information
 
-- [Views and Chart Controls Reference](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139259899/Build+Queries+and+Visualizations+v5)
+- [Views and Chart Controls Reference](/measure_iq/measure-user-guides/build-queries-and-visualizations)

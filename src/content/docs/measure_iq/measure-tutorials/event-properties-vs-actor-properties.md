@@ -15,7 +15,7 @@ Event properties are critical in organizing and getting specific with your data 
 - An event property that uses **label** is an event property with more than one specified value.
 - An event property that uses **calculate** is an event property that performs a mathematical function.
 
-For more information and examples of event properties defined with other methods, see [Building an event property](../measure-user-guides/enrich-your-data-with-properties/build-an-event-property/) in the User's Guide.
+For more information and examples of event properties defined with other methods, see [Building an event property](../measure-user-guides/enrich-your-data-with-properties/build-an-event-property.md) in the User's Guide.
 
 ## Actor Properties
 
@@ -35,7 +35,7 @@ In general, every Measure IQ query or measure involves some sort of aggregatio
 - **average** session durations for Android devices
 - **sum** play time per music service
 
-We’re going to focus on the first two to dig deeper into the differences between event and actor properties.
+We're going to focus on the first two to dig deeper into the differences between event and actor properties.
 
 ### Event Scope
 
@@ -49,10 +49,9 @@ You can visualize the data aggregated over in an event scope query as a spreadsh
 
 Unlike in event scope, the actor-based tables that an actor scope query iterates over are not stored on disk or generated during the Measure IQ import process. Instead, Measure IQ produces an actor-based table from a subquery over the event data, and then produces results from the actor-based table.
 
-To learn more about scope and how to resolve scope mismatches, please read our [Understand Scope](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302431016/Understand+scope) article.
+To learn more about scope and how to resolve scope mismatches, please read our [Understand Scope](../measure-user-guides/queries/understanding-scope.md) article.
 
 ### Related
 
-- [Create an Actor Property](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302496173/Create+an+actor+property)
-- [Build an Event Property](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302431228/Build+an+event+property)
-- [Understand Scope](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302431016/Understand+scope)
+- [Create an Actor Property](../measure-tutorials/create-an-actor-property)
+- [Create an Event Property](../measure-tutorials/create-an-event-property)

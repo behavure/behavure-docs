@@ -1,8 +1,9 @@
 ---
-title: Panels 
-description: Definition & use of Panels 
+title: Panels
+description: Definition & use of Panels
 ---
-A **panel** is a visual component representing a query that has been pinned to a [board](../board-dashboard-living).
+
+A **panel** is a visual component representing a query that has been pinned to a [board](../board-dashboard-living).
 
 ## Related terms
 
@@ -11,4 +12,4 @@ A **panel** is a visual component representing a query that has been pinned to a
 
 ## More information
 
-- [Create a board with queries and panels](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1234632768/Create+a+board+with+queries+and+panels)
+- [Create a board with queries and panels](/measure_iq/measure-tutorials/create-a-board-with-queries-and-panels)

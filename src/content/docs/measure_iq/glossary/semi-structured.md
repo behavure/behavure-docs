@@ -1,8 +1,9 @@
 ---
-title: Semi-Structured 
-description: Definition & use of Semi-Structured 
+title: Semi-Structured
+description: Definition & use of Semi-Structured
 ---
-Semi-structured data is a type of [structured data](../structured-data) that does not conform to the structure of relational database data models. However, **semi-structured data** does contain tags or markers that are used to separate semantic elements and enforce hierarchies of records and fields in the data. 
+
+Semi-structured data is a type of [structured data](../structured-data) that does not conform to the structure of relational database data models. However, **semi-structured data** does contain tags or markers that are used to separate semantic elements and enforce hierarchies of records and fields in the data.
 
 ## Related terms
 
@@ -12,4 +13,4 @@ Semi-structured data is a type of [structured data](../structured-data) that d
 
 ## More information
 
-- [What You Should Know About Structuring Your Data](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139261689/What+You+Should+Know+About+Structuring+Your+Data+v5)
+- [What You Should Know About Structuring Your Data](/measure_iq/admin-guides/managing-your-data/what-you-should-know-about-structuring-your-data)

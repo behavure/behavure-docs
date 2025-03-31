@@ -149,7 +149,7 @@ export default defineConfig({
                   label: 'API: Programmatically Querying Measure IQ',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/measure-user-guides/api-programmatically-querying-scuba',
+                    directory: 'measure_iq/measure-user-guides/api-programmatically-querying-measure-iq',
                     collapsed: true
                   }
                 }

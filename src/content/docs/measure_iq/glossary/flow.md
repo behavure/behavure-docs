@@ -24,5 +24,5 @@ Each instance of a flow is called a [flow instance](flow-instance). Flow instanc
 
 ## More information
 
-- [What You Should Know About Flows](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302431464/What+you+should+know+about+flows)
-- [How to Create and Use Flows](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1561821201/How+to+create+and+use+flows)
+- [What You Should Know About Flows](/measure_iq/measure-user-guides/analyze-user-paths-with-flows)
+- [How to Create and Use Flows](/measure_iq/measure-tutorials/work-with-flows)
