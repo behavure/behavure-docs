@@ -44,7 +44,7 @@ Note: If you skip ahead and install [Flox](https://flox.dev), you simply need to
    npm run dev
    ```
 
-4. Open your browser and navigate to `http://localhost:3000` to see the site.
+4. Open your browser and navigate to `http://localhost:4321` to see the site (or whatever the `npm run dev` output lists - it's right there).
 
 ## Working with Astro
 
