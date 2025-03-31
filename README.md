@@ -1,54 +1,247 @@
-# Starlight Starter Kit: Basics
+# Behavure Documentation
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+This repository contains the documentation website for Behavure products (Measure IQ and Edge IQ), built using [Astro](https://astro.build).
+
+## Overview
+
+The documentation site is organized into several main sections:
+- Introduction
+- Measure IQ documentation
+- Edge IQ documentation
+- Glossary
+- Admin guides
+- User guides
+- Tutorials
+
+The site is built with Astro, a modern static site generator optimized for content-focused websites.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16.x or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Git](https://git-scm.com/)
+
+Note: If you skip ahead and install [Flox](https://flox.dev), you simply need to activate the environment to get NodeJS and don't need NPM 
+
+## Getting Started with Development
+
+### Setting Up Your Local Environment
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd behavure-docs
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000` to see the site.
+
+## Working with Astro
+
+[Astro](https://astro.build) is a modern static site generator that allows you to build faster websites with less client-side JavaScript. 
+
+### Key Concepts
+
+- **Content Collections**: Content is stored in the `src/content` directory and organized into collections.
+- **Markdown/MDX**: Most content is written in Markdown or MDX (Markdown with JSX) files.
+- **Components**: Reusable UI elements are stored in `src/components`.
+- **Pages**: Page templates are located in the appropriate directories under `src/pages`.
+
+### Project Structure
 
 ```
-npm create astro@latest -- --template starlight
+behavure-docs/
+├── src/                      # Source files
+│   ├── assets/               # Static assets
+│   ├── components/           # Reusable components
+│   ├── content/              # Documentation content
+│   │   └── docs/             # Main documentation 
+│   │       ├── measure_iq/   # Measure IQ documentation
+│   │       ├── edge_iq/      # Edge IQ documentation
+│   │       └── ...           # Other doc sections
+│   ├── styles/               # CSS and styling
+│   └── plugins/              # Astro plugins
+├── public/                   # Public assets (copied as-is)
+├── dist/                     # Build output directory
+├── astro.config.mjs          # Astro configuration
+└── package.json              # Project dependencies
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+## Updating Documentation
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Adding or Modifying Content
 
-## 🚀 Project Structure
+1. Navigate to the appropriate directory in `src/content/docs/`.
+2. Create or edit the Markdown (`.md`) or MDX (`.mdx`) files.
+3. Images and other attachments should be placed in an `attachments` folder within the same directory.
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+### File Naming Conventions
+
+- Use kebab-case for filenames (e.g., `getting-started.md`).
+- Index files (`index.md`) serve as the main page for a directory.
+- Each content page should include frontmatter with at least a title.
+
+Example of a content file:
+
+```markdown
+---
+title: Getting Started with Measure IQ
+description: Learn how to use Measure IQ to analyze your data
+---
+
+# Getting Started
+
+Content goes here...
+```
+
+### Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+This will generate the static site in the `dist/` directory.
+
+## Using Conventional Commits
+
+This project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification for commit messages. This provides a clear structure for commit messages and makes it easier to generate changelogs and understand the project history.
+
+### Commit Message Format
+
+Each commit message should be structured as follows:
 
 ```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+### Types
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+- `feat`: A new feature
+- `fix`: A bug fix
+- `docs`: Documentation only changes
+- `style`: Changes that do not affect the meaning of the code (white-space, formatting, etc.)
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `perf`: A code change that improves performance
+- `test`: Adding missing tests or correcting existing tests
+- `build`: Changes that affect the build system or external dependencies
+- `ci`: Changes to CI configuration files and scripts
+- `chore`: Other changes that don't modify src or test files
 
-Static assets, like favicons, can be placed in the `public/` directory.
+### Examples
 
-## 🧞 Commands
+```
+feat(user-guide): add new section on flow properties
 
-All commands are run from the root of the project, from a terminal:
+fix(glossary): correct definition of actor property
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+docs: update Measure IQ installation instructions
+```
 
-## 👀 Want to learn more?
+For more details, visit the [Conventional Commits website](https://www.conventionalcommits.org/).
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+## Using Flox.dev for Development
+
+[Flox](https://flox.dev) is a development environment manager that ensures consistent environments across team members.
+
+### Installing Flox
+
+1. Visit [flox.dev](https://flox.dev) to download and install Flox.
+
+2. Follow the installation instructions on the website.
+
+3. Verify the installation:
+   ```bash
+   flox --version
+   ```
+
+### Using Flox with this Project
+
+1. Navigate to the project directory:
+   ```bash
+   cd behavure-docs
+   ```
+
+2. Initialize a Flox environment:
+   ```bash
+   flox init
+   ```
+
+   Note: The environment should already exist
+
+3. Activate the Flox environment:
+   ```bash
+   flox activate
+   ```
+   
+   Note: You need to run `flox activate` each time you start working on the project in a new terminal session to ensure you're using the right environment.
+
+4. Add necessary packages:
+   ```bash
+   flox install nodejs npm git
+   ```
+
+   Note: nodejs is already part of the setup and can be verified using `flox list`
+
+5. Run development commands as usual:
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+### Benefits of Using Flox
+
+- Ensures consistent development environments across the team
+- Isolates project dependencies
+- Makes onboarding new developers easier
+- Avoids "works on my machine" problems
+
+## Deployment
+
+The site is built into static HTML in the `dist/` directory. These files can be deployed to any static hosting service:
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+
+2. Deploy the contents of the `dist/` directory to your hosting service.
+
+## Troubleshooting
+
+- If you encounter issues with the build, try clearing the cache:
+  ```bash
+  npm run clean
+  ```
+
+- For dependency issues, try removing node_modules and reinstalling:
+  ```bash
+  rm -rf node_modules
+  npm install
+  ```
+
+## Contributing
+
+Please follow these guidelines when contributing to the documentation:
+
+1. Create a new branch for your changes
+2. Make your changes in the appropriate files
+3. Test your changes locally using `npm run dev`
+4. Use conventional commit messages for your commits
+5. Submit a pull request for review
+
