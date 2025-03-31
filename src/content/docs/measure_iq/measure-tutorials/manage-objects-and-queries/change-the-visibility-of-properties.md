@@ -15,9 +15,9 @@ There are two global visibility settings for properties: *hidden* or *visible
 - **Visible properties**—can be viewed and searched for in the expression builder by all users. Properties can be selected to define other properties, as well as used in queries. Objects are visible by default.
 - **Hidden properties**—can help keep drop-down lists manageable, and discourage other users from using specific properties. Hidden properties are not shown in drop-down menus in the expression builder. Hidden properties are still visible in object lists.
 
-All Measure IQ users can toggle a property to be visible or hidden, provided they can view the property (that is, provided they have created the property or someone [shared it with them](../../../measure-guides/measure-user-guides/manage-your-created-objects/share-an-object-with-other-users)).
+All Measure IQ users can toggle a property to be visible or hidden, provided they can view the property (that is, provided they have created the property or someone [shared it with them](../../measure-user-guides/manage-your-created-objects/share-an-object-with-other-users)).
 
-You might want to hide properties that other users don't rely on, or that they shouldn’t use in a query or object definition. The following are examples of when you would want to hide a property.
+You might want to hide properties that other users don't rely on, or that they shouldn't use in a query or object definition. The following are examples of when you would want to hide a property.
 
 - If you have a raw event property that has important data but needs to be cleaned up, you can create another event property for the clean version (with a user friendly name), then hide the original raw event property. That way, other users can use only the clean version of the event property.
 - If you've created an Event Property A that is defined by a second object, Event Property B, which is in turn defined by a third object, Event Property C. In this case, you might want only Event Property A to be visible.
@@ -51,4 +51,4 @@ Favorited items appear at the top of lists, in alphabetical order. Personal favo
 
 You've successfully created properties and changed the visibility. Now learn how to:
 
-- [Manage properties](../manage-properties)
+- [Manage properties](./manage-properties)

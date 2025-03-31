@@ -1,7 +1,8 @@
 ---
-title: Journey (actor, user) 
-description: Definition & use of Journey (actor, user) 
+title: Journey (actor, user)
+description: Definition & use of Journey (actor, user)
 ---
+
 A **journey** is the sequence of events that an actor can take represented in event data.
 
 ## Related terms

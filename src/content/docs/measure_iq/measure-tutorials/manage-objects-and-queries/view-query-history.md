@@ -13,8 +13,8 @@ Hover over each point to see a small thumbnail regarding the query. Click on the
 
 ![](<./attachments/2023-03-17_16-53-51%20(1).webp>)
 
-From here you can refresh the data, [modify the query](../../../modify-a-query), and further explore the data.
+From here you can refresh the data, [modify the query](../../modify-a-query), and further explore the data.
 
 ## What's Next
 
-- [Share an Object](../../../measure-guides/measure-user-guides/manage-your-created-objects/share-an-object-with-other-users)
+- [Share an Object With Other Users](../../measure-user-guides/manage-your-created-objects/share-an-object-with-other-users)

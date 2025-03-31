@@ -7,7 +7,9 @@ search:
   hidden: true
 ---
 
-> [!WARNING] > **_This article will be completed once Board Signals are confirmed live in V5 (_**[**_DACT-74_**](https://behavure.ai/docs/browse/DACT-74)**_)_**
+:::caution[Warning]
+This article is still in progress and may change.
+:::
 
 **Measure IQ Board Signals** is an insight delivery feature that enables users to:
 
