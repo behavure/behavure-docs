@@ -18,7 +18,7 @@ A table may contain events of very different kinds:
 What matters is not the uniformity of the columns on the events, but combining properties of multiple events at query time to understand the behavior of the actors they have in common.
 
 :::tip[Pro Tip]
-**Pro Tip:** Focus on the layers of your system from which events can be logged with enough context to relate them to one another.
+**Pro Tip:** Focus on the layers of your systhttps://github.com/behavure/behavure-docs/edit/main/src/content/docs/measure_iq/admin-guides/managing-your-data/what-to-think-about-before-you-add-data.mdem from which events can be logged with enough context to relate them to one another.
 :::
 
 ## Every event must have a time stamp
@@ -102,4 +102,6 @@ Depending on the goal of the query, you might count unique action IDs, divide th
 
 The following Pro Tip illustrates a broader principle, worth keeping in mind as you refine your logging strategy:
 
-> [!TIP] > **Pro Tip:** It’s better to have multiple helper columns, each mostly nulls, than to have one helper column that tries to account for all of the use cases. Columns are cheap as long as they’re mostly null, and practically free if they’re not used in queries. Think about how each event should contribute to summary statistics, and annotate it in all the ways that might help weight its contribution accurately.
+:::tip[Pro Tip]
+**Pro Tip:** It’s better to have multiple helper columns, each mostly nulls, than to have one helper column that tries to account for all of the use cases. Columns are cheap as long as they’re mostly null, and practically free if they’re not used in queries. Think about how each event should contribute to summary statistics, and annotate it in all the ways that might help weight its contribution accurately.
+:::
