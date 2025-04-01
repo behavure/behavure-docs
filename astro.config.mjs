@@ -225,9 +225,9 @@ export default defineConfig({
       // Custom settings
       pagefind: true, // Enable search
       defaultLocale: 'root',
-      editLink: {
-        baseUrl: 'https://github.com/behavure/behavure-docs/edit/main/',
-      },
+      // editLink: {
+      //   baseUrl: 'https://github.com/behavure/behavure-docs/edit/main/',
+      // },
       lastUpdated: true,
       
       // Theme configuration is now handled through component overrides
