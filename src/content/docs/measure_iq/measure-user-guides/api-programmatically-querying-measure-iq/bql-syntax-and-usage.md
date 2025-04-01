@@ -37,7 +37,7 @@ curl 'https://11.2.34.141/v1/query' \
 ```
 
 > [!INFO]
-> For more information on using the external query API, see [Use the Measure IQ external query API](./api-programmatically-querying-scuba).
+> For more information on using the external query API, see [Use the Measure IQ external query API](./api-programmatically-querying-measure-iq).
 
 ### BQL building blocks
 
@@ -89,7 +89,7 @@ The following table shows common Measure IQ queries and their equivalents in BQ
 
 |                                                                                                                                                                  |                                                                                                               |                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| **Measure IQ sentence-model UI**                                                                                                                                      | **BQL statement**                                                                                             | **Concept**                             |
+| **Measure IQ sentence-model UI**                                                                                                                                 | **BQL statement**                                                                                             | **Concept**                             |
 | Show count of events                                                                                                                                             | select count (\*) from my_table                                                                               | Aggregate                               |
 | Show count of events <br>Filtered to events with `page` that matches “Error”                                                                                     | select count (\* where page=”Error”) from my_table                                                            | Filter                                  |
 | Show count of events <br>Filtered to events with `page` that matches “Error” <br>Split by artist                                                                 | select count (\* where page=”Error”) from my_table group by artist                                            | Split by (group by)                     |

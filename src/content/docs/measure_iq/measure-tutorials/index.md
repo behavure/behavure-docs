@@ -9,8 +9,7 @@ You can perform this series of tasks sequentially to familiarize yourself with u
 
 ## Working with Queries and Panels
 
-- [Start working with queries and panels](/measure_iq/measure-tutorials/create-a-board-with-queries-panels) - Learn how to create a panel, create and modify a query, and create event and actor properties.
-- [Create a board and add a panel](/measure_iq/measure-tutorials/create-a-board-with-queries-panels) - Learn how to create your own custom board when you're familiar with the workspace.
+- [Create a board and add a panel](measure-tutorials/create-a-board-with-queries-and-panels) - Learn how to start creating your own custom board when you're familiar with the workspace.
 - [Modify a query](/measure_iq/measure-tutorials/modify-a-query) - Learn how to modify a query from Explore and from a panel.
 - [Create an event property](/measure_iq/measure-tutorials/create-an-event-property) - Learn how to define a new event property for summarizing, grouping, or filtering.
 - [Create an actor property](/measure_iq/measure-tutorials/create-an-actor-property) - Learn about actors and how to create actor properties.

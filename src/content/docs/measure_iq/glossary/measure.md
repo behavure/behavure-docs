@@ -18,4 +18,4 @@ A measure is similar to a metric, but it is not saved as a knowledge object.
 
 ## More information
 
-- [Analyze user paths with flows](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139260084/Analyze+User+Paths+With+Flows+v5)
+- [Analyze user paths with flows](/measure_iq/measure-user-guides/analyze-user-paths-with-flows)

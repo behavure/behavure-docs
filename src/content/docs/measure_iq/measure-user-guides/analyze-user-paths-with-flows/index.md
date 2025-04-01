@@ -1,9 +1,19 @@
 ---
-title: "Analyze User Paths With Flows "
-description: "Definition & use of Analyze User Paths With Flows "
+title: "Analyze User Paths With Flows"
+description: "Learn how to analyze and visualize user paths and flows in Measure IQ"
 ---
 
----
+Learn how to analyze and visualize user paths and flows in Measure IQ to understand user behavior and journey patterns.
+
+- [Understand Flow Definition Conditions](./understand-flow-definition-conditions)
+- [Understand Duration Flow Properties](./understand-duration-flow-properties)
+- [Query on Stages in a Flow](./query-on-stages-in-a-flow)
+- [Create an Optional Flow Step](./create-an-optional-flow-step)
+- [Find Natural Frequency of Your Experience](./find-a-natural-frequency-of-your-experience)
+- [Define a User Session Using a Flow](./define-a-user-session-using-a-flow)
+- [Example: Show Actor Paths Using Flows](./example-show-actor-paths-using-flows)
+- [Example: Analyze Paths to Conversion](./example-analyze-paths-to-conversion-using-flows)
+- [Example: Analyze User Sessions with Flows](./example-analyze-user-sessions-with-flows)
 
 A flow is an object in Measure IQ that a user defines to study their user experience. A flow defines a sequence of conditions or milestones, that identifies users that performed actions matching the defined sequence. The flow definition includes one or more start conditions, one or more steps, and transition rules between the steps.
 
@@ -26,13 +36,3 @@ Common reasons for using flows:
 - **Engagement**: Show how actors are engaging with your product. Measure session times, as well as metrics that occurred within a session.
 
 See the articles below for conceptual information about flows as well as some examples.
-
-- [**Understand flow definition conditions**](./understand-flow-definition-conditions)**:**After identifying the critical steps in your experience, it is important for accuracy that you impose some constraints on your flow. The article linked above summarizes the flow definition conditions.
-- [**Understand duration flow properties**](./understand-duration-flow-properties)**:**A flow time property lets you specify which steps you want to measure time duration between, and then apply an aggregation.
-- [**Query on stages in a flow**](./query-on-stages-in-a-flow)**:**If you're aggregating over events, you can access information about flows in your aggregation.
-- [**Create an optional flow step**](./create-an-optional-flow-step)**:**When you define your flow, you can identify one or more steps as optional. For example, you might want to include users that had to log in before purchasing, in addition to users that were already logged in and went directly to purchasing. Here, login is an optional step.
-- [**Find the natural frequency of your experience**](./find-a-natural-frequency-of-your-experience)**:**Many experiences have a natural frequency or cadence of usage. To model your experience meaningfully in a flow, you need a sense of how often your users are in your experience when they are using it.
-- [**Define a user session using a flow**](./define-a-user-session-using-a-flow)**:**You can perform session analysis using Measure IQ flows. This article summarizes the definitions that help you model a session as a flow. You can then analyze the flow using Measure IQ analysis tools.
-- [**Example: Show actor paths using flows**](./example-show-actor-paths-using-flows)**:**This article demonstrates how to create a flow showing users who completed a set of steps over a specified period of time. It then shows how to use the flow to show actor paths and determine the events leading up to success, the events leading up to failure, and the steps completed by an individual user segment.
-- [**Example: Analyze paths to conversion using flows**](./example-analyze-paths-to-conversion-using-flows)**:**To better understand your customers, you can analyze the steps they take leading up to a major conversion, such as signing up for a service, creating a profile, or making a purchase.
-- [**Example: Analyze user sessions with flows**](./example-analyze-user-sessions-with-flows)**:**This article explains how you can use a flow to explore the details of user sessions, such as the number of comments each user makes, how often they make a purchase or perform other conversions, or how long they stay engaged on your site.

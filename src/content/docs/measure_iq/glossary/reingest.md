@@ -1,7 +1,8 @@
 ---
-title: Reingest 
-description: Definition & use of Reingest 
+title: Reingest
+description: Definition & use of Reingest
 ---
+
 **Reingest** is the process of ingesting data into a cluster again. This is typically done when there is a gap in data that needs to be filled in, when adding a shard key, when adding a column that requires a backfill, or when there is an issue with the data.
 
 ## Related terms
