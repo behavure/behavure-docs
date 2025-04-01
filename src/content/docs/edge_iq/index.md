@@ -21,7 +21,6 @@ hero:
 tableOfContents: false
 ---
 
-
 import { Card, CardGrid } from "@astrojs/starlight/components";
 
 <CardGrid>

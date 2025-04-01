@@ -211,17 +211,53 @@ export default defineConfig({
             }
           ]
         },
-        // {
-        //   label: 'Edge IQ',
-        //   collapsed: true,
-        //   autogenerate: { 
-        //     directory: 'edge_iq', 
-        //     collapsed: true 
-        //   },
-        // },
+        {
+          label: 'Edge IQ',
+          items: [
+            {
+              label: 'Overview',
+              link: '/edge_iq'
+            },
+            {
+              label: 'Getting Started',
+              items: [
+                { label: 'Core Concepts', link: '/start/core-concepts' },
+                { label: 'System Requirements', link: '/start/system-requirements/' },
+                { label: 'Downloads', link: '/start/downloads/' },
+                { label: 'Licensing', link: '/start/licensing/' },
+                { label: 'Getting Started', link: '/start/starting' },
+                { label: 'Running A Job', link: '/start/running' },
+              ]
+            },
+            {
+              label: 'Install',
+              items: [
+                { label: 'Overview', link: '/install/overview/' },
+                { label: 'Server Installation', link: '/install/linux/server/' },
+                { label: 'Worker Installation', link: '/install/linux/worker/' },
+              ]
+            },     
+            {
+              label: 'Jobs',
+              items: [
+                { label: 'Overview', link: '/jobs/overview/' },
+                { label: 'Visual Editor', link: '/jobs/editor/' },
+                { label: 'Deploying Jobs', link: '/jobs/deploying-jobs/' },
+              ]
+            },               
+            {
+              label: 'Edge IQ',
+              collapsed: true,
+              autogenerate: { 
+                directory: 'edge_iq', 
+                collapsed: true 
+              }
+            }
+          ]
+        }
       ],
       plugins: [starlightComponents],
-      
+
       // Custom settings
       pagefind: true, // Enable search
       defaultLocale: 'root',
@@ -229,13 +265,11 @@ export default defineConfig({
         baseUrl: 'https://github.com/behavure/behavure-docs/edit/main/',
       },
       lastUpdated: true,
-      
+
       // Theme configuration is now handled through component overrides
       components: {
-        // Override the theme components to force dark mode
         ThemeProvider: './src/components/ThemeProvider.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
-        // Use custom Header component with external logo link
         Header: './src/components/Header.astro',
       },
     }),
