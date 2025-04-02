@@ -216,7 +216,7 @@ export default defineConfig({
           items: [
             {
               label: 'Overview',
-              link: '/edge_iq'
+              link: '/edge_iq/'
             },
             {
               label: 'Getting Started',
@@ -232,7 +232,7 @@ export default defineConfig({
             {
               label: 'Install',
               items: [
-                { label: 'Overview', link: '/install/overview/' },
+                { label: 'Overview', link: '/edge_iq/install' },
                 { label: 'Server Installation', link: '/install/linux/server/' },
                 { label: 'Worker Installation', link: '/install/linux/worker/' },
               ]

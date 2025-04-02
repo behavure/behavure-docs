@@ -7,11 +7,11 @@ sidebar:
   order: 2
 ---
 
-Lyftdata is deployed as a single binary without external dependencies.
+Edge iq is deployed as a single binary without external dependencies.
 
 ## Supported Operating Systems
 
-Lyftdata is available for 64-bit Linux, Windows and Mac. Server and worker processes are interoperable between different operating systems.
+Edge iq is available for 64-bit Linux, Windows and Mac. Server and worker processes are interoperable between different operating systems.
 
 ## Recommended Hardware
 

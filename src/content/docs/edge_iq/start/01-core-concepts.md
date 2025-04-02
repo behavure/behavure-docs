@@ -1,17 +1,17 @@
 ---
 title: Core Concepts
-description: Lyft Data Core Concepts
+description: Edge iq Core Concepts
 slug: start/core-concepts
 sidebar:
   label: Core Concepts
   order: 1
 ---
 
-This page introduces the foundational elements of Lyft Data. Understanding these components will help you design and maintain efficient, reliable data pipelines.
+This page introduces the foundational elements of Edge iq. Understanding these components will help you design and maintain efficient, reliable data pipelines.
 
 ## Server
 
-The Server is the control plane for Lyft Data. It manages configuration details, tracks system health, and orchestrates the execution of Jobs across a distributed set of Workers. The Server also provides a central point for monitoring logs, metrics, and alerts related to pipeline activity.
+The Server is the control plane for Edge iq. It manages configuration details, tracks system health, and orchestrates the execution of Jobs across a distributed set of Workers. The Server also provides a central point for monitoring logs, metrics, and alerts related to pipeline activity.
 
 ### Key Responsibilities
 
@@ -31,7 +31,7 @@ A Job defines a specific pipeline. Each Job configuration indicates how data is 
 
 ## Workers
 
-Workers instantiate the runtime for each Job and performs any necessary orchestration and coordination. In a distributed Lyft Data deployment, multiple Workers can run in parallel to handle multiple Jobs or increased data volume.
+Workers instantiate the runtime for each Job and performs any necessary orchestration and coordination. In a distributed Edge iq deployment, multiple Workers can run in parallel to handle multiple Jobs or increased data volume.
 
 ### How Workers Operate
 
@@ -54,12 +54,12 @@ When you need to fan out or compose data flows across multiple Jobs, Worker chan
 
 ## Pipelines and Data Flow
 
-In Lyft Data, each Job can be viewed as a discrete pipeline from one input to one output, with optional transformations in between. By default, a Job’s data flow is self-contained, but you can connect multiple Jobs using Worker channels to fan out or chain together more advanced workflows. Lyft Data manages the orchestration of these pipelines, handling retries, error reporting, and scaling, minimizing the need for custom integration code.
+In Edge iq, each Job can be viewed as a discrete pipeline from one input to one output, with optional transformations in between. By default, a Job’s data flow is self-contained, but you can connect multiple Jobs using Worker channels to fan out or chain together more advanced workflows. Edge iq manages the orchestration of these pipelines, handling retries, error reporting, and scaling, minimizing the need for custom integration code.
 
 ## Configuration and Management
 
-Lyft Data is primarily configured through a combination of the Server UI and environment variables. Each Job is defined with parameters for inputs, actions, outputs, and runtime behavior. Once created, Jobs are monitored and administered via the Server, which aggregates logs and metrics to provide operational insights.
+Edge iq is primarily configured through a combination of the Server UI and environment variables. Each Job is defined with parameters for inputs, actions, outputs, and runtime behavior. Once created, Jobs are monitored and administered via the Server, which aggregates logs and metrics to provide operational insights.
 
 ---
 
-By familiarizing yourself with these core concepts—Server, Jobs, Workers, and Worker channels—you will be better equipped to design effective data workflows using Lyft Data. For detailed guidance on creating and running Jobs, refer to the **Guides** section, or consult the **Reference** for information on specific configuration parameters.
+By familiarizing yourself with these core concepts—Server, Jobs, Workers, and Worker channels—you will be better equipped to design effective data workflows using Edge iq. For detailed guidance on creating and running Jobs, refer to the **Guides** section, or consult the **Reference** for information on specific configuration parameters.
