@@ -220,7 +220,7 @@ export default defineConfig({
 
             {
               label: "Overview",
-              link: "/",
+              link: "edge_iq/",
             },
             {
               label: "Get Started",
@@ -231,7 +231,31 @@ export default defineConfig({
               label: "Install",
               autogenerate: { directory: "edge_iq/install" },
             },
-          ]
+            {
+            label: "Jobs",
+            autogenerate: { directory: "edge_iq/jobs" },
+            },
+            {
+            label: "Product Integrations",
+            collapsed: true,
+            autogenerate: { directory: "edge_iq/product_integrations", collapsed: true },
+            },
+            {
+            label: "Guides",
+            collapsed: false,
+            autogenerate: { directory: "edge_iq/guides", collapsed: true },
+            },
+            {
+            label: "Reference",
+                collapsed: true,
+            autogenerate: { directory: "edge_iq/reference" },
+            },
+            {
+            label: "Releases",
+            collapsed: true,
+            autogenerate: { directory: "edge_iq/releases" },
+            },
+        ]
         }
       ],
       plugins: [starlightComponents],
