@@ -31,6 +31,7 @@ export default defineConfig({
             },
             {
               label: 'Key Concepts',
+              collapsed: true,
               items: [
                 { label: 'Overview', link: '/measure_iq/key-concepts-and-terminology' },
                 { label: 'Event Data', link: '/measure_iq/key-concepts-and-terminology/what-is-event-data' },
@@ -87,6 +88,7 @@ export default defineConfig({
             },
             {
               label: 'User Guide',
+              collapsed: true,
               items: [
                 { label: 'Overview', link: '/measure_iq/measure-user-guides' },
                 {
@@ -157,6 +159,7 @@ export default defineConfig({
             },
             {
               label: 'Tutorials',
+              collapsed: true,
               items: [
                 { label: 'Overview', link: '/measure_iq/measure-tutorials' },
                 {
@@ -214,45 +217,20 @@ export default defineConfig({
         {
           label: 'Edge IQ',
           items: [
+
             {
-              label: 'Overview',
-              link: '/edge_iq/'
+              label: "Overview",
+              link: "/",
             },
             {
-              label: 'Getting Started',
-              items: [
-                { label: 'Core Concepts', link: '/start/core-concepts' },
-                { label: 'System Requirements', link: '/start/system-requirements/' },
-                { label: 'Downloads', link: '/start/downloads/' },
-                { label: 'Licensing', link: '/start/licensing/' },
-                { label: 'Getting Started', link: '/start/starting' },
-                { label: 'Running A Job', link: '/start/running' },
-              ]
-            },
-            {
-              label: 'Install',
-              items: [
-                { label: 'Overview', link: '/edge_iq/install' },
-                { label: 'Server Installation', link: '/install/linux/server/' },
-                { label: 'Worker Installation', link: '/install/linux/worker/' },
-              ]
-            },     
-            {
-              label: 'Jobs',
-              items: [
-                { label: 'Overview', link: '/jobs/overview/' },
-                { label: 'Visual Editor', link: '/jobs/editor/' },
-                { label: 'Deploying Jobs', link: '/jobs/deploying-jobs/' },
-              ]
-            },               
-            {
-              label: 'Edge IQ',
+              label: "Get Started",
               collapsed: true,
-              autogenerate: { 
-                directory: 'edge_iq', 
-                collapsed: true 
-              }
-            }
+              autogenerate: { directory: "edge_iq/start" },
+            },
+            {
+              label: "Install",
+              autogenerate: { directory: "edge_iq/install" },
+            },
           ]
         }
       ],
