@@ -462,3 +462,9 @@ aside.right-sidebar {
   }
 }
 
+.card-custom2 :deep(.card) {
+  border: 2px solid rgba(182, 32, 32, 0.1); /* adjust as needed */
+  border-radius: 1rem;
+  padding: 1rem;
+}
+

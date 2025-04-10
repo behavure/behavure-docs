@@ -1,0 +1,86 @@
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
+
+// https://astro.build/config
+export default defineConfig({
+  integrations: [
+    starlight({
+      title: "Behavure Docs",
+      favicon: "favicon-32x32.png",
+      // social: {
+      // 	github: 'https://github.com/withastro/starlight',
+      // },
+      customCss: ["./src/site.css"],
+      head: [
+        // plausible
+        {
+          tag: "script",
+          attrs: {
+            src: "https://plausible.io/js/script.outbound-links.js",
+            "data-domain": "docs.behavure.ai",
+            defer: true,
+          },
+        },
+      ],
+      components: {
+        // Override the default `SocialIcons` component.
+        // Hero: "./src/components/Hero.astro",
+      },
+      sidebar: [
+        {
+          label: "Overview",
+          link: "/",
+        },
+        {
+          label: "Get Started",
+          autogenerate: { directory: "start" },
+        },
+        {
+          label: "Install",
+          autogenerate: { directory: "install" },
+        },
+        // {
+        //   label: "First steps",
+        //   autogenerate: { directory: "first_steps" },
+        // },
+        // {
+        // 	label: 'Guides',
+        // 	items: [
+        // 		// Each item here is one entry in the navigation menu.
+        // 		{ label: 'Guides', link: '/guides/example/' },
+        // 	],
+        // },
+        // {
+        //   label: "Use",
+        //   autogenerate: { directory: "use" },
+        // },
+        // {
+        //   label: "Operate",
+        //   autogenerate: { directory: "operate" },
+        // },
+        {
+          label: "Jobs",
+          autogenerate: { directory: "jobs" },
+        },
+        {
+          label: "Product Integrations",
+          collapsed: false,
+          autogenerate: { directory: "product_integrations", collapsed: true },
+        },
+        {
+          label: "Guides",
+          collapsed: false,
+          autogenerate: { directory: "guides", collapsed: true },
+        },
+        {
+          label: "Reference",
+          autogenerate: { directory: "reference" },
+        },
+        {
+          label: "Releases",
+          autogenerate: { directory: "releases" },
+        },
+      ],
+    }),
+  ],
+});

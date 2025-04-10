@@ -31,6 +31,7 @@ export default defineConfig({
             },
             {
               label: 'Key Concepts',
+              collapsed: true,
               items: [
                 { label: 'Overview', link: '/measure_iq/key-concepts-and-terminology' },
                 { label: 'Event Data', link: '/measure_iq/key-concepts-and-terminology/what-is-event-data' },
@@ -87,6 +88,7 @@ export default defineConfig({
             },
             {
               label: 'User Guide',
+              collapsed: true,
               items: [
                 { label: 'Overview', link: '/measure_iq/measure-user-guides' },
                 {
@@ -157,6 +159,7 @@ export default defineConfig({
             },
             {
               label: 'Tutorials',
+              collapsed: true,
               items: [
                 { label: 'Overview', link: '/measure_iq/measure-tutorials' },
                 {
@@ -213,15 +216,50 @@ export default defineConfig({
         },
         {
           label: 'Edge IQ',
-          collapsed: true,
-          autogenerate: { 
-            directory: 'edge_iq', 
-            collapsed: true 
-          },
-        },
+          items: [
+
+            {
+              label: "Overview",
+              link: "edge_iq/",
+            },
+            {
+              label: "Get Started",
+              collapsed: true,
+              autogenerate: { directory: "edge_iq/start" },
+            },
+            {
+              label: "Install",
+              autogenerate: { directory: "edge_iq/install" },
+            },
+            {
+            label: "Jobs",
+            autogenerate: { directory: "edge_iq/jobs" },
+            },
+            {
+            label: "Product Integrations",
+            collapsed: true,
+            autogenerate: { directory: "edge_iq/product_integrations", collapsed: true },
+            },
+            {
+            label: "Guides",
+            collapsed: false,
+            autogenerate: { directory: "edge_iq/guides", collapsed: true },
+            },
+            {
+            label: "Reference",
+                collapsed: true,
+            autogenerate: { directory: "edge_iq/reference" },
+            },
+            {
+            label: "Releases",
+            collapsed: true,
+            autogenerate: { directory: "edge_iq/releases" },
+            },
+        ]
+        }
       ],
       plugins: [starlightComponents],
-      
+
       // Custom settings
       pagefind: true, // Enable search
       defaultLocale: 'root',
@@ -229,13 +267,11 @@ export default defineConfig({
       //   baseUrl: 'https://github.com/behavure/behavure-docs/edit/main/',
       // },
       lastUpdated: true,
-      
+
       // Theme configuration is now handled through component overrides
       components: {
-        // Override the theme components to force dark mode
         ThemeProvider: './src/components/ThemeProvider.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
-        // Use custom Header component with external logo link
         Header: './src/components/Header.astro',
       },
     }),
