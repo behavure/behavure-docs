@@ -1,15 +1,17 @@
 ---
 title: "Measure IQ User Guide"
-description: "Definition & use of Measure IQ User Guide"
+description: "Comprehensive user documentation for Measure IQ"
 ---
 
-Overviews, references, and examples to help you with querying and analysis in Measure IQ.
+# Welcome to the Measure IQ User Guide
 
-- [Analyze User Paths With Flows](measure-user-guides/analyze-user-paths-with-flows)
-- [API: Programmatically Querying Measure IQ](measure-user-guides/api-programmatically-querying-measure-iq)
-- [Build Queries and Visualizations](measure-user-guides/build-queries-and-visualizations)
-- [Enrich Your Data With Properties](measure-user-guides/enrich-your-data-with-properties)
-- [Learn about Measure IQ Concepts](measure-user-guides/learn-about-scuba-concepts)
-- [Manage Your Created Objects](measure-user-guides/manage-your-created-objects)
-- [Queries](measure-user-guides/queries)
-- [Streamline Analysis with Additional Explorations](measure-user-guides/streamline-analysis-with-additional-explorations/)
+This user guide provides detailed documentation for using Measure IQ effectively. Explore the sections below to learn about different aspects of the platform.
+
+## Guide Sections
+
+- [Learn about Measure IQ Concepts](/measure_iq/measure-user-guides/learn-about-measure-iq-concepts)
+- [Build Queries and Visualizations](/measure_iq/measure-user-guides/build-queries-and-visualizations)
+- [Analyze User Paths with Flows](/measure_iq/measure-user-guides/analyze-user-paths-with-flows)
+- [Enrich Your Data with Properties](/measure_iq/measure-user-guides/enrich-your-data-with-properties)
+- [Manage Your Created Objects](/measure_iq/measure-user-guides/manage-your-created-objects)
+- [Streamline Analysis](/measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations)

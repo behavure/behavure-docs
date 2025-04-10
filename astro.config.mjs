@@ -79,7 +79,7 @@ export default defineConfig({
                   label: 'Configuring Azure for Clusters',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/admin-guides/configuring-azure-for-scuba-clusters',
+                    directory: 'measure_iq/admin-guides/configuring-azure-for-measure-iq-clusters',
                     collapsed: true
                   }
                 }
@@ -93,7 +93,7 @@ export default defineConfig({
                   label: 'Learn About Measure IQ Concepts',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/measure-user-guides/learn-about-scuba-concepts',
+                    directory: 'measure_iq/measure-user-guides/learn-about-measure-iq-concepts',
                     collapsed: true
                   }
                 },
@@ -211,14 +211,14 @@ export default defineConfig({
             }
           ]
         },
-        // {
-        //   label: 'Edge IQ',
-        //   collapsed: true,
-        //   autogenerate: { 
-        //     directory: 'edge_iq', 
-        //     collapsed: true 
-        //   },
-        // },
+        {
+          label: 'Edge IQ',
+          collapsed: true,
+          autogenerate: { 
+            directory: 'edge_iq', 
+            collapsed: true 
+          },
+        },
       ],
       plugins: [starlightComponents],
       

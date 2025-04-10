@@ -1,15 +1,15 @@
 ---
 title: "Measure IQ Tutorials"
-description: "Definition & use of Measure IQ Tutorials"
+description: "Step-by-step guides for learning Measure IQ"
 ---
 
-The Measure IQ Tutorials are for users who are new to Scuba Analytics. These tasks introduce you to the user interface, walk through creating and modifying queries and flows, and describe how to analyze and share the results.
+The Measure IQ Tutorials are for users who are new to Measure IQ. These tasks introduce you to the user interface, walk through creating and modifying queries and flows, and describe how to analyze and share the results.
 
 You can perform this series of tasks sequentially to familiarize yourself with using Measure IQ, or you can jump directly to a specific task you need help completing.
 
 ## Working with Queries and Panels
 
-- [Create a board and add a panel](measure-tutorials/create-a-board-with-queries-and-panels) - Learn how to start creating your own custom board when you're familiar with the workspace.
+- [Create a board and add a panel](/measure_iq/measure-tutorials/create-a-board-with-queries-and-panels) - Learn how to start creating your own custom board when you're familiar with the workspace.
 - [Modify a query](/measure_iq/measure-tutorials/modify-a-query) - Learn how to modify a query from Explore and from a panel.
 - [Create an event property](/measure_iq/measure-tutorials/create-an-event-property) - Learn how to define a new event property for summarizing, grouping, or filtering.
 - [Create an actor property](/measure_iq/measure-tutorials/create-an-actor-property) - Learn about actors and how to create actor properties.

@@ -1,9 +1,9 @@
 ---
-title: "Security & Compliance "
-description: "Definition & use of Security & Compliance "
+title: "Security & Compliance"
+description: "Security and compliance documentation for Measure IQ"
 ---
 
-To learn more about security and compliance at Measure IQ, please read the following articles:
+## Security & Compliance Guides
 
-- [How to Comply With GDPR](./how-to-comply-with-gdpr)
-- [About Measure IQ Privacy Purges](./about-measure-iq-privacy-purges)
+- [How to Comply With GDPR](/measure_iq/admin-guides/security-compliance/how-to-comply-with-gdpr)
+- [About Measure IQ Privacy Purges](/measure_iq/admin-guides/security-compliance/about-measure-iq-privacy-purges)

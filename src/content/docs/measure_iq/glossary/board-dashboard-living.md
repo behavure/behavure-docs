@@ -16,4 +16,4 @@ Boards are also known as *dashboards*.
 ## More information
 
 - [Create a Board with Queries and Panels](/measure_iq/measure-tutorials/create-a-board-with-queries-and-panels)
-- [Intro to Boards](/measure_iq/measure-user-guides/learn-about-scuba-concepts/boards-and-dashboards)
+- [Intro to Boards](/measure_iq/measure-user-guides/learn-about-measure-iq-concepts/boards-dashboards)
