@@ -9,10 +9,13 @@ draft: false
 ---
 
 ## Splunk HEC output
-Lyftdata supports Splunk Http Event Collector (HEC) to send data to Splunk.
 
-### Configure Lyftdata to send data to Splunk HEC
-Add Lyftdata output **splunk-hec** to a job and configure:
+Edge IQ supports Splunk Http Event Collector (HEC) to send data to Splunk.
+
+### Configure Edge IQ to send data to Splunk HEC
+
+Add Edge IQ output **splunk-hec** to a job and configure:
+
 - **URL**: Splunk HEC endpoint, example: https://127.0.0.1:8088/services/collector/event
 - **HEC token**: authentication token
 - **Splunk fields**: (index, host, source, sourcetype). Edit the value or the fieldname in the data, where the value can be found.

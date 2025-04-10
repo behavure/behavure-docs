@@ -8,13 +8,13 @@ sidebar:
 draft: false
 ---
 
-Lyftdata supports writing to Elastic
+Edge IQ supports writing to Elastic
 
 :::note
-The Lyftdata UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [ask us](https://community.lyftdata.com/) for direct support
+The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
+Please [ask us](https://community.edgeiq.com/) for direct support
 :::
 
+### Configure Edge IQ to write data to Elastic
 
-### Configure Lyftdata to write data to Elastic
-Add Lyftdata output **http-post** to a job and configure:
+Add Edge IQ output **http-post** to a job and configure:

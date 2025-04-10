@@ -8,15 +8,17 @@ sidebar:
 draft: false
 ---
 
-Lyftdata supports reading from and writing to Microsoft Azure
+Edge IQ supports reading from and writing to Microsoft Azure
 
 :::note
-The Lyftdata UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [ask us](https://community.lyftdata.com/) for direct support
+The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
+Please [ask us](https://community.edgeiq.com/) for direct support
 :::
 
-### Configure Lyftdata to read data from Microsoft Azure
-Add Lyftdata input **azure-blob** to a job and configure:
+### Configure Edge IQ to read data from Microsoft Azure
 
-### Configure Lyftdata to write data to Microsoft Azure
-Add Lyftdata output **azure-blob** to a job and configure:
+Add Edge IQ input **azure-blob** to a job and configure:
+
+### Configure Edge IQ to write data to Microsoft Azure
+
+Add Edge IQ output **azure-blob** to a job and configure:

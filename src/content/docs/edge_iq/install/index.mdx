@@ -1,4 +1,3 @@
-
 ---
 title: "Edge IQ Admin Guide"
 description: "EdgeIQ"
@@ -9,9 +8,7 @@ sidebar:
 
 import { Steps } from "@astrojs/starlight/components";
 
-
-
-This section covers the installation of Lyftdata. This generally involves the following steps:
+This section covers the installation of Edge IQ. This generally involves the following steps:
 
 <Steps>
 
@@ -24,18 +21,17 @@ This section covers the installation of Lyftdata. This generally involves the fo
 
 ## Minimal deployments
 
-![lyftdata_architecture](../../../../assets/lyftdata-highlevel-simple.svg)
+![edgeiq_architecture](../../../../assets/edgeiq-highlevel-simple.svg)
 
-A minimal Lyftdata installation consists of a single server process. The server provides a built-in worker, which is used for testing jobs, but it can also run as many jobs as the server's host resources can accomodate.
+A minimal Edge IQ installation consists of a single server process. The server provides a built-in worker, which is used for testing jobs, but it can also run as many jobs as the server's host resources can ac
 
 ## Multi-worker deployments
 
-![lyftdata_architecture](../../../../assets/lyftdata-highlevel-architecture-no-annotations.svg)
+![edgeiq_architecture](../../../../assets/edgeiq-highlevel-architecture-no-annotations.svg)
 
-Lyftdata scales by deploying additional workers, and connecting them to a server. For multi-worker deployments, all jobs are managed through the server.
+Edge IQ scales by deploying additional workers, and connecting them to a server. For multi-worker deployments, all jobs are managed through the server.
 
 Workers typically run on separate hosts, but they can be also run on the same host as the server, provided default worker ports are appropriately configured to avoid conflicts.
-
 
 :::note
 Servers and Workers can be deployed from the same binary.
