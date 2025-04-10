@@ -7,4 +7,4 @@ A **time zone** **offset** (also known as UTC offset) is the interval of time su
 
 ## More information
 
-- [Time zones in Measure IQ](/measure_iq/measure-user-guides/learn-about-scuba-concepts/time-zones-in-measure-iq)
+- [Time zones in Measure IQ](/measure_iq/measure-user-guides/learn-about-measure-iq-concepts/time-zones-in-measure-iq)

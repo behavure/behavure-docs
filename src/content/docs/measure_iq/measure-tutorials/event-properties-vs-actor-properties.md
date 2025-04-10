@@ -15,7 +15,7 @@ Event properties are critical in organizing and getting specific with your data 
 - An event property that uses **label** is an event property with more than one specified value.
 - An event property that uses **calculate** is an event property that performs a mathematical function.
 
-For more information and examples of event properties defined with other methods, see [Building an event property](../measure-user-guides/enrich-your-data-with-properties/build-an-event-property.md) in the User's Guide.
+For more information and examples of event properties defined with other methods, see [Building an event property](/measure_iq/measure-user-guides/enrich-your-data-with-properties/build-an-event-property) in the User's Guide.
 
 ## Actor Properties
 
@@ -27,13 +27,13 @@ Actor properties can be created by users to allow the editing and creation of ob
 
 The big difference is **scope**.
 
-The scope of a query refers to the type of entity an aggregation in Measure IQ iterates over to produce a result. An aggregation can iterate over events, actors, or flows. It follows that Measure IQ's three query scopes are called event scope, actor scope, and flow scope.
+The scope of a query refers to the type of entity an aggregation in Measure IQ iterates over to produce a result. An aggregation can iterate over events, actors, or flows. It follows that Measure IQ's three query scopes are called event scope, actor scope, and flow scope.
 
-In general, every Measure IQ query or measure involves some sort of aggregation. Here are some aggregations (with example context) that you can specify in Measure IQ:
+In general, every Measure IQ query or measure involves some sort of aggregation. Here are some aggregations (with example context) that you can specify in Measure IQ:
 
-- **count unique** users that viewed the support page
-- **average** session durations for Android devices
-- **sum** play time per music service
+- **count unique** users that viewed the support page
+- **average** session durations for Android devices
+- **sum** play time per music service
 
 We're going to focus on the first two to dig deeper into the differences between event and actor properties.
 
@@ -49,7 +49,7 @@ You can visualize the data aggregated over in an event scope query as a spreadsh
 
 Unlike in event scope, the actor-based tables that an actor scope query iterates over are not stored on disk or generated during the Measure IQ import process. Instead, Measure IQ produces an actor-based table from a subquery over the event data, and then produces results from the actor-based table.
 
-To learn more about scope and how to resolve scope mismatches, please read our [Understand Scope](../measure-user-guides/queries/understanding-scope.md) article.
+To learn more about scope and how to resolve scope mismatches, please read our [Understand Scope](/measure_iq/measure-user-guides/queries/understanding-scope) article.
 
 ### Related
 

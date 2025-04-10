@@ -1,9 +1,9 @@
 ---
-title: "Import Data Deduplication "
-description: "Definition & use of Import Data Deduplication "
+title: "Import Data Deduplication"
+description: "Learn how Measure IQ prevents duplicate data during import"
 ---
 
-You’ve learned what happens behind the scenes when [Scuba ingests your data](../what-goes-on-behind-the-scenes-when-data-is-imported). This document explains what safeguards are in place to ensure that Measure IQ does not ingest duplicate records.
+You've learned what happens behind the scenes when [Measure IQ ingests your data](/measure_iq/admin-guides/managing-your-data/what-goes-on-behind-the-scenes-when-data-is-imported). This document explains what safeguards are in place to ensure that Measure IQ does not ingest duplicate records.
 
 ## Deduplication
 
@@ -55,7 +55,7 @@ As another row has been added, the file size is different, the hash will be diff
 
 **Event Checking:**
 
-In this example, on the third day’s pass, only the new record will be ingested as event checking will evaluate each row for duplication, ignore the first 5 records, and ingest the last 2.
+In this example, on the third day's pass, only the new record will be ingested as event checking will evaluate each row for duplication, ignore the first 5 records, and ingest the last 2.
 
 |                       |        |                 |                       |              |              |
 | --------------------- | ------ | --------------- | --------------------- | ------------ | ------------ |
