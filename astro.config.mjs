@@ -211,14 +211,14 @@ export default defineConfig({
             }
           ]
         },
-        // {
-        //   label: 'Edge IQ',
-        //   collapsed: true,
-        //   autogenerate: { 
-        //     directory: 'edge_iq', 
-        //     collapsed: true 
-        //   },
-        // },
+        {
+          label: 'Edge IQ',
+          collapsed: true,
+          autogenerate: { 
+            directory: 'edge_iq', 
+            collapsed: true 
+          },
+        },
       ],
       plugins: [starlightComponents],
       
