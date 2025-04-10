@@ -17,7 +17,7 @@ $ ./edgeiq run server
 
 After a moment, you should see something like this in your terminal:
 
-![Edge IQ Banner](../../../../assets/edgeiq-banner.png)
+![Edge IQ Banner](../../../../assets/lyftdata-banner.png)
 
 Look for `Edge IQ Admin Password` and copy this from the terminal. It will not be shown on the next run!
 
@@ -35,4 +35,4 @@ You will see a Dashboard like this:
 
 From here, you can create Jobs, add other Workers, manage Channels and more.
 
-![edgeiq sidebar](../../../../assets/edgeiq-sidebar.png)
+![edgeiq sidebar](../../../../assets/lyftdata-sidebar.png)
