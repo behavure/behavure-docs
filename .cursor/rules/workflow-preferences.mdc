@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Workflow Preferences
+
+- Focus on areas of the codebase relevant to the task
+- Do not touch code unrelated
+- Avoid major changes to patterns and architecture of how a feature works after it's shown to be working well, unless explicitely instructed
+- Always think about how other parts of the codebase can be impacted by code changes.

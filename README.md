@@ -17,12 +17,16 @@ The site is built with Astro, a modern static site generator optimized for conte
 
 ## Prerequisites
 
+> [!TIP]
+> If you skip ahead and install [Flox](https://flox.dev), you simply need to activate the environment to get NodeJS and don't need NPM.
+
+
 Before you begin, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16.x or higher recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - [Git](https://git-scm.com/)
 
-Note: If you skip ahead and install [Flox](https://flox.dev), you simply need to activate the environment to get NodeJS and don't need NPM 
+
 
 ## Getting Started with Development
 
@@ -34,7 +38,7 @@ Note: If you skip ahead and install [Flox](https://flox.dev), you simply need to
    cd behavure-docs
    ```
 
-2. Install dependencies:
+2. Install dependencies (if not using Flox):
    ```bash
    npm install
    ```
@@ -177,31 +181,13 @@ For more details, visit the [Conventional Commits website](https://www.conventio
    cd behavure-docs
    ```
 
-2. Initialize a Flox environment:
-   ```bash
-   flox init
-   ```
-
-   Note: The environment should already exist
-
-3. Activate the Flox environment:
+2. Activate the Flox environment:
    ```bash
    flox activate
    ```
-   
-   Note: You need to run `flox activate` each time you start working on the project in a new terminal session to ensure you're using the right environment.
-
-4. Add necessary packages:
+3. Exit the environment when done:
    ```bash
-   flox install nodejs npm git
-   ```
-
-   Note: nodejs is already part of the setup and can be verified using `flox list`
-
-5. Run development commands as usual:
-   ```bash
-   npm install
-   npm run dev
+   exit
    ```
 
 ### Benefits of Using Flox
@@ -213,14 +199,14 @@ For more details, visit the [Conventional Commits website](https://www.conventio
 
 ## Deployment
 
-The site is built into static HTML in the `dist/` directory. These files can be deployed to any static hosting service:
+The site is built into static HTML in the `dist/` directory. When pushed to Github, [Vercel](https://vercel.com/behavure/behavure-docs) will handle publishing the site:
 
 1. Build the project:
    ```bash
    npm run build
    ```
 
-2. Deploy the contents of the `dist/` directory to your hosting service.
+2. Deploy the contents of the `dist/` directory to your hosting service. Vercel handles this automatically for us. 
 
 ## Troubleshooting
 
@@ -244,4 +230,5 @@ Please follow these guidelines when contributing to the documentation:
 3. Test your changes locally using `npm run dev`
 4. Use conventional commit messages for your commits
 5. Submit a pull request for review
+6. Once approved & merged, the site will be quickly deployed with changes
 

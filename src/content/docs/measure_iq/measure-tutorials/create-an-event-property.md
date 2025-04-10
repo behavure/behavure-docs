@@ -2,6 +2,7 @@
 title: "Create an Event Property "
 description: "Definition & use of Create an Event Property "
 ---
+
 Every [event](/measure_iq/glossary/event) includes fields for timestamp and actor, but can also have other associated properties such as location, item type, or any other attribute that describes the event.
 
 Event properties can either be present in the source data, in which case they are considered as raw event properties, or can be manually defined by the user, in which case they are identified as manual event properties. Each event property generates a single value for every event.
@@ -30,7 +31,7 @@ This section demonstrates how to create an event property, in which you specif
 3\. Enter a unique **Name** at the top of the window to describe the property. We named our example property **Purchase complete**.
 
 - Next to **Method**, select the appropriate [method](/measure_iq/glossary/method) for your property. In our example, we use **Filter**.
-- Select the appropriate options for the property from the drop-down lists. We chose events with **action** that matches **process\_payment\_complete**.
+- Select the appropriate options for the property from the drop-down lists. We chose events with **action** that matches **process_payment_complete**.
 
 ![](./attachments/2023-03-17_15-53-22.png)
 
@@ -38,21 +39,21 @@ Optional: You can combine multiple actions or other event types in the same ev
 
 4\. Multiple segments can be defined within the same event property by using the **Label** [method](/measure_iq/glossary/method) instead of **Filter**. For example, we could call our event property **Check cart**, and do one of the following:
 
-- Click **+** in the Filter method to combine **process\_payment\_complete** events and **checkout\_page\_view** events.
+- Click **+** in the Filter method to combine **process_payment_complete** events and **checkout_page_view** events.
 
 ![](./attachments/2023-03-17_16-13-10.png)
 
-- Use the **Label** method and create distinct segments, one each for **process\_payment\_complete** events, **checkout\_page\_view** events, and **add\_to\_cart** events.
+- Use the **Label** method and create distinct segments, one each for **process_payment_complete** events, **checkout_page_view** events, and **add_to_cart** events.
 
 ![](./attachments/2023-03-17_16-17-46.png)
 
-*Note: For both Filter and Label properties, it is good practice to name a bucket for any events that do not match the rules.*
+_Note: For both Filter and Label properties, it is good practice to name a bucket for any events that do not match the rules._
 
 5\. Click **Save** in the top right corner of the page. You can now use your event property as a building block in top-level queries.
 
 ### More information
 
-For more information and examples of event properties defined with other methods, see [Building an event property](../../measure-guides/measure-user-guides/enrich-your-data-with-properties/build-an-event-property) in the User's Guide.
+For more information and examples of event properties defined with other methods, see [Building an event property](../measure-user-guides/enrich-your-data-with-properties/build-an-event-property/) in the User's Guide.
 
 ## What's Next
 

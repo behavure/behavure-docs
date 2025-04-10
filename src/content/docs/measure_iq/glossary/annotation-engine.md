@@ -1,7 +1,8 @@
 ---
-title: Annotation Engine 
-description: Definition & use of Annotation Engine 
+title: Annotation Engine
+description: Definition & use of Annotation Engine
 ---
+
 **Annotation** **engines** analyze actor journeys sequentially. They know how to look for specific events in the dataset and maintain the state between events. Annotation engines implement flows an flow properties.
 
 ## Related terms
@@ -13,4 +14,4 @@ description: Definition & use of Annotation Engine
 
 ## More information
 
-- [Admin Guide](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139261269/Admin+Guides+v5)
+- [Admin Guide](/measure_iq/admin-guides)

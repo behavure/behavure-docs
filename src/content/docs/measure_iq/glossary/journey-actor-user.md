@@ -1,8 +1,9 @@
 ---
-title: Journey (actor, user) 
-description: Definition & use of Journey (actor, user) 
+title: Journey (actor, user)
+description: Definition & use of Journey (actor, user)
 ---
-A **journey** is the sequence of events that an actor can take represented in event data.
+
+A **journey** is the sequence of events that an actor can take represented in event data.
 
 ## Related terms
 
@@ -13,5 +14,5 @@ A **journey** is the sequence of events that an actor can take represented in 
 
 ## More information
 
-- [Analyze user paths with flows](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1304560030/Analyze+user+paths+with+flows)
-- [Work with flows](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1234927671/Work+with+flows)
+- [Analyze user paths with flows](/measure_iq/measure-user-guides/analyze-user-paths-with-flows)
+- [Work with flows](/measure_iq/measure-tutorials/work-with-flows)

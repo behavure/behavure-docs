@@ -80,7 +80,7 @@ export default defineConfig({
                   label: 'Configuring Azure for Clusters',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/admin-guides/configuring-azure-for-scuba-clusters',
+                    directory: 'measure_iq/admin-guides/configuring-azure-for-measure-iq-clusters',
                     collapsed: true
                   }
                 }
@@ -95,7 +95,7 @@ export default defineConfig({
                   label: 'Learn About Measure IQ Concepts',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/measure-user-guides/learn-about-scuba-concepts',
+                    directory: 'measure_iq/measure-user-guides/learn-about-measure-iq-concepts',
                     collapsed: true
                   }
                 },
@@ -151,7 +151,7 @@ export default defineConfig({
                   label: 'API: Programmatically Querying Measure IQ',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/measure-user-guides/api-programmatically-querying-scuba',
+                    directory: 'measure_iq/measure-user-guides/api-programmatically-querying-measure-iq',
                     collapsed: true
                   }
                 }
@@ -263,9 +263,9 @@ export default defineConfig({
       // Custom settings
       pagefind: true, // Enable search
       defaultLocale: 'root',
-      editLink: {
-        baseUrl: 'https://github.com/behavure/behavure-docs/edit/main/',
-      },
+      // editLink: {
+      //   baseUrl: 'https://github.com/behavure/behavure-docs/edit/main/',
+      // },
       lastUpdated: true,
 
       // Theme configuration is now handled through component overrides

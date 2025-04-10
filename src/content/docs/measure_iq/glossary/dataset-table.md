@@ -3,7 +3,7 @@ title: Dataset (table)
 description: Definition & use of Dataset (table)
 ---
 
-A **dataset** refers to the contents of a database table, where each column represents a particular variable, and each row corresponds to a given member of the dataset. A dataset can be comprised of multiple data sources and [lookup tables](../lookup-table).
+A **dataset** refers to the contents of a database table, where each column represents a particular variable, and each row corresponds to a given member of the dataset. A dataset can be comprised of multiple data sources and [lookup tables](../lookup-table).
 
 ## Related terms
 
@@ -12,4 +12,4 @@ A **dataset** refers to the contents of a database table, where each column
 
 ## More information
 
-- [Data types reference](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1686536213/Data+types+reference)
+- [Data types reference](/measure_iq/admin-guides/managing-your-data/data-types-reference)

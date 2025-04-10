@@ -52,7 +52,8 @@ To remove a default pre-filter, simply click on the adjacent trash icon. If you 
 
 Additionally, a board can provide a pre-filter to queries that are pinned to it. If you want to remove a board filter from your query, you can open the query in Explore. See [Save variants of a board with board filters](/wiki/pages/createpage.action?spaceKey=SGV&title=v5%20Measure IQ%20Save%20variant%20of%20a%20board%20with%20board%20filters&linkCreation=true&fromPageId=2139260782) for more information.
 
-> [!INFO]
-> Keep in mind: Even when a pre-filter is applied, Measure IQ still scans all events initially. This means that the performance improvement from using a pre-filter might not be significant, depending on your query definition.
+:::note
+Keep in mind: Even when a pre-filter is applied, Measure IQ still scans all events initially. This means that the performance improvement from using a pre-filter might not be significant, depending on your query definition.
+:::
 
 Use caution when applying pre-filters, as using them incorrectly can impact your query results. Since a pre-filter causes the query engine to completely ignore events that don't match your filter(s), there may be certain circumstances where this leads to different results than intended.

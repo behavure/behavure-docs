@@ -36,8 +36,9 @@ curl 'https://11.2.34.141/v1/query' \
 > Content-Length: 32
 ```
 
-> [!INFO]
-> For more information on using the external query API, see [Use the Measure IQ external query API](./api-programmatically-querying-scuba).
+:::note
+For more information on using the external query API, see [Use the Measure IQ external query API](./api-programmatically-querying-measure-iq).
+:::
 
 ### BQL building blocks
 
@@ -89,7 +90,7 @@ The following table shows common Measure IQ queries and their equivalents in BQ
 
 |                                                                                                                                                                  |                                                                                                               |                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| **Measure IQ sentence-model UI**                                                                                                                                      | **BQL statement**                                                                                             | **Concept**                             |
+| **Measure IQ sentence-model UI**                                                                                                                                 | **BQL statement**                                                                                             | **Concept**                             |
 | Show count of events                                                                                                                                             | select count (\*) from my_table                                                                               | Aggregate                               |
 | Show count of events <br>Filtered to events with `page` that matches “Error”                                                                                     | select count (\* where page=”Error”) from my_table                                                            | Filter                                  |
 | Show count of events <br>Filtered to events with `page` that matches “Error” <br>Split by artist                                                                 | select count (\* where page=”Error”) from my_table group by artist                                            | Split by (group by)                     |
@@ -97,8 +98,9 @@ The following table shows common Measure IQ queries and their equivalents in BQ
 | Show count of events <br>Filtered to events with `page` that matches "Error" <br>Split by `ROUND(length,10)` <br>Starting 6 months ago <br>Ending now            | select count (\* where page="Error") from my_table group by ROUND(length,10) between 6 months ago and now     | Calculations                            |
 | Show count of events as `cnt` <br>Filtered to all events <br>Split by username <br>Limit 5 <br>Ordered by `cnt` ascending <br>Starting 7 days ago <br>Ending now | select count(\*) as cnt from nightly1_usage group by username limit 5 order by cnt between 7 days ago and now | Order by, refer to measure name (`cnt`) |
 
-> [!INFO]
-> Some queries allowed in BQL do not work in the Scuba UI, and vice versa. In particular, many of the restrictions imposed by the UI around query start and end times are enforced because the UI wants to be able to guarantee that the end time is later than the start time no matter when the query is run, in case you pin the query to a board, for example. In that context, the UI does not allow queries whose validity depends on the time of day. The BQL API doesn't concern itself with that; it accepts or rejects the query based on whether the time range is valid at the moment you run the query.
+:::note
+Some queries allowed in BQL do not work in the Scuba UI, and vice versa. In particular, many of the restrictions imposed by the UI around query start and end times are enforced because the UI wants to be able to guarantee that the end time is later than the start time no matter when the query is run, in case you pin the query to a board, for example. In that context, the UI does not allow queries whose validity depends on the time of day. The BQL API doesn't concern itself with that; it accepts or rejects the query based on whether the time range is valid at the moment you run the query.
+:::
 
 ### Time
 
@@ -186,8 +188,9 @@ select count(*) from my_table group by `hello.world` between 7 days ago and now
 
 Quoted strings are currently not supported in `as` statements.
 
-> [!INFO]
-> Be careful to double check the quotes being used.
+:::note
+Be careful to double check the quotes being used.
+:::
 
 ### Additional Query Options
 

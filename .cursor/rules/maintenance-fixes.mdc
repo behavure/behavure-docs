@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+For future maintenance and fixing links to files within the content folder:
+- Use absolute paths with the leading slash (e.g., /measure_iq/admin-guides) for internal links
+- Make sure directory names in astro.config.mjs match the actual filesystem structure

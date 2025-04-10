@@ -138,4 +138,4 @@ Here is a sample response for a simple **show count of events** query splittin
 ]
 ```
 
-### That’s it! For more information on querying the API, including writing BQL queries without the UI, see: [Programmatically query Measure IQ](../../api-programmatically-querying-scuba).
+### That’s it! For more information on querying the API, including writing BQL queries without the UI, see: [Programmatically query Measure IQ](../../api-programmatically-querying-measure-iq).
