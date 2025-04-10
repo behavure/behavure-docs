@@ -56,7 +56,9 @@ An actor has a permanent identifier, called a [shard key](https://docs.behavure.
 
 Think carefully about the potential shard keys that occur in your data, especially if an actor may have different identifiers in different layers of your logging architecture (for example, browser session ID vs. user account ID vs. billing account ID). A good rule of thumb is to identify actors by a property that is constant for the duration of one sequence of connected events. For example, if you run an e-commerce site, and you want to analyze a customer acquisition process that starts before the customer has logged into (or even created) a user account, you will need a shard column containing a unique identifier assigned at the beginning of the process. You might also want to analyze sequences of purchases by the same user account, but this analysis will rely on a different shard column, perhaps in a completely different table (which does not need to contain any of the events preceding the login step of each visit to the site).
 
-> [!TIP] > **Pro Tip:** Remember that the same real-world entity may be known by different IDs in different parts of your system, which are different "actors" for analysis purposes; plan your analysis accordingly.
+:::tip
+ **Pro Tip:** Remember that the same real-world entity may be known by different IDs in different parts of your system, which are different "actors" for analysis purposes; plan your analysis accordingly.
+:::
 
 ## Queries look at events within a time window
 

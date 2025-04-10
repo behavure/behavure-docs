@@ -103,8 +103,9 @@ What just happened?
 
 ## What's the point?
 
-> [!INFO]
-> Because lookup table import involves appending or overwriting information based on the current status of the table, the order in which rows are imported matters.
+:::note
+Because lookup table import involves appending or overwriting information based on the current status of the table, the order in which rows are imported matters.
+:::
 
 Consider this lookup table:
 

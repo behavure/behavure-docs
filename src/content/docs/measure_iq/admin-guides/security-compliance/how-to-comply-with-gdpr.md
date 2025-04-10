@@ -26,8 +26,9 @@ Under GDPR, individuals have the right to access their personal data, correct er
 - Political opinions
 - Sexual orientation
 
-> [!WARNING]
-> Values with spaces in the name are not supported by Measure IQ privacy purge.
+:::caution
+Values with spaces in the name are not supported by Measure IQ privacy purge.
+:::
 
 ## Personally Identifiable Information in Measure IQ 
 

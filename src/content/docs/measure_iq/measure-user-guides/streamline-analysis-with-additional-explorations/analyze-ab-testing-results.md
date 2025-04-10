@@ -85,8 +85,9 @@ The general measure of statistical validity used is *p*\-value. A generally acc
 
 ![](./attachments/ab-A-b.png)
 
-> [!INFO]
-> The statistical test used in the Measure IQ A/B application(commonly known as “Z-test”) compares the average event property, actor property, or flow property values between two event, actor, or flow populations. In order for the test to be performed and for p-value calculated, you must select the “average” aggregation in your performance measure.
+:::note
+The statistical test used in the Measure IQ A/B application(commonly known as “Z-test”) compares the average event property, actor property, or flow property values between two event, actor, or flow populations. In order for the test to be performed and for p-value calculated, you must select the “average” aggregation in your performance measure.
+:::
 
 #### **Example A/B experiments**
 

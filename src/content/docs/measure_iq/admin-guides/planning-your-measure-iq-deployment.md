@@ -66,8 +66,9 @@ Measure IQ accepts the following data types:
 
 - **JSON:** This is Measure IQ's preferred data format. The JSON format is a flat set of name-value pairs (without any nesting), which is easy for Measure IQ to parse and interpret.
 
-> [!INFO]
-> If you use a different format, your data **must** be transformed into JSON format before it can be imported into Measure IQ.
+:::note
+If you use a different format, your data **must** be transformed into JSON format before it can be imported into Measure IQ.
+:::
 
 - **Apache log format**: These are log files generated using mod_log_config. For details, see [mod_log_config - Apache HTTP Server Version 2.4](http://httpd.apache.org/docs/current/mod/mod_log_config.html). It's helpful to provide the mod_log_config format string used to generate the logs, as Measure IQ can use that same format string to ingest the logs.
 - **CSV**: Measure IQ accepts CSV format with some exceptions. First, ensure sure you have a complete header row. Next, ensure you are using a supported separator character (tab, comma, semicolon, or ascii character 001). Finally, ensure your separator is clean and well-escaped—for example, if you use comma as your separator, make sure to quote or escape any commas within your actual data set.

@@ -105,8 +105,9 @@ Finally, we can apply our `count_unique(user)` aggregation over these sample e
 count_unique("Emma Wine") = 1
 ```
 
-> [!TIP]
-> The key takeaway here is that our count unique aggregation iterated over **events** to produce the result. Iterating over events is what makes a query event scope.
+:::tip
+The key takeaway here is that our count unique aggregation iterated over **events** to produce the result. Iterating over events is what makes a query event scope.
+:::
 
 ### Actor scope
 
@@ -147,8 +148,9 @@ Or, because we are in actor scope where we have one row per actor, we could even
 count(per-actor rows where add_to_cart > 0) = 3
 ```
 
-> [!TIP]
-> The key takeaway here is that our final aggregation iterates over actors to produce the result. Iterating over actors is what makes a query actor scope.
+:::tip
+The key takeaway here is that our final aggregation iterates over actors to produce the result. Iterating over actors is what makes a query actor scope.
+:::
 
 ### Flow scope
 
@@ -172,8 +174,9 @@ For this query, Measure IQ produces flow scope data that looks something like t
 
 And then to produce our final result, we simply average(120s, 120s, 60s, 92s) to get an average time of 98s.
 
-> [!TIP]
-> The key takeaway here is that our final aggregation iterates over flows to produce the result. Iterating over flows is what makes a query flow scope.
+:::tip
+The key takeaway here is that our final aggregation iterates over flows to produce the result. Iterating over flows is what makes a query flow scope.
+:::
 
 ### Related
 
