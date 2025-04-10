@@ -2,9 +2,10 @@
 title: "How Does Measure IQ Perform Data Sampling?"
 description: "Definition & use of How Does Measure IQ Perform Data Sampling?"
 ---
-> [!INFO]
-> In order to facilitate analysis at the speed of thought Measure IQ supports the running of both sampled and unsampled queries. Sampled queries run faster because they include a representative fraction of the data. Unsampled queries run more slowly because they include *all* of the data.
-> Measure IQ's sampling strategy is taken from Flajolet and Le Chesnay's 1990 paper ["On Adaptive Sampling"](http://algo.inria.fr/flajolet/Publications/Flajolet90.pdf) and the sampling scheme kicks in when a user 1) runs a sampled query 2) runs a count unique aggregation on a non-actor column, or 3) runs a count unique aggregation on an actor with a time offset or split-by. The sampling rate can be configured so if you have any questions, please reach out to [help@behavure.ai](mailto:help@behavure.ai).
+:::note
+In order to facilitate analysis at the speed of thought Measure IQ supports the running of both sampled and unsampled queries. Sampled queries run faster because they include a representative fraction of the data. Unsampled queries run more slowly because they include *all* of the data.
+Measure IQ's sampling strategy is taken from Flajolet and Le Chesnay's 1990 paper ["On Adaptive Sampling"](http://algo.inria.fr/flajolet/Publications/Flajolet90.pdf) and the sampling scheme kicks in when a user 1) runs a sampled query 2) runs a count unique aggregation on a non-actor column, or 3) runs a count unique aggregation on an actor with a time offset or split-by. The sampling rate can be configured so if you have any questions, please reach out to [help@behavure.ai](mailto:help@behavure.ai).
+:::
 
 Like most modern analytics platforms, Measure IQ is architected using a scale-out clustered approach. A cluster has multiple nodes (machines), and the number scales to match the demands of the data and concurrent users. Each machine has one or more jobs within the overall solution. The import nodes ingest event data from event logs, traces, and so on. The data nodes manage efficiently storing and scanning the event data. The string nodes compress and deduplicate all the strings in the event data, handling storage and lookup for query results so that all data operations can take place efficiently using compact integers. For smaller clusters, nodes can take on several of these roles as needed. These machines can be bare metal, virtualized, or securely running inside of a public cloud service.
 

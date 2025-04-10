@@ -11,8 +11,9 @@ The examples below are provided for a user whose timezone is PST.
 
 Times are displayed in 24-hour format to be unambiguous.
 
-> [!INFO]
-> Measure IQ does not support dates prior to January 1, 1970 (the beginning of [Unix epoch time](https://en.wikipedia.org/wiki/Unix_time)).
+:::note
+Measure IQ does not support dates prior to January 1, 1970 (the beginning of [Unix epoch time](https://en.wikipedia.org/wiki/Unix_time)).
+:::
 
 ## Specific dates and times
 
@@ -79,9 +80,10 @@ We support both precise and calendar-aligned relative time:
 | 1 month ago | last month                             |
 | 1 year ago  | last year                              |
 
-> [!INFO]
-> A "month" is defined as 30 days. Months are not calendar-aligned.
-> Avoid cross-referencing across these columns (for example, don't use "yesterday" to "now"). This will produce time ranges that are +/- hours on either side which is unexpected behavior for most users.
+:::note
+A "month" is defined as 30 days. Months are not calendar-aligned.
+Avoid cross-referencing across these columns (for example, don't use "yesterday" to "now"). This will produce time ranges that are +/- hours on either side which is unexpected behavior for most users.
+:::
 
 | Input                                                                          | Result for a user in PST (GMT-0800) on 01/01/2015 at 1:15 PM | Notes                                                                                                                                                                                                                                                        |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

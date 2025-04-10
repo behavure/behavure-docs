@@ -61,8 +61,9 @@ At ingest time, when we see a _new_ column for the first time (and it is a JSON 
 | Detect Integer Set | {"abc" : \[12345, 245, 99834\]}      | Integer Set |                                                                                                                     |
 | Detect Decimal Set | {"abc" : \[12345.98, 245.2, 99834\]} | Decimal Set |                                                                                                                     |
 
-> [!INFO]
-> Based on the order of precedence, if there is ambiguity about whether a column value can be interpreted as an epoch timestamp or an int, Measure IQ will interpret it as an epoch time value.
+:::note
+Based on the order of precedence, if there is ambiguity about whether a column value can be interpreted as an epoch timestamp or an int, Measure IQ will interpret it as an epoch time value.
+:::
 
 ## Ingest time data type recognition rules for JSON string columns
 
