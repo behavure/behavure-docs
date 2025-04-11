@@ -1,9 +1,9 @@
 ---
-title: "How to Comply With GDPR "
-description: "Definition & use of How to Comply With GDPR "
+title: "How to Comply With GDPR"
+description: "Learn how to use Measure IQ's privacy features to comply with GDPR requirements"
 ---
 
-Measure IQ is a champion of individuals' privacy. Measure IQ's [privacy purge](../about-scuba-privacy-purges) feature was developed to protect individual privacy, and enable your company to comply with privacy regulations and voluntary policies your company may adhere to.
+Measure IQ is a champion of individuals' privacy. Measure IQ's [privacy purge](/measure_iq/admin-guides/security-compliance/about-measure-iq-privacy-purges) feature was developed to protect individual privacy, and enable your company to comply with privacy regulations and voluntary policies your company may adhere to.
 
 This article covers what your company must consider to comply with GDPR.
 
@@ -11,7 +11,7 @@ This article covers what your company must consider to comply with GDPR.
 
 The European Union (EU) General Data Protection Regulation (GDPR) was designed to protect EU citizen data privacy, and has reshaped the way organizations approach data privacy. The GDPR covers all EU citizens' personal data and provides comprehensive rights to data subjects.
 
-Even if your business is based in the United States, the EU’s new General Data Protection Regulation may affect you. Failure to meet GDPR requirements can result in fines up to EUR 20 million (around $22.3 Million) or 4% of the company’s total global revenue for the preceding fiscal year, whichever is higher.
+Even if your business is based in the United States, the EU's new General Data Protection Regulation may affect you. Failure to meet GDPR requirements can result in fines up to EUR 20 million (around $22.3 Million) or 4% of the company's total global revenue for the preceding fiscal year, whichever is higher.
 
 ## What type of data is protected by GDPR? 
 
@@ -26,8 +26,9 @@ Under GDPR, individuals have the right to access their personal data, correct er
 - Political opinions
 - Sexual orientation
 
-> [!WARNING]
-> Values with spaces in the name are not supported by Measure IQ privacy purge.
+:::caution
+Values with spaces in the name are not supported by Measure IQ privacy purge.
+:::
 
 ## Personally Identifiable Information in Measure IQ 
 

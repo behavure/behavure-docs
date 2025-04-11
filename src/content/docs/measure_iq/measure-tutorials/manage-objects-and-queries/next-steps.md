@@ -1,22 +1,23 @@
 ---
-title: "Next Steps "
-description: "Definition & use of Next Steps "
+title: "Next Steps"
+description: "Continue your Measure IQ learning journey with these resources"
 ---
-After completing the Scuba tutorial, there are plenty of opportunities to further improve your Measure IQ skills and gain a deeper understanding of how to explore data for behavioral analytics. The resources below offer a comprehensive foundation for ongoing education and growth in this area.
 
-## [User Guide](../../../measure-guides/measure-user-guides)
+After completing the Measure IQ tutorials, there are plenty of opportunities to further improve your skills and gain a deeper understanding of how to explore data for behavioral analytics. The resources below offer a comprehensive foundation for ongoing education and growth in this area.
 
-The User Guide takes you through the deeper concepts such as:
+## [User Guide](/measure_iq/measure-user-guides)
 
-- [Learning about Measure IQ concepts](../../../measure-guides/measure-user-guides/learn-about-scuba-concepts)
-- [Building queries and visualizations](../../../measure-guides/measure-user-guides/build-queries-and-visualizations)
-- [Analyzing user paths with flows](../../../measure-guides/measure-user-guides/analyze-user-paths-with-flows)
-- [Enriching your data with properties and segmentation](../../../measure-guides/measure-user-guides/enrich-your-data-with-properties)
+The User Guide takes you through the deeper concepts such as:
 
-## [Glossary](https://behavure.ai/docs/wiki/spaces/GLOSSARY)
+- [Learning about Measure IQ concepts](/measure_iq/measure-user-guides/learn-about-measure-iq-concepts)
+- [Building queries and visualizations](/measure_iq/measure-user-guides/build-queries-and-visualizations)
+- [Analyzing user paths with flows](/measure_iq/measure-user-guides/analyze-user-paths-with-flows)
+- [Enriching your data with properties and segmentation](/measure_iq/measure-user-guides/enrich-your-data-with-properties)
 
-Our glossary includes detailed syntax and other information that supplements the Scuba guides and how-tos.
+## [Glossary](/measure_iq/glossary)
 
-## [Measure IQ Help](https://support.behavure.ai) 
+Our glossary includes detailed syntax and other information that supplements the Measure IQ guides and how-tos.
 
-If you have a question or come across and issue you can't resolve with our documentation, submit a ticket through our [support portal](https://support.behavure.ai) or email your question to Customer Support: [help@behavure.ai](mailto:help@behavure.ai)
+## [Measure IQ Help](https://support.behavure.ai)
+
+If you have a question or come across an issue you can't resolve with our documentation, submit a ticket through our [support portal](https://support.behavure.ai) or email your question to Customer Support: [help@behavure.ai](mailto:help@behavure.ai)

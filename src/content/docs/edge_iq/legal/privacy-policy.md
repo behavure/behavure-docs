@@ -1,67 +1,67 @@
 ---
-title: Lyftdata Privacy Policy
-description: The Lyftdata Privacy Policy
+title: Edge IQ Privacy Policy
+description: The Edge IQ Privacy Policy
 ---
 
-LyftData Inc. Privacy Policy
+Edge IQ Inc. Privacy Policy
 
-LyftData Inc. (“we”, “us” or “our”) is committed to safeguarding the privacy of its users. This Privacy Policy outlines the information that we collect through our interactions with users, explains why we collect this information, details how we use it, and describes the measures we take to protect it. For the purposes of this policy, "users" include visitors to our website, users of our products and services, and our other customers and business partners (individually referred to as "User" and collectively as "Users").
+Edge IQ Inc. ("we", "us" or "our") is committed to safeguarding the privacy of its users. This Privacy Policy outlines the information that we collect through our interactions with users, explains why we collect this information, details how we use it, and describes the measures we take to protect it. For the purposes of this policy, "users" include visitors to our website, users of our products and services, and our other customers and business partners (individually referred to as "User" and collectively as "Users").
 
-This Privacy Notice also outlines our commitments under laws and regulations that protect personal data, including the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other applicable laws. "Personal Data" refers to information related to a User who can be directly or indirectly identified through that information, as well as information associated with or reasonably linkable to a User or a User’s household.
+This Privacy Notice also outlines our commitments under laws and regulations that protect personal data, including the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other applicable laws. "Personal Data" refers to information related to a User who can be directly or indirectly identified through that information, as well as information associated with or reasonably linkable to a User or a User's household.
 
-By using our services, you agree to the terms of this Privacy Policy. 
+By using our services, you agree to the terms of this Privacy Policy.
 
-1)	Scope of this Privacy Policy 
+1. Scope of this Privacy Policy
 
-This Privacy Policy covers our website, products, services, and routine business operations, as well as third-party services or websites used in connection with or supporting our website, products, services, or business operations (collectively referred to as “LyftData Services”). LyftData Services include any platforms requiring Users to log in, and any other online services provided by us. LyftData Services also encompass all associated software, data, information, documentation, or materials provided to Users by us in relation to or through our services.
+This Privacy Policy covers our website, products, services, and routine business operations, as well as third-party services or websites used in connection with or supporting our website, products, services, or business operations (collectively referred to as "Edge IQ Services"). Edge IQ Services include any platforms requiring Users to log in, and any other online services provided by us. Edge IQ Services also encompass all associated software, data, information, documentation, or materials provided to Users by us in relation to or through our services.
 
-This Privacy Policy does not apply to third-party services, extensions, or add-ons to LyftData Services not created or provided by us, nor to websites linked from LyftData Services unless such services or websites exchange data directly with LyftData Services as an integrated part of the services. We do not control or bear responsibility for the privacy practices of third-party services or websites that fall outside the scope of LyftData Services. LyftData Services do not include social media features such as “Share” and “Like” buttons provided by third-party platforms like Facebook, Instagram, LinkedIn, and Twitter. Users are encouraged to review the privacy policies of all third-party services, software, extensions, and websites.
+This Privacy Policy does not apply to third-party services, extensions, or add-ons to Edge IQ Services not created or provided by us, nor to websites linked from Edge IQ Services unless such services or websites exchange data directly with Edge IQ Services as an integrated part of the services. We do not control or bear responsibility for the privacy practices of third-party services or websites that fall outside the scope of Edge IQ Services. Edge IQ Services do not include social media features such as "Share" and "Like" buttons provided by third-party platforms like Facebook, Instagram, LinkedIn, and Twitter. Users are encouraged to review the privacy policies of all third-party services, software, extensions, and websites.
 
-2)	Information We Collect and Collection Methods
+2. Information We Collect and Collection Methods
 
-a)	In General 
+a) In General
 
-We may collect data, including Personal Data, provided by Users directly to us or through our services, as well as information gathered about Users, except as otherwise described in this Privacy Policy (collectively referred to as “User Data”). Such collection may include, but is not limited to, Users inputting or uploading information into our services, information provided to us or our services by or through third-party providers or services, accessing or interacting with our services, completing forms on or through our services, and downloading software, documents, or other resources from or through our services. Additionally, we may collect information from third parties, including publicly available data from third-party websites. 
+We may collect data, including Personal Data, provided by Users directly to us or through our services, as well as information gathered about Users, except as otherwise described in this Privacy Policy (collectively referred to as "User Data"). Such collection may include, but is not limited to, Users inputting or uploading information into our services, information provided to us or our services by or through third-party providers or services, accessing or interacting with our services, completing forms on or through our services, and downloading software, documents, or other resources from or through our services. Additionally, we may collect information from third parties, including publicly available data from third-party websites.
 
-User Data includes information automatically collected when visiting or otherwise accessing LyftData Services that qualifies as Personal Data (“Visitor Data”). Visitor Data specifically includes a User’s IP address, the date and time of the visit, the User’s browser and device information, details contained in cookies and tracking technologies (“cookies”), the parts of LyftData Services the User accessed or visited, internet traffic information, and data obtained from third parties, but only to the extent that such information constitutes Personal Data.
+User Data includes information automatically collected when visiting or otherwise accessing Edge IQ Services that qualifies as Personal Data ("Visitor Data"). Visitor Data specifically includes a User's IP address, the date and time of the visit, the User's browser and device information, details contained in cookies and tracking technologies ("cookies"), the parts of Edge IQ Services the User accessed or visited, internet traffic information, and data obtained from third parties, but only to the extent that such information constitutes Personal Data.
 
-User Data does not include non-identifiable information automatically collected through accessing LyftData Services that does not constitute Personal Data (“Operational Data”). Operational Data specifically includes telemetry data received through LyftData Services, statistical data, aggregate summary data, and other information generated by LyftData Services related to their operation or performance, provided such information does not include Personal Data. This may include details such as the version, instance, and license identifier of the LyftData Services being used, as well as login dates and times, data volume usage, event counts, and the number of resources or features that are created or used. 
+User Data does not include non-identifiable information automatically collected through accessing Edge IQ Services that does not constitute Personal Data ("Operational Data"). Operational Data specifically includes telemetry data received through Edge IQ Services, statistical data, aggregate summary data, and other information generated by Edge IQ Services related to their operation or performance, provided such information does not include Personal Data. This may include details such as the version, instance, and license identifier of the Edge IQ Services being used, as well as login dates and times, data volume usage, event counts, and the number of resources or features that are created or used.
 
-b)	Collection through LyftData Services
+b) Collection through Edge IQ Services
 
-We may collect User Data, including Personal Data, Visitor Data, Operational Data, and any information related to our routine business operations through the use of any and all LyftData Services. 
+We may collect User Data, including Personal Data, Visitor Data, Operational Data, and any information related to our routine business operations through the use of any and all Edge IQ Services.
 
-c)	Collection Through Routine Business Operations 
+c) Collection Through Routine Business Operations
 
-We may collect User Data, including Personal Data, as part of our routine business operations, including interactions with Users. These operations include managing business relationships, providing customer support, processing billing, conducting marketing activities, managing contracts and events, and corresponding with Users via phone, email, or other communication methods. Such information may include company name, contact details of company employees and agents, financial and payment information, purchase orders, licensing agreements, support tickets and customer support documentation, usage data related to LyftData Services, and information about Users’ administrators and end-users, which may include Personal Data. 
+We may collect User Data, including Personal Data, as part of our routine business operations, including interactions with Users. These operations include managing business relationships, providing customer support, processing billing, conducting marketing activities, managing contracts and events, and corresponding with Users via phone, email, or other communication methods. Such information may include company name, contact details of company employees and agents, financial and payment information, purchase orders, licensing agreements, support tickets and customer support documentation, usage data related to Edge IQ Services, and information about Users' administrators and end-users, which may include Personal Data.
 
-3)	How We Use Your Information
+3. How We Use Your Information
 
-We collect, process, store, and utilize certain information as part of LyftData Services and standard business operations. We may use User Data without limitation, provided it does not contain Personal Data or is not subject to contractual or legal restrictions that prohibit such use.
+We collect, process, store, and utilize certain information as part of Edge IQ Services and standard business operations. We may use User Data without limitation, provided it does not contain Personal Data or is not subject to contractual or legal restrictions that prohibit such use.
 
 User Data may be used to comply with applicable laws, regulations, legal processes, or governmental requests, or to protect our legal rights and those of others.
 
-We process both User Data and Operational Data, including IP addresses, to identify and resolve technical issues, monitor security, and protect our systems, events, and LyftData Services. This supports our legitimate interest in safeguarding our infrastructure and operations.
+We process both User Data and Operational Data, including IP addresses, to identify and resolve technical issues, monitor security, and protect our systems, events, and Edge IQ Services. This supports our legitimate interest in safeguarding our infrastructure and operations.
 
 We use your User Data to respond to inquiries, fulfill requests for materials such as white papers or marketing collateral, or provide other services. For example, we may use your name and email address to deliver requested content.
 
-To operate and improve our website, we collect data, both User Data and Operational Data, through cookies and similar technologies (with your consent, where required). This helps us ensure a seamless user experience, provide relevant content, and tailor LyftData Services to your preferences. We may also process location data for these purposes, which you can manage via your device settings.
+To operate and improve our website, we collect data, both User Data and Operational Data, through cookies and similar technologies (with your consent, where required). This helps us ensure a seamless user experience, provide relevant content, and tailor Edge IQ Services to your preferences. We may also process location data for these purposes, which you can manage via your device settings.
 
 We collect User Data, including Personal Data, to issue accounts, grant access to online communities, and enable your participation in interactive forums. For forums governed by separate privacy notices, those notices will apply instead of this Privacy Policy. Please avoid sharing private or proprietary information in forums, as content may be publicly visible unless otherwise required by law.
 
-We may use User Data, including Personal Data, to notify you of updates to our terms, policies, website, or LyftData Services. These notices, which are necessary for operational purposes, differ from marketing communications and are not subject to opt-out mechanisms.
+We may use User Data, including Personal Data, to notify you of updates to our terms, policies, website, or Edge IQ Services. These notices, which are necessary for operational purposes, differ from marketing communications and are not subject to opt-out mechanisms.
 
 To perform services under our agreements with you, we process User Data, including Personal Data, such as contact details and payment information. Without this data, we may be unable to deliver services or meet contractual and legal obligations.
 
-With your consent or based on legitimate business interests, we may send communications about our LyftData Services, special promotions and events. Where required by applicable laws, such as the GDPR or CCPA, we will seek your consent before sending marketing materials and provide you with the option to opt out.
+With your consent or based on legitimate business interests, we may send communications about our Edge IQ Services, special promotions and events. Where required by applicable laws, such as the GDPR or CCPA, we will seek your consent before sending marketing materials and provide you with the option to opt out.
 
-We may use User Data, including Personal Data, to invite you to participate in surveys, advisory boards, or assessments of current or future LyftData Services. Your feedback supports our legitimate interest in enhancing our services and business operations. Participation is voluntary and subject to applicable agreements as well as this Privacy Policy.
+We may use User Data, including Personal Data, to invite you to participate in surveys, advisory boards, or assessments of current or future Edge IQ Services. Your feedback supports our legitimate interest in enhancing our services and business operations. Participation is voluntary and subject to applicable agreements as well as this Privacy Policy.
 
-We use both User Data and Operational Data to fulfill our contractual obligations in delivering LyftData Services and to support our legitimate interest in maintaining and enhancing them. Specifically, we may use this data and information to:
+We use both User Data and Operational Data to fulfill our contractual obligations in delivering Edge IQ Services and to support our legitimate interest in maintaining and enhancing them. Specifically, we may use this data and information to:
 
-- Troubleshoot technical issues, provide customer support, and implement updates to LyftData Services.
-- Offer guidance to help optimize your configuration, security, and usage of LyftData Services.
-- Gain insights into how users interact with and configure LyftData Services.
+- Troubleshoot technical issues, provide customer support, and implement updates to Edge IQ Services.
+- Offer guidance to help optimize your configuration, security, and usage of Edge IQ Services.
+- Gain insights into how users interact with and configure Edge IQ Services.
 - Identify configurations or practices that optimize performance, including developing best practices.
 - Benchmark key performance indicators (KPIs) to enhance operational insights.
 - Recommend improvements and enhancements to maximize your experience.
@@ -69,48 +69,48 @@ We use both User Data and Operational Data to fulfill our contractual obligation
 - Detect, understand, and address performance challenges and factors affecting them.
 - Identify potential security vulnerabilities and notify you of relevant risks.
 - Enhance existing features and develop new functionality based on user feedback and trends.
-- Monitor the overall health, performance, and security of LyftData Services.
+- Monitor the overall health, performance, and security of Edge IQ Services.
 - Validate user accounts, automate license verification, and provide tailored enhancements.
 - Deliver accelerated troubleshooting, upgrade notices, and recommendations to optimize usage, security, configurations, or performance.
-- Suggest additional LyftData Services that align with your needs and interests.
+- Suggest additional Edge IQ Services that align with your needs and interests.
 - Analyze trends in usage, such as data types, environment size, scale, architecture, and industry, to inform product development, including bug fixes and new features.
 - Improve user experiences by personalizing services and content based on preferences and behavior.
-- Pursue any other purposes disclosed in connection with our LyftData Services or third-party platforms as applicable.
+- Pursue any other purposes disclosed in connection with our Edge IQ Services or third-party platforms as applicable.
 
-4)	Sharing and Disclosure of Information
+4. Sharing and Disclosure of Information
 
-We may disclose information to our subsidiaries, subject to this Privacy Policy, so they can help market, sell, and deliver LyftData Services. We are responsible for the management of jointly used Personal Data. We maintain intragroup agreements covering the use of Personal Data within our family of companies.
+We may disclose information to our subsidiaries, subject to this Privacy Policy, so they can help market, sell, and deliver Edge IQ Services. We are responsible for the management of jointly used Personal Data. We maintain intragroup agreements covering the use of Personal Data within our family of companies.
 
 We may disclose information to our service providers (e.g., infrastructure as a service, order fulfillment, professional/customer/support services), pursuant to written agreements that include confidentiality, privacy, and security obligations in compliance with applicable laws.
 
-We may disclose User Data and Operational Data to our partners and event hosts/sponsors (identified at the time of registration or event participation), pursuant to written agreements that include confidentiality, privacy, and security obligations. They may use the information to assess your interest in LyftData Services, conduct user research and surveys, or send you marketing communications, subject to the terms of their privacy policies. We may also share User Data with partners when they manage your LyftData Services for you, in compliance with applicable data protection laws.
+We may disclose User Data and Operational Data to our partners and event hosts/sponsors (identified at the time of registration or event participation), pursuant to written agreements that include confidentiality, privacy, and security obligations. They may use the information to assess your interest in Edge IQ Services, conduct user research and surveys, or send you marketing communications, subject to the terms of their privacy policies. We may also share User Data with partners when they manage your Edge IQ Services for you, in compliance with applicable data protection laws.
 
-As described further under “Cookies and Tracking Technologies”, we may disclose internet or other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with a website or advertisement if you enable or do not disable advertising and cookies, in accordance with the GDPR for European users and applicable US laws such as the CCPA for California residents.
+As described further under "Cookies and Tracking Technologies", we may disclose internet or other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding your interaction with a website or advertisement if you enable or do not disable advertising and cookies, in accordance with the GDPR for European users and applicable US laws such as the CCPA for California residents.
 
-When you take certain actions on blogs and LyftData Incorporated-branded business communication and streaming platform channels ("Online Forums”) that are public or intended to be public in nature, such as broadcasting content, participating in a chat room, posting profile information, or following a channel, that information may be collected, used, or disclosed by other participants in the Online Forums. In addition, some features of Online Forums are designed to provide others with information about user activity, such as the subscription status of users for a given channel. Users should be aware of the public nature of these forums, and data shared within them may be subject to the applicable data protection laws.
+When you take certain actions on blogs and Edge IQ Incorporated-branded business communication and streaming platform channels ("Online Forums") that are public or intended to be public in nature, such as broadcasting content, participating in a chat room, posting profile information, or following a channel, that information may be collected, used, or disclosed by other participants in the Online Forums. In addition, some features of Online Forums are designed to provide others with information about user activity, such as the subscription status of users for a given channel. Users should be aware of the public nature of these forums, and data shared within them may be subject to the applicable data protection laws.
 
-We may disclose information as necessary or appropriate under applicable laws, including laws outside your country of residence, to: comply with legal processes or requirements; respond to requests from public or government authorities (including those outside your country of residence); enforce our terms and conditions; and protect our operations, rights, and the safety of you and others, as needed. 
+We may disclose information as necessary or appropriate under applicable laws, including laws outside your country of residence, to: comply with legal processes or requirements; respond to requests from public or government authorities (including those outside your country of residence); enforce our terms and conditions; and protect our operations, rights, and the safety of you and others, as needed.
 
-We may disclose User Data and Operational Data in the event of a proposed or actual corporate or financing transaction, such as a reorganization, merger, sale, joint venture, acquisition, assignment, transfer, or disposition of all or any portion of LyftData Incorporated’s business, assets, or stock (including information regarding any bankruptcy or similar proceedings). In such cases, any transfer of your Personal Data will be subject to applicable data protection laws.
+We may disclose User Data and Operational Data in the event of a proposed or actual corporate or financing transaction, such as a reorganization, merger, sale, joint venture, acquisition, assignment, transfer, or disposition of all or any portion of Edge IQ Incorporated's business, assets, or stock (including information regarding any bankruptcy or similar proceedings). In such cases, any transfer of your Personal Data will be subject to applicable data protection laws.
 
-We may disclose information to other users of our LyftData Services in an aggregated format, provided it does not include Personal Data. This may include "best practices" tips, key performance indicators (KPIs), benchmarking data, or other aggregated information useful to the user community. For select LyftData Services, we may share information you provide, such as security artifacts that may contain Personal Data (e.g., IP address), with other subscribers, but only if required as part of the LyftData Services, as set forth in the relevant terms.
+We may disclose information to other users of our Edge IQ Services in an aggregated format, provided it does not include Personal Data. This may include "best practices" tips, key performance indicators (KPIs), benchmarking data, or other aggregated information useful to the user community. For select Edge IQ Services, we may share information you provide, such as security artifacts that may contain Personal Data (e.g., IP address), with other subscribers, but only if required as part of the Edge IQ Services, as set forth in the relevant terms.
 
-5)	Data Retention
+5. Data Retention
 
 We retain your Personal Data only for as long as necessary to fulfil the purposes for which it was collected. Once those purposes are met, your information will be deleted or archived unless retention is required to comply with legal obligations or for another legitimate and lawful purpose.
 
-We take into consideration the terms of our agreements with you, our legitimate interests, our legal obligations and the nature and volume of your Personal Data to determine the appropriate retention period. 
+We take into consideration the terms of our agreements with you, our legitimate interests, our legal obligations and the nature and volume of your Personal Data to determine the appropriate retention period.
 
 In certain instances, we may anonymize your Personal Data so that it no longer identifies you. Once anonymized, this information may be used without further notice to you.
 
-6)	Your Rights and Supplemental Notices 
+6. Your Rights and Supplemental Notices
 
-In certain jurisdictions, you may have rights under data protection laws, such as the right to request access to, correction, deletion, or transfer of your Personal Data, or to object to or restrict our use of it for specific purposes. To exercise these rights, please submit your request through our contact form, including a description of the nature of your request and the Personal Data involved or send an email to legal@lyftdata.com. We will respond as soon as reasonably practicable, consistent with applicable law.
+In certain jurisdictions, you may have rights under data protection laws, such as the right to request access to, correction, deletion, or transfer of your Personal Data, or to object to or restrict our use of it for specific purposes. To exercise these rights, please submit your request through our contact form, including a description of the nature of your request and the Personal Data involved or send an email to legal@edgeiq.com. We will respond as soon as reasonably practicable, consistent with applicable law.
 
-a)	EEA, UK and Switzerland
+a) EEA, UK and Switzerland
 
 This section provides additional details regarding the Personal Data we process in compliance with the General Data Protection Regulation (GDPR) and UK GDPR.
-Unless otherwise specified in a supplementary notice, LyftData Inc. is the data controller of your Personal Data.
+Unless otherwise specified in a supplementary notice, Edge IQ Inc. is the data controller of your Personal Data.
 
 In accordance with applicable law, you have the following rights with respect to your personal information:
 
@@ -121,24 +121,24 @@ In accordance with applicable law, you have the following rights with respect to
 - You have the right to object to the processing of your Personal Data.
 - You have the right to withdraw any consent previously provided for the processing of your Personal Data at any time.
 
-To exercise your rights, please complete our contact form or contact us via email at legal@lyftdata.com. Please note that we may ask you for additional information to verify your identity.
+To exercise your rights, please complete our contact form or contact us via email at legal@edgeiq.com. Please note that we may ask you for additional information to verify your identity.
 
 We process your Personal Data based on one or more of the following legal bases:
 
-- As necessary to enter into or fulfill our contractual obligations with you, including providing the LyftData Services.
+- As necessary to enter into or fulfill our contractual obligations with you, including providing the Edge IQ Services.
 - As necessary to comply with a legal obligation.
 - Based on our legitimate interests, as described in this Privacy Policy.
 - With your consent, where applicable.
 
-Additionally, your Personal Data may be collected, transferred to, accessed from, or stored in countries other than your own, which may have different data protection laws. Any transfer of your Personal Data complies with applicable data protection laws, such as transfers to countries recognized as providing adequate safeguards for personal data or those conducted under European Commission-approved Standard Contractual Clauses. 
+Additionally, your Personal Data may be collected, transferred to, accessed from, or stored in countries other than your own, which may have different data protection laws. Any transfer of your Personal Data complies with applicable data protection laws, such as transfers to countries recognized as providing adequate safeguards for personal data or those conducted under European Commission-approved Standard Contractual Clauses.
 
-We adhere to the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) (collectively, the "DPF") as established by the U.S. Department of Commerce. We have certified  our compliance with the DPF Principles for processing personal data received from the European Union, the United Kingdom (and Gibraltar), and Switzerland. The U.S. Department of Commerce’s dedicated DPF website provides a complete list of participating organizations. If you have questions or concerns about our compliance with the DPF, please contact us as via email at legal@lyftdata.com. 
+We adhere to the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) (collectively, the "DPF") as established by the U.S. Department of Commerce. We have certified our compliance with the DPF Principles for processing personal data received from the European Union, the United Kingdom (and Gibraltar), and Switzerland. The U.S. Department of Commerce's dedicated DPF website provides a complete list of participating organizations. If you have questions or concerns about our compliance with the DPF, please contact us as via email at legal@edgeiq.com.
 
 In cases where complaints cannot be resolved through other means, you may have the right to invoke binding arbitration as described on the DPF website. Note that we are subject to the investigatory and enforcement authority of the U.S. Federal Trade Commission (FTC).
 
-In certain circumstances, we may disclose Personal Data in response to lawful requests from public authorities, such as to meet national security or law enforcement requirements. 
+In certain circumstances, we may disclose Personal Data in response to lawful requests from public authorities, such as to meet national security or law enforcement requirements.
 
-b)	United States
+b) United States
 
 This section provides details about the Personal Data we collect, and the rights granted to individuals under various U.S. state data protection and privacy laws.
 
@@ -154,7 +154,7 @@ Depending on applicable law, you may have the following rights concerning your p
 - The right to restrict use and disclosure of sensitive information, and request limitations on our use and disclosure of your sensitive Personal Data.
 - The right to exercise any of the above rights without facing discriminatory treatment.
 
-If you or an authorized agent wishes to exercise these rights, please contact us via our contact form or via email at legal@lyftdata.com. You may be required to provide additional information to verify your identity.
+If you or an authorized agent wishes to exercise these rights, please contact us via our contact form or via email at legal@edgeiq.com. You may be required to provide additional information to verify your identity.
 
 If you submit a request to exercise your rights and disagree with our response, you may appeal the decision as allowed under applicable law by replying to our response.
 
@@ -163,62 +163,62 @@ In the past 12 months, we have collected the following categories of Personal Da
 - Identifiers: Real name, postal address, unique personal identifier, online identifier, Internet Protocol (IP) address, and email address.
 - Information under Cal. Civ. Code §1798.80(e): Name, address, telephone number, and financial information.
 - Commercial Information: Details about products or services purchased.
-- Internet or Other Electronic Network Activity: Information regarding your interactions with LyftData Services.
+- Internet or Other Electronic Network Activity: Information regarding your interactions with Edge IQ Services.
 - Geolocation Data.
 - Audio, Electronic, Visual, or Similar Information: Audio recordings of calls.
 - Inferences Drawn from Collected Data: Aggregated metrics and insights.
 - Account Login or Credit Card Data: In combination with credentials granting access to your account.
 
-For further details on the categories of Personal Data we collect, refer to the “	Information We Collect and Collection Methods” section of this Privacy Policy.
+For further details on the categories of Personal Data we collect, refer to the " Information We Collect and Collection Methods" section of this Privacy Policy.
 
 In the past 12 months, we disclosed the following categories of Personal Data to our service providers for routine business purposes under the CCPA:
 
 - Identifiers: Real name, postal address, unique personal identifier, online identifier, IP address, and email address.
 - Information under Cal. Civ. Code §1798.80(e): Name, address, telephone number, and financial information.
 - Commercial Information: Details about products or services purchased.
-- Internet or Other Electronic Network Activity: Interaction data with LyftData products or services.
+- Internet or Other Electronic Network Activity: Interaction data with Edge IQ products or services.
 - Geolocation Data.
 - Audio, Electronic, Visual, or Similar Information: Audio recordings of calls.
 - Inferences Drawn from Collected Data: Aggregated metrics and insights.
 - Account Login or Credit Card Data: In combination with credentials granting access to your account.
 
-For more details on how we share personal information with other parties, refer to the “Information We Collect and Collection Methods” section above.
+For more details on how we share personal information with other parties, refer to the "Information We Collect and Collection Methods" section above.
 
 In the past 12 months, we have shared the following categories of Personal Data with advertising partners for cross-context behavioral advertising under the CCPA:
 
 - Identifiers: Real name, unique personal identifier, online identifier, IP address, and email address.
-- Internet or Other Electronic Network Activity: Interaction data with LyftData products or services.
+- Internet or Other Electronic Network Activity: Interaction data with Edge IQ products or services.
 - Geolocation Data.
 - Inferences Drawn from Collected Data: Aggregated metrics and insights.
 
-7)	Cookies and Tracking Technologies
+7. Cookies and Tracking Technologies
 
 We utilize automatic data collection tools, including cookies, embedded web links, tags, and web beacons. These tools collect certain standard information sent by your browser, such as your IP address, MAC address and telemetry data.
 
-These tools are designed to make your experience with LyftData Services more seamless, efficient, and personalized. We use the collected information to improve our website and services, enhance customer value, better understand your interests, and deliver more relevant advertisements and content.
+These tools are designed to make your experience with Edge IQ Services more seamless, efficient, and personalized. We use the collected information to improve our website and services, enhance customer value, better understand your interests, and deliver more relevant advertisements and content.
 
 To update your cookie preferences, click the "Cookies" link at the bottom of any page on this website. Additionally, you may have tools within your internet browser to manage cookies and similar technologies, enabling you to control how websites you visit use these tools.
 
-8)	Security Measures
+8. Security Measures
 
-We take reasonable technical and organizational measures to safeguard Personal Data against loss, theft, and unauthorized access, disclosure, alteration, misuse, or destruction. However, no data transmission, software, or storage system can be guaranteed to be 100% secure. If you believe your Personal Data may no longer be secure (for example, if you suspect that the security of your account has been compromised), please notify us immediately at legal@lyftdata.com. 
+We take reasonable technical and organizational measures to safeguard Personal Data against loss, theft, and unauthorized access, disclosure, alteration, misuse, or destruction. However, no data transmission, software, or storage system can be guaranteed to be 100% secure. If you believe your Personal Data may no longer be secure (for example, if you suspect that the security of your account has been compromised), please notify us immediately at legal@edgeiq.com.
 
-If we become aware of a breach of our systems, we may notify you or others in accordance with applicable law and/or the terms of our contract with you. We may also communicate with you electronically regarding privacy and security issues related to the information collected through your interactions or use of LyftData Services.
+If we become aware of a breach of our systems, we may notify you or others in accordance with applicable law and/or the terms of our contract with you. We may also communicate with you electronically regarding privacy and security issues related to the information collected through your interactions or use of Edge IQ Services.
 
-9)	Children’s Privacy
+9. Children's Privacy
 
-We do not knowingly collect, process, store, or otherwise use the Personal Data of children under sixteen years of age, nor are children under sixteen permitted to use LyftData Services. If a User provides Personal Data of children to us or our services, the User must immediately contact us at legal@lyftdata.com. We will delete all such Personal Data from our services to the extent it is identifiable. If we become aware that we have received Personal Data of a child, we will notify affected Users and delete all Personal Data of the child from our services to the extent it is identifiable.
+We do not knowingly collect, process, store, or otherwise use the Personal Data of children under sixteen years of age, nor are children under sixteen permitted to use Edge IQ Services. If a User provides Personal Data of children to us or our services, the User must immediately contact us at legal@edgeiq.com. We will delete all such Personal Data from our services to the extent it is identifiable. If we become aware that we have received Personal Data of a child, we will notify affected Users and delete all Personal Data of the child from our services to the extent it is identifiable.
 
-10)	Cross-Border Data Transfers
+10. Cross-Border Data Transfers
 
 Your Personal Data may be stored and processed in any country where we, our subsidiaries, partners, sub-processors, or third-party service providers operate or host events. These locations may include countries outside your country of residence, such as the United States, the European Union or the United Kingdom, where data protection laws may differ from those in your jurisdiction.
 
 When transferring Personal Data, we implement safeguards to ensure its protection, such as standard contractual clauses. Additionally, we include appropriate terms in our agreements with service providers, processors, and sub-processors to protect your Personal Data.
 
-11)	Changes to This Policy
+11. Changes to This Policy
 
-This Privacy Policy may be updated from time to time. The "Last Updated" date at the top of this Privacy Policy reflects the most recent revision. Any changes to the policy will take effect once the updated version is posted on this page. We will also communicate any material change to this Privacy Policy to you. 
+This Privacy Policy may be updated from time to time. The "Last Updated" date at the top of this Privacy Policy reflects the most recent revision. Any changes to the policy will take effect once the updated version is posted on this page. We will also communicate any material change to this Privacy Policy to you.
 
-12)	Contact Information 
+12. Contact Information
 
-If you have any questions or comments regarding this Privacy Policy, you may contact us at any time using our contact form or via email at legal@lyftdata.com. 
+If you have any questions or comments regarding this Privacy Policy, you may contact us at any time using our contact form or via email at legal@edgeiq.com.

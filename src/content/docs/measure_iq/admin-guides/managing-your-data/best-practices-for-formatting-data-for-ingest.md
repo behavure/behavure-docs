@@ -3,11 +3,11 @@ title: "Best Practices for Formatting Data for Ingest "
 description: "Definition & use of Best Practices for Formatting Data for Ingest "
 ---
 
-This document covers best practices for configuring your data logging when preparing to load your data into Measure IQ.
+This document covers best practices for configuring your data logging when preparing to load your data into Measure IQ.
 
-## JSON format
+## JSON format
 
-JSON is Measure IQ's preferred file format. It does not require a dedicated header row, and easily allows us to auto-detect new columns as logging changes over time.
+JSON is Measure IQ's preferred file format. It does not require a dedicated header row, and easily allows us to auto-detect new columns as logging changes over time.
 
 Create each row, or event, as a complete JSON object that lives on its own line of the file. Here's a multi-row example:
 
@@ -23,9 +23,9 @@ We recommend that each row has at least one of the three following columns:
 | ----------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | timestamp   | Yes       | The timestamp specifies when the event occurred. See the [**Timestamp format**](#timestamp-format) section for more information.                                                                                                               |
 | actor       | Yes       | A unique actor that persists over time (for example, users, companies, hospitals, server machines or airplanes).                                                                                                                               |
-| event_name  | No        | The event specifies the action the actor took. Event names should be human-readable so that everyone on your team can understand what they are. Names like “event_4” or “TSwrite” are less helpful than “registered_account” or “played_song”. |
+| event_name  | No        | The event specifies the action the actor took. Event names should be human-readable so that everyone on your team can understand what they are. Names like "event_4" or "TSwrite" are less helpful than "registered_account" or "played_song". |
 
-It is recommended that you minimize nesting JSON objects. When Measure IQ receives nested JSON objects as in the contents of a field, for example `{"experiment": {"some":"json"; "more" : ["stuff", "in" ,"array"]}`, it generates a column for each field in the object, nested as deeply as the object is nested. In this example, Measure IQ creates two columns: `experiment.some` and `experiment.more`. This flattening allows you to access information in nested objects more easily. However, deeply nested JSON objects create many columns, which can impair performance and usability.
+It is recommended that you minimize nesting JSON objects. When Measure IQ receives nested JSON objects as in the contents of a field, for example `{"experiment": {"some":"json"; "more" : ["stuff", "in" ,"array"]}`, it generates a column for each field in the object, nested as deeply as the object is nested. In this example, Measure IQ creates two columns: `experiment.some` and `experiment.more`. This flattening allows you to access information in nested objects more easily. However, deeply nested JSON objects create many columns, which can impair performance and usability.
 
 ## Character encoding
 
@@ -41,7 +41,7 @@ If you want to import multiple event sources into a single Scuba table (which we
 
 If you're avoiding a separate join/lookup table, include all relevant dimensions/fields in both datasets.
 
-For example: if there are fields in data set A called `language` or `platform` that you want to pull in as queries in the context of dataset B, you must include them in dataset B. Even if there is a common link between the fields, such as `session ID`, you can't pull in fields from one dataset to another. Alternatively, you can create a [lookup table](/measure_iq/glossary/lookup-table/). See [Best practices for formatting lookup table data](../best-practices-for-formatting-lookup-table-data) for more information.
+For example: if there are fields in data set A called `language` or `platform` that you want to pull in as queries in the context of dataset B, you must include them in dataset B. Even if there is a common link between the fields, such as `session ID`, you can't pull in fields from one dataset to another. Alternatively, you can create a [lookup table](/measure_iq/glossary/lookup-table/). See [Best practices for formatting lookup table data](/measure_iq/admin-guides/managing-your-data/best-practices-for-formatting-lookup-table-data) for more information.
 
 ## File storage requirements
 
@@ -64,11 +64,11 @@ Our data file size recommendations depend on how often you will be uploading fil
 
 ## Timestamp format
 
-We recommend that you format your timestamp data according to the [ISO-8601 standard](../https://en.wikipedia.org/wiki/ISO_8601). For example, `2015-10-05T14:48:00.000Z`, which has a format string of `%Y-%m-%dT%H:%M:%S.%fZ`.
+We recommend that you format your timestamp data according to the [ISO-8601 standard](https://en.wikipedia.org/wiki/ISO_8601). For example, `2015-10-05T14:48:00.000Z`, which has a format string of `%Y-%m-%dT%H:%M:%S.%fZ`.
 
 If your timestamps do not follow the ISO-8601 standard or you cannot reformat your timestamps to follow the standard, Measure IQ also supports Unix time plus a variety of common `strptime()` time format strings. Note that for a given column in your data, the time format must remain consistent for every event.
 
-Measure IQ does not support dates prior to January 1, 1970 (the beginning of [Unix epoch time](../https://en.wikipedia.org/wiki/Unix_time)).
+Measure IQ does not support dates prior to January 1, 1970 (the beginning of [Unix epoch time](https://en.wikipedia.org/wiki/Unix_time)).
 
 ## Null values
 
@@ -99,9 +99,7 @@ To create a column of type int_set or string_set, use JSON array values in your 
 | JSON object           | {"column": {"a": 1, "b": "xxx"}}                                                                                                                                                         | Measure IQ will "flatten" a nested object using a dot-separated notation. The output would be:<br><br>`{"column.a": 1, "column.b": "xxx"}`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Array of JSON objects | {"column": \[{"a": 1,"b": "zzz"}, {"a": 2,"b": "yyy"}\]}                                                                                                                                 | The data import process will "shred" a nested array to produce multiple arrays of simple strings (as opposed to a single array of objects). The intermediate output would be:<br><br>`{"column": {"a": [1,2], "b": ["zzz","yyy"]}}`<br><br>Based on the "flatten" logic above, the final output would be:<br><br>`{"column.a": [1,2], "column.b": ["zzz","yyy"]}`                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Identifiers           | {"hex32_column" : "A2439GF88EA12315A2487GF88EA12312"}<br><br>{"hex32_column" : "e41249ed-2398-4c29-a6fa-ee81116dd302"}                                                                   | While Measure IQ does support identifiers, we typically apply special handling to them before importing into the system. <br><br>Contact your Scuba representative before sending new identifiers into the system.<br><br>You can filter or group by hex32 columns.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| URL                   | {"url_column" : "[https://www.mywebsite.com/landing/blue/](../https://www.mywebsite.com/landing/blue/)"}                                                                                 | URL columns are split into multiple columns (domain, path, filename, etc.), separated at each "/" character. These columns are easier to manipulate separately.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| IP address            | {"ip_column" : "127.0.0.1"}                                                                                                                                                              | IP address columns are parsed via a geoIP lookup to generate additional geographic information columns such as country and city.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| User agent            | {"user_agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0)"}                                                                                                                       | User agent columns are split into multiple columns.<br><br>For web browser user agent strings, Measure IQ will add user-friendly columns for browser, platform, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| URL                   | {"url_column" : "[https://www.mywebsite.com/landing/blue/](https://www.mywebsite.com/landing/blue/)"}                                                                                    | URL columns are split into multiple columns (domain, path, filename, etc.)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 ## Working with large string data
 
@@ -109,7 +107,7 @@ It is possible to send very large chunks of string data into logs, which takes u
 
 Strings like URLs or GEOIP information tend to be long and have high cardinality (they're uncommon or even unique). They take up a lot of space and may not be useful for queries. String columns in Measure IQ are stored in a string server that stores each unique string once. For most string columns, this is an optimized storage approach, but for some string columns the cardinality is very high (meaning there is little duplication) and the storage cost becomes high. We recommend removing these columns before importing to Measure IQ or splitting the column into more useful sub-columns that are of lower cardinality.
 
-[Contact Measure IQ](../mailto:help@behavure.ai) before sending new large string columns into the system.
+[Contact Measure IQ](mailto:help@behavure.ai) before sending new large string columns into the system.
 
 ## Columns containing a list of mixed data types
 

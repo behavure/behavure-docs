@@ -8,24 +8,29 @@ sidebar:
 draft: false
 ---
 
-## GCS 
-Lyftdata supports reading from and writing to Google Cloud Storage (GCS)
+## GCS
 
-### Configure Lyftdata to read data from GCS
-Add Lyftdata input **gcs** to a job and configure:
+Edge IQ supports reading from and writing to Google Cloud Storage (GCS)
+
+### Configure Edge IQ to read data from GCS
+
+Add Edge IQ input **gcs** to a job and configure:
+
 - **Bucket Name**: The storage service container.
 - **Object Name**: The objects names.
-- **Application Credentials**: 
-- **Service Account**: 
+- **Application Credentials**:
+- **Service Account**:
 
-### Configure Lyftdata to write data to GCS
-Add Lyftdata output **gcs** to a job and configure:
+### Configure Edge IQ to write data to GCS
+
+Add Edge IQ output **gcs** to a job and configure:
+
 - **Bucket Name**: The storage service container.
 - **Object Name**: The objects names.
-- **Application Credentials**: 
-- **Service Account**: 
-
+- **Application Credentials**:
+- **Service Account**:
 
 ### Recommendations for files and folders
+
 - each file should not be larger than 100MB-150MB (compressed gzip or parquet)
 - Y/M/ or Y/M/D/ or Y/M/D/H/ folders

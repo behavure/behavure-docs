@@ -1,7 +1,8 @@
 ---
-title: Filters 
-description: Definition & use of Filters 
+title: Filters
+description: Definition & use of Filters
 ---
+
 Measure IQ has two main uses of the term **filter**:
 
 1\. Use a filter to determine which data to include in the results. Use a simple filter to quickly select one or more columns or metrics to use as a filter. Use an advanced filter to create a more complex, text-based filter. In the query builder, a user can select which events are passed to the aggregation function. If an event doesn't match the filter, the aggregation function doesn't see it. Columns used in the filter also need to be scanned or evaluated.
@@ -18,4 +19,5 @@ Measure IQ has two main uses of the term **filter**:
 
 ## More information
 
+- [Create an Advanced Filter](/measure_iq/measure-user-guides/build-queries-and-visualizations/create-an-advanced-filter)
 - [Create an Advanced Filter](https://behavure.ai/docs/wiki/spaces/SGV/pages/2139260794/Create+an+Advanced+Filter+v5)

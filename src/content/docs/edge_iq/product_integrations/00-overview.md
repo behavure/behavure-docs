@@ -20,7 +20,7 @@ draft: false
 | Google Ad Manager (GAM)          | s3, gcs                        |                                |
 | Google Cloud Storage (GCS)       | gcs                            | gcs                            |
 | Logsign                          |                                | files                          |
-| Lyftdata Worker                  | worker-channel                 | worker-channel                 |
+| Edge IQ Worker                   | worker-channel                 | worker-channel                 |
 | Microsoft Azure                  | azure-blob                     | azure-blob                     |
 | Microsoft Graph API              |                                | http-post                      |
 | Microsoft Sentinel               | s3, azure-blob                 | s3, azure-blob, gcs, http-post |

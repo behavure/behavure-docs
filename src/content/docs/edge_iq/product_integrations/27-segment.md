@@ -8,13 +8,13 @@ sidebar:
 draft: false
 ---
 
-Lyftdata supports reading from Twilio Segment
+Edge IQ supports reading from Twilio Segment
 
 :::note
-The Lyftdata UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [ask us](https://community.lyftdata.com/) for direct support
+The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
+Please [ask us](https://community.edgeiq.com/) for direct support
 :::
 
-### Configure Lyftdata to read data from Twilio Segment
-Add Lyftdata input **s3**, **azure-blob**, **gcs** or **http-poll** to a job and configure:
+### Configure Edge IQ to read data from Twilio Segment
 
+Add Edge IQ input **s3**, **azure-blob**, **gcs** or **http-poll** to a job and configure:

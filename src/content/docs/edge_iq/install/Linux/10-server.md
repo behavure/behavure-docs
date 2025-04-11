@@ -9,7 +9,7 @@ sidebar:
 
 ![](../../../../../assets/edgeiq-logo.svg)
 
-The edgeiq binary is installed and available on the system, set up the Server as follows:
+The Edge IQ binary is installed and available on the system, set up the Server as follows:
 
 1. Create a system account.
 
@@ -68,7 +68,6 @@ This `systemd` unit file assumes the binary is installed in `/usr/sbin/`.
 If the binary is installed elsewhere, adjust the `ExecStart` section path accordingly.
 :::
 
-
 ```sh
 [Unit]
 Description=edgeiq Server
@@ -98,7 +97,7 @@ Here, the Server is configured through either `edgeiq run server` options or env
 See `edgeiq run server --help` for startup options and their environment variable equivalents and the reference.
 :::
 
-At a minimum, the Server needs `edgeiq_STAGING_DIR`:
+At a minimum, the Server needs `EDGE_IQ_STAGING_DIR`:
 
 ```sh
 EDGEIQ_STAGING_DIR=/var/lib/edgeiq-server

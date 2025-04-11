@@ -14,7 +14,7 @@ sidebar:
 
 ### `Server`
 
-The server is the central component of the platform. It provides the UI and APIs of a Lyftdata deployment. It is responsible for managing workers, jobs, and user access. The server is also responsible for the aggregation and storage of metrics, logs, and trace data.
+The server is the central component of the platform. It provides the UI and APIs of a Edge IQ deployment. It is responsible for managing workers, jobs, and user access. The server is also responsible for the aggregation and storage of metrics, logs, and trace data.
 
 ### `Worker`
 

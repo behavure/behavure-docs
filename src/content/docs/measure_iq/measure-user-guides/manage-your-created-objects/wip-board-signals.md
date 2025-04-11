@@ -7,7 +7,9 @@ search:
   hidden: true
 ---
 
-> [!WARNING] > **_This article will be completed once Board Signals are confirmed live in V5 (_**[**_DACT-74_**](https://behavure.ai/docs/browse/DACT-74)**_)_**
+:::caution[Warning]
+This article is still in progress and may change.
+:::
 
 **Measure IQ Board Signals** is an insight delivery feature that enables users to:
 
@@ -45,4 +47,5 @@ Then select either Slack or Email Notifications, enter the Slack message title o
 
 After creating this Signal, the listed notification channels will receive an alert with the name if the Signal as the subject line any time the specified Signal condition is met during the set evaluation frequency.
 
-> [!NOTE] > **Measure IQ Signals are also available for integration with Slack. Contact your Measure IQ representative or reach out to us at** [**support.behavure.ai**](http://support.behavure.ai) **to learn more.**
+:::note
+ **Measure IQ Signals are also available for integration with Slack. Contact your Measure IQ representative or reach out to us at** [**support.behavure.ai**](http://support.behavure.ai) **to learn more.**

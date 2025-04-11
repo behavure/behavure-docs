@@ -1,7 +1,8 @@
 ---
-title: Whale 
-description: Definition & use of Whale 
+title: Whale
+description: Definition & use of Whale
 ---
+
 A **whale** is an actor that creates a disproportionate number of events in relation to the other actors. A whale actor can be any of the following:
 
 - Real actor: Users who are an order of magnitude more active than most.
@@ -20,5 +21,5 @@ Measure IQ dissipates the data of actors who are detected to be whales across a
 
 ## More information
 
-- [Balance Data for Efficient Sampling](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1304560298/Balance+data+for+efficient+sampling+-+Whale+actors)
-- [How Measure IQ Performs Data Sampling](https://behavure.ai/docs/wiki/spaces/CSSD/pages/1302496843/How+Measure IQ+performs+data+sampling+population+sampling)
+- [Balance Data for Efficient Sampling](/measure_iq/key-concepts-and-terminology/how-does-measure-iq-perform-data-sampling)
+- [How Measure IQ Performs Data Sampling](/measure_iq/key-concepts-and-terminology/how-does-measure-iq-perform-data-sampling)

@@ -12,7 +12,7 @@ in the editor. The visual editor's `Close Editor` button will prompt You when tr
 
 ![job_page](../../../../assets/job-page.png)
 
-The job needs to be _staged_ before it can be added to workers  `Stage job`
+The job needs to be _staged_ before it can be added to workers `Stage job`
 
 ![staged job](../../../../assets/staged-job.png)
 
@@ -30,7 +30,7 @@ This is not a particularly interesting job yet - it runs once, and the output
 goes to the standard output of the server.
 
 ```
-2024-12-17T12:29:19.422Z INFO  lyftdata_worker::scheduler > Worker [Built-In Worker], starting job: [first-job]
+2024-12-17T12:29:19.422Z INFO  edgeiq_worker::scheduler > Worker [Built-In Worker], starting job: [first-job]
 {"sample":"data","ts":"2024-12-17T12:29:20.973Z"}
 ```
 
