@@ -6,7 +6,7 @@ draft: true
 
 Edge IQ Inc. – Website Terms of Use (Last Updated 11/12/2024)
 
-These Edge IQ Inc. Website Terms of Use, together with any terms expressly incorporated herein by reference ("Terms"), apply to your access to and use of the website located at www.edgeiq.com (excluding any products or services accessible through this site ("Website"). These Terms are entered into by and between you ("you" or "your") and Edge IQ Inc. ("Edge IQ", "we", "us" or "our").
+These Edge IQ Inc. Website Terms of Use, together with any terms expressly incorporated herein by reference ("Terms"), apply to your access to and use of the website located at www.behavure.ai (excluding any products or services accessible through this site ("Website"). These Terms are entered into by and between you ("you" or "your") and Edge IQ Inc. ("Edge IQ", "we", "us" or "our").
 
 These Terms do not govern the use of our software-as-a-service products and/or hosted applications, or other related services (collectively, "Services"). If you are accessing or using the Services – including through a free trial – your use is subject to our End User License Agreement (“EULA”), or any other written agreement separately entered into between you and us. We may also provide different or additional terms in relation to some of our other products and services. Those different or additional terms become part of your agreement with us if you use those products and services. In the event of a conflict between these Terms and the additional terms specific to our products or services, the additional terms will govern for that conflict.
 
@@ -67,7 +67,7 @@ Any software available for purchase, access or download through our Website (“
 
 5. Copyright Complaints
 
-The Digital Millennium Copyright Act of 1998 ("DMCA") provides a process for copyright owners to seek recourse if they believe material available on the Internet infringes their rights under U.S. copyright law. If you believe that any material residing on or linked from the Website infringes your copyright, you (or your agent) may submit a notification of claimed infringement to legal@edgeiq.com. Your notification must include all of the following information:
+The Digital Millennium Copyright Act of 1998 ("DMCA") provides a process for copyright owners to seek recourse if they believe material available on the Internet infringes their rights under U.S. copyright law. If you believe that any material residing on or linked from the Website infringes your copyright, you (or your agent) may submit a notification of claimed infringement to legal@behavure.ai. Your notification must include all of the following information:
 
 - Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works are covered by a single notification, a representative list of such works;
 - Identification of the material claimed to be infringing and information reasonably sufficient to allow us to locate the material on the Website (e.g., URL(s) of the claimed infringing material);
@@ -76,7 +76,7 @@ The Digital Millennium Copyright Act of 1998 ("DMCA") provides a process for cop
 - A statement such as: "I swear, under penalty of perjury, that the information in the notification is accurate and that I am the copyright owner or am authorized to act on behalf of the owner of an exclusive right that is allegedly infringed"; and
 - Your physical or electronic signature.
 
-If you believe that material you posted on the Website was removed or access to it was disabled by mistake or misidentification, you may file a counter-notification at legal@edgeiq.com. Your counter-notification must include the following information:
+If you believe that material you posted on the Website was removed or access to it was disabled by mistake or misidentification, you may file a counter-notification at legal@behavure.ai. Your counter-notification must include the following information:
 
 - A description of the material that Edge IQ has removed or to which access has been disabled;
 - Information reasonably sufficient to allow Edge IQ to contact you, such as your address, telephone number, and, if available, an email address, along with a statement that you consent to the jurisdiction of the Federal District Court for the judicial district where your address is located (or the Southern District of New York if your address is outside of the United States) and that you will accept service of process from the person who provided the original notification of claimed infringement or an agent of such person;
@@ -180,9 +180,9 @@ From time to time, we may post job openings on the Website and/or invite users t
 
 19. Communication and Notices
 
-If you have any general inquiries, comments, or complaints about the Website, please send an email to legal@edgeiq.com.
+If you have any general inquiries, comments, or complaints about the Website, please send an email to legal@behavure.ai.
 
-Formal notices to Edge IQ under these Terms (including reports of any violations by users) will only be considered valid if submitted in writing and delivered either in person, via a major commercial courier service, or by certified or registered mail with return receipt requested, to: Edge IQ Inc, Attention: Legal Department, Suite 201, 850 New Burton Road, Dover, Kent County, with a copy sent to legal@edgeiq.com.
+Formal notices to Edge IQ under these Terms (including reports of any violations by users) will only be considered valid if submitted in writing and delivered either in person, via a major commercial courier service, or by certified or registered mail with return receipt requested, to: Edge IQ Inc, Attention: Legal Department, Suite 201, 850 New Burton Road, Dover, Kent County, with a copy sent to legal@behavure.ai.
 
 We may send notices to you by posting on the Website, email, or regular mail, at our discretion. You agree that a printed version of these Terms and any notices provided electronically will be admissible in judicial or administrative proceedings in the same manner and under the same conditions as other business documents originally created and maintained in printed form.
 
