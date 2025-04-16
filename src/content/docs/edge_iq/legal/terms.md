@@ -1,6 +1,7 @@
 ---
 title: Edge IQ website terms of use
 description: Edge IQ website terms of use
+draft: true
 ---
 
 Edge IQ Inc. – Website Terms of Use (Last Updated 11/12/2024)

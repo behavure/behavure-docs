@@ -248,7 +248,12 @@ export default defineConfig({
             {
             label: "Reference",
                 collapsed: true,
-            autogenerate: { directory: "edge_iq/reference" },
+                autogenerate: { directory: "edge_iq/reference", collapsed: true },
+            },
+            {
+            label: "Legal",
+                collapsed: true,
+                autogenerate: { directory: "edge_iq/legal", collapsed: true },
             },
             {
             label: "Releases",
