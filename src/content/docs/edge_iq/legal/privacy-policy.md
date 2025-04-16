@@ -1,6 +1,7 @@
 ---
 title: Edge IQ Privacy Policy
 description: The Edge IQ Privacy Policy
+draft: true
 ---
 
 Edge IQ Inc. Privacy Policy
