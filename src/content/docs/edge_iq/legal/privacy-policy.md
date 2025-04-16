@@ -106,7 +106,7 @@ In certain instances, we may anonymize your Personal Data so that it no longer i
 
 6. Your Rights and Supplemental Notices
 
-In certain jurisdictions, you may have rights under data protection laws, such as the right to request access to, correction, deletion, or transfer of your Personal Data, or to object to or restrict our use of it for specific purposes. To exercise these rights, please submit your request through our contact form, including a description of the nature of your request and the Personal Data involved or send an email to legal@edgeiq.com. We will respond as soon as reasonably practicable, consistent with applicable law.
+In certain jurisdictions, you may have rights under data protection laws, such as the right to request access to, correction, deletion, or transfer of your Personal Data, or to object to or restrict our use of it for specific purposes. To exercise these rights, please submit your request through our contact form, including a description of the nature of your request and the Personal Data involved or send an email to legal@behavure.ai. We will respond as soon as reasonably practicable, consistent with applicable law.
 
 a) EEA, UK and Switzerland
 
@@ -122,7 +122,7 @@ In accordance with applicable law, you have the following rights with respect to
 - You have the right to object to the processing of your Personal Data.
 - You have the right to withdraw any consent previously provided for the processing of your Personal Data at any time.
 
-To exercise your rights, please complete our contact form or contact us via email at legal@edgeiq.com. Please note that we may ask you for additional information to verify your identity.
+To exercise your rights, please complete our contact form or contact us via email at legal@behavure.ai. Please note that we may ask you for additional information to verify your identity.
 
 We process your Personal Data based on one or more of the following legal bases:
 
@@ -133,7 +133,7 @@ We process your Personal Data based on one or more of the following legal bases:
 
 Additionally, your Personal Data may be collected, transferred to, accessed from, or stored in countries other than your own, which may have different data protection laws. Any transfer of your Personal Data complies with applicable data protection laws, such as transfers to countries recognized as providing adequate safeguards for personal data or those conducted under European Commission-approved Standard Contractual Clauses.
 
-We adhere to the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) (collectively, the "DPF") as established by the U.S. Department of Commerce. We have certified our compliance with the DPF Principles for processing personal data received from the European Union, the United Kingdom (and Gibraltar), and Switzerland. The U.S. Department of Commerce's dedicated DPF website provides a complete list of participating organizations. If you have questions or concerns about our compliance with the DPF, please contact us as via email at legal@edgeiq.com.
+We adhere to the EU-U.S. Data Privacy Framework (EU-U.S. DPF), the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) (collectively, the "DPF") as established by the U.S. Department of Commerce. We have certified our compliance with the DPF Principles for processing personal data received from the European Union, the United Kingdom (and Gibraltar), and Switzerland. The U.S. Department of Commerce's dedicated DPF website provides a complete list of participating organizations. If you have questions or concerns about our compliance with the DPF, please contact us as via email at legal@behavure.ai.
 
 In cases where complaints cannot be resolved through other means, you may have the right to invoke binding arbitration as described on the DPF website. Note that we are subject to the investigatory and enforcement authority of the U.S. Federal Trade Commission (FTC).
 
@@ -155,7 +155,7 @@ Depending on applicable law, you may have the following rights concerning your p
 - The right to restrict use and disclosure of sensitive information, and request limitations on our use and disclosure of your sensitive Personal Data.
 - The right to exercise any of the above rights without facing discriminatory treatment.
 
-If you or an authorized agent wishes to exercise these rights, please contact us via our contact form or via email at legal@edgeiq.com. You may be required to provide additional information to verify your identity.
+If you or an authorized agent wishes to exercise these rights, please contact us via our contact form or via email at legal@behavure.ai. You may be required to provide additional information to verify your identity.
 
 If you submit a request to exercise your rights and disagree with our response, you may appeal the decision as allowed under applicable law by replying to our response.
 
@@ -202,13 +202,13 @@ To update your cookie preferences, click the "Cookies" link at the bottom of any
 
 8. Security Measures
 
-We take reasonable technical and organizational measures to safeguard Personal Data against loss, theft, and unauthorized access, disclosure, alteration, misuse, or destruction. However, no data transmission, software, or storage system can be guaranteed to be 100% secure. If you believe your Personal Data may no longer be secure (for example, if you suspect that the security of your account has been compromised), please notify us immediately at legal@edgeiq.com.
+We take reasonable technical and organizational measures to safeguard Personal Data against loss, theft, and unauthorized access, disclosure, alteration, misuse, or destruction. However, no data transmission, software, or storage system can be guaranteed to be 100% secure. If you believe your Personal Data may no longer be secure (for example, if you suspect that the security of your account has been compromised), please notify us immediately at legal@behavure.ai.
 
 If we become aware of a breach of our systems, we may notify you or others in accordance with applicable law and/or the terms of our contract with you. We may also communicate with you electronically regarding privacy and security issues related to the information collected through your interactions or use of Edge IQ Services.
 
 9. Children's Privacy
 
-We do not knowingly collect, process, store, or otherwise use the Personal Data of children under sixteen years of age, nor are children under sixteen permitted to use Edge IQ Services. If a User provides Personal Data of children to us or our services, the User must immediately contact us at legal@edgeiq.com. We will delete all such Personal Data from our services to the extent it is identifiable. If we become aware that we have received Personal Data of a child, we will notify affected Users and delete all Personal Data of the child from our services to the extent it is identifiable.
+We do not knowingly collect, process, store, or otherwise use the Personal Data of children under sixteen years of age, nor are children under sixteen permitted to use Edge IQ Services. If a User provides Personal Data of children to us or our services, the User must immediately contact us at legal@behavure.ai. We will delete all such Personal Data from our services to the extent it is identifiable. If we become aware that we have received Personal Data of a child, we will notify affected Users and delete all Personal Data of the child from our services to the extent it is identifiable.
 
 10. Cross-Border Data Transfers
 
@@ -222,4 +222,4 @@ This Privacy Policy may be updated from time to time. The "Last Updated" date at
 
 12. Contact Information
 
-If you have any questions or comments regarding this Privacy Policy, you may contact us at any time using our contact form or via email at legal@edgeiq.com.
+If you have any questions or comments regarding this Privacy Policy, you may contact us at any time using our contact form or via email at legal@behavure.ai.
