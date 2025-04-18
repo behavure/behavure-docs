@@ -1,16 +1,12 @@
-
 ---
 title: "Edge IQ Admin Guide"
 description: "Installation Overview"
 sidebar:
   label: "Overview"
   order: 1
-
 ---
 
 import { Steps } from "@astrojs/starlight/components";
-
-![](../../../../assets/edgeiq-logo.svg)
 
 This section covers the installation of Edge_iq. This generally involves the following steps:
 
@@ -25,7 +21,7 @@ This section covers the installation of Edge_iq. This generally involves the fol
 
 ## Minimal deployments.
 
-![Edge_iq_architecture](../../../../assets/edge_iq-highlevel-simple.svg)      
+![Edge_iq_architecture](../../../../assets/edge_iq-highlevel-simple.svg)
 
 A minimal Edge_iq installation consists of a single server process. The server provides a built-in worker, which is used for testing jobs, but it can also run as many jobs as the server's host resources can accomodate.
 
@@ -36,7 +32,6 @@ A minimal Edge_iq installation consists of a single server process. The server p
 Edge_iq scales by deploying additional workers, and connecting them to a server. For multi-worker deployments, all jobs are managed through the server.
 
 Workers typically run on separate hosts, but they can be also run on the same host as the server, provided default worker ports are appropriately configured to avoid conflicts.
-
 
 :::note
 Servers and Workers can be deployed from the same binary.

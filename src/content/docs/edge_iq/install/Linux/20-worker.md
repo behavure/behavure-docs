@@ -7,9 +7,7 @@ sidebar:
   order: 20
 ---
 
-![](../../../../../assets/edgeiq-logo.svg)
-
-This section assumes that you have downloaded the Edge IO binary, and that the Server is [configured](./10-server.md) and running.
+This section assumes that you have downloaded the Edge IO binary, and that the Server is [configured](../server) and running.
 
 :::note
 For the current deployment scenario, the Server and external Workers **do not** share a single host.
@@ -212,7 +210,7 @@ Additional configuration options are optional, but three should be mentioned her
 - `EDGEIQ_WORKER_POLL_INTERVAL` determines how often the Worker will poll the Server to check for updates. Default: `15` seconds..
 - `EDGEIQ_WORKER_POLL_INTERVAL` determines how often the Worker will poll the Server to check for updates. Default: `15` seconds..
 
-- `EDGEIQ_WORKER_LISTENER` determines which address and port the Worker will listen on for *internal* updates. Default: `127.0.0.1:4040`.
+- `EDGEIQ_WORKER_LISTENER` determines which address and port the Worker will listen on for _internal_ updates. Default: `127.0.0.1:4040`.
 
 - `EDGEIQ_LICENSE_EULA_ACCEPT=yes` prevents the one-time prompt for accepting the [End User License Agreement](/eula).
 - `EDGEIQ_LICENSE_EULA_ACCEPT=yes` prevents the one-time prompt for accepting the [End User License Agreement](/eula).
