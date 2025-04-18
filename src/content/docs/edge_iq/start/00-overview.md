@@ -9,6 +9,16 @@ sidebar:
 
 Edge IQ is a flexible, distributed data integration platform designed to reliably move and transform data between various sources and destinations. By abstracting away the operational complexity of pipelines, Edge IQ lets you focus on extracting insights and value, rather than managing connectivity and scale.
 
+### What is ETL?
+
+ETL (Extract, Transform, Load) is a data integration process that:
+
+- **Extract**: Collects data from various sources
+- **Transform**: Processes and converts data into the desired format
+- **Load**: Delivers the processed data to its destination
+
+Edge IQ streamlines this process by providing a configuration-driven approach to ETL, eliminating the need for complex custom scripting.
+
 ### Core Components
 
 - **Server** – Serves as the control plane for all data flows. It tracks configuration details, orchestrates job execution, and consolidates monitoring data.

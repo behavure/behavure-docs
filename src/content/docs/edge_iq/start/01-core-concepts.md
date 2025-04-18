@@ -18,6 +18,7 @@ The Server is the control plane for Edge IQ. It manages configuration details, t
 - Stores and manages all Job definitions
 - Oversees resource allocation by coordinating with Workers
 - Collects metrics and status data for operational visibility
+- Provides a centralized UI for monitoring and management
 
 ## Jobs
 
@@ -31,7 +32,7 @@ A Job defines a specific pipeline. Each Job configuration indicates how data is 
 
 ## Workers
 
-Workers instantiate the runtime for each Job and performs any necessary orchestration and coordination. In a distributed Edge IQ deployment, multiple Workers can run in parallel to handle multiple Jobs or increased data volume.
+Workers instantiate the runtime for each Job and perform any necessary orchestration and coordination. In a distributed Edge IQ deployment, multiple Workers can run in parallel to handle multiple Jobs or increased data volume.
 
 ### How Workers Operate
 
@@ -52,6 +53,7 @@ When you need to fan out or compose data flows across multiple Jobs, Worker chan
 
 - **Horizontal Scalability** – You can add additional Workers to handle more Jobs or higher data throughput.
 - **Isolated Failure Handling** – If one Worker encounters an error, it typically does not affect other Workers. This design limits disruption and ensures that healthy Jobs continue running.
+- **Resource Management** – Workers can be configured to use specific resources (CPU, memory) to optimize performance.
 
 ## Pipelines and Data Flow
 
