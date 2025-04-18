@@ -39,7 +39,7 @@ If you are new to Edge IQ, begin by installing and running the Server to establi
 
 ### Next Steps
 
-- Review the [Installation](/install/overview/) guide to set up your environment.
+- Review the [Installation](/edge_iq/install/overview/) guide to set up your environment.
 - Explore our **Guides** for step-by-step instructions on common scenarios, such as ingesting from S3 or forwarding data to analytics platforms.
 - For more detailed configuration options and troubleshooting information, refer to the **Reference** section.
 
