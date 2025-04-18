@@ -7,8 +7,6 @@ sidebar:
   order: 10
 ---
 
-![](../../../../../assets/edgeiq-logo.svg)
-
 The Edge IQ binary is installed and available on the system, set up the Server as follows:
 
 1. Create a system account.

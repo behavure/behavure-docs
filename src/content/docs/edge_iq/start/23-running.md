@@ -9,7 +9,7 @@ sidebar:
 
 Go to `Jobs` using the top-left corner menu.
 
-There is a top-right hand side menu `New Job`, which will lead you into _Quick Setup_.
+There is a top-left hand side menu `New Job`, which will lead you into _Quick Setup_.
 
 Click `Skip quick setup` to get the default job configuration:
 
@@ -36,9 +36,9 @@ Jobs may be directly run at this point. Click on `Run` and you will be taken to 
 }
 ```
 
-There are two important limits on these temporary, or _transient_ jobs. The maximum amount of seconds to run, and the maximum number of events to process.  This guarantees that they will shutdown at some point.
+There are two important limits on these temporary, or _transient_ jobs. The maximum amount of seconds to run, and the maximum number of events to process. This guarantees that they will shutdown at some point.
 
-Get back to the editor by closing this page (`Close Output` on the right).  We want to change the input, so click on `Configure` inside the `Echo` box.
+Get back to the editor by closing this page (`Close Output` on the right). We want to change the input, so click on `Configure` inside the `Echo` box.
 
 `Echo` is a very simple input, but there are three important things in common with other inputs:
 
@@ -47,10 +47,11 @@ Get back to the editor by closing this page (`Close Output` on the right).  We w
 - `Ignore Linebreaks` by default, each line of input becomes an event - set this if you need to treat the whole input as an event
 
 After the first `Run`, there will be a `Rerun and Trace` button - the difference with regular `Run` is that you get the intermediate steps:
- - the data entering the jov from the input
- - the data entering `time` action, the data changed after the action
- - finally, the data flowing into the output
-  
+
+- the data entering the job from the input
+- the data entering `time` action, the data changed after the action
+- finally, the data flowing into the output
+
 When you click on `Rerun and Trace` you will get the incoming data inline with the editor:
 
 ![echo options](../../../../assets/echo-options.png)
@@ -62,6 +63,7 @@ After turning off `JSON`, the data will look like this:
   "_raw": "{\"sample\": \"data\"}"
 }
 ```
+
 The data is some arbitrary text, so it has to be _quoted_. The convention is that the event becomes a simple JSON object where `_raw` is the key of the raw data.
 
 Atfter entering the lines "hello" and "there" in `Event`, the result is:
