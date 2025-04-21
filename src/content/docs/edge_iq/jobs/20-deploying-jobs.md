@@ -7,7 +7,7 @@ sidebar:
   order: 20
 ---
 
-[Jobs](00-overview.md) are saved on the server after `Save` is pressed
+[Jobs](/jobs/overview) are saved on the server after `Save` is pressed
 in the editor. The visual editor's `Close Editor` button will prompt You when trying to close a job with unsaved changes. Closing the visual editor shows the job view:
 
 ![job_page](../../../../assets/job-page.png)

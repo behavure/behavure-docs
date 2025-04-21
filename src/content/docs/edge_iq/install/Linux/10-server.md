@@ -9,6 +9,84 @@ sidebar:
 
 The Edge IQ binary is installed and available on the system, set up the Server as follows:
 
+## Quick Installation
+
+For a quick setup, you can use the following installation script. Save it as `install-server.sh`, make it executable with `chmod +x install-server.sh`, and run it with `sudo ./install-server.sh`:
+
+```sh
+#!/bin/bash
+
+# Edge IQ Server Installation Script
+# This script automates the systemd setup process for Edge IQ server
+
+# Check if running as root
+if [ "$EUID" -ne 0 ]; then
+  echo "Please run as root (use sudo)"
+  exit 1
+fi
+
+# Create system account
+echo "Creating system account..."
+useradd --system --home /var/lib/edgeiq-server --disabled-login --group edgeiq || true
+
+# Create data directory
+echo "Creating data directory..."
+mkdir -p /var/lib/edgeiq-server
+chown edgeiq:edgeiq /var/lib/edgeiq-server
+chmod 700 /var/lib/edgeiq-server
+
+# Create systemd service file
+echo "Creating systemd service file..."
+cat > /etc/systemd/system/edgeiq-server.service << EOF
+[Unit]
+Description=edgeiq Server
+After=network.target auditd.service
+
+[Service]
+EnvironmentFile=/etc/default/edgeiq-server
+User=edgeiq
+Group=edgeiq
+ExecStart=/usr/sbin/edgeiq run server
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# Create environment file
+echo "Creating environment file..."
+cat > /etc/default/edgeiq-server << EOF
+EDGEIQ_STAGING_DIR=/var/lib/edgeiq-server
+EDGEIQ_LICENSE_EULA_ACCEPT=yes
+EDGEIQ_ADMIN_INIT_PASSWORD=ChangeMeVerySoon
+EOF
+
+# Set proper permissions
+chmod 600 /etc/default/edgeiq-server
+
+# Reload systemd
+echo "Reloading systemd..."
+systemctl daemon-reload
+
+# Enable and start the service
+echo "Enabling and starting Edge IQ server..."
+systemctl enable edgeiq-server
+systemctl start edgeiq-server
+
+echo ""
+echo "=== Installation Complete ==="
+echo "Edge IQ server is now running at http://127.0.0.1:3000"
+echo "Login with username: admin"
+echo "Password: ChangeMeVerySoon"
+echo ""
+echo "IMPORTANT: Change the admin password immediately after first login!"
+```
+
+## Manual Installation
+
+If you prefer to set up the server manually, follow these steps:
+
 1. Create a system account.
 
 2. Create a data directory.
