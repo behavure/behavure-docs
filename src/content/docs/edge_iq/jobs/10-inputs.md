@@ -2,7 +2,6 @@
 title: Job inputs
 description: Job inputs
 slug: jobs/inputs
-draft: true
 sidebar:
   label: Inputs
   order: 10

@@ -255,11 +255,11 @@ export default defineConfig({
                 collapsed: true,
                 autogenerate: { directory: "edge_iq/legal", collapsed: true },
             },
-            {
-            label: "Releases",
-            collapsed: true,
-            autogenerate: { directory: "edge_iq/releases" },
-            },
+            // {
+            // label: "Releases",
+            // collapsed: true,
+            // autogenerate: { directory: "edge_iq/releases" },
+            // },
         ]
         }
       ],

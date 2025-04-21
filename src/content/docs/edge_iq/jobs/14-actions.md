@@ -2,7 +2,6 @@
 title: Job actions
 description: Job actions
 slug: jobs/actions
-draft: true
 sidebar:
   label: Actions
   order: 14
@@ -20,31 +19,30 @@ Events are typically represented as JSON within Jobs. Actions typically operate 
 
 E.g. 'I want to use regular expressions':
 
-- _extract_:  extract fields using a regular expression with groups
-- _extract_: substitute text using  `output-pattern`
+- _extract_: extract fields using a regular expression with groups
+- _extract_: substitute text using `output-pattern`
 - _filter_: pass through events if field values match (`how:patterns`) or not (`how:exclude`)
 
 Some people might be aware of `extract` as **grok** in other systems.
 
-Can arrive at *filter* from more direct questions like 'Only pass through certain events?', 'Enforce schema?'.
+Can arrive at _filter_ from more direct questions like 'Only pass through certain events?', 'Enforce schema?'.
 
-Multiple ways of accessing this information. For instance, a FAQ is a good old-fashioned way, very searchable. 
+Multiple ways of accessing this information. For instance, a FAQ is a good old-fashioned way, very searchable.
 
 'I want to reshape/manipulate events'
 
 - _add_: new fields - can `overwrite`. The new values may contain _variable expansions_.
-- *copy*: new fields copied from other parts of the event, using JSONPath notation.
-- *script*: new fields initialized using _Lua expressions_.
-- *remove*:  existing fields. May choose to complain if not present.
-- *flatten*:  remove any 'nested' objects in the event, force it to be flat.
+- _copy_: new fields copied from other parts of the event, using JSONPath notation.
+- _script_: new fields initialized using _Lua expressions_.
+- _remove_: existing fields. May choose to complain if not present.
+- _flatten_: remove any 'nested' objects in the event, force it to be flat.
 
 So there's a number of words like 'reshape' or 'manipulate' which point to the same need.
 
 'I want to convert text into numbers'
 
-- *convert*: specify fields and the desired type, e.g. 'num'. Can just set `auto` to get a reasonable guess.
-- *csv*:  can specify 'num' etc. when defining columns. There is `autoconvert`.
-- *extract*: can optionally specify this with `convert` parameter.
+- _convert_: specify fields and the desired type, e.g. 'num'. Can just set `auto` to get a reasonable guess.
+- _csv_: can specify 'num' etc. when defining columns. There is `autoconvert`.
+- _extract_: can optionally specify this with `convert` parameter.
 
-_Conversion_ is a very broad concept, including time!  *convert* is more UI discoverable than before, since `conversions` presents a drop-down of the conversion options, rather than having to remember the magic words. (There is also `units` similarly for the question 'How do I convert units?' )
-
+_Conversion_ is a very broad concept, including time! _convert_ is more UI discoverable than before, since `conversions` presents a drop-down of the conversion options, rather than having to remember the magic words. (There is also `units` similarly for the question 'How do I convert units?' )

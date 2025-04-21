@@ -26,7 +26,7 @@ Next, visit http://localhost:3000/ in your web browser to bring up the UI.
 Use the admin username and copied password to log in.
 
 :::note
-You may be prompted to add a license. Follow the [`Licensing`](20-licensing.mdx) instructions to get setup with a license.
+You may be prompted to add a license. Follow the [`Licensing`](/start/licensing/) instructions to get setup with a license.
 :::
 
 You will see a Dashboard like this:
