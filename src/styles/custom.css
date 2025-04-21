@@ -21,8 +21,8 @@
   --sl-color-accent-dark-gray: #333333;
   
   /* Documentation-specific properties */
-  --doc-bg-code: #1E1E1E;
-  --doc-border-color: transparent;
+  --doc-bg-code: #282A36;
+  --doc-border-color: #44475A;
   --doc-sidebar-bg: var(--sl-color-gray-1);
   --sl-content-width: 60rem;
   --sl-sidebar-width: 18rem;
@@ -47,10 +47,11 @@
   --sl-color-accent-low: rgba(74, 206, 166, 0.15);
   --sl-color-bg-accent: #009e73;
   --sl-color-text: rgba(255, 255, 255, 0.9);
-  --doc-bg-code: #1A1A1A;
+  --doc-bg-code: #282A36;
   --doc-sidebar-bg: var(--sl-color-black);
   --sl-color-bg: #13151A;
   --sl-color-bg-sidebar: var(--doc-sidebar-bg);
+  --doc-border-color: #44475A;
 }
 
 /* Light mode - currently disabled but kept for reference */
@@ -81,8 +82,8 @@
   }
   
   pre {
-    background-color: #f5f7fa !important;
-    border: none;
+    background-color: var(--doc-bg-code) !important;
+    border: 1px solid var(--doc-border-color) !important;
   }
   
   tr:nth-child(even) {
@@ -117,6 +118,9 @@
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 3px;
   }
+  
+  --doc-bg-code: #F2F4F8;
+  --doc-border-color: #E4E7EB;
 }
 
 /* Header */
@@ -305,11 +309,12 @@ a:hover {
 /* Code blocks */
 pre {
   background-color: var(--doc-bg-code) !important;
-  border: none;
-  border-radius: 0.5rem;
-  padding: 1.25rem;
-  margin: 1.5rem 0;
-  overflow-x: auto;
+  border: 1px solid var(--doc-border-color) !important;
+  border-radius: 8px !important;
+  padding: 1.25rem !important;
+  margin: 1.5rem 0 !important;
+  overflow-x: auto !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 :not(pre) > code {
