@@ -11,9 +11,13 @@ export default defineConfig({
       logo: {
         src: './src/assets/behavure-logo.svg',
       },
-      social: {
-        github: 'https://github.com/behavure/behavure-docs',
-      },
+      social: [
+        {
+          icon: 'github',
+          label: 'GitHub',
+          href: 'https://github.com/behavure/behavure-docs',
+        },
+      ],
       customCss: [
         './src/styles/custom.css',
       ],
@@ -224,11 +228,11 @@ export default defineConfig({
             },
             {
               label: "Get Started",
-              collapsed: true,
               autogenerate: { directory: "edge_iq/start" },
             },
             {
               label: "Install",
+              collapsed: true,
               autogenerate: { directory: "edge_iq/install" },
             },
             {
