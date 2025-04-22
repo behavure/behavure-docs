@@ -79,7 +79,7 @@ edgeiq login admin
 ```
 
 :::note
-On your first interaction with the CLI, you'll be prompted to accept the [EULA](/eula). Press `Enter` to scroll through the EULA and follow the prompts.
+On your first interaction with the CLI, you'll be prompted to accept the [EULA](/edge_iq/legal/eula/). Press `Enter` to scroll through the EULA and follow the prompts.
 :::
 
 After providing the password, you will see `Login successful`. Then add the new Worker:
