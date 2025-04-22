@@ -8,13 +8,10 @@ sidebar:
 draft: false
 ---
 
-Edge IQ supports reading from Microsoft Windows
-
-:::note
-The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [ask us](https://community.behavure.ai/) for direct support
-:::
+Edge IQ supports reading from Microsoft Windows. By leveraging Edge IQ's secure connectors, schema-less enrichment, and real-time streaming, your IT team gains comprehensive visibility—transforming Windows event logs into actionable insights for more effective system monitoring, security analysis, and operational management.
 
 ### Configure Edge IQ to read data from Microsoft Windows
 
 Add Edge IQ input **windows-event-log** to a job and configure:
+
+We’re currently working on expanding our Edge IQ documentation. Check back soon for detailed guides, tutorials, and reference materials.

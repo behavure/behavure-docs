@@ -8,12 +8,7 @@ sidebar:
 draft: false
 ---
 
-Edge IQ supports reading from and writing to Microsoft Sentinel
-
-:::note
-The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [ask us](https://community.behavure.ai/) for direct support
-:::
+Edge IQ supports reading from and writing to Microsoft Sentinel. By leveraging Edge IQ's secure connectors, schema-less enrichment, and real-time streaming, your security team gains comprehensive visibility—sending not just raw logs but full behavioral context into Microsoft Sentinel for faster, more accurate security monitoring and threat detection.
 
 ### Configure Edge IQ to read data from Microsoft Sentinel
 
@@ -22,3 +17,5 @@ Add Edge IQ input **azure-blob** or **s3** to a job and configure:
 ### Configure Edge IQ to write data to Microsoft Sentinel
 
 Add Edge IQ output **azure-blob**, **gcs**, **s3** or **http-post** to a job and configure:
+
+We’re currently working on expanding our Edge IQ documentation. Check back soon for detailed guides, tutorials, and reference materials.
