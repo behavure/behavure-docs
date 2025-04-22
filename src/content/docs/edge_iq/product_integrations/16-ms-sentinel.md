@@ -22,3 +22,5 @@ Add Edge IQ input **azure-blob** or **s3** to a job and configure:
 ### Configure Edge IQ to write data to Microsoft Sentinel
 
 Add Edge IQ output **azure-blob**, **gcs**, **s3** or **http-post** to a job and configure:
+
+If you have questions or notice something missing from our documentation, please reach out to support@behavure.ai

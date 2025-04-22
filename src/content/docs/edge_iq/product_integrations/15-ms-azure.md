@@ -22,3 +22,5 @@ Add Edge IQ input **azure-blob** to a job and configure:
 ### Configure Edge IQ to write data to Microsoft Azure
 
 Add Edge IQ output **azure-blob** to a job and configure:
+
+If you have questions or notice something missing from our documentation, please reach out to support@behavure.ai

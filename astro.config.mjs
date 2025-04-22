@@ -27,6 +27,48 @@ export default defineConfig({
           link: '/'
         },
         {
+          label: 'Edge IQ',
+          items: [
+            {
+              label: "Overview",
+              link: "edge_iq/",
+            },
+            {
+              label: "Get Started",
+              autogenerate: { directory: "edge_iq/start" },
+            },
+            {
+              label: "Install",
+              collapsed: true,
+              autogenerate: { directory: "edge_iq/install" },
+            },
+            {
+              label: "Jobs",
+              autogenerate: { directory: "edge_iq/jobs" },
+            },
+            {
+              label: "Product Integrations",
+              collapsed: true,
+              autogenerate: { directory: "edge_iq/product_integrations", collapsed: true },
+            },
+            {
+              label: "Guides",
+              collapsed: false,
+              autogenerate: { directory: "edge_iq/guides", collapsed: true },
+            },
+            {
+              label: "Reference",
+              collapsed: true,
+              autogenerate: { directory: "edge_iq/reference", collapsed: true },
+            },
+            {
+              label: "Legal",
+              collapsed: true,
+              autogenerate: { directory: "edge_iq/legal", collapsed: true },
+            },
+          ]
+        },
+        {
           label: 'Measure IQ',
           items: [
             {
@@ -217,54 +259,6 @@ export default defineConfig({
               }
             }
           ]
-        },
-        {
-          label: 'Edge IQ',
-          items: [
-
-            {
-              label: "Overview",
-              link: "edge_iq/",
-            },
-            {
-              label: "Get Started",
-              autogenerate: { directory: "edge_iq/start" },
-            },
-            {
-              label: "Install",
-              collapsed: true,
-              autogenerate: { directory: "edge_iq/install" },
-            },
-            {
-            label: "Jobs",
-            autogenerate: { directory: "edge_iq/jobs" },
-            },
-            {
-            label: "Product Integrations",
-            collapsed: true,
-            autogenerate: { directory: "edge_iq/product_integrations", collapsed: true },
-            },
-            {
-            label: "Guides",
-            collapsed: false,
-            autogenerate: { directory: "edge_iq/guides", collapsed: true },
-            },
-            {
-            label: "Reference",
-                collapsed: true,
-                autogenerate: { directory: "edge_iq/reference", collapsed: true },
-            },
-            {
-            label: "Legal",
-                collapsed: true,
-                autogenerate: { directory: "edge_iq/legal", collapsed: true },
-            },
-            // {
-            // label: "Releases",
-            // collapsed: true,
-            // autogenerate: { directory: "edge_iq/releases" },
-            // },
-        ]
         }
       ],
       plugins: [starlightComponents],

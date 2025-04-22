@@ -8,6 +8,15 @@ sidebar:
 draft: false
 ---
 
+Edge IQ integrates with CrowdStrike Falcon LogScale, CrowdStrike's enterprise SIEM (Security Information and Event Management) platform. This integration enables organizations to:
+
+- Centralize security event data from Edge IQ devices into CrowdStrike's industry-leading security platform
+- Leverage CrowdStrike's advanced threat detection and response capabilities
+- Maintain comprehensive security visibility across your entire network infrastructure
+- Meet compliance requirements with detailed security logging and monitoring
+
+Choose from multiple integration methods to best suit your security architecture:
+
 ### LogScale HEC API
 
 - add Edge IQ output **splunk-hec**
