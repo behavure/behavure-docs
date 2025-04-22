@@ -8,12 +8,7 @@ sidebar:
 draft: false
 ---
 
-Edge IQ supports reading from CDM
-
-:::note
-The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [contact us](https://behavure.ai/contact) for direct support
-:::
+Edge IQ supports reading from CDM. By leveraging Edge IQ's secure connectors, schema-less enrichment, and real-time streaming, your security team gains comprehensive visibility—sending not just raw logs but full behavioral context into CrowdStrike for faster, more accurate detection and response.
 
 ### Configure Edge IQ to read data from CDM
 

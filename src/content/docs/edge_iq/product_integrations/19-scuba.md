@@ -8,12 +8,7 @@ sidebar:
 draft: false
 ---
 
-Edge IQ supports reading from and writing to Scuba Analytics
-
-:::note
-The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [ask us](https://community.behavure.ai/) for direct support
-:::
+Edge IQ supports reading from and writing to Scuba Analytics. By leveraging Edge IQ's secure connectors, schema-less enrichment, and real-time streaming, your analytics team gains comprehensive visibility—seamlessly integrating behavioral data between Edge IQ and Scuba Analytics for more accurate user behavior analysis and product insights.
 
 ### Configure Edge IQ to read data from Scuba Analytics
 

@@ -10,12 +10,7 @@ draft: false
 
 ## GAM
 
-Edge IQ supports reading from Google Ad Manager (GAM)
-
-:::note
-The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [contact us](https://behavure.ai/contact) for direct support
-:::
+Edge IQ supports reading from Google Ad Manager (GAM). By leveraging Edge IQ's secure connectors, schema-less enrichment, and real-time streaming, your advertising team gains comprehensive visibility—transforming raw GAM data into actionable insights for more effective ad performance analysis and optimization.
 
 ### Configure Edge IQ to read data from GAM
 

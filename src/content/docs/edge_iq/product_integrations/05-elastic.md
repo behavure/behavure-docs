@@ -8,12 +8,7 @@ sidebar:
 draft: false
 ---
 
-Edge IQ supports writing to Elastic
-
-:::note
-The Edge IQ UI is designed to be self explaining and already documents all possible configuration parameters. All published features are available while we are working on this web documentation.
-Please [contact us](https://behavure.ai/contact) for direct support
-:::
+Edge IQ supports writing to Elastic. By leveraging Edge IQ's secure connectors, schema-less enrichment, and real-time streaming, your team gains comprehensive visibility—transforming raw data into actionable insights within Elastic's powerful search and analytics platform for faster, more accurate decision-making.
 
 ### Configure Edge IQ to write data to Elastic
 

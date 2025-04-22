@@ -10,7 +10,7 @@ draft: false
 
 ## GCS
 
-Edge IQ supports reading from and writing to Google Cloud Storage (GCS)
+Edge IQ supports reading from and writing to Google Cloud Storage (GCS). By leveraging Edge IQ's secure connectors, schema-less enrichment, and real-time streaming, your team gains comprehensive visibility—seamlessly integrating with GCS for efficient data storage, retrieval, and analysis while maintaining optimal performance and scalability.
 
 ### Configure Edge IQ to read data from GCS
 

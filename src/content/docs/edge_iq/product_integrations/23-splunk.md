@@ -26,3 +26,5 @@ Add Edge IQ output **splunk-hec** to a job and configure:
 - **Remove**: Consume (remove) fields from the event payload before submitting to the endpoint. Applicable to time-field, host-field, source-field, sourcetype-field, index-field and hec-token-field
 - **Event Field**: If specified the field's contents will be submitted as the event payload to the endpoint
 - **Time Field**: Use the specified field for the timestamp of the endpoint, should be in Unix epoch format
+
+If you have questions or notice something missing from our documentation, please reach out to support@behavure.ai
