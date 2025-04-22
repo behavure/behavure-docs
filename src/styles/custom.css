@@ -488,3 +488,17 @@ aside.right-sidebar {
   background: var(--sl-color-accent-cyan);
 }
 
+/* Hero section adjustments */
+.hero {
+  padding-block: 0rem;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+}
+
+.hero .tagline {
+  margin-bottom: 1.5rem;
+}
+
