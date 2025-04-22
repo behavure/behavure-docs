@@ -7,7 +7,7 @@ sidebar:
   order: 5
 ---
 
-![visual editor](../../../../assets/visual-editor.png)
+![visual editor](../../../../assets/edgeiq-visual-editor.png)
 
 Jobs are configured and tested via the UI's visual editor.
 

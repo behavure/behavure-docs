@@ -19,7 +19,7 @@ Click `Skip quick setup` to get the default job configuration:
 
 You will end up in the _visual editor_:
 
-![visual editor](../../../../assets/visual-editor.png)
+![visual editor](../../../../assets/edgeiq-visual-editor.png)
 
 It is important to notice that the job has been given a temporary name "new-job" with "unsaved" next to this. At this point, you edit the job name in place, hit `Ok` and press `Save` on the top-right.
 
