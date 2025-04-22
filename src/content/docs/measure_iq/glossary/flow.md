@@ -16,7 +16,7 @@ Each instance of a flow is called a [flow instance](flow-instance). Flow instanc
 
 ## Related terms
 
-- [Actor](actor)
+- [Actor](../actor)
 - [Flow Instance](flow-instance)
 - [Flow Property](flow-property)
 - [Journey](journey-actor-user)
