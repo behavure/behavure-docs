@@ -17,10 +17,10 @@ Each instance of a flow is called a [flow instance](flow-instance). Flow instanc
 ## Related terms
 
 - [Actor](../actor)
-- [Flow Instance](flow-instance)
-- [Flow Property](flow-property)
-- [Journey](journey-actor-user)
-- [Sankey Diagram](sankey-view-diagram)
+- [Flow Instance](../flow-instance)
+- [Flow Property](../flow-property)
+- [Journey](../journey-actor-user)
+- [Sankey Diagram](../sankey-view-diagram)
 
 ## More information
 
