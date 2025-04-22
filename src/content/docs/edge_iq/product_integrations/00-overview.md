@@ -81,27 +81,27 @@ For HTTP outputs, Edge IQ provides:
 
 Below is a comprehensive list of supported product integrations, showing their available input sources and output destinations:
 
-| Product Integration                                                                | Source Input                   | Destination Output             |
-| ---------------------------------------------------------------------------------- | ------------------------------ | ------------------------------ |
-| [AWS S3](../product_integrations/s3)                                               | s3                             | s3                             |
-| [AWS Cloudtrail](../product_integrations/aws-cloudtrail)                           | s3                             | s3                             |
-| [AWS Cloudwatch](../product_integrations/aws-cloudwatch)                           | s3                             | s3                             |
-| [CrowdStrike Falcon LogScale](../product_integrations/crowdstrike-falcon-logscale) |                                | http-post, splunk-hec, s3      |
-| [CrowdStrike Detection Monitoring](../product_integrations/cdm)                    | http-poll                      |                                |
-| [Elastic](../product_integrations/elastic)                                         |                                | http-post                      |
-| [Google Analytics (GA4)](../product_integrations/google-analytics)                 | s3, gcs                        |                                |
-| [Google Ad Manager (GAM)](../product_integrations/google-ad-manager)               | s3, gcs                        |                                |
-| [Google Cloud Storage (GCS)](../product_integrations/google-cloud-storage)         | gcs                            | gcs                            |
-| [Logsign](../product_integrations/logsign)                                         |                                | files                          |
-| [Edge IQ Worker](../product_integrations/edge-iq-worker)                           | worker-channel                 | worker-channel                 |
-| [Measure IQ](../product_integrations/measure-iq)                                   | s3, azure-blob, gcs, http-poll | s3, azure-blob, gcs, http-post |
-| [Microsoft Azure](../product_integrations/microsoft-azure)                         | azure-blob                     | azure-blob                     |
-| [Microsoft Graph API](../product_integrations/microsoft-graph-api)                 |                                | http-post                      |
-| [Microsoft Sentinel](../product_integrations/microsoft-sentinel)                   | s3, azure-blob                 | s3, azure-blob, gcs, http-post |
-| [Microsoft Windows](../product_integrations/microsoft-windows)                     | windows-event-log              |                                |
-| [Linux shell](../product_integrations/linux-shell)                                 | exec                           |                                |
-| [Splunk](../product_integrations/splunk)                                           | http-poll                      | splunk-hec                     |
-| [Twilio Segment](../product_integrations/segment)                                  | s3, azure-blob, gcs, http-poll |                                |
+| Product Integration                                           | Source Input                   | Destination Output             |
+| ------------------------------------------------------------- | ------------------------------ | ------------------------------ |
+| [AWS S3](../s3)                                               | s3                             | s3                             |
+| AWS Cloudtrail                                                | s3                             | s3                             |
+| AWS Cloudwatch                                                | s3                             | s3                             |
+| [CrowdStrike Falcon LogScale](../crowdstrike-falcon-logscale) |                                | http-post, splunk-hec, s3      |
+| [CrowdStrike Detection Monitoring](../cdm)                    | http-poll                      |                                |
+| [Elastic](../elastic)                                         |                                | http-post                      |
+| [Google Analytics (GA4)](../ga4)                              | s3, gcs                        |                                |
+| [Google Ad Manager (GAM)](../gam)                             | s3, gcs                        |                                |
+| [Google Cloud Storage (GCS)](../gcs)                          | gcs                            | gcs                            |
+| [Logsign](../logsign)                                         |                                | files                          |
+| Edge IQ Worker                                                | worker-channel                 | worker-channel                 |
+| [Measure IQ](../measure-iq)                                   | s3, azure-blob, gcs, http-poll | s3, azure-blob, gcs, http-post |
+| [Microsoft Azure](../azure)                                   | azure-blob                     | azure-blob                     |
+| Microsoft Graph API                                           |                                | http-post                      |
+| [Microsoft Sentinel](../sentinel)                             | s3, azure-blob                 | s3, azure-blob, gcs, http-post |
+| [Microsoft Windows](../windows)                               | windows-event-log              |                                |
+| Linux shell                                                   | exec                           |                                |
+| [Splunk](../splunk)                                           | http-poll                      | splunk-hec                     |
+| [Twilio Segment](../segment)                                  | s3, azure-blob, gcs, http-poll |                                |
 
 ## Getting Started with Integrations
 

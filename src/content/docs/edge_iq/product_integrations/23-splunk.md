@@ -8,6 +8,8 @@ sidebar:
 draft: false
 ---
 
+Edge IQ supports seamless integration with Splunk Cloud and Splunk Enterprise through the Splunk HTTP Event Collector (HEC). By leveraging Edge IQ's secure connectors, real-time streaming, and flexible data transformation capabilities, your team can efficiently route and process data into Splunk for comprehensive log analysis, security monitoring, and operational intelligence while maintaining optimal performance and scalability.
+
 ## Splunk HEC output
 
 Edge IQ supports Splunk Http Event Collector (HEC) to send data to Splunk.
@@ -27,4 +29,4 @@ Add Edge IQ output **splunk-hec** to a job and configure:
 - **Event Field**: If specified the field's contents will be submitted as the event payload to the endpoint
 - **Time Field**: Use the specified field for the timestamp of the endpoint, should be in Unix epoch format
 
-We’re currently working on expanding our Edge IQ documentation. Check back soon for detailed guides, tutorials, and reference materials.
+We're currently working on expanding our Edge IQ documentation. Check back soon for detailed guides, tutorials, and reference materials.
