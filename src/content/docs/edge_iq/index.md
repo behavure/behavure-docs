@@ -20,7 +20,7 @@ Customers leverage Edge IQ to extract value from their data faster, with less co
 ## User Experience (UX)
 
 - **Intuitive Interface**  
-  Define, schedule, and monitor pipelines via a visual editor that’s accessible to teams without deep data‑engineering expertise.
+  Define, schedule, and monitor pipelines via a visual editor that's accessible to teams without deep data‑engineering expertise.
 
 - **Visual Pipeline Builder**  
   Drag‑and‑drop components simplify development, testing, and troubleshooting.
@@ -61,7 +61,7 @@ Customers leverage Edge IQ to extract value from their data faster, with less co
 
 ## Privacy & Security
 
-Security is core to Edge IQ’s design, engineered for the most sensitive environments:
+Security is core to Edge IQ's design, engineered for the most sensitive environments:
 
 - **Tamper‑Proof Pipelines**  
   Cryptographically secure data processing across all nodes.
@@ -103,6 +103,55 @@ Security is core to Edge IQ’s design, engineered for the most sensitive enviro
 - Cloud‑native, on‑premise, and hybrid deployment options
 - Real‑time monitoring and remote capture on live pipelines
 - Usage metrics collection and audit logging
+
+## YAML Configuration
+
+Edge IQ supports comprehensive YAML-based configuration for defining data pipelines, making it easy to version control and automate deployments:
+
+- **Input Definitions**
+
+  - Configure data sources using YAML
+  - Define connection parameters, authentication, and polling intervals
+  - Specify data format and parsing rules
+  - Set up error handling and retry policies
+
+- **Output Definitions**
+
+  - Define destination endpoints and protocols
+  - Configure batching and buffering settings
+  - Set up data transformation rules
+  - Specify error handling and retry mechanisms
+
+- **Action Definitions**
+  - Define data transformation steps
+  - Configure filtering and enrichment rules
+  - Set up conditional routing logic
+  - Specify data validation and quality checks
+
+Example YAML structure:
+
+```yaml
+pipeline:
+  name: "example-pipeline"
+  inputs:
+    - type: "s3"
+      config:
+        bucket: "source-bucket"
+        region: "us-east-1"
+  actions:
+    - type: "transform"
+      config:
+        rules:
+          - field: "timestamp"
+            operation: "format"
+            format: "ISO8601"
+  outputs:
+    - type: "http-post"
+      config:
+        endpoint: "https://api.example.com/data"
+        headers:
+          Authorization: "Bearer ${API_KEY}"
+```
 
 ## Contact
 
