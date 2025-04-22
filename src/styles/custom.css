@@ -473,3 +473,18 @@ aside.right-sidebar {
   padding: 1rem;
 }
 
+/* Hero Section Styles */
+.sl-flex.copy {
+  color: var(--sl-color-white);
+}
+
+.sl-link-button.not-content.primary {
+  background: var(--sl-color-accent);
+  color: var(--sl-color-white);
+  border: none;
+}
+
+.sl-link-button.not-content.primary:hover {
+  background: var(--sl-color-accent-cyan);
+}
+
