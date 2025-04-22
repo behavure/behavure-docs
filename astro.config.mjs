@@ -224,11 +224,11 @@ export default defineConfig({
             },
             {
               label: "Get Started",
-              collapsed: true,
               autogenerate: { directory: "edge_iq/start" },
             },
             {
               label: "Install",
+              collapsed: true,
               autogenerate: { directory: "edge_iq/install" },
             },
             {
