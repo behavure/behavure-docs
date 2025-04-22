@@ -18,4 +18,4 @@ Add Edge IQ input **s3**, **azure-blob**, **gcs** or **http-poll** to a job and 
 
 Add Edge IQ output **s3**, **azure-blob**, **gcs** or **http-post** to a job and configure:
 
-If you have questions or notice something missing from our documentation, please reach out to support@behavure.ai
+We’re currently working on expanding our Edge IQ documentation. Check back soon for detailed guides, tutorials, and reference materials.

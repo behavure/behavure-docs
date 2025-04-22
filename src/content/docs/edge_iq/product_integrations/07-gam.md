@@ -16,4 +16,4 @@ Edge IQ supports reading from Google Ad Manager (GAM). By leveraging Edge IQ's s
 
 Add Edge IQ input **gcs** or **s3** to a job and configure:
 
-If you have questions or notice something missing from our documentation, please reach out to support@behavure.ai
+We’re currently working on expanding our Edge IQ documentation. Check back soon for detailed guides, tutorials, and reference materials.

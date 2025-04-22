@@ -14,4 +14,4 @@ Edge IQ supports writing to Logsign. By leveraging Edge IQ's secure connectors, 
 
 Add Edge IQ output **http-post** or **file** to a job and configure:
 
-If you have questions or notice something missing from our documentation, please reach out to support@behavure.ai
+We’re currently working on expanding our Edge IQ documentation. Check back soon for detailed guides, tutorials, and reference materials.
