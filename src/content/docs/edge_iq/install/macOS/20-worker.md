@@ -1,5 +1,5 @@
 ---
-title: Worker Installation
+title: macOS Worker Installation
 description: macOS Worker Installation
 slug: install/macos/worker
 sidebar:

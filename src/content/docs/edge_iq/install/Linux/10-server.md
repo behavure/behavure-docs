@@ -1,5 +1,5 @@
 ---
-title: Server Installation
+title: Linux Server Installation
 description: Server Installation
 slug: install/linux/server
 sidebar:

@@ -1,5 +1,5 @@
 ---
-title: Server Installation
+title: macOS Server Installation
 description: macOS Server Installation
 slug: install/macos/server
 sidebar:
