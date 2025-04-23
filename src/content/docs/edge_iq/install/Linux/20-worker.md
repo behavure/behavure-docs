@@ -1,5 +1,5 @@
 ---
-title: Worker Installation
+title: Linux Worker Installation
 description: Worker Installation
 slug: install/linux/worker
 sidebar:

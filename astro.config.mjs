@@ -40,7 +40,17 @@ export default defineConfig({
             {
               label: "Install",
               collapsed: true,
-              autogenerate: { directory: "edge_iq/install" },
+              items: [
+                { label: "Overview", link: "/edge_iq/install/overview" },
+                {
+                  label: "macOS",
+                  autogenerate: { directory: "edge_iq/install/macOS" }
+                },
+                {
+                  label: "Linux",
+                  autogenerate: { directory: "edge_iq/install/Linux" }
+                }
+              ]
             },
             {
               label: "Jobs",
