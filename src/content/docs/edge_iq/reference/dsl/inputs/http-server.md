@@ -31,12 +31,12 @@ Run an HTTP server and output any received requests.
 
 
 
-<h3 id="tls-fields">Tls Fields</h3>
+### Tls Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `cert` | [`string`](../types/http-server-input-tls-cert.md#http-server-input-tls-cert) | ✅ | . |
-| `key` | [`string`](../types/http-server-input-tls-key.md#http-server-input-tls-key) | ✅ | . |
+| `cert` | `string` | ✅ | . |
+| `key` | `string` | ✅ | . |
 
 
 

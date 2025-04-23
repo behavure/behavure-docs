@@ -29,7 +29,7 @@ Receive internal messages.
 
 
 
-<h3 id="filter-kind-options">Filter Kind Options</h3>
+### Filter Kind Options
 
 | Value | Name | Description |
 |---|---|---|
@@ -38,7 +38,7 @@ Receive internal messages.
 
 
 
-<h3 id="filter-source-options">Filter Source Options</h3>
+### Filter Source Options
 
 | Value | Name | Description |
 |---|---|---|
@@ -48,7 +48,7 @@ Receive internal messages.
 
 
 
-<h3 id="filter-type-options">Filter Type Options</h3>
+### Filter Type Options
 
 | Value | Name | Description |
 |---|---|---|

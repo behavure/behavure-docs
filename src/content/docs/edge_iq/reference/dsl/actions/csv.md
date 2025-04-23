@@ -33,14 +33,14 @@ Parse CSV from field text.
 
 
 
-<h3 id="header-fields-fields">Header Fields Fields</h3>
+### Header Fields Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `header-field` | [`string`](../types/csv-header-fields-header-field.md#csv-header-fields-header-field) | ❌ | Field containing header (CSV column names). |
-| `header-field-types` | [`bool`](../types/csv-header-fields-header-field-types.md#csv-header-fields-header-field-types) | ❌ | Field containing header has types specified (with name:type format). |
-| `header-field-on-change` | [`bool`](../types/csv-header-fields-header-field-on-change.md#csv-header-fields-header-field-on-change) | ❌ | With 'header-field`, only write out headers if columns change. |
-| `null-value` | [`string`](../types/string.md#string) | ❌ | A subSstitute string value to be used in the event that a field is null. |
+| `header-field` | `string` |  | Field containing header (CSV column names). |
+| `header-field-types` | `bool` |  | Field containing header has types specified (with name:type format). |
+| `header-field-on-change` | `bool` |  | With 'header-field`, only write out headers if columns change. |
+| `null-value` | `string` |  | A subSstitute string value to be used in the event that a field is null. |
 
 
 

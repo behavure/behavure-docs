@@ -27,28 +27,28 @@ Convert fields from one type to another, e.g. strings to numbers.
 
 
 
-<h3 id="conversions-fields">Conversions Fields</h3>
+### Conversions Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `field` | [`string`](../types/string.md#string) | ✅ | event field to be converted in-place. |
-| `conversion` | [`symbol`](../types/convert-conversions-conversion.md#convert-conversions-conversion) | ✅ | conversion operation. |
+| `field` | `string` | ✅ | event field to be converted in-place. |
+| `conversion` | `symbol` | ✅ | conversion operation. |
 
 
 
-<h3 id="units-fields">Units Fields</h3>
+### Units Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `field` | [`string`](../types/string.md#string) | ✅ | event field to be converted in-place. |
-| `to` | [`symbol`](../types/convert-units-to.md#convert-units-to) | ✅ | the unit we are converting to. |
-| `from` | [`symbol`](../types/convert-units-from.md#convert-units-from) | ❌ | optional unit we are converting from. |
+| `field` | `string` | ✅ | event field to be converted in-place. |
+| `to` | `symbol` | ✅ | the unit we are converting to. |
+| `from` | `symbol` |  | optional unit we are converting from. |
 
 
 
 
 
-<h3 id="null-behaviour-options">Null Behaviour Options</h3>
+### Null Behaviour Options
 
 | Value | Name | Description |
 |---|---|---|

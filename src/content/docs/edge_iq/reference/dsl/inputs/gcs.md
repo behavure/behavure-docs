@@ -55,18 +55,18 @@ Read objects from Google Cloud Storage.
 
 
 
-<h3 id="retry-fields">Retry Fields</h3>
+### Retry Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `count` | [`integer`](../types/retry-count.md#retry-count) | ❌ | How to retry? Either forever or for a limited number of times. |
-| `pause` | [`string`](../types/retry-pause.md#retry-pause) | ❌ | How long to pause before re-trying. |
+| `count` | `integer` |  | How to retry? Either forever or for a limited number of times. |
+| `pause` | `string` |  | How long to pause before re-trying. |
 
 
 
 
 
-<h3 id="mode-options">Mode Options</h3>
+### Mode Options
 
 | Value | Name | Description |
 |---|---|---|
@@ -76,7 +76,7 @@ Read objects from Google Cloud Storage.
 
 
 
-<h3 id="timestamp-mode-options">Timestamp Mode Options</h3>
+### Timestamp Mode Options
 
 | Value | Name | Description |
 |---|---|---|
@@ -86,7 +86,7 @@ Read objects from Google Cloud Storage.
 
 
 
-<h3 id="preprocessors-options">Preprocessors Options</h3>
+### Preprocessors Options
 
 | Value | Name | Description |
 |---|---|---|

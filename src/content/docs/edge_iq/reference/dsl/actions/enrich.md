@@ -28,23 +28,23 @@ Look up values in a CSV or Sqlite database and add matching fields.
 
 
 
-<h3 id="add-fields">Add Fields</h3>
+### Add Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `event-field` | [`string`](../types/enrich-add-event-field.md#enrich-add-event-field) | ✅ | Field name to be added to the event. |
-| `lookup-field` | [`string`](../types/enrich-add-lookup-field.md#enrich-add-lookup-field) | ✅ | Field (CSV header) to lookup data to be place in event-field. |
-| `default-value` | [`object`](../types/enrich-add-default-value.md#enrich-add-default-value) | ❌ | YAML formatted default value if the event is empty. |
+| `event-field` | `string` | ✅ | Field name to be added to the event. |
+| `lookup-field` | `string` | ✅ | Field (CSV header) to lookup data to be place in event-field. |
+| `default-value` | `object` |  | YAML formatted default value if the event is empty. |
 
 
 
-<h3 id="match-fields">Match Fields</h3>
+### Match Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `type` | [`symbol`](../types/enrich-match-type.md#enrich-match-type) | ✅ | The type of the match. |
-| `event-field` | [`string`](../types/enrich-match-event-field.md#enrich-match-event-field) | ✅ | field containing the value to lookup. |
-| `lookup-field` | [`string`](../types/enrich-match-lookup-field.md#enrich-match-lookup-field) | ✅ | name of CSV or database field to be compared. |
+| `type` | `symbol` | ✅ | The type of the match. |
+| `event-field` | `string` | ✅ | field containing the value to lookup. |
+| `lookup-field` | `string` | ✅ | name of CSV or database field to be compared. |
 
 
 

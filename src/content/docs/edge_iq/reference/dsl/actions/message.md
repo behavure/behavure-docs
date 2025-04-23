@@ -27,7 +27,7 @@ Conditionally generate a message when an event meets the provided condition.
 
 
 
-<h3 id="notification-type-options">Notification Type Options</h3>
+### Notification Type Options
 
 | Value | Name | Description |
 |---|---|---|

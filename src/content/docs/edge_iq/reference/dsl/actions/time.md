@@ -34,19 +34,19 @@ Time processing: parsing and formatting time values.
 
 
 
-<h3 id="time-range-conditions-fields">Time Range Conditions Fields</h3>
+### Time Range Conditions Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `times` | [`string`](../types/time-time-range-conditions-times.md#time-time-range-conditions-times) | ✅ | . |
-| `output-fields` | [`object`](../types/time-time-range-conditions-output-fields.md#time-time-range-conditions-output-fields) | ❌ | . |
-| `time-range-output` | [`object`](../types/time-time-range-conditions-time-range-output.md#time-time-range-conditions-time-range-output) | ❌ | . |
+| `times` | `string` | ✅ | . |
+| `output-fields` | `object` |  | . |
+| `time-range-output` | `object` |  | . |
 
 
 
 
 
-<h3 id="local-options">Local Options</h3>
+### Local Options
 
 | Value | Name | Description |
 |---|---|---|

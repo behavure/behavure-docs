@@ -23,7 +23,7 @@ Print event payloads to the terminal.
 
 
 
-<h3 id="output-options">Output Options</h3>
+### Output Options
 
 | Value | Name | Description |
 |---|---|---|

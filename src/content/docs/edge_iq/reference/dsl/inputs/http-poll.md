@@ -37,52 +37,52 @@ Run HTTP queries.
 
 
 
-<h3 id="retry-fields">Retry Fields</h3>
+### Retry Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `count` | [`integer`](../types/retry-count.md#retry-count) | ❌ | How to retry? Either forever or for a limited number of times. |
-| `pause` | [`string`](../types/retry-pause.md#retry-pause) | ❌ | How long to pause before re-trying. |
+| `count` | `integer` |  | How to retry? Either forever or for a limited number of times. |
+| `pause` | `string` |  | How long to pause before re-trying. |
 
 
 
-<h3 id="batch-fields">Batch Fields</h3>
-
-| Field | Type | Required | Description |
-|---|---|:---:|---|
-| `uuid-field` | [`string`](../types/batch-uuid-field.md#batch-uuid-field) | ❌ | Field where generated uuid, the unique marker for the group, will be stored. |
-| `invocation-time-field` | [`string`](../types/batch-invocation-time-field.md#batch-invocation-time-field) | ❌ | Field where invocation time will be stored. |
-| `completion-time-field` | [`string`](../types/batch-completion-time-field.md#batch-completion-time-field) | ❌ | Field where completion (end of execution) time will be stored. |
-| `begin-marker-field` | [`string`](../types/batch-begin-marker-field.md#batch-begin-marker-field) | ❌ | Field used to mark first event in the group. |
-| `end-marker-field` | [`string`](../types/batch-end-marker-field.md#batch-end-marker-field) | ❌ | Field used to mark last event in the group. |
-| `line-count-field` | [`string`](../types/batch-line-count-field.md#batch-line-count-field) | ❌ | Field used to store the line count of the batch. |
-| `line-num-field` | [`string`](../types/batch-line-num-field.md#batch-line-num-field) | ❌ | Field used to store the line number of the batch. |
-
-
-
-<h3 id="auth-fields">Auth Fields</h3>
+### Batch Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `username` | [`string`](../types/string.md#string) | ✅ | Name of User. |
-| `password` | [`string`](../types/string.md#string) | ✅ | Password. |
+| `uuid-field` | `string` |  | Field where generated uuid, the unique marker for the group, will be stored. |
+| `invocation-time-field` | `string` |  | Field where invocation time will be stored. |
+| `completion-time-field` | `string` |  | Field where completion (end of execution) time will be stored. |
+| `begin-marker-field` | `string` |  | Field used to mark first event in the group. |
+| `end-marker-field` | `string` |  | Field used to mark last event in the group. |
+| `line-count-field` | `string` |  | Field used to store the line count of the batch. |
+| `line-num-field` | `string` |  | Field used to store the line number of the batch. |
 
 
 
-<h3 id="response-fields">Response Fields</h3>
+### Auth Fields
 
 | Field | Type | Required | Description |
 |---|---|:---:|---|
-| `json` | [`bool`](../types/http-poll-input-response-json.md#http-poll-input-response-json) | ❌ | Return response in JSON format as single line-delimited event. |
-| `status-field` | [`string`](../types/http-poll-input-response-status-field.md#http-poll-input-response-status-field) | ❌ | Field to store HTTP status code. |
-| `headers-field` | [`string`](../types/http-poll-input-response-headers-field.md#http-poll-input-response-headers-field) | ❌ | Field to store response headers. |
-| `response-field` | [`string`](../types/http-poll-input-response-response-field.md#http-poll-input-response-response-field) | ❌ | Field to store the body of the response. |
+| `username` | `string` | ✅ | Name of User. |
+| `password` | `string` | ✅ | Password. |
+
+
+
+### Response Fields
+
+| Field | Type | Required | Description |
+|---|---|:---:|---|
+| `json` | `bool` |  | Return response in JSON format as single line-delimited event. |
+| `status-field` | `string` |  | Field to store HTTP status code. |
+| `headers-field` | `string` |  | Field to store response headers. |
+| `response-field` | `string` |  | Field to store the body of the response. |
 
 
 
 
 
-<h3 id="method-options">Method Options</h3>
+### Method Options
 
 | Value | Name | Description |
 |---|---|---|

@@ -31,7 +31,7 @@ Parse key-value pairs, like "k1=v1,k2=v2,....".
 
 
 
-<h3 id="multiple-options">Multiple Options</h3>
+### Multiple Options
 
 | Value | Name | Description |
 |---|---|---|
