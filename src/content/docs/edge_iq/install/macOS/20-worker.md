@@ -22,7 +22,7 @@ Set up a new Worker as follows:
 4. Start the Worker
 
 :::note
-The evaluation license allows 1 external Worker.
+The evaluation license allows 1 Worker instance, used by the built-in worker.
 :::
 
 ## Generate an API key
