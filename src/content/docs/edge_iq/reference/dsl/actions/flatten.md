@@ -1,3 +1,11 @@
+---
+title: Flatten
+description: Reference for the Flatten component in Edge IQ's DSL
+slug: actions/flatten
+---
+
+
+
 # Flatten (`flatten`)
 
 Flatten nested JSON Objects and Arrays into a single JSON Object containing only top-level fields.

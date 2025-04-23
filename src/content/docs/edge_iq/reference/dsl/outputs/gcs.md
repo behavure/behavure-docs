@@ -1,3 +1,11 @@
+---
+title: Gcs
+description: Reference for the Gcs component in Edge IQ's DSL
+slug: outputs/gcs
+---
+
+
+
 # Google Cloud Storage (`gcs`)
 
 Write events to a Google Cloud bucket.

@@ -1,3 +1,11 @@
+---
+title: Extract
+description: Reference for the Extract component in Edge IQ's DSL
+slug: actions/extract
+---
+
+
+
 # Extract (`extract`)
 
 Extract fields from text using regular expressions.

@@ -1,3 +1,11 @@
+---
+title: Xml
+description: Reference for the Xml component in Edge IQ's DSL
+slug: actions/xml
+---
+
+
+
 # Xml (`xml`)
 
 expand XML into JSON events.

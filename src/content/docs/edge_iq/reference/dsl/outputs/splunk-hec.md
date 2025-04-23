@@ -1,3 +1,11 @@
+---
+title: Splunk Hec
+description: Reference for the Splunk Hec component in Edge IQ's DSL
+slug: outputs/splunk-hec
+---
+
+
+
 # Splunk HEC (`splunk-hec`)
 
 Output events to a Splunk HTTP Event Collector endpoint (Splunk HEC).

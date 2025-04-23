@@ -1,3 +1,11 @@
+---
+title: File Store
+description: Reference for the File Store component in Edge IQ's DSL
+slug: inputs/file-store
+---
+
+
+
 # File Store (`file-store`)
 
 Read from a local file system object store bucket.

@@ -1,3 +1,11 @@
+---
+title: Outputs Reference
+description: Reference documentation for Edge IQ's Outputs Reference
+slug: outputs/README
+---
+
+
+
 # Output Items
 
 - [Azure Blob](azure-blob.md)

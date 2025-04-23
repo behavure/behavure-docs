@@ -1,3 +1,11 @@
+---
+title: Add
+description: Reference for the Add component in Edge IQ's DSL
+slug: actions/add
+---
+
+
+
 # Add (`add`)
 
 Add fields to the event.

@@ -1,3 +1,11 @@
+---
+title: Http Poll
+description: Reference for the Http Poll component in Edge IQ's DSL
+slug: inputs/http-poll
+---
+
+
+
 # HTTP Poll (`http-poll`)
 
 Run HTTP queries.

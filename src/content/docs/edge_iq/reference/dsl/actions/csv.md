@@ -1,3 +1,11 @@
+---
+title: Csv
+description: Reference for the Csv component in Edge IQ's DSL
+slug: actions/csv
+---
+
+
+
 # Csv (`csv`)
 
 Parse CSV from field text.

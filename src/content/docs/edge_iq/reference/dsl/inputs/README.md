@@ -1,3 +1,11 @@
+---
+title: Inputs Reference
+description: Reference documentation for Edge IQ's Inputs Reference
+slug: inputs/README
+---
+
+
+
 # Input Items
 
 - [Azure Blob](azure-blob.md)

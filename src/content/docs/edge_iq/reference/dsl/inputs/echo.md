@@ -1,3 +1,11 @@
+---
+title: Echo
+description: Reference for the Echo component in Edge IQ's DSL
+slug: inputs/echo
+---
+
+
+
 # Echo (`echo`)
 
 Create a simple static event.

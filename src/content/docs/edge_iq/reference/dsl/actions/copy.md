@@ -1,3 +1,11 @@
+---
+title: Copy
+description: Reference for the Copy component in Edge IQ's DSL
+slug: actions/copy
+---
+
+
+
 # Copy (`copy`)
 
 Copy fields of an event using JSONPATH expressions.

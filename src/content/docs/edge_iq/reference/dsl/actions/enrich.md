@@ -1,3 +1,11 @@
+---
+title: Enrich
+description: Reference for the Enrich component in Edge IQ's DSL
+slug: actions/enrich
+---
+
+
+
 # Enrich (`enrich`)
 
 Look up values in a CSV or Sqlite database and add matching fields.

@@ -1,3 +1,11 @@
+---
+title: Json
+description: Reference for the Json component in Edge IQ's DSL
+slug: actions/json
+---
+
+
+
 # Json (`json`)
 
 Parse text as JSON.

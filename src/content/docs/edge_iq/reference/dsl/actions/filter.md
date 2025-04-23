@@ -1,3 +1,11 @@
+---
+title: Filter
+description: Reference for the Filter component in Edge IQ's DSL
+slug: actions/filter
+---
+
+
+
 # Filter (`filter`)
 
 Only let certain events pass through.

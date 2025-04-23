@@ -1,3 +1,11 @@
+---
+title: Http Get
+description: Reference for the Http Get component in Edge IQ's DSL
+slug: outputs/http-get
+---
+
+
+
 # HTTP Get (`http-get`)
 
 Send event data to a remote server using GET.

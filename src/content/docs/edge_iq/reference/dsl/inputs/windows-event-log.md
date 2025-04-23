@@ -1,3 +1,11 @@
+---
+title: Windows Event Log
+description: Reference for the Windows Event Log component in Edge IQ's DSL
+slug: inputs/windows-event-log
+---
+
+
+
 # Windows Event Log (`windows-event-log`)
 
 Read events from Windows Event Log.

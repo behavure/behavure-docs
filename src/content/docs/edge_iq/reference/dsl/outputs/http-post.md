@@ -1,3 +1,11 @@
+---
+title: Http Post
+description: Reference for the Http Post component in Edge IQ's DSL
+slug: outputs/http-post
+---
+
+
+
 # HTTP Post (`http-post`)
 
 POST event data to an HTTPS server.

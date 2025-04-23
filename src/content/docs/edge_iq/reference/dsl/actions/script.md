@@ -1,3 +1,11 @@
+---
+title: Script
+description: Reference for the Script component in Edge IQ's DSL
+slug: actions/script
+---
+
+
+
 # Script (`script`)
 
 Calculated fields.

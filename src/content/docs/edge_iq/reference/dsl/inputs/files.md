@@ -1,3 +1,11 @@
+---
+title: Files
+description: Reference for the Files component in Edge IQ's DSL
+slug: inputs/files
+---
+
+
+
 # Log Files (`files`)
 
 Monitor one or more log files for new lines.

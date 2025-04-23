@@ -1,3 +1,11 @@
+---
+title: Print
+description: Reference for the Print component in Edge IQ's DSL
+slug: outputs/print
+---
+
+
+
 # Print (`print`)
 
 Print event payloads to the terminal.

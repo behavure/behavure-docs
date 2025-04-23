@@ -1,3 +1,11 @@
+---
+title: File
+description: Reference for the File component in Edge IQ's DSL
+slug: outputs/file
+---
+
+
+
 # Log Files (`file`)
 
 Append events to one or more files.
