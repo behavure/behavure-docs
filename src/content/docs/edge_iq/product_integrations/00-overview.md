@@ -112,5 +112,3 @@ To set up a new integration:
 3. Configure any necessary transformations using Actions
 4. Set up the output destination
 5. Test and deploy the Job
-
-For more detailed instructions, see the [Getting Started Guide](../start/starting).
