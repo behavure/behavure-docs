@@ -33,7 +33,3 @@ Parse text as JSON.
 
 
 
-
----
-Prev: [Flatten](flatten.md)  
-Next: [Key Value](key-value.md)  

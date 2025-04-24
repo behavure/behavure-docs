@@ -33,7 +33,3 @@ Validate an event against a JSON Schema, based on IETF's draft v7 (http://json-s
 
 
 
-
----
-Prev: [Add](add.md)  
-Next: [Convert](convert.md)  

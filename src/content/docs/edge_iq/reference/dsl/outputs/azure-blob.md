@@ -112,7 +112,3 @@ Send data to a Microsoft Azure Storage Blob (Block Storage).
 
 
 
-
----
-
-Next: [Discard](discard.md)  

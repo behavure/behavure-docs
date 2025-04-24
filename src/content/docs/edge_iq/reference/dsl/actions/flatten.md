@@ -34,7 +34,3 @@ Flatten nested JSON Objects and Arrays into a single JSON Object containing only
 
 
 
-
----
-Prev: [Filter](filter.md)  
-Next: [Json](json.md)  

@@ -171,7 +171,3 @@ Receive internal messages.
 
 
 
-
----
-Prev: [HTTP Server](http-server.md)  
-Next: [Log Files](files.md)  

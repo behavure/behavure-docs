@@ -119,7 +119,3 @@ Retrieve (or list) Microsoft Azure Storage Blobs (Block Storage).
 
 
 
-
----
-
-Next: [Echo](echo.md)  

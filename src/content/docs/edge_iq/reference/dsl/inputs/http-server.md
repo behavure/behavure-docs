@@ -48,7 +48,3 @@ Run an HTTP server and output any received requests.
 
 
 
-
----
-Prev: [HTTP Poll](http-poll.md)  
-Next: [Internal Messages](internal-messages.md)  

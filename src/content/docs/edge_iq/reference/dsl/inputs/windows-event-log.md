@@ -32,7 +32,3 @@ Read events from Windows Event Log.
 
 
 
-
----
-Prev: [S3](s3.md)  
-Next: [Worker Channel](worker-channel.md)  

@@ -32,7 +32,3 @@ Copy fields of an event using JSONPATH expressions.
 
 
 
-
----
-Prev: [Convert](convert.md)  
-Next: [Csv](csv.md)  

@@ -47,7 +47,3 @@ Parse key-value pairs, like "k1=v1,k2=v2,....".
 
 
 
-
----
-Prev: [Json](json.md)  
-Next: [Message](message.md)  

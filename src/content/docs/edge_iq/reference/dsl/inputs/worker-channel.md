@@ -29,7 +29,3 @@ Receive events from a worker managed channel.
 
 
 
-
----
-Prev: [Windows Event Log](windows-event-log.md)  
-

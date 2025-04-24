@@ -71,7 +71,3 @@ Obtain data by executing a shell command.
 
 
 
-
----
-Prev: [Echo](echo.md)  
-Next: [File Store](file-store.md)  

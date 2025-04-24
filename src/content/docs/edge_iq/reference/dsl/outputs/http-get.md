@@ -57,7 +57,3 @@ Send event data to a remote server using GET.
 
 
 
-
----
-Prev: [Google Cloud Storage](gcs.md)  
-Next: [HTTP Post](http-post.md)  

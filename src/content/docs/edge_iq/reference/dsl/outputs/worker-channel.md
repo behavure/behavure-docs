@@ -30,7 +30,3 @@ Receive events from a worker managed channel.
 
 
 
-
----
-Prev: [Splunk HEC](splunk-hec.md)  
-

@@ -32,7 +32,3 @@ Rename event fields.
 
 
 
-
----
-Prev: [Remove](remove.md)  
-Next: [Script](script.md)  

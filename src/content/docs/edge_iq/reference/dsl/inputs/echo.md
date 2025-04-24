@@ -32,7 +32,3 @@ Create a simple static event.
 
 
 
-
----
-Prev: [Azure Blob](azure-blob.md)  
-Next: [Exec](exec.md)  

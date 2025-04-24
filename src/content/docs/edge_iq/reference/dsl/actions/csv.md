@@ -52,7 +52,3 @@ Parse CSV from field text.
 
 
 
-
----
-Prev: [Copy](copy.md)  
-Next: [Enrich](enrich.md)  
