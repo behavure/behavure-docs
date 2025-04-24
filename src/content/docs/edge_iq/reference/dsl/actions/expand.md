@@ -4,8 +4,6 @@ description: Reference for the Expand component in Edge IQ's DSL
 slug: actions/expand
 ---
 
-
-
 # Expand (`expand`)
 
 expand data in various ways: events, XML, multiline events.

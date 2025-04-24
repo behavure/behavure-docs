@@ -1,10 +1,8 @@
 ---
-title: Gcs
-description: Reference for the Gcs component in Edge IQ's DSL
+title: Google Cloud Storage
+description: Reference for the Google Cloud Storage component in Edge IQ's DSL
 slug: outputs/gcs
 ---
-
-
 
 # Google Cloud Storage (`gcs`)
 

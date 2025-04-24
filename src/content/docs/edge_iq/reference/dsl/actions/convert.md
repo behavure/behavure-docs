@@ -4,8 +4,6 @@ description: Reference for the Convert component in Edge IQ's DSL
 slug: actions/convert
 ---
 
-
-
 # Convert (`convert`)
 
 Convert fields from one type to another, e.g. strings to numbers.

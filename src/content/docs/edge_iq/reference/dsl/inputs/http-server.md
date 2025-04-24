@@ -1,10 +1,8 @@
 ---
-title: Http Server
-description: Reference for the Http Server component in Edge IQ's DSL
+title: HTTP Server
+description: Reference for the HTTP Server component in Edge IQ's DSL
 slug: inputs/http-server
 ---
-
-
 
 # HTTP Server (`http-server`)
 

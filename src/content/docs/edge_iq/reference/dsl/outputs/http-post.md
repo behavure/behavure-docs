@@ -1,10 +1,8 @@
 ---
-title: Http Post
-description: Reference for the Http Post component in Edge IQ's DSL
+title: HTTP Post
+description: Reference for the HTTP Post component in Edge IQ's DSL
 slug: outputs/http-post
 ---
-
-
 
 # HTTP Post (`http-post`)
 

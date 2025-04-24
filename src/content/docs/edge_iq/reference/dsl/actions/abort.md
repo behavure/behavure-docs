@@ -4,8 +4,6 @@ description: Reference for the Abort component in Edge IQ's DSL
 slug: actions/abort
 ---
 
-
-
 # Abort (`abort`)
 
 Abort the job if the condition is met.

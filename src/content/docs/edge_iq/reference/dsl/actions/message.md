@@ -4,8 +4,6 @@ description: Reference for the Message component in Edge IQ's DSL
 slug: actions/message
 ---
 
-
-
 # Message (`message`)
 
 Conditionally generate a message when an event meets the provided condition.

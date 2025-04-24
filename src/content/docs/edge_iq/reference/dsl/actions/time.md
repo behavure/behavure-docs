@@ -4,8 +4,6 @@ description: Reference for the Time component in Edge IQ's DSL
 slug: actions/time
 ---
 
-
-
 # Time (`time`)
 
 Time processing: parsing and formatting time values.

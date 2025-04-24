@@ -4,8 +4,6 @@ description: Reference for the Assert component in Edge IQ's DSL
 slug: actions/assert
 ---
 
-
-
 # Assert (`assert`)
 
 Validate an event against a JSON Schema, based on IETF's draft v7 (http://json-schema.org).

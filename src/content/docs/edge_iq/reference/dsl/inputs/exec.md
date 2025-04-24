@@ -4,8 +4,6 @@ description: Reference for the Exec component in Edge IQ's DSL
 slug: inputs/exec
 ---
 
-
-
 # Exec (`exec`)
 
 Obtain data by executing a shell command.

@@ -4,8 +4,6 @@ description: Reference for the Remove component in Edge IQ's DSL
 slug: actions/remove
 ---
 
-
-
 # Remove (`remove`)
 
 Remove fields from an event.

@@ -1,10 +1,8 @@
 ---
-title: File
-description: Reference for the File component in Edge IQ's DSL
+title: Log Files
+description: Reference for the Log Files component in Edge IQ's DSL
 slug: outputs/file
 ---
-
-
 
 # Log Files (`file`)
 

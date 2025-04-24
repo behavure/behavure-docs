@@ -4,8 +4,6 @@ description: Reference for the Azure Blob component in Edge IQ's DSL
 slug: outputs/azure-blob
 ---
 
-
-
 # Azure Blob (`azure-blob`)
 
 Send data to a Microsoft Azure Storage Blob (Block Storage).

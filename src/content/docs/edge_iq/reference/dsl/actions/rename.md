@@ -4,8 +4,6 @@ description: Reference for the Rename component in Edge IQ's DSL
 slug: actions/rename
 ---
 
-
-
 # Rename (`rename`)
 
 Rename event fields.

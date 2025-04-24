@@ -4,8 +4,6 @@ description: Reference for the Expand Events component in Edge IQ's DSL
 slug: actions/expand-events
 ---
 
-
-
 # Expand Events (`expand-events`)
 
 expand a single JSON document into multiple JSON events.

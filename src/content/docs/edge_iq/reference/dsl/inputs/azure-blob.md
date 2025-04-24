@@ -4,8 +4,6 @@ description: Reference for the Azure Blob component in Edge IQ's DSL
 slug: inputs/azure-blob
 ---
 
-
-
 # Azure Blob (`azure-blob`)
 
 Retrieve (or list) Microsoft Azure Storage Blobs (Block Storage).

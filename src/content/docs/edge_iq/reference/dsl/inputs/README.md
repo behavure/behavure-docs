@@ -5,7 +5,6 @@ slug: inputs/README
 ---
 
 
-
 # Input Items
 
 - [Azure Blob](azure-blob.md)

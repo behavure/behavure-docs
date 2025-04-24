@@ -4,8 +4,6 @@ description: Reference for the Worker Channel component in Edge IQ's DSL
 slug: inputs/worker-channel
 ---
 
-
-
 # Worker Channel (`worker-channel`)
 
 Receive events from a worker managed channel.

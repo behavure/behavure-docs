@@ -4,8 +4,6 @@ description: Reference for the Key Value component in Edge IQ's DSL
 slug: actions/key-value
 ---
 
-
-
 # Key Value (`key-value`)
 
 Parse key-value pairs, like "k1=v1,k2=v2,....".

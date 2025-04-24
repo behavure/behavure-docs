@@ -4,8 +4,6 @@ description: Reference for the Internal Messages component in Edge IQ's DSL
 slug: inputs/internal-messages
 ---
 
-
-
 # Internal Messages (`internal-messages`)
 
 Receive internal messages.

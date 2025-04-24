@@ -4,8 +4,6 @@ description: Reference for the File Store component in Edge IQ's DSL
 slug: outputs/file-store
 ---
 
-
-
 # File Store (`file-store`)
 
 Write to a local file system object store bucket.

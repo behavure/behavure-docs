@@ -1,10 +1,8 @@
 ---
-title: Splunk Hec
-description: Reference for the Splunk Hec component in Edge IQ's DSL
+title: Splunk HEC
+description: Reference for the Splunk HEC component in Edge IQ's DSL
 slug: outputs/splunk-hec
 ---
-
-
 
 # Splunk HEC (`splunk-hec`)
 

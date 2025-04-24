@@ -4,8 +4,6 @@ description: Reference for the Message component in Edge IQ's DSL
 slug: outputs/message
 ---
 
-
-
 # Message (`message`)
 
 Create a message to the internal message subsystem.

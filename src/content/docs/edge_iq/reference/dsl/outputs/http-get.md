@@ -1,10 +1,8 @@
 ---
-title: Http Get
-description: Reference for the Http Get component in Edge IQ's DSL
+title: HTTP Get
+description: Reference for the HTTP Get component in Edge IQ's DSL
 slug: outputs/http-get
 ---
-
-
 
 # HTTP Get (`http-get`)
 

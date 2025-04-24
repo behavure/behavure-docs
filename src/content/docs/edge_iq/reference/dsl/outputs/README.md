@@ -5,7 +5,6 @@ slug: outputs/README
 ---
 
 
-
 # Output Items
 
 - [Azure Blob](azure-blob.md)
