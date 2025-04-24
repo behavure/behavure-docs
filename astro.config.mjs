@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import { starlightComponents } from './src/plugins/starlight-components';
 
 // https://astro.build/config
 export default defineConfig({
@@ -69,7 +68,30 @@ export default defineConfig({
             {
               label: "Reference",
               collapsed: true,
-              autogenerate: { directory: "edge_iq/reference", collapsed: true },
+              items: [
+                {
+                  label: "DSL Reference",
+                  collapsed: true,
+                  items: [
+                    {
+                      label: "Overview",
+                      link: "/edge_iq/reference/dsl"
+                    },
+                    {
+                      label: "Inputs",
+                      autogenerate: { directory: "edge_iq/reference/dsl/inputs" }
+                    },
+                    {
+                      label: "Actions",
+                      autogenerate: { directory: "edge_iq/reference/dsl/actions" }
+                    },
+                    {
+                      label: "Outputs",
+                      autogenerate: { directory: "edge_iq/reference/dsl/outputs" }
+                    }
+                  ]
+                }
+              ]
             },
             {
               label: "Legal",
@@ -271,7 +293,6 @@ export default defineConfig({
           ]
         }
       ],
-      plugins: [starlightComponents],
 
       // Custom settings
       pagefind: true, // Enable search
