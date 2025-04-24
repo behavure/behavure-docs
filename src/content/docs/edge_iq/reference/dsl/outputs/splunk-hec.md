@@ -78,7 +78,3 @@ Output events to a Splunk HTTP Event Collector endpoint (Splunk HEC).
 
 
 
-
----
-Prev: [S3](s3.md)  
-Next: [Worker Channel](worker-channel.md)  

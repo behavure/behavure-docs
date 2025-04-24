@@ -36,7 +36,3 @@ expand a single JSON document into multiple JSON events.
 
 
 
-
----
-Prev: [Expand](expand.md)  
-Next: [Extract](extract.md)  

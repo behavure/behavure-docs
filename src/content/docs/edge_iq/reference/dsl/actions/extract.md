@@ -39,7 +39,3 @@ Extract fields from text using regular expressions.
 
 
 
-
----
-Prev: [Expand Events](expand-events.md)  
-Next: [Filter](filter.md)  

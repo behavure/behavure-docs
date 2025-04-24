@@ -72,7 +72,3 @@ POST event data to an HTTPS server.
 
 
 
-
----
-Prev: [HTTP Get](http-get.md)  
-Next: [Log Files](file.md)  

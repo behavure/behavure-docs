@@ -32,7 +32,3 @@ Add fields to the event.
 
 
 
-
----
-Prev: [Abort](abort.md)  
-Next: [Assert](assert.md)  

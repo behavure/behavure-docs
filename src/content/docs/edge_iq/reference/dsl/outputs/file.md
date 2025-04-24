@@ -60,7 +60,3 @@ Append events to one or more files.
 
 
 
-
----
-Prev: [HTTP Post](http-post.md)  
-Next: [Message](message.md)  

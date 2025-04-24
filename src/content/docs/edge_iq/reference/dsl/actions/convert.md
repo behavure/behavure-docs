@@ -63,7 +63,3 @@ Convert fields from one type to another, e.g. strings to numbers.
 
 
 
-
----
-Prev: [Assert](assert.md)  
-Next: [Copy](copy.md)  

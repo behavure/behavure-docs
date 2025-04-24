@@ -36,7 +36,3 @@ expand data in various ways: events, XML, multiline events.
 
 
 
-
----
-Prev: [Enrich](enrich.md)  
-Next: [Expand Events](expand-events.md)  

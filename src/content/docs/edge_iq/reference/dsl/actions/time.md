@@ -63,7 +63,3 @@ Time processing: parsing and formatting time values.
 
 
 
-
----
-Prev: [Script](script.md)  
-Next: [Xml](xml.md)  

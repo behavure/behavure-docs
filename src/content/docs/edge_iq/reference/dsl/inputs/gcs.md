@@ -103,7 +103,3 @@ Read objects from Google Cloud Storage.
 
 
 
-
----
-Prev: [File Store](file-store.md)  
-Next: [HTTP Poll](http-poll.md)  

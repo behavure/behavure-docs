@@ -95,7 +95,3 @@ Write to a local file system object store bucket.
 
 
 
-
----
-Prev: [Discard](discard.md)  
-Next: [Google Cloud Storage](gcs.md)  

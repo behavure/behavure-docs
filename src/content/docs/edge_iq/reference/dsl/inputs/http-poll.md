@@ -102,7 +102,3 @@ Run HTTP queries.
 
 
 
-
----
-Prev: [Google Cloud Storage](gcs.md)  
-Next: [HTTP Server](http-server.md)  

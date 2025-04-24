@@ -45,7 +45,3 @@ Monitor one or more log files for new lines.
 
 
 
-
----
-Prev: [Internal Messages](internal-messages.md)  
-Next: [S3](s3.md)  

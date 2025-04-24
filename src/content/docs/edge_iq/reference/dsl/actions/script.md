@@ -34,7 +34,3 @@ Calculated fields.
 
 
 
-
----
-Prev: [Rename](rename.md)  
-Next: [Time](time.md)  

@@ -34,7 +34,3 @@ expand XML into JSON events.
 
 
 
-
----
-Prev: [Time](time.md)  
-

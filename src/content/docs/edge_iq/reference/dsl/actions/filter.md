@@ -32,7 +32,3 @@ Only let certain events pass through.
 
 
 
-
----
-Prev: [Extract](extract.md)  
-Next: [Flatten](flatten.md)  

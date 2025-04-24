@@ -34,7 +34,3 @@ Remove fields from an event.
 
 
 
-
----
-Prev: [Message](message.md)  
-Next: [Rename](rename.md)  

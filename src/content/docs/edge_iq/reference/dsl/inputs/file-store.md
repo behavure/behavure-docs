@@ -103,7 +103,3 @@ Read from a local file system object store bucket.
 
 
 
-
----
-Prev: [Exec](exec.md)  
-Next: [Google Cloud Storage](gcs.md)  

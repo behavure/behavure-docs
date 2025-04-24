@@ -42,7 +42,3 @@ Conditionally generate a message when an event meets the provided condition.
 
 
 
-
----
-Prev: [Key Value](key-value.md)  
-Next: [Remove](remove.md)  

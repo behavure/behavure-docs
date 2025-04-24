@@ -56,7 +56,3 @@ Look up values in a CSV or Sqlite database and add matching fields.
 
 
 
-
----
-Prev: [Csv](csv.md)  
-Next: [Expand](expand.md)  

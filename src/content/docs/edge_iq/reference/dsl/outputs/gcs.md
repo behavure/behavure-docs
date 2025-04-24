@@ -82,7 +82,3 @@ Write events to a Google Cloud bucket.
 
 
 
-
----
-Prev: [File Store](file-store.md)  
-Next: [HTTP Get](http-get.md)  

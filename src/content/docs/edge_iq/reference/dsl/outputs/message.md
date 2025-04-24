@@ -31,7 +31,3 @@ Create a message to the internal message subsystem.
 
 
 
-
----
-Prev: [Log Files](file.md)  
-Next: [Print](print.md)  

@@ -40,7 +40,3 @@ Print event payloads to the terminal.
 
 
 
-
----
-Prev: [Message](message.md)  
-Next: [S3](s3.md)  
