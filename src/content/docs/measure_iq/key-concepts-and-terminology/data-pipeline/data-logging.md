@@ -101,14 +101,14 @@ When you run your import pipeline, Measure IQ will automatically detect the rest
 
 It is possible to send very large chunks of string data into logs, which takes up a lot of string storage space on the system.
 
-Strings like URLs or GEOIP information tend to be long and have high-cardinality (they’re uncommon or even unique). They take up a lot of space and may not be useful for queries. String columns in Interana are stored in a string server that stores each unique string once. For most string columns, this is an optimized storage approach, but for some string columns the cardinality is very high (meaning there is little duplication) and the storage cost becomes high. We recommend removing these columns before importing to Interana or splitting the column into more useful sub-columns that are lower cardinality.
+Strings like URLs or GEOIP information tend to be long and have high-cardinality (they’re uncommon or even unique). They take up a lot of space and may not be useful for queries. String columns in MeasureIQ are stored in a string server that stores each unique string once. For most string columns, this is an optimized storage approach, but for some string columns the cardinality is very high (meaning there is little duplication) and the storage cost becomes high. We recommend removing these columns before importing to MeasureIQ or splitting the column into more useful sub-columns that are lower cardinality.
 
 Contact [help@behavure.ai](mailto:help@behavure.ai) before sending new large string columns into the system.
 
 ## Columns containing a list of mixed data types
 
 Be sure your data is meaningful. Using this example: `"foo":["300",0,300]`  
-Interana imports this snippet where the `foo` key maps to a list of `["300",0,300]`, but Interana treats the entire list as a single string. While this will not cause an error, it’s not clear what the string `"300",0,300` is supposed to mean. Depending on the questions we want to ask about the data, we recommend that you pre-process this (or use derived columns) to achieve a more meaningful format.
+MeasureIQ imports this snippet where the `foo` key maps to a list of `["300",0,300]`, but MeasureIQ treats the entire list as a single string. While this will not cause an error, it’s not clear what the string `"300",0,300` is supposed to mean. Depending on the questions we want to ask about the data, we recommend that you pre-process this (or use derived columns) to achieve a more meaningful format.
 
 ## Auto-generated column names
 
@@ -116,4 +116,4 @@ Data that contains column names that are auto-generated based on data can cause 
 
 For example, suppose that for each experiment you run on your system, you auto-generate columns called `experiment1.foo` and `experiment1.bar`. This means that if you run 100 experiments, you will generate 200 new columns. A better approach would be to make a stable column name called `experiment_id` and give it values of (1, 2, ...). Then you can make a stable dashboard on the `experiment.foo` and `experiment.bar` columns with a filter or group by `experiment.id`.
 
-Remove the auto-generated columns before importing into Interana. Importing auto-generated columns can result in an explosion of unintended columns within Interana, which impairs performance and usability.
+Remove the auto-generated columns before importing into MeasureIQ. Importing auto-generated columns can result in an explosion of unintended columns within MeasureIQ, which impairs performance and usability.
