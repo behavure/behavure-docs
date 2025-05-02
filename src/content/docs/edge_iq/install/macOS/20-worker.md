@@ -1,13 +1,13 @@
 ---
 title: macOS Worker Installation
-description: macOS Worker Installation
+description: macOS Worker Installation Guide for EdgeIQ
 slug: install/macos/worker
 sidebar:
   label: Worker Installation
   order: 20
 ---
 
-This section assumes that you have downloaded the Edge IQ binary, and that the Server is [configured](../server) and running.
+This section assumes you have installed EdgeIQ using the [macOS package installer](./10-server#installation-using-package-installer), which places the `edgeiq` binary in `/usr/local/bin` and makes it available in your `PATH`. It also assumes the Server is [configured](./10-server) and running.
 
 :::note
 For the current deployment scenario, the Server and external Workers **do not** share a single host.
@@ -16,10 +16,10 @@ Should you require the above, additional security precautions need to be taken. 
 
 Set up a new Worker as follows:
 
-1. Create a Worker ID and API key on the Server
-2. Create a data directory
-3. Configure environment variables
-4. Start the Worker
+1.  Generate a Worker ID and API key on the Server
+2.  Create a data directory for the Worker
+3.  Configure environment variables for the Worker
+4.  Start the Worker
 
 :::note
 The evaluation license allows 1 Worker instance, used by the built-in worker.
@@ -27,11 +27,11 @@ The evaluation license allows 1 Worker instance, used by the built-in worker.
 
 ## Generate an API key
 
-A Worker ID and API key are required for the Worker before it can connect to the Server. This can be done either via the web-based UI or the CLI.
+A Worker ID and API key are required before the Worker can connect to the Server. This can be done either via the web-based UI or the `edgeiq` CLI.
 
 ### Via web-based UI
 
-Log in to the Server. Go to **Workers** in the top navigation, then select **NEW WORKER**.
+Log in to the Server UI (usually `http://localhost:3000`). Go to **Workers** in the top navigation, then select **NEW WORKER**.
 
 Create a new Worker with a specified name and ID.
 
@@ -51,23 +51,23 @@ Key names must be between at least 5 and 50 characters in length and comprised s
 
 ### Via the CLI
 
-Adding a Worker via the CLI is a two-step process, much like the method above that uses the web-based UI.
+Adding a Worker via the CLI is a two-step process, similar to the UI method.
 
 :::note
-The CLI is a wrapper to the Server HTTP API.
+The CLI is a wrapper for the Server HTTP API.
 By default, the CLI assumes a Server is listening on `http://localhost:3000`.
-A `EDGEIQ_URL` environment variable instructs the CLI where to locate the Server HTTP API.
+If your server is running elsewhere, set the `EDGEIQ_URL` environment variable to instruct the CLI where to locate the Server HTTP API.
 :::
 
-If you changed the default bind address of the Server, set `EDGEIQ_URL`, for example:
+If you changed the default bind address of the Server or it's on a different host, set `EDGEIQ_URL`:
 
-```
-export EDGEIQ_URL="http://localhost:4000"
+```bash
+export EDGEIQ_URL="http://<your-server-ip-or-hostname>:3000"
 ```
 
-Log in to the Server:
+Log in to the Server using the CLI:
 
-```
+```bash
 edgeiq login admin
 ```
 
@@ -75,24 +75,24 @@ edgeiq login admin
 On your first interaction with the CLI, you'll be prompted to accept the [EULA](/edge_iq/legal/eula/). Press `Enter` to scroll through the EULA and follow the prompts.
 :::
 
-After providing the password, you will see `Login successful`. Then add the new Worker:
+After providing the admin password, you will see `Login successful`. Then add the new Worker:
 
-```
+```bash
 edgeiq workers add worker1 --id worker1
 ```
 
-Lastly, create an associated API key:
+Lastly, create an associated API key for the worker:
 
-```
+```bash
 edgeiq api-key issue worker1
 ```
 
-```
+```text
 API-KEY(worker1;api_read;default) F4177-AM9PZIEW7MPI7IL28ERE
 ```
 
 :::note
-Copy the key value (`F4177-AM9PZIEW7MPI7IL28ERE`) for later use. Remember that key is just an example!
+Copy the generated key value (e.g., `F4177-AM9PZIEW7MPI7IL28ERE`) for later use. Remember that this key is just an example!
 :::
 
 ## Create a Data Directory
@@ -101,20 +101,20 @@ A Worker requires a data directory to store Job definitions and some state infor
 
 Create a directory for EdgeIQ worker data:
 
-```
+```bash
 mkdir -p ~/Library/Application\ Support/EdgeIQ/worker
 ```
 
 ## Configure Environment Variables
 
-The Worker can be configured through environment variables. Create a shell script to set these variables:
+The Worker is configured through environment variables. Create a shell script to set these variables:
 
-```
+```bash
 cat > ~/edgeiq-worker.env << EOF
 EDGEIQ_WORKER_ID=worker1
-EDGEIQ_WORKER_API_KEY=F4177-AM9PZIEW7MPI7IL28ERE
+EDGEIQ_WORKER_API_KEY=PASTE_YOUR_API_KEY_HERE
 EDGEIQ_JOBS_DIR=~/Library/Application\ Support/EdgeIQ/worker
-EDGEIQ_URL=http://<server>:3000
+EDGEIQ_URL=http://<your-server-ip-or-hostname>:3000
 EDGEIQ_LICENSE_EULA_ACCEPT=yes
 EOF
 ```
@@ -123,40 +123,38 @@ EOF
 See `edgeiq run worker --help` for startup options and their environment variable equivalents.
 :::
 
-At a minimum, the Worker needs to know:
+**Important:**
+
+- Replace `PASTE_YOUR_API_KEY_HERE` with the actual API key you generated.
+- Replace `<your-server-ip-or-hostname>` with the correct IP address or hostname where your EdgeIQ Server is accessible.
+- Ensure the `EDGEIQ_WORKER_ID` matches the ID you created on the Server.
+
+At a minimum, the Worker needs:
 
 - A unique Worker ID (`EDGEIQ_WORKER_ID`)
-- An API key to authenticate against a Server (`EDGEIQ_WORKER_API_KEY`)
+- An API key to authenticate against the Server (`EDGEIQ_WORKER_API_KEY`)
 - The Server URL (`EDGEIQ_URL`)
-- A data directory to store Job definitions and other state data (`EDGEIQ_JOBS_DIR`)
+- A data directory (`EDGEIQ_JOBS_DIR`)
 
-Additional configuration options are optional, but three should be mentioned here:
+Optional environment variables include:
 
-- `EDGEIQ_WORKER_POLL_INTERVAL` determines how often the Worker will poll the Server to check for updates. Default: `15` seconds.
-- `EDGEIQ_WORKER_LISTENER` determines which address and port the Worker will listen on for _internal_ updates. Default: `127.0.0.1:4040`.
-- `EDGEIQ_LICENSE_EULA_ACCEPT=yes` prevents the one-time prompt for accepting the [End User License Agreement](/eula).
-
-:::note
-It's possible to co-locate one or more workers on the same host with the Server. When the Server is started with the built-in Worker (`edgeiq run server`), the built-in Worker will bind to port `4040` on the host. This means that co-located Workers on the same host must be configured to listen on different ports.
-:::
-
-Change the `EDGEIQ_WORKER_API_KEY` to match the key you previously created.
-
-Change the `EDGEIQ_URL` to the Server address or hostname (confirm that your DNS is configured).
+- `EDGEIQ_WORKER_POLL_INTERVAL`: How often (in seconds) the Worker checks the Server for updates (default: `15`).
+- `EDGEIQ_WORKER_LISTENER`: The address and port the Worker listens on for _internal_ updates (default: `127.0.0.1:4040`).
+- `EDGEIQ_LICENSE_EULA_ACCEPT=yes`: Prevents the one-time prompt for accepting the [End User License Agreement](/eula).
 
 :::note
-The value of `EDGEIQ_WORKER_ID` should match the Worker ID previously configured on the Server.
+When the Server is started with its built-in Worker (`edgeiq run server`), that worker binds to port `4040` by default. If you co-locate additional Workers on the same host as the Server, each additional Worker must be configured with a unique `EDGEIQ_WORKER_LISTENER` port (e.g., `127.0.0.1:4041`).
 :::
 
 ## Start the Worker
 
-To start the worker with the environment variables:
+To start the worker using the configured environment variables:
 
-```
+```bash
 source ~/edgeiq-worker.env
 edgeiq run worker
 ```
 
-The Worker will connect to the Server and begin processing Jobs.
+The Worker will connect to the Server using the provided `EDGEIQ_URL` and API key, and begin processing assigned Jobs.
 
 For more details, visit the full [EdgeIQ Documentation](https://docs.behavure.ai/).
