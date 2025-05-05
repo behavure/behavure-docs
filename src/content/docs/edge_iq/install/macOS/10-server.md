@@ -95,4 +95,10 @@ The Server can be configured to use `TLS`, by providing a certificate and key fi
 When using a reverse proxy for TLS termination, like Caddy or Nginx, it's recommended to configure the appropriate `HTTP` client address headers, for logging purposes.
 :::
 
+### Resetting the Administrator Password
+
+The `admin` user password may be reset upon relaunching Edge IQ using `edgeiq run server --reset-admin-password`
+
+
+### More Information
 For more details, visit the full [EdgeIQ Documentation](https://docs.behavure.ai/).
