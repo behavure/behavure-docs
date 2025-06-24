@@ -26,81 +26,6 @@ export default defineConfig({
           link: '/'
         },
         {
-          label: 'Edge IQ',
-          items: [
-            {
-              label: "Overview",
-              link: "edge_iq/",
-            },
-            {
-              label: "Get Started",
-              autogenerate: { directory: "edge_iq/start" },
-            },
-            {
-              label: "Install",
-              collapsed: true,
-              items: [
-                { label: "Overview", link: "/edge_iq/install/overview" },
-                {
-                  label: "macOS",
-                  autogenerate: { directory: "edge_iq/install/macOS" }
-                },
-                {
-                  label: "Linux",
-                  autogenerate: { directory: "edge_iq/install/Linux" }
-                }
-              ]
-            },
-            {
-              label: "Jobs",
-              autogenerate: { directory: "edge_iq/jobs" },
-            },
-            {
-              label: "Product Integrations",
-              collapsed: true,
-              autogenerate: { directory: "edge_iq/product_integrations", collapsed: true },
-            },
-            {
-              label: "Guides",
-              collapsed: false,
-              autogenerate: { directory: "edge_iq/guides", collapsed: true },
-            },
-            {
-              label: "Reference",
-              collapsed: true,
-              items: [
-                {
-                  label: "DSL Reference",
-                  collapsed: true,
-                  items: [
-                    {
-                      label: "Overview",
-                      link: "/edge_iq/reference/dsl"
-                    },
-                    {
-                      label: "Inputs",
-                      autogenerate: { directory: "edge_iq/reference/dsl/inputs" }
-                    },
-                    {
-                      label: "Actions",
-                      autogenerate: { directory: "edge_iq/reference/dsl/actions" }
-                    },
-                    {
-                      label: "Outputs",
-                      autogenerate: { directory: "edge_iq/reference/dsl/outputs" }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              label: "Legal",
-              collapsed: true,
-              autogenerate: { directory: "edge_iq/legal", collapsed: true },
-            },
-          ]
-        },
-        {
           label: 'Measure IQ',
           items: [
             {
@@ -109,7 +34,7 @@ export default defineConfig({
             },
             {
               label: 'Key Concepts',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { label: 'Overview', link: '/measure_iq/key-concepts-and-terminology' },
                 { label: 'Event Data', link: '/measure_iq/key-concepts-and-terminology/what-is-event-data' },
@@ -202,10 +127,10 @@ export default defineConfig({
                   }
                 },
                 {
-                  label: 'Manage Your Created Objects',
+                  label: 'Additional Explorations',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/measure-user-guides/manage-your-created-objects',
+                    directory: 'measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations',
                     collapsed: true
                   }
                 },
@@ -218,18 +143,18 @@ export default defineConfig({
                   }
                 },
                 {
-                  label: 'Streamline Analysis',
+                  label: 'API/Programmatic Querying',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/measure-user-guides/streamline-analysis-with-additional-explorations',
+                    directory: 'measure_iq/measure-user-guides/api-programmatically-querying-measure-iq',
                     collapsed: true
                   }
                 },
                 {
-                  label: 'API: Programmatically Querying Measure IQ',
+                  label: 'Manage Created Objects',
                   collapsed: true,
                   autogenerate: {
-                    directory: 'measure_iq/measure-user-guides/api-programmatically-querying-measure-iq',
+                    directory: 'measure_iq/measure-user-guides/manage-your-created-objects',
                     collapsed: true
                   }
                 }
@@ -238,49 +163,10 @@ export default defineConfig({
             {
               label: 'Tutorials',
               collapsed: true,
-              items: [
-                { label: 'Overview', link: '/measure_iq/measure-tutorials' },
-                {
-                  label: 'Create a Board with Queries & Panels',
-                  link: '/measure_iq/measure-tutorials/create-a-board-with-queries-and-panels'
-                },
-                {
-                  label: 'Create an Actor Property',
-                  link: '/measure_iq/measure-tutorials/create-an-actor-property'
-                },
-                {
-                  label: 'Create an Event Property',
-                  link: '/measure_iq/measure-tutorials/create-an-event-property'
-                },
-                {
-                  label: 'Event Properties vs. Actor Properties',
-                  link: '/measure_iq/measure-tutorials/event-properties-vs-actor-properties'
-                },
-                {
-                  label: 'Manage Objects and Queries',
-                  collapsed: true,
-                  autogenerate: {
-                    directory: 'measure_iq/measure-tutorials/manage-objects-and-queries',
-                    collapsed: true
-                  }
-                },
-                {
-                  label: 'Work with Flows',
-                  collapsed: true,
-                  autogenerate: {
-                    directory: 'measure_iq/measure-tutorials/work-with-flows',
-                    collapsed: true
-                  }
-                },
-                {
-                  label: 'Work with Queries',
-                  collapsed: true,
-                  autogenerate: {
-                    directory: 'measure_iq/measure-tutorials/work-with-queries',
-                    collapsed: true
-                  }
-                }
-              ]
+              autogenerate: {
+                directory: 'measure_iq/measure-tutorials',
+                collapsed: true
+              }
             },
             {
               label: 'Glossary',

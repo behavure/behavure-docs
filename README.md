@@ -5,9 +5,9 @@ This repository contains the documentation website for Behavure products (Measur
 ## Overview
 
 The documentation site is organized into several main sections:
+
 - Introduction
 - Measure IQ documentation
-- Edge IQ documentation
 - Glossary
 - Admin guides
 - User guides
@@ -20,30 +20,31 @@ The site is built with Astro, a modern static site generator optimized for conte
 > [!TIP]
 > If you skip ahead and install [Flox](https://flox.dev), you simply need to activate the environment to get NodeJS and don't need NPM.
 
-
 Before you begin, ensure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (v16.x or higher recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - [Git](https://git-scm.com/)
-
-
 
 ## Getting Started with Development
 
 ### Setting Up Your Local Environment
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd behavure-docs
    ```
 
 2. Install dependencies (if not using Flox):
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -52,7 +53,7 @@ Before you begin, ensure you have the following installed:
 
 ## Working with Astro
 
-[Astro](https://astro.build) is a modern static site generator that allows you to build faster websites with less client-side JavaScript. 
+[Astro](https://astro.build) is a modern static site generator that allows you to build faster websites with less client-side JavaScript.
 
 ### Key Concepts
 
@@ -69,9 +70,8 @@ behavure-docs/
 │   ├── assets/               # Static assets
 │   ├── components/           # Reusable components
 │   ├── content/              # Documentation content
-│   │   └── docs/             # Main documentation 
+│   │   └── docs/             # Main documentation
 │   │       ├── measure_iq/   # Measure IQ documentation
-│   │       ├── edge_iq/      # Edge IQ documentation
 │   │       └── ...           # Other doc sections
 │   ├── styles/               # CSS and styling
 │   └── plugins/              # Astro plugins
@@ -177,6 +177,7 @@ For more details, visit the [Conventional Commits website](https://www.conventio
 ### Using Flox with this Project
 
 1. Navigate to the project directory:
+
    ```bash
    cd behavure-docs
    ```
@@ -202,15 +203,17 @@ For more details, visit the [Conventional Commits website](https://www.conventio
 The site is built into static HTML in the `dist/` directory. When pushed to Github, [Vercel](https://vercel.com/behavure/behavure-docs) will handle publishing the site:
 
 1. Build the project:
+
    ```bash
    npm run build
    ```
 
-2. Deploy the contents of the `dist/` directory to your hosting service. Vercel handles this automatically for us. 
+2. Deploy the contents of the `dist/` directory to your hosting service. Vercel handles this automatically for us.
 
 ## Troubleshooting
 
 - If you encounter issues with the build, try clearing the cache:
+
   ```bash
   npm run clean
   ```
@@ -231,4 +234,3 @@ Please follow these guidelines when contributing to the documentation:
 4. Use conventional commit messages for your commits
 5. Submit a pull request for review
 6. Once approved & merged, the site will be quickly deployed with changes
-
